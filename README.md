@@ -17,7 +17,7 @@ R. da Marcha Gualtariana, 628
 
 ### What is this repository for?
 
-- To store installers for update handler service for [OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/)
+- To store installers for update handler service for [DiRoots.One]
 - Facilitates changelog messages pushed to update handler service to client plugin
 
 ### Who and how do we talk to?
