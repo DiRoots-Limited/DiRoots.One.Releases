@@ -1,4 +1,3 @@
-# DiRootsOne
 A single application bundle that includes 8 free Autodesk Revit Plugins to boost your productivity. 
 DiRootsOne allows seamless interoperability between our plugins, opening doors to new workflows and ways for getting your job done faster and better.
 
