@@ -29,7 +29,7 @@ Manage Revit parameters inside project and family environments. Create new param
 A free Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
 
 ### Supported Revit Versions
-2018, 2019, 2020, 2021, and 2022.
+2018, 2019, 2020, 2021, 2022, and 2023.
 
 ### Useful links
 [Tutorials](https://diroots.com/tutorials/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne)
