@@ -43,6 +43,10 @@ The 'Views' radio button will show the existing views in the project.
 ## Sort, Filter and Search
 
 ProSheets has options to sort, filter, and search to ease the selection.
+Some changes!
+Some changes!
+Some changes!
+Some changes!
 
 ### Sort
 
