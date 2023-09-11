@@ -8,5 +8,5 @@ permalink: /docs/user-guide
 
 # User Guide
 
-Learn how to use ProSheets to speed up your drawing production.
+Learn how to use DiRootsOne to speed up your drawing production.
 {: .fs-6 .fw-300 }
