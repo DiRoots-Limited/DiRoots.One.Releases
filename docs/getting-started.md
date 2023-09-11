@@ -23,24 +23,14 @@ Not permitted:
 
 ## Download
 
-Download the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
+Download the [latest version of DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).
 
 
 ## Install
 
 ### Compatibility
 - Windows 7, 8, 10 and 11.
-- Revit 2017, 2018, 2019, 2020, 2021, 2022 and 2023.
-
-### Prerequisites
-- Admin permissions.
-- PDF24 (the compatible version will be automatically installed. Dont't do it manually).
-
-```yaml
-# Remarks
-- the installation is done per-machine
-- %ProgramData%\Autodesk\Revit\Addins\
-```
+- Revit 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
 
 ### Standard Installation
 
@@ -54,7 +44,7 @@ This method is ideal for individuals with admin permissions who want to install 
 
 ![ProSheets Installation First Step](../assets/images/GIFs/PS-Install-Step-1.gif)
 
-3 . Wait for the installation to complete and click 'Finish'.
+3. Wait for the installation to complete and click 'Finish'.
 
 ![ProSheets Installation Finish](../assets/images/PS-Installer-Finished.png)
 
