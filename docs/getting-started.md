@@ -42,11 +42,11 @@ This method is ideal for individuals who want to install DiRootsOne in one compu
 
 2. Select the Revit versions and click 'Install'.
 
-![DiRootsOne Installation First Step](../assets/images/GIFs/PS-Install-Step-1.gif)
+![DiRootsOne Installation First Step](..\assets\images\One-Installer.gif)
 
 3. Wait for the installation to complete and click 'Finish'.
 
-![DiRootsOne Installation Finish](../assets/images/PS-Installer-Finished.png)
+![DiRootsOne Installation Finish](..\assets\images\One-Installer-Finished.png)
 
 4. Restart your computer. Don't Skip this step.
 
@@ -78,7 +78,7 @@ This method is ideal for IT administrators who want to deploy DiRootsOne to mult
 
 2. Select and click 'Remove'.
 
-![DiRootsOne Uninstall](../assets/images/GIFs/PS-Uninstall.gif)
+![DiRootsOne Uninstall](..\assets\images\One-Installer-Finished.png)
 
 3 . Wait for the uninstallation to complete and click 'Finish'.
 
