@@ -7,7 +7,7 @@ nav_order: 2
 # Getting Started
 {: .no_toc }
 
-ProSheets is 100% free for personal and commercial usage, regardless of the number of users. 
+DiRootsOne is 100% free for personal and commercial usage, regardless of the number of users. 
 Not permitted:
 -	Sell/resell
 -	make modifications to the software.
