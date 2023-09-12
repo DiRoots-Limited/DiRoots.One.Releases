@@ -105,17 +105,54 @@ Use the arrows above the Selected Parameters table, to order the parameters to e
 
 ---
 
-## Isolate Selection
+### Isolate Selection
 
 The Isolate Selection button allows to filter the selected categories in a Temporary View (Hide/Isolate).
 
 ![SheetLink isolate categories selected](../../assets\images\SH-Isolate-Seletection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-## Export Project Standards
+---
+
+### Export Project Standards
 
 The Export Project Standards button allows to export the main data about the project to Excel or Google Drive.
 ![SheetLink Export Project Standard to Excel or Google Drive](../../assets\images\SH-Export-Project-Standard.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ---
+
+### Reset Values
+
+Select the Reset Values button to clean all the parameters available and selected.
+![SheetLink Reset Values](../../assets\images\Reset-Values.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+---
+
+### Preview/Edit
+
+Click to preview and to edit the sheet before exporting.
+![SheetLink Reset Values](../../assets\images\SH-Preview-Edit.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+### Export
+
+Click to export the sheet to Google Drive or Excel.
+![SheetLink Reset Values](../../assets\images\SH-Export.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+The excel file is editable and after to editing it you can import through SheetLink.
+Caution, open the Instruction tab in your excel file to get the colors legend. 
+
+```yaml
+# Note:  
+Yellow: Type Value
+Red: Read-only Value. This fields can not be edited.
+Grey: Parameter does not exist for this element.
+```
+
+```yaml
+# Note:  
+If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
+```
