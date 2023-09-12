@@ -16,36 +16,36 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 ---
 
-## Model Categories
+# Annotatio Categories
 
-The first step is to select the SheetLink in the DiRootsOne menu and to choose the Model Categories tab. 
+The first step is to select the SheetLink in the DiRootsOne menu and to choose the Annotation Categories tab. 
 
 Steps:
 
 1. Click radio buttons to switch between Whole Model, Active View or Current Selection to choose the categories.
 
 ```yaml
-The 'Whole Model' radio button will show the existing all model categories.
-The 'Active View' radio button will show the existing categories in the current view.
-The 'Current Selection' radio button will show the existing categories in the current selection.
+The 'Whole Model' radio button will show the existing all annotation categories.
+The 'Active View' radio button will show the existing annotation categories in the current view.
+The 'Current Selection' radio button will show the existing annotation categories in the current selection.
 ```
 
 2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
 
-![SheetLink including linked files and exporting by type ID](../../assets\images\SH-LinkedFile-TypeID.gif)  
+![SheetLink including linked files and exporting by type ID](../../assets\images\SH-IncludeLink.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 
-3. Use the checkboxes to select specific categories or use the checkbox in the table header to select all categories.
+3. Use the checkboxes to select specific annotation categories or use the checkbox in the table header to select all annotation categories.
 
-![SheetLink Selecting Revit categories](../../assets\images\SH-Select-Categoriesgif.gif)  
+![SheetLink Selecting annotation categories](../../assets\images\SH-Select-AnCategories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ### Search Categories
 
-The search box will search for categories contained in the Select Categories column.  
+The search box will search for annotation categories contained in the Select Categories column.  
 
-![SheetLink Searching for model categories](../../assets\images\SH-Search-Categories.gif)  
+![SheetLink Searching for annotation categories](../../assets\images\SH-Search-AnCategories.gif.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ---
@@ -54,7 +54,7 @@ The search box will search for categories contained in the Select Categories col
 
 After to choose the categories, the SheetLink has options to see just instance, type and read-only parameters.
 
-Click on the table headers to select the instance parameters.
+Click on the table headers to select the instance parameters for example.
 
 
 ```yaml
@@ -155,4 +155,16 @@ Grey: Parameter does not exist for this element.
 ```yaml
 # Note:  
 If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
+```
+
+### Import
+
+If you have made some file edition, import it and update the current model on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
+![SheetLink Import file](../../assets\images\SH-ImportFile.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+```yaml
+# Note:  
+- Import file from Google Drive or from Excel.
+- Track the file import progress bar.
 ```
