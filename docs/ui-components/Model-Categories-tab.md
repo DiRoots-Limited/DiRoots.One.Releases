@@ -139,7 +139,7 @@ Click to preview and to edit the sheet before exporting.
 ### Export
 
 Click to export the sheet to Google Drive or Excel.
-![SheetLink Reset Values](../../assets\images\SH-Export.png)  
+![SheetLink Export sheet](../../assets\images\SH-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 The excel file is editable and after to editing it you can import through SheetLink.
