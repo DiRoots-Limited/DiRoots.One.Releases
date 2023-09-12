@@ -25,7 +25,7 @@ Steps:
 1. Click radio buttons to switch between Whole Model, Active View or Current Selection to choose the categories.
 
 ```yaml
-The 'Whole Model' radio button will show the existing all model categories.
+The 'Whole Model' radio button will show the all existing model categories.
 The 'Active View' radio button will show the existing categories in the current view.
 The 'Current Selection' radio button will show the existing categories in the current selection.
 ```
