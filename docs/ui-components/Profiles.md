@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Profiles
-parent: User Guide
+parent: SheetLink User Guide
 nav_order: 4
 ---
 
