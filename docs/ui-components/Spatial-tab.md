@@ -115,44 +115,10 @@ Use the arrows above the Selected Parameters table, to order the parameters to e
 
 ---
 
-### Isolate Selection
-
-The Isolate Selection button allows to filter the elements from the selected Rooms or Space in a Temporary View (Hide/Isolate).
-
-![SheetLink isolate the elements from Rooms or Spaces](../../assets\images\SH-Sc-Isolate.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Export Project Standards
-
-The Export Project Standards button allows to export the main data about the project to Excel or Google Drive.
-![SheetLink Export Project Standard to Excel or Google Drive](../../assets\images\SH-Sc-ExportProject.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Instance, Type and Read-only
-
-After to choose the schedules, the SheetLink has options to see just instance, type and read-only parameters from the schedules.
-
-Click on the table headers to select the instance parameters for example.
-
-
-```yaml
-# Note:  
-If selected the instance parameters, will show it in the green color.
-If selected the type parameters, will show it in the yellow color.
-If selecte the read-only parameters, will show it in the red color.
-```
-  
-![SheetLink select the parameters](../../assets\images\SH-Sc-Instance.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
 ### Reset Values
 
-Select the Reset Values button to clean all the selected schedules.
-![SheetLink Reset Values](../../assets\images\SH-Sc-ResetValues.png)  
+Select the Reset Values button to clean all the available parameters and selected parameters.
+![SheetLink Reset Values](../../assets\images\SH-Sp-Reset.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ---
@@ -160,13 +126,13 @@ Select the Reset Values button to clean all the selected schedules.
 ### Preview/Edit
 
 Click to preview and to edit the sheet before exporting.
-![SheetLink Preview](../../assets\images\SH-Sc-Preview.gif)  
+![SheetLink Preview](../../assets\images\SH-Sp-Preview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ### Export
 
 Click to export the sheet to Google Drive or Excel.
-![SheetLink Export sheet](../../assets\images\SH-Sc-Export.png)  
+![SheetLink Export sheet](../../assets\images\SH-Sp-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 The excel file is editable and after to editing it you can import through SheetLink.
@@ -174,25 +140,11 @@ Caution, open the Instruction tab in your excel file to get the colors legend.
 
 ```yaml
 # Note:  
-Yellow: Type Value
 Red: Read-only Value. This fields can not be edited.
 Grey: Parameter does not exist for this element.
 ```
 
-```yaml
-# Note:  
-If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
-```
-
-If you prefer, you can keep formatting of the schedules to export. Make sure you want keep it, because you will not be able to import the data back to Revit.
-![SheetLink Keep formatting of the schedule](../../assets\images\SH-Sc-Export.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-See bellow the difference between the exported sheets, keeping the format and the normal sheet format.
-![SheetLink difference between the sheets](../../assets\images\SH-Sc-Sheets.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Import
+//### Import
 
 If you have made some file edition, import it and update the schedules on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
 ![SheetLink Import file](../../assets\images\SH-Sc-Import.png)  
