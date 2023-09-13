@@ -118,6 +118,7 @@ Use the arrows above the Selected Parameters table, to order the parameters to e
 ### Reset Values
 
 Select the Reset Values button to clean all the available parameters and selected parameters.
+
 ![SheetLink Reset Values](../../assets\images\SH-Sp-Reset.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -132,21 +133,34 @@ Click to preview and to edit the sheet before exporting.
 ### Export
 
 Click to export the sheet to Google Drive or Excel.
+
 ![SheetLink Export sheet](../../assets\images\SH-Sp-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-The excel file is editable and after to editing it you can import through SheetLink.
-Caution, open the Instruction tab in your excel file to get the colors legend. 
+The excel file is editable and after to editing it you can import through SheetLink. The Spacial SheetLink allows you to create more rooms on excel file exported, or export an empty excel file template, to create rooms.
+
+Caution, open the Instruction tab on excel file to get the colors legend and other information. 
 
 ```yaml
-# Note:  
+# Note:
+Yellow: Type Value.
 Red: Read-only Value. This fields can not be edited.
 Grey: Parameter does not exist for this element.
 ```
 
-//### Import
+```yaml
+# Note:
+To create new Rooms or Spaces you should add new rows of information. Provide a minimum of Number, Name, and Phase parameter values to create correctly Rooms and Spaces. Please don’t input values to the GUID(hidden) and Element ID columns for new rows. Revit will automatically assign GUID and Element ID when elements are created.
+```
+
+Follow the example bellow.
+![SheetLink creating rooms](../../assets\images\SH-Sp-CreateRooms.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+### Import
 
 If you have made some file edition, import it and update the schedules on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
+
 ![SheetLink Import file](../../assets\images\SH-Sc-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -155,3 +169,9 @@ If you have made some file edition, import it and update the schedules on Revit.
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
 ```
+
+Note if you have created rooms or spaces in the excel file, it will be created on Revit, and now you can assign to the model.
+
+![SheetLink assign created rooms](../../assets\images\SH-Sp-CreateRoom.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
