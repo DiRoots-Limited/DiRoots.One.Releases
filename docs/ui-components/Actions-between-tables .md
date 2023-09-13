@@ -33,3 +33,34 @@ Collaborate with non-Revit users and bring the beauty of your Excel Tables into 
 
 It is possible to edit and update the tables inside the Revit, but the process with the TableGen it is more easier than ever.
 Open the excel file and update the datas or formating to update the table in Revit. After open again the TableGen to update the table imported.
+
+![TableGen update table](../../assets\images\TG-UpdateTable.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+
+### Open current file
+
+Select the tables and click to open file.
+
+![TableGen open file](../../assets\images\TG-OpenFile.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+
+### Open file folder
+
+Open the folder where the excel file is saved.
+
+![TableGen open file folder](../../assets\images\TG-OpenFolder.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+
+### Delete table
+
+Select one or more table and click on Edit button, to remove it.
+
+![TableGen delete table](../../assets\images\TG-DeleteTable.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+
+### Search tables
+
+The search box will search for tables contained in the View Name column.
+
+![TableGen delete table](../../assets\images\TG-SearchTable.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
