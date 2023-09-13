@@ -48,8 +48,6 @@ This method is ideal for individuals who want to install DiRootsOne in one compu
 
 ![DiRootsOne Installation Finish](..\assets\images\One-Installer-Finished.png)
 
-4. Restart your computer. Don't Skip this step.
-
 ### Silent Installation
 
 ```yaml
@@ -106,7 +104,7 @@ The updater will:
 - notify you whenever a new version is released (the action is triggered on Revit close event).
 - ask you to install now or to remind you tomorrow.
 
-![DiRootsOne Updater UI](../assets/images/updater-default.png)
+![DiRootsOne Updater UI](../assets\images\DiRootsOne-Updates.png)
 
 ### Updater Settings
 
