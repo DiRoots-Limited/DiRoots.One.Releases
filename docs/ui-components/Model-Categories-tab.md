@@ -100,7 +100,16 @@ The search box will search for parameters contained in the Selected Parameters c
 
 Use the arrows above the Selected Parameters table, to order the parameters to export.  
 
-![SheetLink order the selected parameters](../../assets\images\SH-Order-Parameters.gif)  
+![SheetLink order the selected parameters](../../assets\images\SH-Mc-bx.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+---
+
+### Filter elements within a section box
+
+You have the ability to use existing or to duplicate 3D View. Visualize only filtered elements or all elements within Section Box with ability to define offset from marked elements.
+
+![SheetLink filter elements within a section box](../../assets\images\SH-Isolate-Seletection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ---

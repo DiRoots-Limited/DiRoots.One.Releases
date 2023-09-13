@@ -105,6 +105,15 @@ Use the arrows above the Selected Parameters table, to order the parameters to e
 
 ---
 
+### Filter elements within a section box
+
+You have the ability to use existing or to duplicate 3D View. Visualize only filtered elements or all elements within Section Box with ability to define offset from marked elements.
+
+![SheetLink filter elements within a section box](../../assets\images\SH-El-Bx.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+---
+
 ### Isolate Selection
 
 The Isolate Selection button allows to filter the selected categories in a Temporary View (Hide/Isolate).
