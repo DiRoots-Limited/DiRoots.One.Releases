@@ -117,8 +117,15 @@ The Isolate Selection button allows to filter the selected annotation categories
 
 ### Export Project Standards
 
-The Export Project Standards button allows to export the main data about the project to Excel or Google Drive.
+The Export Project Standards button allows to export the main data about the project to Excel or Google Drive. The data to able to export is the Project Information, Object Styles, Line Styles and Families.
 ![SheetLink Export Project Standard to Excel or Google Drive](../../assets\images\SH-ac-ExportProjectStandard.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+### Import Project Standards file
+
+You can also edit some Project Information and import to update the current model.
+
+![SheetLink Import Project Standards file](../../assets\images\SH-El-ImportProject.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ---
