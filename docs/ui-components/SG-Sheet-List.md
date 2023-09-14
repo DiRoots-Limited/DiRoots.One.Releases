@@ -180,3 +180,28 @@ Then define the Default Field Separator, Custom Field, Custom Separator, and add
 ![SheetGen build name](../../assets\images\SG-Sl-BuildName.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Save V/S Set
+
+Para organizar as folhas do projeto, especialmente quando há muitas folhas criadas, o SheetGen disponibiliza a ferramenta para salvar sets.
+To create a new set, select the sheets you want to separate into this set and click on New Set, then assign a name to finish creating the set.
+
+![SheetGen new set](../../assets\images\SG-Sl-NewSet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+You can also add sheets to an existing set.
+
+![SheetGen existing set](../../assets\images\SG-Sl-ExistingSet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Filter by V/S Sets
+
+After organizing the project sheets into sets, you can apply filters to make the work process easier.
+
+![SheetGen existing set](../../assets\images\SG-Sl-FilterSet.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
