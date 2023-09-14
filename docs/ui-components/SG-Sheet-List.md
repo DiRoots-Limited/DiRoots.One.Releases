@@ -112,7 +112,7 @@ If you prefer, you could select the checkbox Change Template for copies, so the 
 
 ### Delete Sheet
 
-You can perform this action for individual sheets by clicking the right mouse button and choosing the Delete Sheet option, or you can perform this action in batch for several sheets simultaneously. To duplicate in batch, select the sheets you want, and in the Batch Actions list, choose Delete.
+You can perform this action for individual sheets by clicking the right mouse button and choosing the Delete Sheet option, or you can perform this action in batch for several sheets simultaneously. To delete in batch, select the sheets you want, and in the Batch Actions list, choose Delete.
 
 ![SheetGen delete sheet](../../assets\images\SG-Sl-DeleteSheet.gif)
 
@@ -128,7 +128,7 @@ By default, the list of sheets will only show the sheet number and the sheet nam
 
 ---
 
-## Edit sheets Nuumber and Name
+## Edit sheets Number and Name
 
 To edit the sheets individually, set double-click on the cell you want to edit (number or name), and enter text editing.
 
