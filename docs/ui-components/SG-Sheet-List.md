@@ -132,14 +132,26 @@ By default, the list of sheets will only show the sheet number and the sheet nam
 
 To edit the sheets individually, set double-click on the cell you want to edit (number or name), and enter text editing.
 
-![SheetGen add parameters columns](../../assets\images\SG-Sl-EditCell.png)
+![SheetGen editing sheet](../../assets\images\SG-Sl-EditCell.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Import/Export excel file
 
-If you have several sheets created in the project, this tool makes editing much easier. Export an excel file, edit it as you wish, then import it into SheetGen and update the number and name of the sheets.
+If you have several sheets created in the project, this tool makes editing much easier. Export an excel file, edit it as you wish, then import it into SheetGen and update the number and name of the sheets. Note that in the Sheet Name header column has a lock icon by activating this icon, the column will be locked for any editing.
 
-![SheetGen add parameters columns](../../assets\images\SG-Sl-EditCell.png)
+![SheetGen editing sheet](../../assets\images\SG-Sl-LockColumn.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+1. Export the excel file from sheet list.
+
+![SheetGen export excel file from sheets](../../assets\images\SG-Sl-ExportExcel.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Import exel file to update the sheet list.
+
+![SheetGen import excel file](../../assets\images\SG-Sl-ImportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
