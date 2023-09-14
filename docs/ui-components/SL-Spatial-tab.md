@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Spatial
+title: Selection Tab
 parent: SheetLink User Guide
-nav_order: 5
+nav_order: 6
 ---
 
 # SheetLink
@@ -21,9 +21,7 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 The first step is to select the SheetLink in the DiRootsOne menu and to choose the Spatial tab.
 Make sure that you have rooms or spaces created in the model, to be exported by SheetLink from DiRootsOne. 
 
-## Select Rooms/Spaces
-
-Follow the steps:
+Steps:
 
 1. On this tab, you can choose between to select parameters from Rooms or Spaces to export by SheetLink.
 In the fisrt drop-down select witch option you want.
@@ -60,11 +58,7 @@ If you do not have the correct view opened, the SheetLink can find the view, but
 
 ---
 
-## Available Parameters
-
-After selecting the rooms/spaces, it will display the parameters in the Available Parameters table.
-
-### Instance and Read-only
+## Instance and Read-only
 
 After to choose the Rooms or Spaces, the SheetLink has options to see just instance and read-only parameters.
 
@@ -80,7 +74,7 @@ Rooms and Spaces do not have type parameters, so in this case will appear just t
 If selected the instance parameters, will show it in the green color.
 If selecte the read-only parameters, will show it in the red color.
 ```
-
+  
 ![SheetLink select the parameters](../../assets\images\SH-Sp-Instance.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -99,6 +93,7 @@ Choosing parameters:
 1. Select the parameters in the Available Parameters table.
 2. Click in the arrows to add or remove from the Selected Parameters table.
 
+
 ![SheetLink adding and removing parameters](../../assets\images\SH-Sp-AddRemove.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -109,9 +104,11 @@ The search box will search for parameters contained in the Selected Parameters c
 ![SheetLink Searching for selected parameters](../../assets\images\SH-Sp-SearchSelected.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
+---
+
 ### Order the Selected Parameters
 
-Use the arrows above the Selected Parameters table, to order the parameters to export.
+Use the arrows above the Selected Parameters table, to order the parameters to export.  
 
 ![SheetLink order the selected parameters](../../assets\images\SH-Sp-Order.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -124,6 +121,8 @@ Select the Reset Values button to clean all the available parameters and selecte
 
 ![SheetLink Reset Values](../../assets\images\SH-Sp-Reset.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+
+---
 
 ### Preview/Edit
 
@@ -155,7 +154,6 @@ To create new Rooms or Spaces you should add new rows of information. Provide a 
 ```
 
 Follow the example bellow.
-
 ![SheetLink creating rooms](../../assets\images\SH-Sp-CreateRooms.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
