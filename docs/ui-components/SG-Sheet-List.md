@@ -1,0 +1,76 @@
+---
+layout: default
+title: Sheet list
+parent: SheetGen User Guide
+nav_order: 2
+---
+
+# SheetGen
+{: .no_toc }
+Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+# Sheet List
+
+The first step is to select the SheetGen in the DiRootsOne menu and to choose the Sheet List tab.
+On this page will show all existing sheets in the project.
+
+```yaml
+# Note:
+You must have at least one sheet created, to be used as a template in SheetGen.
+```
+
+## New Sheet
+
+1. Click on the New Sheet button, or click with the right mouse button on an existing sheet and choose the option Create Sheets from template.
+
+![SheetGen create new sheet](../../assets\images\SG-Sl-NewSheet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Fill the fields about the new sheet.
+
+- Number of Sheets - put the number of sheets you want to create.
+- Populate View from template - Create the new sheet with the same view settings as the template sheet.
+- Keep Legends - you can choose to keep the legends as the template sheet.
+- Keep Schedules - you can choose to keep the schedules as the template sheet.
+
+![SheetGen fill the fields](../../assets\images\SG-Sl-FillFields.png)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+3. Select the existing sheet that will be assign as the template for the new sheet.
+
+### Search sheet
+
+The search box will search for sheets contained in the projet.
+
+![SheetGen search existing sheet](../../assets\images\SG-Sl-SearchTemplate.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+4. Note that the new sheets appear in the list of sheets but have not yet been created in the project. To complete the creation, click Apply.
+
+![SheetGen apply new sheets](../../assets\images\SG-Sl-ApplySheets.gif)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Open Sheet
+
+Click with the right mouse button on the sheet and choose the option Open Sheet, to view the new sheet created.
+
+![SheetGen open sheet](../../assets\images\SG-Sl-OpenSheet.gif)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Duplicate Sheet
+
+You can perform this action for individual sheets by clicking the right mouse button and choosing the Duplicate option, or you can perform this action in batch for several sheets simultaneously. To duplicate in batch, select the sheets you want, and in the Batch Actions list, choose Duplicate.
+
+![SheetGen duplicate sheet](../../assets\images\SG-Sl-DuplicateSheet.gif)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+
