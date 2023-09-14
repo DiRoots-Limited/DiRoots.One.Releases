@@ -27,7 +27,7 @@ On this page you'll find all the views in the model, and in the All column, choo
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-## Actions between the views
+## Views tab
 
 ### Open View
 
@@ -138,6 +138,43 @@ After organizing the model views into sets, you can apply filters to make the wo
 ![SheetGen clear all](../../assets\images\SG-Vl-Clean.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## View Template tab
+
+
+
+---
+
+## Import/Export sheets
+
+Return to the List of Views tab and click on the Export button to generate an excel file. In this file you can also change the number and name of the sheets if necessary.
+After exporting the file and editing it, import and update the edited sheets.
+
+![SheetGen export sheets](../../assets\images\SG-Vl-ExportSheets.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Template
+
+
+---
+
+## Filter by V/S Sets
+
+Apply filters by the sheets sets created.
+
+![SheetGen apply filters](../../assets\images\SG-Vl-FilterbySet.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+
+
+
+
 
 
 
