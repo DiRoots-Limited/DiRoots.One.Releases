@@ -118,3 +118,28 @@ You can perform this action for individual sheets by clicking the right mouse bu
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
+### Add parameters columns
+
+By default, the list of sheets will only show the sheet number and the sheet name. Click the right mouse button under the column header and add the desired parameters.
+
+![SheetGen add parameters columns](../../assets\images\SG-Sl-AddParameters.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Edit sheets Nuumber and Name
+
+To edit the sheets individually, set double-click on the cell you want to edit (number or name), and enter text editing.
+
+![SheetGen add parameters columns](../../assets\images\SG-Sl-EditCell.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Import/Export excel file
+
+If you have several sheets created in the project, this tool makes editing much easier. Export an excel file, edit it as you wish, then import it into SheetGen and update the number and name of the sheets.
+
+![SheetGen add parameters columns](../../assets\images\SG-Sl-EditCell.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
