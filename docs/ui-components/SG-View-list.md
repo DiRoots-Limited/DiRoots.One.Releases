@@ -171,6 +171,16 @@ Apply filters by the sheets sets created.
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
+---
+
+## Add views to sheets
+
+From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then select the view you want and click Select to add it to the sheet.
+
+![SheetGen add views](../../assets\images\SG-Vl-FilterbySet.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
 
 
 
