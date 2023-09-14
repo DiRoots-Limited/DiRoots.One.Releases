@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selection Tab
+title: Spatial
 parent: SheetLink User Guide
 nav_order: 6
 ---

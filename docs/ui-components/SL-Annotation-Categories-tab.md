@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selection Tab
+title: Annotation Categories
 parent: SheetLink User Guide
 nav_order: 3
 ---

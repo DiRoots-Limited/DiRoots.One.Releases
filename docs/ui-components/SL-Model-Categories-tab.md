@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selection Tab
+title: Model Categories
 parent: SheetLink User Guide
 nav_order: 2
 ---
