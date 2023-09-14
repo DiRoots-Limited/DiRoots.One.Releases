@@ -18,161 +18,59 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 
 # Sheet List
 
-The first step is to select the SheetGen in the DiRootsOne menu and to choose the Sheet List tab. 
-
-Steps:
-
-1. Click radio buttons to switch between Whole Model, Active View or Current Selection to choose the categories.
+The first step is to select the SheetGen in the DiRootsOne menu and to choose the Sheet List tab.
+On this page will show all existing sheets in the project.
 
 ```yaml
 # Note:
-The 'Whole Model' radio button will show the existing all annotation categories.
-The 'Active View' radio button will show the existing annotation categories in the current view.
-The 'Current Selection' radio button will show the existing annotation categories in the current selection.
+You must have at least one sheet created, to be used as a template in SheetGen.
 ```
 
-2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
+## New Sheet
 
-![SheetLink including linked files and exporting by type ID](../../assets\images\SH-IncludeLink.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+1. Click on the New Sheet button, or click with the right mouse button on an existing sheet and choose the option Create Sheets from template.
 
+![SheetGen create new sheet](../../assets\images\SG-Sl-NewSheet.gif)
 
-3. Use the checkboxes to select specific annotation categories or use the checkbox in the table header to select all annotation categories.
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-![SheetLink Selecting annotation categories](../../assets\images\SH-Select-AnCategories.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+2. Fill the fields about the new sheet.
 
-### Search Categories
+- Number of Sheets - put the number of sheets you want to create.
+- Populate View from template - Create the new sheet with the same view settings as the template sheet.
+- Keep Legends - you can choose to keep the legends as the template sheet.
+- Keep Schedules - you can choose to keep the schedules as the template sheet.
 
-The search box will search for annotation categories contained in the Select Categories column.  
+![SheetGen fill the fields](../../assets\images\SG-Sl-FillFields.png)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-![SheetLink Searching for annotation categories](../../assets\images\SH-Search-AnCategories.gif.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+3. Select the existing sheet that will be assign as the template for the new sheet.
 
----
+### Search sheet
 
-## Instance, Type and Read-only
+The search box will search for sheets contained in the projet.
 
-After to choose the categories, the SheetLink has options to see just instance, type and read-only parameters.
+![SheetGen search existing sheet](../../assets\images\SG-Sl-SearchTemplate.gif)
 
-Click on the table headers to select the instance parameters for example.
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
+4. Note that the new sheets appear in the list of sheets but have not yet been created in the project. To complete the creation, click Apply.
 
-```yaml
-# Note:  
-If selected the instance parameters, will show it in the green color.
-If selected the type parameters, will show it in the yellow color.
-If selecte the read-only parameters, will show it in the red color.
-```
-  
+![SheetGen apply new sheets](../../assets\images\SG-Sl-ApplySheets.gif)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-![SheetLink select the parameters](../../assets\images\SH-ac-SelectInstance.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+### Open Sheet
 
-### Search Available Parameters
+Click with the right mouse button on the sheet and choose the option Open Sheet, to view the new sheet created.
 
-The search box will search for parameters contained in the Available Parameters column.  
+![SheetGen open sheet](../../assets\images\SG-Sl-OpenSheet.gif)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-![SheetLink Searching for available parameters](../../assets\images\SH-Search-AvailableParameters.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+### Duplicate Sheet
 
----
+You can perform this action for individual sheets by clicking the right mouse button and choosing the Duplicate option, or you can perform this action in batch for several sheets simultaneously. To duplicate in batch, select the sheets you want, and in the Batch Actions list, choose Duplicate.
 
-## Selected Parameters
-
-Choosing paramenters:
-1. Select the parameters in the Available Parameters table.
-2. Click in the arrows to add or remove from the Selected Parameters table.
+![SheetGen duplicate sheet](../../assets\images\SG-Sl-DuplicateSheet.gif)
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 
-![SheetLink adding and removing parameters](../../assets\images\SH-AddRemove.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Search Selected Parameters
-
-The search box will search for parameters contained in the Selected Parameters column.  
-
-![SheetLink Searching for available parameters](../../assets\images\SH-Search-Selected-Parameters.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Order the Selected Parameters
-
-Use the arrows above the Selected Parameters table, to order the parameters to export.  
-
-![SheetLink order the selected parameters](../../assets\images\SH-ac-OrderParameters.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Isolate Selection
-
-The Isolate Selection button allows to filter the selected annotation categories in a Temporary View (Hide/Isolate).
-
-![SheetLink isolate annotation categories selected](../../assets\images\SH-ac-IsolateSelection.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Export Project Standards
-
-The Export Project Standards button allows to export the main data about the project to Excel or Google Drive. The data to able to export is the Project Information, Object Styles, Line Styles and Families.
-![SheetLink Export Project Standard to Excel or Google Drive](../../assets\images\SH-ac-ExportProjectStandard.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Import Project Standards file
-
-You can also edit some Project Information and import to update the current model.
-
-![SheetLink Import Project Standards file](../../assets\images\SH-El-ImportProject.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Reset Values
-
-Select the Reset Values button to clean all the parameters available and selected.
-![SheetLink Reset Values](../../assets\images\SH-ac-ResetValue.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Preview/Edit
-
-Click to preview and to edit the sheet before exporting.
-![SheetLink Reset Values](../../assets\images\SH-ac-Preview.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Export
-
-Click to export the sheet to Google Drive or Excel.
-![SheetLink export sheet](../../assets\images\SH-ac-Export.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-The excel file is editable and after to editing it you can import through SheetLink.
-Caution, open the Instruction tab in your excel file to get the colors legend. 
-
-```yaml
-# Note:  
-Yellow: Type Value
-Red: Read-only Value. This fields can not be edited.
-Grey: Parameter does not exist for this element.
-```
-
-```yaml
-# Note:  
-If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
-```
-
-### Import
-
-If you have made some file edition, import it and update the current model on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
-![SheetLink Import file](../../assets\images\SH-ac-Import.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-```yaml
-# Note:  
-- Import file from Google Drive or from Excel.
-- Track the file import progress bar.
-```
