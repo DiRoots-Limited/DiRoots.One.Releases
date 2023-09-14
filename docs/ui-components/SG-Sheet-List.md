@@ -185,7 +185,7 @@ Then define the Default Field Separator, Custom Field, Custom Separator, and add
 
 ## Save V/S Set
 
-Para organizar as folhas do projeto, especialmente quando há muitas folhas criadas, o SheetGen disponibiliza a ferramenta para salvar sets.
+To organize the project sheets, especially when there are many sheets created, SheetGen offers the tool to save
 To create a new set, select the sheets you want to separate into this set and click on New Set, then assign a name to finish creating the set.
 
 ![SheetGen new set](../../assets\images\SG-Sl-NewSet.gif)

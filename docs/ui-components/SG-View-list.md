@@ -104,7 +104,40 @@ Then define the Default Field Separator, Custom Field, Custom Separator and add 
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
+---
 
+## Save V/S Set
+
+To organize the model views, especially when there are many views created, SheetGen offers the tool to save views sets.
+To create a new set, select the views you want to separate into this set and click on New Set, then assign a name to finish creating the set.
+
+![SheetGen new set](../../assets\images\SG-Vl-NewSet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+You can also add views to an existing set.
+
+![SheetGen existing set](../../assets\images\SG-Vl-AddtoSet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Filter by V/S Sets
+
+After organizing the model views into sets, you can apply filters to make the work process easier.
+
+![SheetGen existing set](../../assets\images\SG-Vl-FilterSet.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Clear editions
+
+1. Click on the Clear all Modifications button, and reset all edition applied to view names in the table view made by the Rename or Build Name commands.
+
+![SheetGen clear all](../../assets\images\SG-Vl-Clean.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 
 
