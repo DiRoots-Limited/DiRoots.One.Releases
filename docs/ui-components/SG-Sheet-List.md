@@ -155,3 +155,28 @@ If you have several sheets created in the project, this tool makes editing much 
 ![SheetGen import excel file](../../assets\images\SG-Sl-ImportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Rename
+
+SheetGen also allows sheets to be renamed in batch. To do this, select the sheets you want and click Rename. 
+Then define a Prefix, a Suffix, enter the name that will be replaced and finally the name that will replace it.
+
+![SheetGen rename sheets](../../assets\images\SG-Sl-Rename.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Build Number and Build Name
+
+1. Similar to the Rename tool, the SheetGen have the Build Number. Select the sheets you want and click to Build Number.
+Then define the Default Field Separator, Custom Field, Custom Separator, Counter and add or remove Parameters.
+
+![SheetGen build number](../../assets\images\SG-Sl-BuildNumber.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. For the Build Name tool, it is the same steps. Select the sheets you want and click to Build Name.
+Then define the Default Field Separator, Custom Field, Custom Separator, and add or remove Parameters.
+
+![SheetGen build name](../../assets\images\SG-Sl-BuildName.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
