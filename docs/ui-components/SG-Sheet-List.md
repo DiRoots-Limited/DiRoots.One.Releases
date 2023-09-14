@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Selection Tab
-parent: SheetLink User Guide
+title: Sheet list
+parent: SheetGen User Guide
 nav_order: 2
 ---
 
-# SheetLink
+# SheetGen
 {: .no_toc }
-Export your Revit model data (by categories, elements, schedules) to Excel and Google Sheets. Edit the data and import it back to update the model.
+Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -16,9 +16,9 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 ---
 
-# Annotation Categories
+# Sheet List
 
-The first step is to select the SheetLink in the DiRootsOne menu and to choose the Annotation Categories tab. 
+The first step is to select the SheetGen in the DiRootsOne menu and to choose the Sheet List tab. 
 
 Steps:
 
@@ -34,7 +34,7 @@ The 'Current Selection' radio button will show the existing annotation categorie
 2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
 
 ![SheetLink including linked files and exporting by type ID](../../assets\images\SH-IncludeLink.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
 
 3. Use the checkboxes to select specific annotation categories or use the checkbox in the table header to select all annotation categories.
