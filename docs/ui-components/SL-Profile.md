@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Profiles
+title: Profile
 parent: SheetLink User Guide
-nav_order: 4
+nav_order: 1
 ---
 
 # Profiles
