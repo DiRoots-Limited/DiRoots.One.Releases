@@ -57,7 +57,12 @@ The search box will search for sheets contained in the projet.
 4. Note that the new sheets appear in the list of sheets but have not yet been created in the project. To complete the creation, click Apply.
 
 ![SheetGen apply new sheets](../../assets\images\SG-Sl-ApplySheets.gif)
+
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Actions between the sheets
 
 ### Open Sheet
 
@@ -71,6 +76,45 @@ Click with the right mouse button on the sheet and choose the option Open Sheet,
 You can perform this action for individual sheets by clicking the right mouse button and choosing the Duplicate option, or you can perform this action in batch for several sheets simultaneously. To duplicate in batch, select the sheets you want, and in the Batch Actions list, choose Duplicate.
 
 ![SheetGen duplicate sheet](../../assets\images\SG-Sl-DuplicateSheet.gif)
+
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
+1. Options to duplicate individual sheets.
+
+- Set a number of copies
+- Select the checkbox if you want to Duplicate Views from sheet
+- Select the checkbox if you want to Keep Legends from sheet
+- Select the checkbox if you want to Keep Schedules from sheet
+- Select the checkbox if you want to Copy Revisions from sheet
+- Select the checkbox if you want to Copy Title Block Parameter Values from sheet
+
+```yaml
+# Note:
+If you prefer, you could select the checkbox Change Template for copies, so the list of sheets will be able to select another one.
+```
+
+![SheetGen duplicate individual sheet](../../assets\images\SG-Sl-DuplicateIndividual.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Options to duplicate sheets in batch.
+
+- Set a number of copies
+- Select the checkbox if you want to Duplicate Views from sheet
+- Select the checkbox if you want to Keep Legends from sheet
+- Select the checkbox if you want to Keep Schedules from sheet
+- Select the checkbox if you want to Copy Revisions from sheet
+- Select the checkbox if you want to Copy Title Block Parameter Values from sheet
+
+![SheetGen duplicate sheets in batch](../../assets\images\SG-Sl-DuplicateBatch.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Delete Sheet
+
+You can perform this action for individual sheets by clicking the right mouse button and choosing the Delete Sheet option, or you can perform this action in batch for several sheets simultaneously. To duplicate in batch, select the sheets you want, and in the Batch Actions list, choose Delete.
+
+![SheetGen delete sheet](../../assets\images\SG-Sl-DeleteSheet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
