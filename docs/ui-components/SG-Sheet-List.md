@@ -205,3 +205,24 @@ After organizing the project sheets into sets, you can apply filters to make the
 ![SheetGen existing set](../../assets\images\SG-Sl-FilterSet.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Clear editions
+
+1. Click on the Clear all Modifications button, and reset all edition applied to sheet names and numbers, in the table view made by the Rename, Build Name or Build Number commands.
+
+![SheetGen clear all](../../assets\images\SG-Sl-ClearAll.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Click on the Clear Staging butto, and clear the staging cached modifications.
+
+```yaml
+# Note:
+With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
+```
+
+![SheetGen clear staging](../../assets\images\SG-Sl-ClearStaging.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
