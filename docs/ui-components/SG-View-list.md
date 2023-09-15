@@ -152,7 +152,19 @@ After organizing the model views into sets, you can apply filters to make the wo
 
 ## View Template tab
 
+This tab allows you to manage the view templates created, renaming or creating a build name.
 
+1. Select the view templates that you want and click to Rename. Assign a Prefix, Suffix, the name to Replace and the new Name.
+
+![SheetGen rename view templates](../../assets\images\SG-Vl-RenameViewTemplate.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Select the view templates that you want and click to Build Name. In this case, you can manage the Default Field Separator, Custom Field, Custom Separator and assign the view parameters to build the name.
+
+![SheetGen view templates build name](../../assets\images\SG-Vl-BuildNameView.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ---
 
@@ -167,8 +179,13 @@ After exporting the file and editing it, import and update the edited sheets.
 
 ---
 
-## Template
+## Apply filter by template
 
+Similar to the filters by set, apply filters by sheet templates and see the views assigned to each template.
+
+![SheetGen apply filters](../../assets\images\SG-Vl-Template.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ---
 

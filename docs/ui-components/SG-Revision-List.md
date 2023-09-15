@@ -18,7 +18,7 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 
 # Revision List
 
-The next step after to create the sheets and assign the views it, go to the Revision List tab. On this step, you can assign witch sheets revisions phase.
+The next step after to create the sheets and assign the views it, go to the Revision List tab. On this step, you can assign to each sheets revisions phase.
 
 ## Revisions
 
@@ -30,7 +30,7 @@ If you didn't configurate the revisions to the current project, click on the Rev
 
 ## Filter by V/S Sets
 
-After organizing maganeging the revisions, you can apply filters by sets to make the work process easier and assign the correct revision to witch sheet.
+After organizing maganeging the revisions, you can apply filters by sets to make the work process easier and assign the correct revision to each sheet.
 
 ![SheetGen apply filter](../../assets\images\SG-Rl-FilterSet.gif)
 
@@ -38,7 +38,7 @@ After organizing maganeging the revisions, you can apply filters by sets to make
 
 ## Assign Revisions to the sheets
 
-On the Revisions column, open the list and choose the right revision to witch sheet.
+On the Revisions column, open the list and choose the right revision to each sheet.
 
 ![SheetGen add revisions](../../assets\images\SG-Rl-AddRevisions.gif)
 
