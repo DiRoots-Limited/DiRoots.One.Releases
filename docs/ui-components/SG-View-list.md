@@ -203,6 +203,21 @@ Click on the "more options" button and select Open View. Note that the current v
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
+---
+
+## Clear Staging
+
+Click on the Clear Staging button, and clear the staging cached modifications.
+
+```yaml
+# Note:
+With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
+```
+
+![SheetGen clear staging](../../assets\images\SG-Vl-Clear.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
 
 
 
