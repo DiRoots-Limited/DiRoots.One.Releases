@@ -175,11 +175,38 @@ Apply filters by the sheets sets created.
 
 ## Add views to sheets
 
-From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then select the view you want and click Select to add it to the sheet.
+From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then choose the view you want and click Select to add it to the sheet. The Views columns allows to add more than one view per sheet.
 
-![SheetGen add views](../../assets\images\SG-Vl-FilterbySet.png)
+![SheetGen add views](../../assets\images\SG-Vl-AddViewSheet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+On the select view panel you can choose the view type in the list, select some parameters, and if you want to see just the views not applied click to Hide Placed Views and then view just the unselected views.
+
+![SheetGen add views](../../assets\images\SG-Vl-AddViewSettings.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Remove view from sheet
+
+To remove a view from sheet, click on the "more options" button, and choose the Remove option, or in the selet view panel, select the Remove View checkbox, search the current view and click on Remove button.
+
+![SheetGen remove views](../../assets\images\SG-Vl-RemoveView.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Open view
+
+Click on the "more options" button and select Open View. Note that the current view will open on Revit.
+
+![SheetGen open views](../../assets\images\SG-Vl-OpenView.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+
+
+
+
 
 
 

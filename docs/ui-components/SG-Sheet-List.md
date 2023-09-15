@@ -216,7 +216,7 @@ After organizing the project sheets into sets, you can apply filters to make the
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-2. Click on the Clear Staging butto, and clear the staging cached modifications.
+2. Click on the Clear Staging button, and clear the staging cached modifications.
 
 ```yaml
 # Note:
