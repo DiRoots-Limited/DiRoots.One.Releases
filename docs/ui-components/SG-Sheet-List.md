@@ -44,17 +44,17 @@ You must have at least one sheet created, to be used as a template in SheetGen.
 ![SheetGen fill the fields](../../assets\images\SG-Sl-FillFields.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-3. Select the existing sheet that will be assign as the template for the new sheet.
+3. Select the existing sheet that will be assigned as the template for the new sheet.
 
 ### Search sheet
 
-The search box will search for sheets contained in the projet.
+The search box will search for sheets contained in the project.
 
 ![SheetGen search existing sheet](../../assets\images\SG-Sl-SearchTemplate.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-4. Note that the new sheets appear in the list of sheets but have not yet been created in the project. To complete the creation, click Apply.
+4. Note that the new sheets appear in the list of sheets, but have not yet been created in the project. To complete the creation, click Apply.
 
 ![SheetGen apply new sheets](../../assets\images\SG-Sl-ApplySheets.gif)
 
@@ -138,7 +138,7 @@ To edit the sheets individually, set double-click on the cell you want to edit (
 
 ### Import/Export excel file
 
-If you have several sheets created in the project, this tool makes editing much easier. Export an excel file, edit it as you want, then import it into SheetGen and update the number and name of the sheets. Note that in the Sheet Name header column has a lock icon by activating this icon, the column will be locked for any editing.
+If you have several sheets created in the project, this tool makes editing much easier. Export an Excel file, edit it as you want, then import it into SheetGen and update the number and name of the sheets. Note that in the Sheet Name header column has a lock icon, by activating this icon, the column will be locked for any editing.
 
 ![SheetGen editing sheet](../../assets\images\SG-Sl-LockColumn.png)
 
