@@ -21,7 +21,7 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 After creating the project sheets and organizing their names and sets, we go to the View List tab to define the views for each sheet.
 
 1. To get started, click on the View Manager button to manage the views in your model.
-On this page you'll find all the views in the model, and in the All column, choose whether you want to manage all the views or a specific type of view.
+On this page you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view.
 
 ![SheetGen manage views](../../assets\images\SG-Vl-ManageView.gif)
 
@@ -59,7 +59,7 @@ You cannot create a dependent view from another dependent view.
 
 ### Delete View
 
-You can perform this action for individual view by clicking the right mouse button and choosing the Delete view option, or you can perform this action in batch for several views simultaneously. To Delete in batch, select the views you want, and in the Batch Actions list, choose Delete.
+You can perform this action for an individual view by clicking the right mouse button and choosing the Delete view option, or you can perform this action in batch for several views simultaneously. To Delete in batch, select the views you want, and in the Batch Actions list, choose Delete.
 
 ![SheetGen delete sheet](../../assets\images\SG-Vl-DeleteView.gif)
 
@@ -77,7 +77,7 @@ By default, the list of views will only show the view name and the list of view.
 
 ## Import/Export excel file
 
-If you have several viewa created in the project, this tool makes editing much easier. Export an excel file, edit it the name as you wish, then import it into SheetGen and update the views.
+If you have several views created in the project, this tool makes editing much easier. Export an Excel file, edit it to the name as you wish, then import it into SheetGen and update the views.
 
 ![SheetGen export view](../../assets\images\SG-Vl-ExportExcel.png)
 
@@ -170,7 +170,7 @@ This tab allows you to manage the view templates created, renaming or creating a
 
 ## Import/Export sheets
 
-Return to the List of Views tab and click on the Export button to generate an excel file. In this file you can also change the number and name of the sheets if necessary.
+Return to the List of Views tab and click on the Export button to generate an Excel file. In this file you can also change the number and name of the sheets if necessary.
 After exporting the file and editing it, import and update the edited sheets.
 
 ![SheetGen export sheets](../../assets\images\SG-Vl-ExportSheets.png)
@@ -201,7 +201,7 @@ Apply filters by the sheets sets created.
 
 ## Add views to sheets
 
-From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then choose the view you want and click Select to add it to the sheet. The Views columns allows to add more than one view per sheet.
+From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then choose the view you want and click Select to add it to the sheet. The Views columns allow adding more than one view per sheet.
 
 ![SheetGen add views](../../assets\images\SG-Vl-AddViewSheet.gif)
 
@@ -215,7 +215,7 @@ On the select view panel you can choose the view type in the list, select some p
 
 ### Remove view from sheet
 
-To remove a view from sheet, click on the "more options" button, and choose the Remove option, or in the selet view panel, select the Remove View checkbox, search the current view and click on Remove button.
+To remove a view from the sheet, click on the "more options" button, and choose the Remove option, or in the select view panel, select the Remove View checkbox, search the current view and click on the Remove button.
 
 ![SheetGen remove views](../../assets\images\SG-Vl-RemoveView.gif)
 
