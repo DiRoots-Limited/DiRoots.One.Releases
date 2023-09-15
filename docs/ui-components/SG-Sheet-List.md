@@ -32,7 +32,7 @@ You must have at least one sheet created, to be used as a template in SheetGen.
 
 ![SheetGen create new sheet](../../assets\images\SG-Sl-NewSheet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. Fill the fields about the new sheet.
 
@@ -42,7 +42,7 @@ You must have at least one sheet created, to be used as a template in SheetGen.
 - Keep Schedules - you can choose to keep the schedules as the template sheet.
 
 ![SheetGen fill the fields](../../assets\images\SG-Sl-FillFields.png)
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 3. Select the existing sheet that will be assign as the template for the new sheet.
 
@@ -52,13 +52,13 @@ The search box will search for sheets contained in the projet.
 
 ![SheetGen search existing sheet](../../assets\images\SG-Sl-SearchTemplate.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 4. Note that the new sheets appear in the list of sheets but have not yet been created in the project. To complete the creation, click Apply.
 
 ![SheetGen apply new sheets](../../assets\images\SG-Sl-ApplySheets.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ---
 
@@ -69,7 +69,7 @@ The search box will search for sheets contained in the projet.
 Click with the right mouse button on the sheet and choose the option Open Sheet, to view the new sheet created.
 
 ![SheetGen open sheet](../../assets\images\SG-Sl-OpenSheet.gif)
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Duplicate Sheet
 
@@ -77,7 +77,7 @@ You can perform this action for individual sheets by clicking the right mouse bu
 
 ![SheetGen duplicate sheet](../../assets\images\SG-Sl-DuplicateSheet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 1. Options to duplicate individual sheets.
 
@@ -95,7 +95,7 @@ If you prefer, you could select the checkbox Change Template for copies, so the 
 
 ![SheetGen duplicate individual sheet](../../assets\images\SG-Sl-DuplicateIndividual.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. Options to duplicate sheets in batch.
 
@@ -108,7 +108,7 @@ If you prefer, you could select the checkbox Change Template for copies, so the 
 
 ![SheetGen duplicate sheets in batch](../../assets\images\SG-Sl-DuplicateBatch.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Delete Sheet
 
@@ -116,7 +116,7 @@ You can perform this action for individual sheets by clicking the right mouse bu
 
 ![SheetGen delete sheet](../../assets\images\SG-Sl-DeleteSheet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Add parameters columns
 
@@ -124,7 +124,7 @@ By default, the list of sheets will only show the sheet number and the sheet nam
 
 ![SheetGen add parameters columns](../../assets\images\SG-Sl-AddParameters.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ---
 
@@ -134,7 +134,7 @@ To edit the sheets individually, set double-click on the cell you want to edit (
 
 ![SheetGen editing sheet](../../assets\images\SG-Sl-EditCell.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Import/Export excel file
 
@@ -142,19 +142,19 @@ If you have several sheets created in the project, this tool makes editing much 
 
 ![SheetGen editing sheet](../../assets\images\SG-Sl-LockColumn.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 1. Export the excel file from sheet list.
 
 ![SheetGen export excel file from sheets](../../assets\images\SG-Sl-ExportExcel.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. Import exel file to update the sheet list.
 
 ![SheetGen import excel file](../../assets\images\SG-Sl-ImportExcel.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Rename
 
@@ -163,7 +163,7 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 
 ![SheetGen rename sheets](../../assets\images\SG-Sl-Rename.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Build Number and Build Name
 
@@ -172,14 +172,14 @@ Then define the Default Field Separator, Custom Field, Custom Separator, Counter
 
 ![SheetGen build number](../../assets\images\SG-Sl-BuildNumber.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. For the Build Name tool, it is the same steps. Select the sheets you want and click to Build Name.
 Then define the Default Field Separator, Custom Field, Custom Separator, and add or remove Parameters.
 
 ![SheetGen build name](../../assets\images\SG-Sl-BuildName.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ---
 
@@ -190,13 +190,13 @@ To create a new set, select the sheets you want to separate into this set and cl
 
 ![SheetGen new set](../../assets\images\SG-Sl-NewSet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 You can also add sheets to an existing set.
 
 ![SheetGen existing set](../../assets\images\SG-Sl-ExistingSet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Filter by V/S Sets
 
@@ -204,7 +204,7 @@ After organizing the project sheets into sets, you can apply filters to make the
 
 ![SheetGen apply filter](../../assets\images\SG-Sl-FilterSet.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ---
 
@@ -214,7 +214,7 @@ After organizing the project sheets into sets, you can apply filters to make the
 
 ![SheetGen clear all](../../assets\images\SG-Sl-ClearAll.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. Click on the Clear Staging button, and clear the staging cached modifications.
 
@@ -225,4 +225,4 @@ With this tool, only changes that have not yet been applied will be cleared. Cha
 
 ![SheetGen clear staging](../../assets\images\SG-Sl-ClearStaging.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
