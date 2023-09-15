@@ -46,7 +46,16 @@ You can perform this action for individual views by clicking the right mouse but
 
 ### Duplicate View with Detailing
 
+If you right-click, and click Duplicate View Duplicate with Detailing, both the model geometry and the detail geometry are copied into the new view.
+
 ### Duplicate View as a Dependant
+
+All dependent views, remain synchronous with the primary view and all other dependent views, so that when view-specific changes (such as view scale and annotations) are made in one view, they are reflected in all views.
+
+```yaml
+# Note:
+You cannot create a dependent view from another dependent view.
+```
 
 ### Delete View
 
