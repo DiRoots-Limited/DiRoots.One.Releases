@@ -138,7 +138,7 @@ To edit the sheets individually, set double-click on the cell you want to edit (
 
 ### Import/Export excel file
 
-If you have several sheets created in the project, this tool makes editing much easier. Export an excel file, edit it as you wish, then import it into SheetGen and update the number and name of the sheets. Note that in the Sheet Name header column has a lock icon by activating this icon, the column will be locked for any editing.
+If you have several sheets created in the project, this tool makes editing much easier. Export an excel file, edit it as you want, then import it into SheetGen and update the number and name of the sheets. Note that in the Sheet Name header column has a lock icon by activating this icon, the column will be locked for any editing.
 
 ![SheetGen editing sheet](../../assets\images\SG-Sl-LockColumn.png)
 
