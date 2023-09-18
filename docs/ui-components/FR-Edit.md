@@ -92,3 +92,36 @@ If some changes cannot be applied, click the Undo button and go back over the ch
 ![FamilyReviser undo actions](../../assets\images\FR-Ed-Undo.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Export to Excel
+
+Select Export to Excel from the list and open the file.
+
+![FamilyReviser export to excel](../../assets\images\FR-Ed-ExportExcel.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Export elements ID
+
+Select the option to Export Elements ID to CSV.
+
+![FamilyReviser export elements ID](../../assets\images\FR-Ed-ExportID.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Import from Excel
+
+Make changes in the exported Excel and import it to update the families.
+
+![FamilyReviser import from excel](../../assets\images\FR-Ed-ImportExcel.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Apply
+
+To apply changes to the model, click on the Apply button.
+
+![FamilyReviser apply](../../assets\images\FR-Ed-ApplyChanges.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
