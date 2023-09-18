@@ -10,4 +10,3 @@ permalink: /docs/paramanager-user-guide
 
 Learn how to use DiRootsOne to speed up your drawing production.
 {: .fs-6 .fw-300 }
-
