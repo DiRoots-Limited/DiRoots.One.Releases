@@ -48,3 +48,49 @@ The FamilyReviser also allows you to manage and create worksets from categories.
 # Note:
 Make sure everything is correct and click Apply to save the changes.
 ```
+
+## Create Rules
+
+This tool allows to filter the categories by rules to assign the corresponding worksets.
+
+1. Click on the New button to create a condition and then, in the first list select the categories to filter.
+
+2. Select the field you want to filter by from the second list and choose the condition (Equal, Not equal, Contains).
+
+3.	Now, in the text field, enter the value to be filtered and click on Apply to make the filter.
+
+![FamilyReviser create rules](../../assets\images\FR-Ws-Rule.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Save Rule
+
+Click the Save button and choose a location to save the rule for use in another project.
+
+### Open Rule
+
+You can create a repository to save the rules and then, when you are working in a new project, you don’t need to create the rule again, you can just Open a saved rule and apply in the current model.
+
+## Rules panel
+
+In this panel, manage all the existing rules to be applied in the current model. Select a rule to see it in the table.
+
+![FamilyReviser rules panel](../../assets\images\FR-Ws-ManageRules.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Refresh
+
+Use this button to refresh the table whenever you make any changes, to get the new data.
+
+![FamilyReviser refresh](../../assets\images\FR-Ws-Refresh.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+## Undo
+
+This button resets the settings not applied to the model. If you want to restore information, click the Undo button.
+
+![FamilyReviser undo changes](../../assets\images\FR-Ws-Undo.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
