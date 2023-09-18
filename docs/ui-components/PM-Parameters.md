@@ -105,3 +105,8 @@ The search box will search for parameters contained in the Schedules.
 ![ParaManager search parameters](../../assets\images\PM-Pm-SearchParameters.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+```yaml
+# Note:
+Click Next button to go to the Categories tab and assign the parameters to categories.
+```
