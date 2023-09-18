@@ -78,6 +78,8 @@ Click with the righ button of the mouse, on the column header and choose additio
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
+---
+
 ## Import/Export
 
 ### Export to Excel
@@ -93,5 +95,13 @@ Click on the Import/Export list, and select Export to Excel option. The next ste
 Click on the Import/Export list, and select Import from Excel option. Select the Excel file and then select the parameters to import.
 
 ![ParaManager import parameters from excel](../../assets\images\PM-Pm-ImportParameters.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+### Search Parameters
+
+The search box will search for parameters contained in the Schedules.
+
+![ParaManager search parameters](../../assets\images\PM-Pm-SearchParameters.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
