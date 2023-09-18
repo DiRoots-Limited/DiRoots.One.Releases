@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Import
+title: Edit
 parent: FamilyReviser User Guide
 nav_order: 3
 ---
