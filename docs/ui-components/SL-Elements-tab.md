@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selection Tab
+title: Elements
 parent: SheetLink User Guide
 nav_order: 4
 ---
@@ -36,7 +36,7 @@ The 'Current Selection' radio button will show the existing categories in the cu
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 
-3. Select a category in the Select Category table, and use the checkboxes in the table bellow to choose the specifics type elements.
+3. Select a category in the Select Category table, and use the checkboxes in the table below to choose the specifics type elements.
 
 ![SheetLink choosing elements](../../assets\images\SH-El-SelectElements.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -54,14 +54,14 @@ The search box will search for categories contained in the Select Categories and
 
 After to choose the elements, the SheetLink has options to see just instance, type and read-only parameters.
 
-Click on the table headers to select the instance parameters for example.
+Click on the table headers to select the instance parameters, for example.
 
 
 ```yaml
 # Note:  
-If selected the instance parameters, will show it in the green color.
+If selected, the instance parameters, will show it in the green color.
 If selected the type parameters, will show it in the yellow color.
-If selecte the read-only parameters, will show it in the red color.
+If selected the read-only parameters, will show it in the red color.
 ```
   
 
@@ -107,7 +107,7 @@ Use the arrows above the Selected Parameters table, to order the parameters to e
 
 ### Filter elements within a section box
 
-You have the ability to use existing or to duplicate 3D View. Visualize only filtered elements or all elements within Section Box with ability to define offset from marked elements.
+You have the ability to use existing or to duplicate 3D View. Visualize only filtered elements or all elements within Section Box, with ability to define offset from marked elements.
 
 ![SheetLink filter elements within a section box](../../assets\images\SH-El-Bx.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -116,7 +116,7 @@ You have the ability to use existing or to duplicate 3D View. Visualize only fil
 
 ### Isolate Selection
 
-The Isolate Selection button allows to filter the selected categories in a Temporary View (Hide/Isolate).
+The Isolate Selection button allows filtering the selected categories in a Temporary View (Hide/Isolate).
 
 ![SheetLink isolate categories selected](../../assets\images\SH-El-Isolate.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -125,7 +125,8 @@ The Isolate Selection button allows to filter the selected categories in a Tempo
 
 ### Export Project Standards
 
-The Export Project Standards button allows to export the main data about the project to Excel or Google Drive. The data to able to export is the Project Information, Object Styles, Line Styles and Families.
+The Export Project Standards button allows exporting the main data about the project to Excel or Google Drive. The data to be able to export is the Project Information, Object Styles, Line Styles and Families.
+
 ![SheetLink Export Project Standard to Excel or Google Drive](../../assets\images\SH-El-ExportProject.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -141,6 +142,7 @@ You can also edit some Project Information and import to update the current mode
 ### Reset Values
 
 Select the Reset Values button to clean all the elements and available and selected parameters.
+
 ![SheetLink Reset Values](../../assets\images\SH-El-ResetValues.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -149,17 +151,19 @@ Select the Reset Values button to clean all the elements and available and selec
 ### Preview/Edit
 
 Click to preview and to edit the sheet before exporting.
+
 ![SheetLink Reset Values](../../assets\images\SH-El-Preview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 ### Export
 
 Click to export the sheet to Google Drive or Excel.
+
 ![SheetLink Export sheet](../../assets\images\SH-El-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-The excel file is editable and after to editing it you can import through SheetLink.
-Caution, open the Instruction tab in your excel file to get the colors legend. 
+The Excel file is editable and after the editing of it you can import through SheetLink.
+Caution, open the Instruction tab in your Excel file to get the colors legend. 
 
 ```yaml
 # Note:  
@@ -176,6 +180,7 @@ If you are altering the value of 'Type Parameters', ensure that you have the sam
 ### Import
 
 If you have made some file edition, import it and update the current model on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
+
 ![SheetLink Import file](../../assets\images\SH-El-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 

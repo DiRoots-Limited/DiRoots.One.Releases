@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Selection Tab
-parent: SheetLink User Guide
-nav_order: 2
+title: View list
+parent: SheetGen User Guide
+nav_order: 3
 ---
 
-# SheetLink
+# SheetGen
 {: .no_toc }
-Export your Revit model data (by categories, elements, schedules) to Excel and Google Sheets. Edit the data and import it back to update the model.
+Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -16,163 +16,243 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 ---
 
-# Annotation Categories
+# View List
 
-The first step is to select the SheetLink in the DiRootsOne menu and to choose the Annotation Categories tab. 
+After creating the project sheets and organizing their names and sets, we go to the View List tab to define the views for each sheet.
 
-Steps:
+1. To get started, click on the View Manager button to manage the views in your model.
+On this page you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view.
 
-1. Click radio buttons to switch between Whole Model, Active View or Current Selection to choose the categories.
+![SheetGen manage views](../../assets\images\SG-Vl-ManageView.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+## Views tab
+
+### Open View
+
+Click with the right mouse button on the view and choose the option Open View.
+
+![SheetGen open view](../../assets\images\SG-Vl-OpenView.png)
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Duplicate View
+
+You can perform this action for individual views by clicking the right mouse button and choosing the Duplicate option, or you can perform this action in batch for several views simultaneously. To duplicate in batch, select the views you want, and in the Batch Actions list, choose Duplicate.
+
+![SheetGen duplicate views](../../assets\images\SG-Vl-DuplicateView.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Duplicate View with Detailing
+
+If you right-click, and click Duplicate View Duplicate with Detailing, both the model geometry and the detail geometry are copied into the new view.
+
+### Duplicate View as a Dependant
+
+All dependent views, remain synchronous with the primary view and all other dependent views, so that when view-specific changes (such as view scale and annotations) are made in one view, they are reflected in all views.
 
 ```yaml
 # Note:
-The 'Whole Model' radio button will show the existing all annotation categories.
-The 'Active View' radio button will show the existing annotation categories in the current view.
-The 'Current Selection' radio button will show the existing annotation categories in the current selection.
+You cannot create a dependent view from another dependent view.
 ```
 
-2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
+### Delete View
 
-![SheetLink including linked files and exporting by type ID](../../assets\images\SH-IncludeLink.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+You can perform this action for an individual view by clicking the right mouse button and choosing the Delete view option, or you can perform this action in batch for several views simultaneously. To Delete in batch, select the views you want, and in the Batch Actions list, choose Delete.
 
+![SheetGen delete sheet](../../assets\images\SG-Vl-DeleteView.gif)
 
-3. Use the checkboxes to select specific annotation categories or use the checkbox in the table header to select all annotation categories.
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-![SheetLink Selecting annotation categories](../../assets\images\SH-Select-AnCategories.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+### Add parameters columns
 
-### Search Categories
+By default, the list of views will only show the view name and the list of view. Click the right mouse button under the column header and add the desired parameters.
 
-The search box will search for annotation categories contained in the Select Categories column.  
+![SheetGen add parameters columns](../../assets\images\SG-Vl-AddParameters.png)
 
-![SheetLink Searching for annotation categories](../../assets\images\SH-Search-AnCategories.gif.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ---
 
-## Instance, Type and Read-only
+## Import/Export excel file
 
-After to choose the categories, the SheetLink has options to see just instance, type and read-only parameters.
+If you have several views created in the project, this tool makes editing much easier. Export an Excel file, edit it to the name as you wish, then import it into SheetGen and update the views.
 
-Click on the table headers to select the instance parameters for example.
+![SheetGen export view](../../assets\images\SG-Vl-ExportExcel.png)
 
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+1. Export the excel file from view list.
+
+![SheetGen export excel file from sheets](../../assets\images\SG-Sl-ExportExcel.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Import exel file to update the view list.
+
+![SheetGen import excel file](../../assets\images\SG-Vl-ImportExcel.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Rename
+
+SheetGen also allows views to be renamed in batch. To do this, select the views you want and click Rename. 
+Then define a Prefix, a Suffix, enter the name that will be replaced and finally the name that will replace it.
+
+![SheetGen rename views](../../assets\images\SG-Vl-Rename.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Build Name
+
+Similar to the Rename tool, the SheetGen have the Build Name. Select the views you want and click to Build Name.
+Then define the Default Field Separator, Custom Field, Custom Separator and add or remove Parameters.
+
+![SheetGen build name](../../assets\images\SG-Vl-BuildName.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Save V/S Set
+
+To organize the model views, especially when there are many views created, SheetGen offers the tool to save views sets.
+To create a new set, select the views you want to separate into this set and click on New Set, then assign a name to finish creating the set.
+
+![SheetGen new set](../../assets\images\SG-Vl-NewSet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+You can also add views to an existing set.
+
+![SheetGen existing set](../../assets\images\SG-Vl-AddtoSet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Filter by V/S Sets
+
+After organizing the model views into sets, you can apply filters to make the work process easier.
+
+![SheetGen existing set](../../assets\images\SG-Vl-FilterSet.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Clear editions
+
+1. Click on the Clear all Modifications button, and reset all edition applied to view names in the table view made by the Rename or Build Name commands.
+
+![SheetGen clear all](../../assets\images\SG-Vl-Clean.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## View Template tab
+
+This tab allows you to manage the view templates created, renaming or creating a build name.
+
+1. Select the view templates that you want and click to Rename. Assign a Prefix, Suffix, the name to Replace and the new Name.
+
+![SheetGen rename view templates](../../assets\images\SG-Vl-RenameViewTemplate.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Select the view templates that you want and click to Build Name. In this case, you can manage the Default Field Separator, Custom Field, Custom Separator and assign the view parameters to build the name.
+
+![SheetGen view templates build name](../../assets\images\SG-Vl-BuildNameView.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Import/Export sheets
+
+Return to the List of Views tab and click on the Export button to generate an Excel file. In this file you can also change the number and name of the sheets if necessary.
+After exporting the file and editing it, import and update the edited sheets.
+
+![SheetGen export sheets](../../assets\images\SG-Vl-ExportSheets.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Apply filter by template
+
+Similar to the filters by set, apply filters by sheet templates and see the views assigned to each template.
+
+![SheetGen apply filters](../../assets\images\SG-Vl-Template.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Filter by V/S Sets
+
+Apply filters by the sheets sets created.
+
+![SheetGen apply filters](../../assets\images\SG-Vl-FilterbySet.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Add views to sheets
+
+From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then choose the view you want and click Select to add it to the sheet. The Views columns allow adding more than one view per sheet.
+
+![SheetGen add views](../../assets\images\SG-Vl-AddViewSheet.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+On the select view panel you can choose the view type in the list, select some parameters, and if you want to see just the views not applied click to Hide Placed Views and then view just the unselected views.
+
+![SheetGen add views](../../assets\images\SG-Vl-AddViewSettings.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Remove view from sheet
+
+To remove a view from the sheet, click on the "more options" button, and choose the Remove option, or in the select view panel, select the Remove View checkbox, search the current view and click on the Remove button.
+
+![SheetGen remove views](../../assets\images\SG-Vl-RemoveView.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+### Open view
+
+Click on the "more options" button and select Open View. Note that the current view will open on Revit.
+
+![SheetGen open views](../../assets\images\SG-Vl-OpenView.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+---
+
+## Clear Staging
+
+Click on the Clear Staging button, and clear the staging cached modifications.
 
 ```yaml
-# Note:  
-If selected the instance parameters, will show it in the green color.
-If selected the type parameters, will show it in the yellow color.
-If selecte the read-only parameters, will show it in the red color.
-```
-  
-
-![SheetLink select the parameters](../../assets\images\SH-ac-SelectInstance.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Search Available Parameters
-
-The search box will search for parameters contained in the Available Parameters column.  
-
-![SheetLink Searching for available parameters](../../assets\images\SH-Search-AvailableParameters.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-## Selected Parameters
-
-Choosing paramenters:
-1. Select the parameters in the Available Parameters table.
-2. Click in the arrows to add or remove from the Selected Parameters table.
-
-
-![SheetLink adding and removing parameters](../../assets\images\SH-AddRemove.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Search Selected Parameters
-
-The search box will search for parameters contained in the Selected Parameters column.  
-
-![SheetLink Searching for available parameters](../../assets\images\SH-Search-Selected-Parameters.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Order the Selected Parameters
-
-Use the arrows above the Selected Parameters table, to order the parameters to export.  
-
-![SheetLink order the selected parameters](../../assets\images\SH-ac-OrderParameters.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Isolate Selection
-
-The Isolate Selection button allows to filter the selected annotation categories in a Temporary View (Hide/Isolate).
-
-![SheetLink isolate annotation categories selected](../../assets\images\SH-ac-IsolateSelection.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Export Project Standards
-
-The Export Project Standards button allows to export the main data about the project to Excel or Google Drive. The data to able to export is the Project Information, Object Styles, Line Styles and Families.
-![SheetLink Export Project Standard to Excel or Google Drive](../../assets\images\SH-ac-ExportProjectStandard.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Import Project Standards file
-
-You can also edit some Project Information and import to update the current model.
-
-![SheetLink Import Project Standards file](../../assets\images\SH-El-ImportProject.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Reset Values
-
-Select the Reset Values button to clean all the parameters available and selected.
-![SheetLink Reset Values](../../assets\images\SH-ac-ResetValue.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
----
-
-### Preview/Edit
-
-Click to preview and to edit the sheet before exporting.
-![SheetLink Reset Values](../../assets\images\SH-ac-Preview.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-### Export
-
-Click to export the sheet to Google Drive or Excel.
-![SheetLink export sheet](../../assets\images\SH-ac-Export.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
-
-The excel file is editable and after to editing it you can import through SheetLink.
-Caution, open the Instruction tab in your excel file to get the colors legend. 
-
-```yaml
-# Note:  
-Yellow: Type Value
-Red: Read-only Value. This fields can not be edited.
-Grey: Parameter does not exist for this element.
+# Note:
+With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
 ```
 
-```yaml
-# Note:  
-If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
-```
+![SheetGen clear staging](../../assets\images\SG-Vl-Clear.png)
 
-### Import
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-If you have made some file edition, import it and update the current model on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
-![SheetLink Import file](../../assets\images\SH-ac-Import.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-```yaml
-# Note:  
-- Import file from Google Drive or from Excel.
-- Track the file import progress bar.
-```
+
+
+
+
+
+
+
+
+
+
+

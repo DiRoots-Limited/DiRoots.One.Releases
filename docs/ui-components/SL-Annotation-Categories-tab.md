@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selection Tab
+title: Annotation Categories
 parent: SheetLink User Guide
 nav_order: 3
 ---
@@ -37,7 +37,7 @@ The 'Current Selection' radio button will show the existing annotation categorie
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
 
-3. Use the checkboxes to select specific annotation categories or use the checkbox in the table header to select all annotation categories.
+3. Use the checkboxes to select specific annotation categories, or use the checkbox in the table header to select all annotation categories.
 
 ![SheetLink Selecting annotation categories](../../assets\images\SH-Select-AnCategories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -55,14 +55,13 @@ The search box will search for annotation categories contained in the Select Cat
 
 After to choose the categories, the SheetLink has options to see just instance, type and read-only parameters.
 
-Click on the table headers to select the instance parameters for example.
-
+Click on the table headers to select the instance parameters, for example.
 
 ```yaml
 # Note:  
-If selected the instance parameters, will show it in the green color.
+If selected, the instance parameters, will show it in the green color.
 If selected the type parameters, will show it in the yellow color.
-If selecte the read-only parameters, will show it in the red color.
+If selected the read-only parameters, will show it in the red color.
 ```
   
 
@@ -80,7 +79,7 @@ The search box will search for parameters contained in the Available Parameters 
 
 ## Selected Parameters
 
-Choosing paramenters:
+Choosing parameters:
 1. Select the parameters in the Available Parameters table.
 2. Click in the arrows to add or remove from the Selected Parameters table.
 
@@ -108,7 +107,7 @@ Use the arrows above the Selected Parameters table, to order the parameters to e
 
 ### Isolate Selection
 
-The Isolate Selection button allows to filter the selected annotation categories in a Temporary View (Hide/Isolate).
+The Isolate Selection button allows filtering the selected annotation categories in a Temporary View (Hide/Isolate).
 
 ![SheetLink isolate annotation categories selected](../../assets\images\SH-ac-IsolateSelection.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -117,7 +116,8 @@ The Isolate Selection button allows to filter the selected annotation categories
 
 ### Export Project Standards
 
-The Export Project Standards button allows to export the main data about the project to Excel or Google Drive. The data to able to export is the Project Information, Object Styles, Line Styles and Families.
+The Export Project Standards button allows exporting the main data about the project to Excel or Google Drive. The data to be able to export is the Project Information, Object Styles, Line Styles and Families.
+
 ![SheetLink Export Project Standard to Excel or Google Drive](../../assets\images\SH-ac-ExportProjectStandard.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -133,6 +133,7 @@ You can also edit some Project Information and import to update the current mode
 ### Reset Values
 
 Select the Reset Values button to clean all the parameters available and selected.
+
 ![SheetLink Reset Values](../../assets\images\SH-ac-ResetValue.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -150,8 +151,8 @@ Click to export the sheet to Google Drive or Excel.
 ![SheetLink export sheet](../../assets\images\SH-ac-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-The excel file is editable and after to editing it you can import through SheetLink.
-Caution, open the Instruction tab in your excel file to get the colors legend. 
+The Excel file is editable and after the editing of it you can import through SheetLink.
+Caution, open the Instruction tab in your Excel file to get the colors legend. 
 
 ```yaml
 # Note:  
@@ -168,6 +169,7 @@ If you are altering the value of 'Type Parameters', ensure that you have the sam
 ### Import
 
 If you have made some file edition, import it and update the current model on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
+
 ![SheetLink Import file](../../assets\images\SH-ac-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 

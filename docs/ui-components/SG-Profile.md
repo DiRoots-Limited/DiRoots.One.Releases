@@ -33,8 +33,8 @@ Steps:
 3. Choose the location to save it.
 4. Click on the "Save" button to save the profile.
 
-//![SheetGen Creating profiles](../../assets\images\SG-Pf-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+![SheetGen Creating profiles](../../assets\images\SG-Pf-SaveProfile.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ```
 Tip for BIM Managers!  
@@ -45,15 +45,15 @@ See the "Importing Profiles" section to teach users how to pull profiles from a 
 
 ## Importing Profiles
 
-SheetLink profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
+SheetGen profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
 
 Steps:
 1. In the window header, click on the Import button next to the profiles list.
 2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the "Open" button to import the profile.
 
-//![SheetGen importing profiles](../../assets\images\SG-Pf-ImportProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+![SheetGen importing profiles](../../assets\images\SG-Pf-ImportProfile.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ## Deleting Profiles
 
@@ -62,5 +62,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-//![SheetGen delete profiles](../../assets\images\SG-Pf-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+![SheetGen delete profiles](../../assets\images\SG-Pf-DeleteProfile.png)
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>

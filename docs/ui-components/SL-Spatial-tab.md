@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selection Tab
+title: Spatial
 parent: SheetLink User Guide
 nav_order: 6
 ---
@@ -23,8 +23,7 @@ Make sure that you have rooms or spaces created in the model, to be exported by 
 
 Steps:
 
-1. On this tab, you can choose between to select parameters from Rooms or Spaces to export by SheetLink.
-In the fisrt drop-down select witch option you want.
+The first step is to select the SheetLink in the DiRootsOne menu and to choose the Spatial tab.
 
 2. Use the checkboxes above the table to select the rooms or spaces to get the parameters.
 
@@ -62,7 +61,7 @@ If you do not have the correct view opened, the SheetLink can find the view, but
 
 After to choose the Rooms or Spaces, the SheetLink has options to see just instance and read-only parameters.
 
-Click on the table headers to select the instance parameters for example.
+Click on the table headers to select the instance parameters, for example.
 
 ```yaml
 # Note:  
@@ -72,7 +71,7 @@ Rooms and Spaces do not have type parameters, so in this case will appear just t
 ```yaml
 # Note:  
 If selected the instance parameters, will show it in the green color.
-If selecte the read-only parameters, will show it in the red color.
+If selected the read-only parameters, will show it in the red color.
 ```
   
 ![SheetLink select the parameters](../../assets\images\SH-Sp-Instance.gif)  
@@ -137,9 +136,9 @@ Click to export the sheet to Google Drive or Excel.
 ![SheetLink Export sheet](../../assets\images\SH-Sp-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-The excel file is editable and after to editing it you can import through SheetLink. The Spacial SheetLink allows you to create more rooms on excel file exported, or export an empty excel file template, to create rooms.
+The Excel file is editable and after the editing of it you can import through SheetLink. The Spacial SheetLink allows you to create more rooms on Excel file exported, or export an empty Excel file template, to create rooms.
 
-Caution, open the Instruction tab on excel file to get the colors legend and other information. 
+Caution, open the Instruction tab on Excel file to get the colors legend and other information. 
 
 ```yaml
 # Note:
@@ -153,7 +152,7 @@ Grey: Parameter does not exist for this element.
 To create new Rooms or Spaces you should add new rows of information. Provide a minimum of Number, Name, and Phase parameter values to create correctly Rooms and Spaces. Please don’t input values to the GUID(hidden) and Element ID columns for new rows. Revit will automatically assign GUID and Element ID when elements are created.
 ```
 
-Follow the example bellow.
+Follow the example below.
 ![SheetLink creating rooms](../../assets\images\SH-Sp-CreateRooms.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -170,7 +169,7 @@ If you have made some file edition, import it and update the schedules on Revit.
 - Track the file import progress bar.
 ```
 
-Note if you have created rooms or spaces in the excel file, it will be created on Revit, and now you can assign to the model.
+Note if you have created rooms or spaces in the Excel file, it will be created on Revit, and now you can assign to the model.
 
 ![SheetLink assign created rooms](../../assets\images\SH-Sp-CreateRoom.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
