@@ -58,7 +58,7 @@ b. The second field, enter the word to Replace Next or Replace All.
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
-3. Prefix/Suffix
+## Prefix/Suffix
 
 Define a prefix and a suffix for families.
 
@@ -67,5 +67,28 @@ a. In the first field, enter the prefix and set it to apply to Selected or All f
 b. The second field, enter the suffix and set apply to Selected or All families.
 
 ![FamilyReviser find and replace](../../assets\images\FR-Ed-PrefixSuffix.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Clear
+
+Click the Clear button and set other data.
+
+![FamilyReviser clear data](../../assets\images\FR-Ed-Clear.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Reload
+Click to Reload model changes.
+
+![FamilyReviser reload data](../../assets\images\FR-Ed-Reload.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+
+### Undo
+
+If some changes cannot be applied, click the Undo button and go back over the changes.
+
+![FamilyReviser undo actions](../../assets\images\FR-Ed-Undo.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
