@@ -98,6 +98,23 @@ Click on the Import/Export list, and select Import from Excel option. Select the
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
+### Export Shared Parameters
+
+Click on the Import/Export list, and select Export Shared Parameters option. The next step is to select the parameters and click to export the txt file.
+
+![ParaManager export shared parameters](../../assets\images\PM-Pm-ExportShared.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+### Import Shared Parameters
+
+If you have a txt Parameters file, you can import it into the current project. Click on the Import/Export list, and select Import Shared Parameters option.
+The next step is to select the file and choose the parameters to import.
+
+![ParaManager import shared parameters](../../assets\images\PM-Pm-ImportShared.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
 ### Search Parameters
 
 The search box will search for parameters contained in the Schedules.

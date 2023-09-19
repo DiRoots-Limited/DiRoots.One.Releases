@@ -18,11 +18,11 @@ Manage Revit parameters inside project and family environments. Create new param
 
 # Categories
 
-On this tab lets assign the created parameters to categories from your model.
+In this tab, you can assign the parameters you have created to categories in your model.
 
 ## Assign Categories
 
-Select the parameters checkboxes and click to Assign Categories.
+Select the parameter checkboxes and click Assign Categories.
 
 ![ParaManager assign categories](../../assets\images\PM-Ct-AssignCategories.gif)
 
@@ -30,8 +30,8 @@ Select the parameters checkboxes and click to Assign Categories.
 
 ### Choose categories
 
-The next window will show all existing categories to select, and allows you to filter by groups and disciplines.
-You can also choose to Hide Un-checked categories and Show Sub-categories.
+The next window shows all the existing categories to select from, and allows you to filter by groups and disciplines.
+You can also choose to Hide the Unselected Categories and Show the Sub-categories.
 
 ![ParaManager choose categories](../../assets\images\PM-Ct-HideCatShowCat.gif)
 
@@ -39,7 +39,7 @@ You can also choose to Hide Un-checked categories and Show Sub-categories.
 
 ### Drag and drop categories
 
-After assigned the categories to the parameter, you can make drag and drop the categories to another parameter.
+Once you have assigned the categories to the parameter, you can drag and drop the categories to another parameter.
 
 ![ParaManager drag and drop](../../assets\images\PM-Ct-DragDrop.gif)
 
@@ -47,7 +47,7 @@ After assigned the categories to the parameter, you can make drag and drop the c
 
 ### Show Existing Parameters
 
-You can choose whether you want to see the Existing Parameters or only the new ones.
+Choose whether you want to see the existing parameters or just the new ones.
 
 ![ParaManager existing parameters](../../assets\images\PM-Ct-ExistingPar.gif)
 
@@ -73,19 +73,20 @@ Click on the Import/Export list, and select Import from Excel option. Select the
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
-### Export to Excel
+### Export Shared Parameters
 
-Click on the Import/Export list, and select Export to Excel option. The next step is to select the parameters and click to export.
+Click on the Import/Export list, and select Export Shared Parameters option. The next step is to select the parameters and click to export the txt file.
 
-![ParaManager export parameters to excel](../../assets\images\PM-Ct-ExportExcel.gif)
+![ParaManager export shared parameters](../../assets\images\PM-Ct-ExportShared.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
-### Import from Excel
+### Import Shared Parameters
 
-Click on the Import/Export list, and select Import from Excel option. Select the Excel file and then select the parameters to import.
+If you have a txt Parameters file, you can import it into the current project. Click on the Import/Export list, and select Import Shared Parameters option.
+The next step is to select the file and choose the parameters to import.
 
-![ParaManager import parameters from excel](../../assets\images\PM-Ct-ImportExcel.gif)
+![ParaManager import shared parameters](../../assets\images\PM-Ct-ImportShared.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -101,7 +102,7 @@ The search box will search for parameters contained in the Schedules.
 
 ## Apply Parameters
 
-Click on the Apply button to create the parameters assigned to selected categories.
+Click on the Apply button to create the parameters assigned to the selected categories.
 
 ![ParaManager apply parameters](../../assets\images\PM-Ct-Apply.gif)
 
@@ -109,5 +110,5 @@ Click on the Apply button to create the parameters assigned to selected categori
 
 ```yaml
 # Note:
-Click Previous button to back to the Parameters window and make more settings.
+Click the Previous button to return to the Parameters window and make further settings.
 ```
