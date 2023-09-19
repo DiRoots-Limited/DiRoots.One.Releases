@@ -18,11 +18,11 @@ Manage Revit parameters inside project and family environments. Create new param
 
 # Parameters
 
-Lets start on the Parameters tab. In this window it is possible to create new parameters, import and explort them and make some batch editions.
+Let's start with the Parameters tab. In this window you can create new parameters, import and export them and make some batch edits.
 
 ## Add Parameters
 
-Click Add Parameters button to create a new parameter.
+Click on the Add Parameters button to create a new parameter.
 
 ![ParaManager add parameter](../../assets\images\PM-Pm-AddParameter.gif)
 
@@ -32,13 +32,13 @@ Click Add Parameters button to create a new parameter.
 
 1. Double-click on the new parameter and rename it.
 
-2. In the Disciplice column, open the list and assign the new paramater to specific Disciplice.
+2. In the Disciplice column, open the list and assign the new paramater to a specific Disciplice.
 
-3. In the Type of Parameter column, choose the ideal type to it.
+3. In the Type of Parameter column, choose the ideal type for it.
 
-4. Select the group to assign the parameter in the Group Under column.
+4. Select the group to assign the parameter to, in the Group Under column.
 
-5. Choose bettwen Instance or Type parameter on the last default column.
+5. Choose bettween Instance or Type parameter in the last default column.
 
 ![ParaManager edit new parameter](../../assets\images\PM-Pm-EditParameter.gif)
 
@@ -46,9 +46,9 @@ Click Add Parameters button to create a new parameter.
 
 ### Individual actions
 
-1. Click with the righ button of the mouse on the parameter, select Duplicate Parameter.
+1. Right-click on the parameter and select Duplicate Parameter.
 
-2. Click with the righ button of the mouse on the parameter, and click to Delete Parameter.
+2. Right-click on the parameter and click to Delete Parameter.
 
 ![ParaManager individual actions](../../assets\images\PM-Pm-IndividualActions.gif)
 
@@ -56,7 +56,7 @@ Click Add Parameters button to create a new parameter.
 
 ### Batch Actions
 
-Select the parameter and click to batch edition. The batch edition allows you to delete or duplicate parameters.
+Select the parameter and click to batch editing. Batch editing allows you to delete or duplicate parameters.
 
 ![ParaManager batch actions](../../assets\images\PM-Pm-Batch.png)
 
@@ -64,7 +64,7 @@ Select the parameter and click to batch edition. The batch edition allows you to
 
 ### Show Existing Parameters
 
-You can choose if you want to see the Existing Parameters or if you want to see just the new parameters.
+You can choose whether you want to see the Existing Parameters or only the new ones.
 
 ![ParaManager existing parameters](../../assets\images\PM-Pm-ExistingParameter.gif)
 
@@ -72,7 +72,7 @@ You can choose if you want to see the Existing Parameters or if you want to see 
 
 ### Additional Attibutes
 
-Click with the righ button of the mouse, on the column header and choose additional attributes to columns.
+Right-click on the column header and choose additional attributes for the columns.
 
 ![ParaManager existing parameters](../../assets\images\PM-Pm-AdditionalAttibutes.gif)
 
@@ -84,7 +84,7 @@ Click with the righ button of the mouse, on the column header and choose additio
 
 ### Export to Excel
 
-Click on the Import/Export list, and select Export to Excel option. The next step is, choosing the parameters and click to export.
+Click on the Import/Export list, and select Export to Excel option. The next step is to select the parameters and click to export.
 
 ![ParaManager export parameters to excel](../../assets\images\PM-Pm-ExporttoExcel.gif)
 
