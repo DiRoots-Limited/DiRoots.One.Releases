@@ -23,7 +23,7 @@ Let's get to know the tool:
 
 ## Add Parameter
 
-You can create new parameters to add to the families. Click on the Add Parameter button and set the datas.
+You can create new parameters to add to the families. Click on the Add Parameter button and define the data.
 
 ![ParaManager Add Parameter](../../assets\images\PM-Fm-AddParameter.gif)
 
@@ -41,7 +41,7 @@ Right-click on the parameter and select the Duplicate or Delete option.
 
 ## Batch Actions
 
-Select the parameters and in the Batch Actions list choose:
+Select the parameters and choose from the Batch actions list:
 
 1. Duplicate parameters.
 
