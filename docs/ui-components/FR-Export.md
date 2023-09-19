@@ -92,7 +92,13 @@ This option allows you to organize families by groups. Thus, if you select this 
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
-//### Subfolder depth
+### Subfolder depth
+
+Assign a value for the number of subfolders you want to be created.
+
+![FamilyReviser subfolder depth](../../assets\images\FR-Ex-Subfolder.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
 ## Export families
 

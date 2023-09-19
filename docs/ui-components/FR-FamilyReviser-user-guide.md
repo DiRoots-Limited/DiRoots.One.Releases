@@ -3,7 +3,7 @@ layout: default
 title: FamilyReviser User Guide
 nav_order: 6
 has_children: true
-permalink: /docs/FamilyReviser-user-guide
+permalink: /docs/familyreviser-user-guide
 ---
 
 # FamilyReviser User Guide
