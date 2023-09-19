@@ -122,7 +122,7 @@ The next step is to select the file and choose the parameters to import.
 
 ---
 
-## Search Families
+### Search Families
 
 The search box will search for families contained in the Schedules.
 
@@ -130,10 +130,67 @@ The search box will search for families contained in the Schedules.
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
-## Hide un-checked
+### Hide un-checked
 
 Select this checkbox to hide the families and parameters unselected.
 
 ![ParaManager hide un-checked](../../assets\images\PM-Fm-HideUnchecked.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+## Parameters from Nested Elements
+
+The management of family parameters can also be done in nested families. Click on a family and in the Revit Modify menu, click on Edit Family.
+Note that in the DiRootsOne package menu, the ParaManager plugin will be active, access it to manage the parameters of the nested family.
+
+### Parameters tab
+
+This tab is similar to the parameter management tab in general, but in this case the parameters will be replicated like in Revit's Family Types window.
+
+![ParaManager Parameters tab](../../assets\images\PM-Fm-ParametersFamily.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+### Nested Instance
+
+This tab contains a list of all the instance nested items in this family. So when you click on the elements, the table on the right will show all the parameters of the current element.
+
+![ParaManager nested instance](../../assets\images\PM-Fm-NestedInstance.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+Select the paramenter and click on Add Nested Parameters, and then select if you want to create a instance or type level parameter.
+
+![ParaManager add nested instance](../../assets\images\PM-Pm-AddNestedInstance.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+### Nested Type
+
+This tab contains a list of all the type nested items in this family. So when you click on the elements, the table on the right will show all the parameters of the current element.
+
+![ParaManager nested type](../../assets\images\PM-Fm-NestedType.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+Select the paramenter and click on Add Nested Parameters, and then select if you want to create a instance or type level parameter.
+
+![ParaManager add nested instance](../../assets\images\PM-NT-AddNestedType.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+### Nested Families
+
+This tab contains a list of all the nested families. So when you click on the elements, the table on the right will show all the parameters of the current element.
+
+![ParaManager nested type](../../assets\images\PM-NF-NestedFamilies.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+
+### Shared Editor
+
+This tab is similar to the Shared Editor management tab in general, but in this case the parameters will be replicated like in Revit's Family Types window.
+
+![ParaManager Shared Editor](../../assets\images\PM-Se-SharedEditor.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
