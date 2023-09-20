@@ -18,14 +18,14 @@ Quickly find your families in Revit models. Search by category, parameter name a
 
 # Filter
 
-The Filter is the first tab of OneFilter, and this tool allows you yo create filter categories and create conditions to refine the filter. Moreover, you can also manage the views and create new one based on filters applied. Lets start:
+The Filter is the first tab of OneFilter, and this tool allows you yo create filter categories and create conditions to refine the filter. Moreover, you can also manage the views and create new one based on filters applied. Let's get started:
 
-1. The first step is to select if you want to apply filters based on the Whole Model, the Active View or the Current Selection. Select the radio button to choose the view.
+1. The first step is to select whether you want to apply filters based on the Whole Model, the Active View or the Current Selection. Select the radio button to choose the view.
 
 ![OneFilter selecting model view](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
-2. Now, use the checkboxes to select the categories to filter. Note that, when selected the categories, on the right table will show the existing families, with the category, family name, type name, in-place and count columns.
+2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, in-place and count columns.
 
 ![OneFilter choose categories](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
@@ -37,26 +37,26 @@ The search box will search for elements contained in the filtered elements table
 ![OneFilter search](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
-3. To refine the filter, in the Filter choose a condition to apply the filter.
+3. To refine the filter, in Filter choose a condition to apply the filter to.
 
-- On the Parameter Type, choose if you want to search for Instance, Type the both parameters.
-- The second fild Filter By Value, select the propertie to search for.
+- In the Parameter Type, select whether you want to search by Instance, Type or both parameters.
+- The second fild Filter By Value, select the property to search for.
 - Now choose the condition to apply the filter: equals, does not equal, contains, does not contain, begin with, does not begin with, does not end with or ends with.
-- On the search bar, enter the value to search. If you prefer, press the right arrow from your keyboard and then will open a drop-down with the existig values.
+- In the search bar, enter the value to search for. If you prefer, press the right arrow on your keyboard and a drop-down menu will open with the existing values.
 
 ![OneFilter filter](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Filter
 
-Click on the Filter to apply the filter on the right table.
+Click Filter to apply the filter to the table on the right.
 
 ![OneFilter apply filter](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Clear
 
-Click on Clear button to reset the filter condition filled.
+Click on the Clear button to reset the filter condition.
 
 ![OneFilter clear](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
@@ -92,12 +92,12 @@ Click on the Export list and select the Export IDs to CSV option.
 
 Mark with checkbox elements that you want isolate with the Section Box. You have the ability to use existing or to duplicate 3D view. Visualize only filtered elements or all elements withi Section Box with ability to define offset form marked elements.
 
-- In the first list choose a view
-- Define a Offset buffer from section bounding box
+- In the first list, select a view
+- Set an Offset buffer from the section bounding box
 - You can replace the selected view, or can select the Duplicate Selected View checkbox.
 - Rename the duplicate view.
-- Select the Isolate Selected Elements checkbox, to save the view with the elements isolated.
-- Click on Apply button to conclude.
+- Select the Isolate Selected Elements checkbox, to save the view with the isolated elements.
+- Click the Apply button to finish.
 
 ![OneFilter views](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
@@ -106,7 +106,7 @@ Mark with checkbox elements that you want isolate with the Section Box. You have
 
 ## Save Selection
 
-Click on Save Selection button, and enter a selection name to save it. Note that, if you access on the Revit, the Manage menu and click on Load button, will appear the new selection created.
+Click on Save Selection button, and enter the name of the selection to save it. Note that, if you go to the Manage menu in Revit and click on the Load button, the new selection you have created will appear.
 
 ![OneFilter save selection](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
@@ -115,7 +115,7 @@ Click on Save Selection button, and enter a selection name to save it. Note that
 
 ## Isolate Selection
 
-The Isolate Selection butto, will isolate the elements filtered in a Temporary Hide/Isolate view. Click on Unisolate Selection to reset the view.
+The Isolate Selection button, will isolate the filtered elements in a Temporary Hide/Isolate view. Click on Unisolate Selection to restore the view.
 
 ![OneFilter isolate selection](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
