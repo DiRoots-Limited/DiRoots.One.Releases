@@ -22,19 +22,19 @@ This tab is very similar to the Filters tab, but it allows you to apply rules to
 
 1. The first step is to select whether you want to apply filters based on the Whole Model or the Active View. Select the radio button to choose the view.
 
-![OneFilter rules and sets](../../assets\images\OF-Ft-WholeModel.gif)  
+![OneFilter rules and sets](../../assets\images\OF-Rs-WholeModel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, in-place and count columns.
 
-![OneFilter choose categories](../../assets\images\OF-Ft-SelectCategories.gif)  
+![OneFilter choose categories](../../assets\images\OF-Rs-SelectCategories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Search
 
 The search box will search for elements contained in the filtered elements table.
 
-![OneFilter search](../../assets\images\OF-Ft-Search.gif)  
+![OneFilter search](../../assets\images\OF-Rs-Search.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ## Rules & Sets
@@ -50,26 +50,26 @@ The search box will search for elements contained in the filtered elements table
 - In the second list choose the condition: equals, does not equal, contains, does not contain, begin with, does not begin with, does not end with or ends with.
 - In the search bar, enter the value to search for. If you prefer, press the right arrow on your keyboard and a drop-down menu will open with the existing values.
 
-![OneFilter rule](../../assets\images\OF-Ft-Search.gif)  
+![OneFilter rule](../../assets\images\OF-Rs-Rule.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 3. Click on the Set button to add more conditions.
 
-![OneFilter Set](../../assets\images\OF-Ft-Search.gif)  
+![OneFilter Set](../../assets\images\OF-Rs-Set.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Filter
 
 Click Filter to apply the filter to the table on the right.
 
-![OneFilter apply filter](../../assets\images\OF-Ft-Filter.png)  
+![OneFilter apply filter](../../assets\images\OF-Rs-Filter.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Clear
 
 Click on the Clear button to reset the filter rules and sets.
 
-![OneFilter clear](../../assets\images\OF-Ft-Clear.gif)  
+![OneFilter clear](../../assets\images\OF-Rs-Clear.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ---
@@ -80,21 +80,21 @@ Click on the Clear button to reset the filter rules and sets.
 
 Click on the Export list and select the Export to Excel option.
 
-![OneFilter export to Excel](../../assets\images\OF-Ft-ExportExcel.gif)  
+![OneFilter export to Excel](../../assets\images\OF-Rs-ExportExcel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Export to Google Drive
 
 Click on the Export list and select the Export to Google Drive option.
 
-![OneFilter export to Google Drive](../../assets\images\OF-Ft-ExportDrive.gif)  
+![OneFilter export to Google Drive](../../assets\images\OF-Rs-ExportDrive.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Export IDs to CSV
 
 Click on the Export list and select the Export IDs to CSV option.
 
-![OneFilter export IDs to CSV](../../assets\images\OF-Ft-ExportIDs.gif)  
+![OneFilter export IDs to CSV](../../assets\images\OF-Rs-ExportID.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ---
@@ -110,7 +110,7 @@ Mark with checkbox elements that you want isolate with the Section Box. You have
 - Select the Isolate Selected Elements checkbox, to save the view with the isolated elements.
 - Click the Apply button to finish.
 
-![OneFilter views](../../assets\images\OF-Ft-Views.gif)  
+![OneFilter views](../../assets\images\OF-Rs-View.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ---
@@ -119,7 +119,7 @@ Mark with checkbox elements that you want isolate with the Section Box. You have
 
 Click on Save Selection button, and enter the name of the selection to save it. Note that, if you go to the Manage menu in Revit and click on the Load button, the new selection you have created will appear.
 
-![OneFilter save selection](../../assets\images\OF-Ft-SaveSelection.gif)  
+![OneFilter save selection](../../assets\images\OF-Rs-SaveSelection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ---
@@ -128,26 +128,26 @@ Click on Save Selection button, and enter the name of the selection to save it. 
 
 The Isolate Selection button, will isolate the filtered elements in a Temporary Hide/Isolate view. Click on Unisolate Selection to restore the view.
 
-![OneFilter isolate selection](../../assets\images\OF-Ft-IsolateSelection.gif)  
+![OneFilter isolate selection](../../assets\images\OF-Rs-Isolate.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Reset
 
 The Reset button will clear all the filters applied on Filter tab.
 
-![OneFilter reset filter](../../assets\images\OF-Ft-Reset.gif)  
+![OneFilter reset filter](../../assets\images\OF-Rs-Reset.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Visualize
 
 Click on Visualize button to navigate to the Visualize tab.
 
-![OneFilter visualize](../../assets\images\OF-Ft-Visualize.gif)  
+![OneFilter visualize](../../assets\images\OF-Rs-Visualize.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ### Select
 
 Click on Select button to select the elements in the current view.
 
-![OneFilter visualize](../../assets\images\OF-Ft-Select.gif)  
+![OneFilter visualize](../../assets\images\OF-Rs-Select.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
