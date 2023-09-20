@@ -157,5 +157,5 @@ Click on Select button to select the elements in the current view.
 
 Set created parameter value in common text instance parameter for elements that are checked in the table. Allows you to choose the option to deal with elements that are contained in multiple Areas, Rooms, Masses, Spaces, or Zones.
 
-![OneFilter visualize](../../assets\images\OF-Ft-Select.gif)  
+![OneFilter visualize](../../)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
