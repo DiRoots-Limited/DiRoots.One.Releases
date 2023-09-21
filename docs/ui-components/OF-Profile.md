@@ -20,8 +20,11 @@ nav_order: 1
 
 The following settings are saved in the profiles.
 
-- New sheets created.
-- Views assigned to the sheets.
+- New filters created
+- Filters with Rules and Sets
+- The visualization rules.
+
+The profile settings will not be available in the Contains, Selections and Rule Filters tabs.
 
 ## Creating Profiles
 
@@ -52,7 +55,7 @@ Steps:
 2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the "Open" button to import the profile.
 
-![OneFilter Creating profiles](../../assets\images\SG-Pf-SaveProfile.gif)  
+![OneFilter importing profile](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ## Deleting Profiles
@@ -62,5 +65,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-![OneFilter Creating profiles](../../assets\images\SG-Pf-SaveProfile.gif)  
+![OneFilter delete profile](../../assets\images\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
