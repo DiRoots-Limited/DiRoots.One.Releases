@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ReOrdering management
+title: ReOrdering
 parent: ReOrdering User Guide
 nav_order: 1
 ---
@@ -53,9 +53,16 @@ Note that the header of the Category, Family and Type tables is an accordion com
 - Prefix: this field it is not mandatory, but you can enter a value.
 - Start | Step: Define the number at which the order should begin, and the steps that should advance the number sequence.
 - Suffix: this field it is not mandatory, but you can enter a value.
-- Rules: 
 
-![ReOrdering fill the information](assets\images\RO-DefineValue.gif)  
+![ReOrdering fill the information](../../assets\images\RO-DefineValue.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ReOrdering](https://diroots.com/revit-plugins/renumber-revit-elements-using-a-prefix-a-suffix-and-a-multiplier-with-reordering/).</sub>
+
+### Rules
+
+Create new rules or edit existing ones.
+You can choose to define a prefix and suffix to apply the element numbering, but if you prefer you can create a rule to name the numbering. Select the Rules checkbox and the prefix and suffix fields will be locked. Click on the button to add a new rule, and the window will open with the parameters that can be added to the element numbering. 
+
+![ReOrdering rules](../../assets\images\RO-Rule.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering](https://diroots.com/revit-plugins/renumber-revit-elements-using-a-prefix-a-suffix-and-a-multiplier-with-reordering/).</sub>
 
 3. To complete the order of the elements, choose the order to be followed.
