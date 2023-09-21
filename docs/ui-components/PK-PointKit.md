@@ -28,35 +28,35 @@ Click on Select Points button and choose to Select Points or Select Between Leve
 
 Click and drag the mouse to select certain points and isolate them.
 
-![PointKit select points](../../assets\images\RO-WholeModel.gif)  
+![PointKit select points](../../assets\images\PK-SelectPoints.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ### Select Between Levels
 
 Click on the Select Between Levels button and choose the start of the level and the end of the level to isolate the point cloud within this range.
 
-![PointKit select Between Levels](../../assets\images\RO-WholeModel.gif)  
+![PointKit select Between Levels](../../assets\images\PK-SelectLevel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ### Undo and Redo button
 
 When performing actions in Point Cloud, such as isolating certain spaces, click the Undo button to revert to the recent action, and the Redo button to reapply the recent action.
 
-![PointKit undo and redo button](../../assets\images\RO-WholeModel.gif)  
+![PointKit undo and redo button](../../assets\images\PK-UndoRedo.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ### Reset
 
 Click the Reset button to clear all actions and selections made in the point cloud.
 
-![PointKit reset](../../assets\images\RO-WholeModel.gif)  
+![PointKit reset](../../assets\images\PK-Reset.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ### Show/Hide
 
 Hide or reactivate the visualization of all points clouds in the current view.
 
-![PointKit show/hide](../../assets\images\RO-WholeModel.gif)  
+![PointKit show/hide](../../assets\images\PK-ShowHide.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ---
@@ -69,14 +69,14 @@ Import a file in DXF format for your current modeling. Clicking on this button w
 - Choose a Family Template.
 - Select the radio button to choose the orientation of the file to be imported. You can choose to import Center to Center or On Origin to Internal Origin.
 
-![PointKit import dxf](../../assets\images\RO-WholeModel.gif)  
+![PointKit import dxf](../../assets\images\PK-ImportDXF.png)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ## Import ASCII point cloud file
 
 Click and select the ASCII file to be imported from your computer.
 
-![PointKit import ASCII](../../assets\images\RO-WholeModel.gif)  
+![PointKit import ASCII](../../assets\images\PK-ImportASCII.png)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ---
@@ -97,5 +97,5 @@ Applied only for .DXF files.
 - Select Family template
 - Select the radio button to choose the orientation of the file to be imported. You can choose to import Center to Center or On Origin to Internal Origin.
 
-![PointKit import ASCII](../../assets\images\RO-WholeModel.gif)  
+![PointKit export](../../assets\images\PK-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
