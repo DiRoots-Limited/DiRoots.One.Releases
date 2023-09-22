@@ -23,7 +23,7 @@ Click Run Health Check to verify if there are families with errors.
 
 The families with error will show a warming icon, and you can click it to see the Revit message about the problem.
 
-![FamilyReviser ryn health check](../../assets\images\FR-Ht-Run.gif)
+![FamilyReviser ryn health check](../../assets\images\FamilyReviser\FR-Ht-Run.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 

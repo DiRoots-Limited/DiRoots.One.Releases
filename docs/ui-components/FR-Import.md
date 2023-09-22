@@ -27,7 +27,7 @@ Import families from your repositories.
 Note that when you select a family category, it is shown in the second table. You can select specific families to import them into the project.
 ```
 
-![FamilyReviser select repository](../../assets\images\FR-Im-SelectRepository.gif)
+![FamilyReviser select repository](../../assets\images\FamilyReviser\FR-Im-SelectRepository.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -36,7 +36,7 @@ Note that when you select a family category, it is shown in the second table. Yo
 To view the family folder, right-click and select Open folder.
 ```
 
-![FamilyReviser open family folder](../../assets\images\FR-Im-OpenFolder.png)
+![FamilyReviser open family folder](../../assets\images\FamilyReviser\FR-Im-OpenFolder.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -44,7 +44,7 @@ To view the family folder, right-click and select Open folder.
 
 Open the Preferences pop-up to manage some details for importing families.
 
-![FamilyReviser open the preferences](../../assets\images\FR-Im-Preferences.gif)
+![FamilyReviser open the preferences](../../assets\images\FamilyReviser\FR-Im-Preferences.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -52,7 +52,7 @@ Open the Preferences pop-up to manage some details for importing families.
 
 Click this button to select or create a new repository folder.
 
-![FamilyReviser add repository](../../assets\images\FR-Im-AddRepository.gif)
+![FamilyReviser add repository](../../assets\images\FamilyReviser\FR-Im-AddRepository.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -60,7 +60,7 @@ Click this button to select or create a new repository folder.
 
 Select one or more repositories and click to Remove Repository button. Then, confirm that you want to remove it.
 
-![FamilyReviser remove repository](../../assets\images\FR-Im-RemoveRepository.gif)
+![FamilyReviser remove repository](../../assets\images\FamilyReviser\FR-Im-RemoveRepository.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -68,7 +68,7 @@ Select one or more repositories and click to Remove Repository button. Then, con
 
 If you prefer, you can select the Delete Backup Families checkbox and then the next export will not consider the backup families.
 
-![FamilyReviser delete backup families](../../assets\images\FR-Im-DeleteBackup.png)
+![FamilyReviser delete backup families](../../assets\images\FamilyReviser\FR-Im-DeleteBackup.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -76,7 +76,7 @@ If you prefer, you can select the Delete Backup Families checkbox and then the n
 
 Set a number for the maximum number of export backups.
 
-![FamilyReviser maximum backups](../../assets\images\FR-Im-MaxBackup.png)
+![FamilyReviser maximum backups](../../assets\images\FamilyReviser\FR-Im-MaxBackup.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -84,7 +84,7 @@ Set a number for the maximum number of export backups.
 
 This option allows to organize the families by groups. So that, if you select this option will be created for each group of families.
 
-![FamilyReviser group export by categories](../../assets\images\FR-Im-GroupExport.png)
+![FamilyReviser group export by categories](../../assets\images\FamilyReviser\FR-Im-GroupExport.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -92,7 +92,7 @@ This option allows to organize the families by groups. So that, if you select th
 
 Assign a value for the number of subfolders you want to be created.
 
-![FamilyReviser subfolder depth](../../assets\images\FR-Im-Subfolder.png)
+![FamilyReviser subfolder depth](../../assets\images\FamilyReviser\FR-Im-Subfolder.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -102,6 +102,6 @@ Assign a value for the number of subfolders you want to be created.
 After choosing the repository and the family category, to configure the preferences, click to Export.
 The families will be imported into the project.
 
-![FamilyReviser import families](../../assets\images\FR-Im-ImportFamily.gif)
+![FamilyReviser import families](../../assets\images\FamilyReviser\FR-Im-ImportFamily.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>

@@ -23,7 +23,7 @@ After creating the project sheets and organizing their names and sets, we go to 
 1. To get started, click on the View Manager button to manage the views in your model.
 On this page you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view.
 
-![SheetGen manage views](../../assets\images\SG-Vl-ManageView.gif)
+![SheetGen manage views](../../assets\images\SheetGen\SG-Vl-ManageView.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -33,14 +33,14 @@ On this page you'll find all the views in the model, and in All column, choose w
 
 Click with the right mouse button on the view and choose the option Open View.
 
-![SheetGen open view](../../assets\images\SG-Vl-OpenView.png)
+![SheetGen open view](../../assets\images\SheetGen\SG-Vl-OpenView.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Duplicate View
 
 You can perform this action for individual views by clicking the right mouse button and choosing the Duplicate option, or you can perform this action in batch for several views simultaneously. To duplicate in batch, select the views you want, and in the Batch Actions list, choose Duplicate.
 
-![SheetGen duplicate views](../../assets\images\SG-Vl-DuplicateView.gif)
+![SheetGen duplicate views](../../assets\images\SheetGen\SG-Vl-DuplicateView.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -61,7 +61,7 @@ You cannot create a dependent view from another dependent view.
 
 You can perform this action for an individual view by clicking the right mouse button and choosing the Delete view option, or you can perform this action in batch for several views simultaneously. To Delete in batch, select the views you want, and in the Batch Actions list, choose Delete.
 
-![SheetGen delete sheet](../../assets\images\SG-Vl-DeleteView.gif)
+![SheetGen delete sheet](../../assets\images\SheetGen\SG-Vl-DeleteView.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -69,7 +69,7 @@ You can perform this action for an individual view by clicking the right mouse b
 
 By default, the list of views will only show the view name and the list of view. Click the right mouse button under the column header and add the desired parameters.
 
-![SheetGen add parameters columns](../../assets\images\SG-Vl-AddParameters.png)
+![SheetGen add parameters columns](../../assets\images\SheetGen\SG-Vl-AddParameters.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -79,19 +79,19 @@ By default, the list of views will only show the view name and the list of view.
 
 If you have several views created in the project, this tool makes editing much easier. Export an Excel file, edit it to the name as you wish, then import it into SheetGen and update the views.
 
-![SheetGen export view](../../assets\images\SG-Vl-ExportExcel.png)
+![SheetGen export view](../../assets\images\SheetGen\SG-Vl-ExportExcel.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 1. Export the excel file from view list.
 
-![SheetGen export excel file from sheets](../../assets\images\SG-Sl-ExportExcel.gif)
+![SheetGen export excel file from sheets](../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. Import exel file to update the view list.
 
-![SheetGen import excel file](../../assets\images\SG-Vl-ImportExcel.gif)
+![SheetGen import excel file](../../assets\images\SheetGen\SG-Vl-ImportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -100,7 +100,7 @@ If you have several views created in the project, this tool makes editing much e
 SheetGen also allows views to be renamed in batch. To do this, select the views you want and click Rename. 
 Then define a Prefix, a Suffix, enter the name that will be replaced and finally the name that will replace it.
 
-![SheetGen rename views](../../assets\images\SG-Vl-Rename.gif)
+![SheetGen rename views](../../assets\images\SheetGen\SG-Vl-Rename.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -109,7 +109,7 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 Similar to the Rename tool, the SheetGen have the Build Name. Select the views you want and click to Build Name.
 Then define the Default Field Separator, Custom Field, Custom Separator and add or remove Parameters.
 
-![SheetGen build name](../../assets\images\SG-Vl-BuildName.gif)
+![SheetGen build name](../../assets\images\SheetGen\SG-Vl-BuildName.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -120,13 +120,13 @@ Then define the Default Field Separator, Custom Field, Custom Separator and add 
 To organize the model views, especially when there are many views created, SheetGen offers the tool to save views sets.
 To create a new set, select the views you want to separate into this set and click on New Set, then assign a name to finish creating the set.
 
-![SheetGen new set](../../assets\images\SG-Vl-NewSet.gif)
+![SheetGen new set](../../assets\images\SheetGen\SG-Vl-NewSet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 You can also add views to an existing set.
 
-![SheetGen existing set](../../assets\images\SG-Vl-AddtoSet.gif)
+![SheetGen existing set](../../assets\images\SheetGen\SG-Vl-AddtoSet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -134,7 +134,7 @@ You can also add views to an existing set.
 
 After organizing the model views into sets, you can apply filters to make the work process easier.
 
-![SheetGen existing set](../../assets\images\SG-Vl-FilterSet.png)
+![SheetGen existing set](../../assets\images\SheetGen\SG-Vl-FilterSet.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -144,7 +144,7 @@ After organizing the model views into sets, you can apply filters to make the wo
 
 1. Click on the Clear all Modifications button, and reset all edition applied to view names in the table view made by the Rename or Build Name commands.
 
-![SheetGen clear all](../../assets\images\SG-Vl-Clean.png)
+![SheetGen clear all](../../assets\images\SheetGen\SG-Vl-Clean.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -156,13 +156,13 @@ This tab allows you to manage the view templates created, renaming or creating a
 
 1. Select the view templates that you want and click to Rename. Assign a Prefix, Suffix, the name to Replace and the new Name.
 
-![SheetGen rename view templates](../../assets\images\SG-Vl-RenameViewTemplate.png)
+![SheetGen rename view templates](../../assets\images\SheetGen\SG-Vl-RenameViewTemplate.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. Select the view templates that you want and click to Build Name. In this case, you can manage the Default Field Separator, Custom Field, Custom Separator and assign the view parameters to build the name.
 
-![SheetGen view templates build name](../../assets\images\SG-Vl-BuildNameView.png)
+![SheetGen view templates build name](../../assets\images\SheetGen\SG-Vl-BuildNameView.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -173,7 +173,7 @@ This tab allows you to manage the view templates created, renaming or creating a
 Return to the List of Views tab and click on the Export button to generate an Excel file. In this file you can also change the number and name of the sheets if necessary.
 After exporting the file and editing it, import and update the edited sheets.
 
-![SheetGen export sheets](../../assets\images\SG-Vl-ExportSheets.png)
+![SheetGen export sheets](../../assets\images\SheetGen\SG-Vl-ExportSheets.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -183,7 +183,7 @@ After exporting the file and editing it, import and update the edited sheets.
 
 Similar to the filters by set, apply filters by sheet templates and see the views assigned to each template.
 
-![SheetGen apply filters](../../assets\images\SG-Vl-Template.png)
+![SheetGen apply filters](../../assets\images\SheetGen\SG-Vl-Template.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -193,7 +193,7 @@ Similar to the filters by set, apply filters by sheet templates and see the view
 
 Apply filters by the sheets sets created.
 
-![SheetGen apply filters](../../assets\images\SG-Vl-FilterbySet.png)
+![SheetGen apply filters](../../assets\images\SheetGen\SG-Vl-FilterbySet.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -203,13 +203,13 @@ Apply filters by the sheets sets created.
 
 From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then choose the view you want and click Select to add it to the sheet. The Views columns allow adding more than one view per sheet.
 
-![SheetGen add views](../../assets\images\SG-Vl-AddViewSheet.gif)
+![SheetGen add views](../../assets\images\SheetGen\SG-Vl-AddViewSheet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 On the select view panel you can choose the view type in the list, select some parameters, and if you want to see just the views not applied click to Hide Placed Views and then view just the unselected views.
 
-![SheetGen add views](../../assets\images\SG-Vl-AddViewSettings.gif)
+![SheetGen add views](../../assets\images\SheetGen\SG-Vl-AddViewSettings.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -217,7 +217,7 @@ On the select view panel you can choose the view type in the list, select some p
 
 To remove a view from the sheet, click on the "more options" button, and choose the Remove option, or in the select view panel, select the Remove View checkbox, search the current view and click on the Remove button.
 
-![SheetGen remove views](../../assets\images\SG-Vl-RemoveView.gif)
+![SheetGen remove views](../../assets\images\SheetGen\SG-Vl-RemoveView.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -225,7 +225,7 @@ To remove a view from the sheet, click on the "more options" button, and choose 
 
 Click on the "more options" button and select Open View. Note that the current view will open on Revit.
 
-![SheetGen open views](../../assets\images\SG-Vl-OpenView.gif)
+![SheetGen open views](../../assets\images\SheetGen\SG-Vl-OpenView.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -240,7 +240,7 @@ Click on the Clear Staging button, and clear the staging cached modifications.
 With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
 ```
 
-![SheetGen clear staging](../../assets\images\SG-Vl-Clear.png)
+![SheetGen clear staging](../../assets\images\SheetGen\SG-Vl-Clear.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 

@@ -25,7 +25,7 @@ Let's get to know the tool:
 
 You can create new parameters to add to the families. Click on the Add Parameter button and define the data.
 
-![ParaManager Add Parameter](../../assets\images\PM-Fm-AddParameter.gif)
+![ParaManager Add Parameter](../../assets\images\ParaManager\PM-Fm-AddParameter.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -33,7 +33,7 @@ You can create new parameters to add to the families. Click on the Add Parameter
 
 Right-click on the parameter and select the Duplicate or Delete option.
 
-![ParaManager duplicate and delete](../../assets\images\PM-Fm-DuplicateDelete.gif)
+![ParaManager duplicate and delete](../../assets\images\ParaManager\PM-Fm-DuplicateDelete.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -45,13 +45,13 @@ Select the parameters and choose from the Batch actions list:
 
 1. Duplicate parameters.
 
-![ParaManager duplicate in batch](../../assets\images\PM-Fm-DuplicateBatch.gif)
+![ParaManager duplicate in batch](../../assets\images\ParaManager\PM-Fm-DuplicateBatch.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
 2. Delete parameters.
 
-![ParaManager delete in batch](../../assets\images\PM-Fm-DeleteBatch.gif)
+![ParaManager delete in batch](../../assets\images\ParaManager\PM-Fm-DeleteBatch.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -61,7 +61,7 @@ Select the parameters and choose from the Batch actions list:
 
 Modify will allow you to add a suffix and/or prefix to parameters marked with a checkbox. Also, it provides the ability to replace part of the parameter name with a new value.
 
-![ParaManager modify](../../assets\images\PM-Fm-Modify.gif)
+![ParaManager modify](../../assets\images\ParaManager\PM-Fm-Modify.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -79,7 +79,7 @@ By clicking the clear button ParaManager will restore original parameter names.
 This tools can be used before applying Modify functionality or manually editing names.
 ```
 
-![ParaManager clear modify](../../assets\images\PM-Fm-Clear.gif)
+![ParaManager clear modify](../../assets\images\ParaManager\PM-Fm-Clear.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -91,7 +91,7 @@ This tools can be used before applying Modify functionality or manually editing 
 
 Click on the Import/Export list, and select Export to Excel option. The next step is to select the parameters and click to export.
 
-![ParaManager export parameters to excel](../../assets\images\PM-Fm-ExportExcel.gif)
+![ParaManager export parameters to excel](../../assets\images\ParaManager\PM-Fm-ExportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -99,7 +99,7 @@ Click on the Import/Export list, and select Export to Excel option. The next ste
 
 Click on the Import/Export list, and select Import from Excel option. Select the Excel file and then select the parameters to import.
 
-![ParaManager import parameters from excel](../../assets\images\PM-Fm-ImportExcel.gif)
+![ParaManager import parameters from excel](../../assets\images\ParaManager\PM-Fm-ImportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -107,7 +107,7 @@ Click on the Import/Export list, and select Import from Excel option. Select the
 
 Click on the Import/Export list, and select Export Shared Parameters option. The next step is to select the parameters and click to export the txt file.
 
-![ParaManager export shared parameters](../../assets\images\PM-Fm-ExportShared.gif)
+![ParaManager export shared parameters](../../assets\images\ParaManager\PM-Fm-ExportShared.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -116,7 +116,7 @@ Click on the Import/Export list, and select Export Shared Parameters option. The
 If you have a txt Parameters file, you can import it into the current project. Click on the Import/Export list, and select Import Shared Parameters option.
 The next step is to select the file and choose the parameters to import.
 
-![ParaManager import shared parameters](../../assets\images\PM-Fm-ImportShared.gif)
+![ParaManager import shared parameters](../../assets\images\ParaManager\PM-Fm-ImportShared.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -126,7 +126,7 @@ The next step is to select the file and choose the parameters to import.
 
 The search box will search for families contained in the Schedules.
 
-![ParaManager search families](../../assets\images\PM-Fm-Search.gif)
+![ParaManager search families](../../assets\images\ParaManager\PM-Fm-Search.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -134,7 +134,7 @@ The search box will search for families contained in the Schedules.
 
 Select this checkbox to hide the families and parameters unselected.
 
-![ParaManager hide un-checked](../../assets\images\PM-Fm-HideUnchecked.gif)
+![ParaManager hide un-checked](../../assets\images\ParaManager\PM-Fm-HideUnchecked.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -147,7 +147,7 @@ Note that in the DiRootsOne package menu, the ParaManager plugin will be active,
 
 This tab is similar to the parameter management tab in general, but in this case the parameters will be replicated like in Revit's Family Types window.
 
-![ParaManager Parameters tab](../../assets\images\PM-Fm-ParametersFamily.gif)
+![ParaManager Parameters tab](../../assets\images\ParaManager\PM-Fm-ParametersFamily.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -155,13 +155,13 @@ This tab is similar to the parameter management tab in general, but in this case
 
 This tab contains a list of all the instance nested items in this family. So when you click on the elements, the table on the right will show all the parameters of the current element.
 
-![ParaManager nested instance](../../assets\images\PM-Fm-NestedInstance.gif)
+![ParaManager nested instance](../../assets\images\ParaManager\PM-Fm-NestedInstance.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
 Select the paramenter and click on Add Nested Parameters, and then select if you want to create a instance or type level parameter.
 
-![ParaManager add nested instance](../../assets\images\PM-Pm-AddNestedInstance.png)
+![ParaManager add nested instance](../../assets\images\ParaManager\PM-Pm-AddNestedInstance.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -169,13 +169,13 @@ Select the paramenter and click on Add Nested Parameters, and then select if you
 
 This tab contains a list of all the type nested items in this family. So when you click on the elements, the table on the right will show all the parameters of the current element.
 
-![ParaManager nested type](../../assets\images\PM-Fm-NestedType.gif)
+![ParaManager nested type](../../assets\images\ParaManager\PM-Fm-NestedType.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
 Select the paramenter and click on Add Nested Parameters, and then select if you want to create a instance or type level parameter.
 
-![ParaManager add nested instance](../../assets\images\PM-NT-AddNestedType.png)
+![ParaManager add nested instance](../../assets\images\ParaManager\PM-NT-AddNestedType.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -183,7 +183,7 @@ Select the paramenter and click on Add Nested Parameters, and then select if you
 
 This tab contains a list of all the nested families. So when you click on the elements, the table on the right will show all the parameters of the current element.
 
-![ParaManager nested type](../../assets\images\PM-NF-NestedFamilies.png)
+![ParaManager nested type](../../assets\images\ParaManager\PM-NF-NestedFamilies.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
@@ -191,6 +191,6 @@ This tab contains a list of all the nested families. So when you click on the el
 
 This tab is similar to the Shared Editor management tab in general, but in this case the parameters will be replicated like in Revit's Family Types window.
 
-![ParaManager Shared Editor](../../assets\images\PM-Se-SharedEditor.png)
+![ParaManager Shared Editor](../../assets\images\ParaManager\PM-Se-SharedEditor.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
