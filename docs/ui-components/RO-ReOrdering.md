@@ -51,7 +51,7 @@ Note that the header of the Category, Family and Type tables is an accordion com
 2. The next step is to fill the fiels bellow.
 
 - Prefix: this field it is not mandatory, but you can enter a value.
-- Start | Step: Define the number at which the order should begin, and the steps that should advance the number sequence.
+- Start & Step: Define the number at which the order should begin, and the steps that should advance the number sequence.
 - Suffix: this field it is not mandatory, but you can enter a value.
 
 ![ReOrdering fill the information](../../assets\images\ReOrdering\RO-DefineValue.gif)  
@@ -74,12 +74,12 @@ You can choose to define a prefix and suffix to apply the element numbering, but
 
 - Crossing: to renumber elements draw a detail line and all elements of the that fit criteria above will be numbered. If the line touches the element it will be counted.
 
-![ReOrdering crossing](../../)  
+![ReOrdering crossing](../../assets\images\RO-Crossing.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering](https://diroots.com/revit-plugins/renumber-revit-elements-using-a-prefix-a-suffix-and-a-multiplier-with-reordering/).</sub>
 
 - Vertex: to renumber elements draw a line and all elements that line endpoint (vertex) touch will be numbered. Line drawing direction/orientation will be taken into account.
 
-![ReOrdering vertex](../../)  
+![ReOrdering vertex](../../assets\images\ReOrdering\RO-Vertex.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering](https://diroots.com/revit-plugins/renumber-revit-elements-using-a-prefix-a-suffix-and-a-multiplier-with-reordering/).</sub>
 
 - Auto: Random place unique number is chosen elements in the model. Values will be directly applied to the parameter you chose above.
