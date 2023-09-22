@@ -18,16 +18,16 @@ Manage Revit parameters inside project and family environments. Create new param
 
 # Transfer
 
-In this tab, the Transfer tool allows to "copy" paramaters from families to another one.
+In this tab, the Transfer tool allows to "copy" paramaters from familiy to another one.
 There are two ways to choose the family to copy the parameters:
 
-1. Select Family: click on this button and select the element in the view to manage it parameters.
+1. Select Family: click this button and select the element in the view to manage its parameters.
 
 ![ParaManager select element](../../assets\images\ParaManager\PM-Tr-SelectFamily.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
 
-2. Open the Family list: select the family in this list to transfer the parameters.
+2. Open the Family list: select the family in this list to transfer the parameters to.
 
 ![ParaManager select family](../../assets\images\ParaManager\PM-Tr-SelectFamilyList.gif)
 
@@ -37,7 +37,7 @@ There are two ways to choose the family to copy the parameters:
 
 ## Modify
 
-Modify will allow you to add a suffix and/or prefix to parameters marked with a checkbox. Also, it provides the ability to replace part of the parameter name with a new value.
+Modify allows you to add a suffix and/or prefix to parameters marked with a checkbox. It also, provides the ability to replace part of the parameter name with a new value.
 
 ![ParaManager modify](../../assets\images\ParaManager\PM-Tr-Modify.gif)
 
@@ -63,7 +63,7 @@ This tools can be used before applying Modify functionality or manually editing 
 
 ### Hide un-checked
 
-Select this checkbox to hide the families unselected.
+Select this checkbox to hide unselected families.
 
 ![ParaManager hide un-checked](../../assets\images\ParaManager\PM-Tr-HideUnselected.gif)
 
@@ -73,10 +73,9 @@ Select this checkbox to hide the families unselected.
 
 ## Apply
 
-After selecting the family in the table on the left, select the parameters to be transferred/copied to the other family.
-Now select the family that should receive the selected parameters in the table on the right. To complete, click Apply to transfer the parameters to the chosen family.
+After selecting the family in the table on the left, select the parameters to transfer/copy to the other family.
+Now select the family that should receive the selected parameters in the table on the right. To complete, click Apply to transfer the parameters to the selected family.
 
 ![ParaManager Apply](../../assets\images\ParaManager\PM-Tr-Apply.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
-
