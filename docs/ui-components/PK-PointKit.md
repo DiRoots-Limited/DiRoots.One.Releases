@@ -69,7 +69,7 @@ Import a file in DXF format for your current modeling. Clicking on this button w
 - Choose a Family Template.
 - Select the radio button to choose the orientation of the file to be imported. You can choose to import Center to Center or On Origin to Internal Origin.
 
-![PointKit import dxf](../../assets\images\PointKit\PK-ImportDXF.png)  
+![PointKit import dxf](../../assets\images\PointKit\PK-ImportDXF.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit](https://diroots.com/revit-plugins/revit-point-cloud-plugin/).</sub>
 
 ## Import ASCII point cloud file
