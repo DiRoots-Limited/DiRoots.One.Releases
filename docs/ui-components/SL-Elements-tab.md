@@ -35,7 +35,6 @@ The 'Current Selection' radio button will show the existing categories in the cu
 ![SheetLink including linked files and exporting by type ID](../../assets\images\SH-El-LinkedfileTypeID.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-
 3. Select a category in the Select Category table, and use the checkboxes in the table below to choose the specifics type elements.
 
 ![SheetLink choosing elements](../../assets\images\SH-El-SelectElements.gif)  
@@ -56,14 +55,12 @@ After to choose the elements, the SheetLink has options to see just instance, ty
 
 Click on the table headers to select the instance parameters, for example.
 
-
 ```yaml
 # Note:  
 If selected, the instance parameters, will show it in the green color.
 If selected the type parameters, will show it in the yellow color.
 If selected the read-only parameters, will show it in the red color.
 ```
-  
 
 ![SheetLink select the parameters](../../assets\images\SH-El-Instance.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
