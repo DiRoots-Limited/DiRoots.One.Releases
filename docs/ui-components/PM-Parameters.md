@@ -64,7 +64,7 @@ Select the parameter and click to batch editing. Batch editing allows you to del
 
 ### Show Existing Parameters
 
-You can choose whether you want to see the Existing Parameters or only the new ones.
+You can choose whether you want to see the Existing Parameters or just the new ones.
 
 ![ParaManager existing parameters](../../assets\images\ParaManager\PM-Pm-ExistingParameter.gif)
 
@@ -72,7 +72,7 @@ You can choose whether you want to see the Existing Parameters or only the new o
 
 ### Additional Attibutes
 
-Right-click on the column header and choose additional attributes for the columns.
+Right-click on the column header and select additional attributes for the columns.
 
 ![ParaManager existing parameters](../../assets\images\ParaManager\PM-Pm-AdditionalAttibutes.gif)
 
