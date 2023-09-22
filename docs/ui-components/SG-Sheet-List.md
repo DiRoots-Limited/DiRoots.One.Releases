@@ -18,8 +18,8 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 
 # Sheet List
 
-The first step is to select the SheetGen in the DiRootsOne menu and to choose the Sheet List tab.
-On this page will show all existing sheets in the project.
+The first step is to select the SheetGen from the DiRootsOne menu and choose the Sheet List tab.
+This page will show all sheets in the project.
 
 ```yaml
 # Note:
@@ -28,13 +28,13 @@ You must have at least one sheet created, to be used as a template in SheetGen.
 
 ## New Sheet
 
-1. Click on the New Sheet button, or click with the right mouse button on an existing sheet and choose the option Create Sheets from template.
+1. Click on the New Sheet button, or right-click on an existing sheet and choose the Create Sheets from template option.
 
 ![SheetGen create new sheet](../../assets\images\SheetGen\SG-Sl-NewSheet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-2. Fill the fields about the new sheet.
+2. Fill the fields for the new sheet.
 
 - Number of Sheets - put the number of sheets you want to create.
 - Populate View from template - Create the new sheet with the same view settings as the template sheet.
@@ -44,11 +44,11 @@ You must have at least one sheet created, to be used as a template in SheetGen.
 ![SheetGen fill the fields](../../assets\images\SheetGen\SG-Sl-FillFields.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-3. Select the existing sheet that will be assigned as the template for the new sheet.
+3. Select the existing sheet to be  used as a template for the new sheet.
 
 ### Search sheet
 
-The search box will search for sheets contained in the project.
+The search box will look for the sheets contained in the project.
 
 ![SheetGen search existing sheet](../../assets\images\SheetGen\SG-Sl-SearchTemplate.gif)
 
@@ -66,20 +66,20 @@ The search box will search for sheets contained in the project.
 
 ### Open Sheet
 
-Click with the right mouse button on the sheet and choose the option Open Sheet, to view the new sheet created.
+Right-click on the sheet and choose Open sheet option, to see the new sheet you have created.
 
 ![SheetGen open sheet](../../assets\images\SheetGen\SG-Sl-OpenSheet.gif)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Duplicate Sheet
 
-You can perform this action for individual sheets by clicking the right mouse button and choosing the Duplicate option, or you can perform this action in batch for several sheets simultaneously. To duplicate in batch, select the sheets you want, and in the Batch Actions list, choose Duplicate.
+You can perform this action for individual sheets by right-clicking and choosing the Duplicate option, or you can perform this action in batch for several sheets simultaneously. To duplicate in batch, select the sheets you want, and in the Batch Actions list, choose Duplicate.
 
 ![SheetGen duplicate sheet](../../assets\images\SheetGen\SG-Sl-DuplicateSheet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-1. Options to duplicate individual sheets.
+1. Options for duplicating individual sheets.
 
 - Set a number of copies
 - Select the checkbox if you want to Duplicate Views from sheet
@@ -97,7 +97,7 @@ If you prefer, you could select the checkbox Change Template for copies, so the 
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-2. Options to duplicate sheets in batch.
+2. Options for duplicating sheets in batch.
 
 - Set a number of copies
 - Select the checkbox if you want to Duplicate Views from sheet
@@ -112,7 +112,7 @@ If you prefer, you could select the checkbox Change Template for copies, so the 
 
 ### Delete Sheet
 
-You can perform this action for individual sheets by clicking the right mouse button and choosing the Delete Sheet option, or you can perform this action in batch for several sheets simultaneously. To delete in batch, select the sheets you want, and in the Batch Actions list, choose Delete.
+You can perform this action for individual sheets by right-clicking and choosing the Delete Sheet option, or you can perform this action in batch for several sheets simultaneously. To delete in batch, select the sheets you want, and in the Batch Actions list, choose Delete.
 
 ![SheetGen delete sheet](../../assets\images\SheetGen\SG-Sl-DeleteSheet.gif)
 
@@ -120,7 +120,7 @@ You can perform this action for individual sheets by clicking the right mouse bu
 
 ### Add parameters columns
 
-By default, the list of sheets will only show the sheet number and the sheet name. Click the right mouse button under the column header and add the desired parameters.
+By default, the list of sheets will only shows the the number and name of the sheet. Right-click under the column header and add the desired parameters.
 
 ![SheetGen add parameters columns](../../assets\images\SheetGen\SG-Sl-AddParameters.gif)
 
@@ -130,7 +130,7 @@ By default, the list of sheets will only show the sheet number and the sheet nam
 
 ## Edit sheets Number and Name
 
-To edit the sheets individually, set double-click on the cell you want to edit (number or name), and enter text editing.
+To edit the individual sheets, double-click on the cell you want to edit (number or name), and enter the text edit.
 
 ![SheetGen editing sheet](../../assets\images\SheetGen\SG-Sl-EditCell.png)
 
@@ -167,8 +167,8 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 
 ### Build Number and Build Name
 
-1. Similar to the Rename tool, the SheetGen have the Build Number. Select the sheets you want and click to Build Number.
-Then define the Default Field Separator, Custom Field, Custom Separator, Counter and add or remove Parameters.
+1. Similar the Rename tool, SheetGen has a Build Number. Select the sheets you want and click Build Number.
+Then set the Default Field Separator, Custom Field, Custom Separator, Counter and add or remove Parameters.
 
 ![SheetGen build number](../../assets\images\SheetGen\SG-Sl-BuildNumber.gif)
 
@@ -200,7 +200,7 @@ You can also add sheets to an existing set.
 
 ### Filter by V/S Sets
 
-After organizing the project sheets into sets, you can apply filters to make the work process easier.
+Once you have organized the project sheets into sets, you can apply filters to make the work process easier.
 
 ![SheetGen apply filter](../../assets\images\SheetGen\SG-Sl-FilterSet.png)
 
@@ -210,7 +210,7 @@ After organizing the project sheets into sets, you can apply filters to make the
 
 ## Clear editions
 
-1. Click on the Clear all Modifications button, and reset all edition applied to sheet names and numbers, in the table view made by the Rename, Build Name or Build Number commands.
+1. Click the Clear all Modifications button, and reset all edition applied to the sheet names and numbers, in the table view by the Rename, Build Name or Build Number commands.
 
 ![SheetGen clear all](../../assets\images\SheetGen\SG-Sl-ClearAll.png)
 
