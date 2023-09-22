@@ -2,22 +2,25 @@
 layout: default
 title: About
 nav_order: 1
-description: "ProSheets User Guide."
+description: "DiRootsOne User Guide."
 permalink: /
 ---
 
-# ProSheets | Autodesk Revit Plugin.
+# DiRootsOne | Autodesk Revit Plugin.
 
-![ProSheets Logo](/assets/images/ProSheets-Icon-150x150-1.png)
+![DiRootsOne Logo](/assets\images\DiRootsOne-Revit-Plugin-Logo.png)
 
-ProSheets is a free Autodesk Revit Add-in to export Views and Sheets to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF).
+DiRootsOne is a single application bundle that includes 8 free Autodesk Revit Plugins to boost your productivity. DiRootsOne allows seamless interoperability between our plugins, opening doors to new workflows and ways to get your job done faster and better.
 
 ## Core Features
 
-- Batch Export Sheets/Views to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF)
-- Auto dectection of paper size and orientation (based on the Title Block family Sheet Width and Height)
-- Custom Parametric Filename (e.g., Sheet Name + Sheet Number + Revision Number). Plus: custom parameters and separators.
-- Save the export settings to Profiles
-- Import Profiles from a any location (e.g., shared folder, network location, etc.)
+- Export your Revit model data to Excel and Google Sheets. Edit the data and import it back to update the model.
+- Manage your Revit families and worksets.
+- Quickly find your families in Revit models. Search by category, parameter name and value. Find elements within Areas, Masses, Rooms, Spaces, and Zones.
+- Import your spreadsheets into Revit as Legend Views, Schedule Views and Drafting Views. Collaborate with non-Revit users and bring the beauty of your Excel Tables into Revit.
+- Create multiple Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
+- Easily renumber instance Revit parameters by using a prefix, a suffix, and a multiplier.
+- Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, export/import parameters to/from Excel and Shared Parameters file.
+- Increase your productivity when working with Point Clouds.
 
-[Download](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/){: .btn .btn-di-orange }
+[Download](https://diroots.com/revit-plugins/dirootsone/){: .btn .btn-di-orange }
