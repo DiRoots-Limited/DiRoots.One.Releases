@@ -18,10 +18,11 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 
 # Revision List
 
-The next step after to create the sheets and assign the views to it, go to the Revision List tab. On this step, you can assign to each sheet revisions phase.
+The next step after to creating the sheets and assigning the views is to go to the Revision List tab. In this step, you can assign each sheet a revision phase.
+
 ## Revisions
 
-If you didn't configure the revisions to the current project, click on the Revisions button, to manage it before. 
+If you haven't set up revisions for the current project, click on the Revisions button to manage them first. 
 
 ![SheetGen manage revisions](../../assets\images\SheetGen\SG-Rl-Revisions.gif)
 
@@ -37,7 +38,7 @@ After organizing the revisions, you can apply filters by sets to make the work p
 
 ## Assign Revisions to the sheets
 
-On the Revisions column, open the list and choose the right revision to each sheet.
+In the Revisions column, open the list and choose the revision for each sheet.
 
 ![SheetGen add revisions](../../assets\images\SheetGen\SG-Rl-AddRevisions.gif)
 
@@ -56,13 +57,13 @@ By default, the table have the sheet number, name, revisions, current revision, 
 
 If you have several sheets, this tool makes editing much easier. Export an Excel file, edit it as you want, then import it into SheetGen and update the revisions.
 
-1. Export the Excel file from Revision List.
+1. Export the Review list Excel file.
 
 ![SheetGen export excel file from revisions](../../assets\images\SheetGen\SG-Rl-ExportExcel.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-2. Import Excel file to update the sheet list and view the result.
+2. Import an Excel file to update the list of sheets and view the result.
 
 ![SheetGen import excel file](../../assets\images\SheetGen\SG-Rl-ImportExcel.gif)
 
