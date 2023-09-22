@@ -36,7 +36,7 @@ Steps:
 3. Choose the location to save it.
 4. Click on the "Save" button to save the profile.
 
-![OneFilter Creating profiles](../../assets\images\SG-Pf-SaveProfile.gif)  
+![OneFilter Creating profiles](../../assets\images\SheetGen\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ```
@@ -55,7 +55,7 @@ Steps:
 2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the "Open" button to import the profile.
 
-![OneFilter importing profile](../../assets\images\SG-Pf-SaveProfile.gif)  
+![OneFilter importing profile](../../assets\images\SheetGen\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
 
 ## Deleting Profiles
@@ -65,5 +65,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-![OneFilter delete profile](../../assets\images\SG-Pf-SaveProfile.gif)  
+![OneFilter delete profile](../../assets\images\SheetGen\SG-Pf-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>

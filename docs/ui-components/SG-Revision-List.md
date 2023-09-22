@@ -23,7 +23,7 @@ The next step after to create the sheets and assign the views to it, go to the R
 
 If you didn't configure the revisions to the current project, click on the Revisions button, to manage it before. 
 
-![SheetGen manage revisions](../../assets\images\SG-Rl-Revisions.gif)
+![SheetGen manage revisions](../../assets\images\SheetGen\SG-Rl-Revisions.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -31,7 +31,7 @@ If you didn't configure the revisions to the current project, click on the Revis
 
 After organizing the revisions, you can apply filters by sets to make the work process easier and assign the correct revision to each sheet.
 
-![SheetGen apply filter](../../assets\images\SG-Rl-FilterSet.gif)
+![SheetGen apply filter](../../assets\images\SheetGen\SG-Rl-FilterSet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -39,7 +39,7 @@ After organizing the revisions, you can apply filters by sets to make the work p
 
 On the Revisions column, open the list and choose the right revision to each sheet.
 
-![SheetGen add revisions](../../assets\images\SG-Rl-AddRevisions.gif)
+![SheetGen add revisions](../../assets\images\SheetGen\SG-Rl-AddRevisions.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -48,7 +48,7 @@ On the Revisions column, open the list and choose the right revision to each she
 By default, the table have the sheet number, name, revisions, current revision, current revision date and current revision description columns, but if you want click in the header column with the right mouse button, and choose more columns to add to the table.
 ```
 
-![SheetGen add more columns](../../assets\images\SG-Rl-Columns.png)
+![SheetGen add more columns](../../assets\images\SheetGen\SG-Rl-Columns.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -58,13 +58,13 @@ If you have several sheets, this tool makes editing much easier. Export an Excel
 
 1. Export the Excel file from Revision List.
 
-![SheetGen export excel file from revisions](../../assets\images\SG-Rl-ExportExcel.png)
+![SheetGen export excel file from revisions](../../assets\images\SheetGen\SG-Rl-ExportExcel.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2. Import Excel file to update the sheet list and view the result.
 
-![SheetGen import excel file](../../assets\images\SG-Rl-ImportExcel.gif)
+![SheetGen import excel file](../../assets\images\SheetGen\SG-Rl-ImportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
@@ -77,7 +77,7 @@ Click on the Clear Staging button, and clear the staging cached modifications.
 With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
 ```
 
-![SheetGen clear staging](../../assets\images\SG-Rl-Clear.png)
+![SheetGen clear staging](../../assets\images\SheetGen\SG-Rl-Clear.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 

@@ -62,5 +62,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-//![SheetLink delete profiles](../../assets\images\SH-DeleteProfile.png)
+//![SheetLink delete profiles](../../assets\images\SheetLink\SH-DeleteProfile.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
