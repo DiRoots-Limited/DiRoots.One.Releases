@@ -31,7 +31,7 @@ You can create new parameters to add to the families. Click on the Add Parameter
 
 ### Manual actions
 
-Right-click on the parameter and select the Duplicate or Delete option.
+Right-click on the parameter and select Duplicate or Delete option.
 
 ![ParaManager duplicate and delete](../../assets\images\ParaManager\PM-Fm-DuplicateDelete.gif)
 
@@ -59,7 +59,7 @@ Select the parameters and choose from the Batch actions list:
 
 ## Modify
 
-Modify will allow you to add a suffix and/or prefix to parameters marked with a checkbox. Also, it provides the ability to replace part of the parameter name with a new value.
+Modify allows you to add a suffix and/or prefix to parameters marked with a checkbox. It also allows you to replace part of the parameter name with a new value.
 
 ![ParaManager modify](../../assets\images\ParaManager\PM-Fm-Modify.gif)
 

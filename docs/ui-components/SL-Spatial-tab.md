@@ -18,19 +18,17 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Spatial
 
-The first step is to select the SheetLink in the DiRootsOne menu and to choose the Spatial tab.
-Make sure that you have rooms or spaces created in the model, to be exported by SheetLink from DiRootsOne. 
+The first step is to select the SheetLink from the DiRootsOne menu and to choose the Spatial tab.
+Make sure you have rooms or spaces created in the model, to be exported by SheetLink from DiRootsOne. 
 
 Steps:
 
-The first step is to select the SheetLink in the DiRootsOne menu and to choose the Spatial tab.
-
-2. Use the checkboxes above the table to select the rooms or spaces to get the parameters.
+1. Use the checkboxes above the table to select the rooms or spaces to get the parameters.
 
 ![SheetLink selecting rooms or spaces](../../assets\images\SheetLink\SH-Sp-SelectRooms.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
-3. Use the checkboxes above the table to select to Include Linked Files.
+2. Use the checkboxes above the table to select the Include Linked Files option.
 
 ![SheetLink including linked files](../../assets\images\SheetLink\SH-Sp-IncludeLinked.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -44,7 +42,7 @@ The search box will search for Rooms or Spaces contained in the Select column.
 
 ### Highlighted Elements
 
-Select some Rooms or Spaces and click with the right mouse button to choose to highlight the elements
+Select some rooms or spaces and right-click to choose to highlight the elements.
 
 ```yaml
 # Note:  
@@ -59,14 +57,13 @@ If you do not have the correct view opened, the SheetLink can find the view, but
 
 ## Instance and Read-only
 
-After to choose the Rooms or Spaces, the SheetLink has options to see just instance and read-only parameters.
+After choosing the Rooms or Spaces, the SheetLink has options to see only the instance and read-only parameters.
 
 Click on the table headers to select the instance parameters, for example.
 
 ```yaml
 # Note:  
-Rooms and Spaces do not have type parameters, so in this case will appear just the instance and read-only options.
-```
+Rooms and Spaces do not have type parameters, so in this case only the instance and read-only options will appear.
 
 ```yaml
 # Note:  
@@ -88,9 +85,9 @@ The search box will search for parameters contained in the Available Parameters 
 
 ## Selected Parameters
 
-Choosing parameters:
+Parameter selection:
 1. Select the parameters in the Available Parameters table.
-2. Click in the arrows to add or remove from the Selected Parameters table.
+2. Click on the arrows to add or remove from the Selected Parameters table.
 
 
 ![SheetLink adding and removing parameters](../../assets\images\SheetLink\SH-Sp-AddRemove.gif)  
@@ -107,7 +104,7 @@ The search box will search for parameters contained in the Selected Parameters c
 
 ### Order the Selected Parameters
 
-Use the arrows above the Selected Parameters table, to order the parameters to export.  
+Use the arrows above the Selected Parameters table, to sort the parameters to be exported.  
 
 ![SheetLink order the selected parameters](../../assets\images\SheetLink\SH-Sp-Order.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -116,7 +113,7 @@ Use the arrows above the Selected Parameters table, to order the parameters to e
 
 ### Reset Values
 
-Select the Reset Values button to clean all the available parameters and selected parameters.
+Select the Reset Values button to clear all the available parameters and selected parameters.
 
 ![SheetLink Reset Values](../../assets\images\SheetLink\SH-Sp-Reset.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -125,7 +122,7 @@ Select the Reset Values button to clean all the available parameters and selecte
 
 ### Preview/Edit
 
-Click to preview and to edit the sheet before exporting.
+Click to preview and to edit the sheet before exporting it.
 ![SheetLink Preview](../../assets\images\SheetLink\SH-Sp-Preview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
 
@@ -158,7 +155,7 @@ Follow the example below.
 
 ### Import
 
-If you have made some file edition, import it and update the schedules on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
+If you have made any edits to the file, import it and update the schedules in Revit. Before importing the file, you can preview the sheet to make sure, and then complete the import.
 
 ![SheetLink Import file](../../assets\images\SheetLink\SH-Sc-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
@@ -169,7 +166,7 @@ If you have made some file edition, import it and update the schedules on Revit.
 - Track the file import progress bar.
 ```
 
-Note if you have created rooms or spaces in the Excel file, it will be created on Revit, and now you can assign to the model.
+Note if you have created rooms or spaces in the Excel file, these will be created on Revit and can now be assigned to the model.
 
 ![SheetLink assign created rooms](../../assets\images\SheetLink\SH-Sp-CreateRoom.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>

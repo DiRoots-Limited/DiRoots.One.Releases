@@ -87,7 +87,7 @@ Click on the Groups button to manage it by creating, editing and removing groups
 
 ### Rename
 
-Rename button will allow you to add a suffix and/or prefix to parameters marked with a checkbox. Also, it provides the ability to replace part of the parameter name with a new value.
+Rename button allows you to add a suffix and/or prefix to parameters marked with a checkbox. Ir also allows you to replace part of the parameter name with a new value.
 
 ![ParaManager rename](../../assets\images\ParaManager\PM-Se-Rename.gif)
 
@@ -100,7 +100,7 @@ Note that manual name modification in the list view is allowed.
 
 ### Clear modifications
 
-The clear button has options to clean all modifications made in the current ParaManager session or to unload files without saving changes.
+The clear button has options to clean all changes made in the current ParaManager session or to unload files without saving the changes.
 
 ![ParaManager clear modifications](../../assets\images\ParaManager\PM-Se-Clear.gif)
 
