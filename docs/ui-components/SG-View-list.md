@@ -21,7 +21,7 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 After creating the project sheets and organizing their names and sets, we go to the View List tab to define the views for each sheet.
 
 1. To get started, click on the View Manager button to manage the views in your model.
-On this page you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view.
+On this page, you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view.
 
 ![SheetGen manage views](../../assets\images\SheetGen\SG-Vl-ManageView.gif)
 
@@ -31,14 +31,14 @@ On this page you'll find all the views in the model, and in All column, choose w
 
 ### Open View
 
-Click with the right mouse button on the view and choose the option Open View.
+Right-click on the view and choose Open view.
 
 ![SheetGen open view](../../assets\images\SheetGen\SG-Vl-OpenView.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ### Duplicate View
 
-You can perform this action for individual views by clicking the right mouse button and choosing the Duplicate option, or you can perform this action in batch for several views simultaneously. To duplicate in batch, select the views you want, and in the Batch Actions list, choose Duplicate.
+You can perform this action for individual views by right-clicking and selecting the Duplicate option, or you can perform this action in batch for several views simultaneously. To duplicate in batch, select the views you want, and in the Batch Actions list, choose Duplicate.
 
 ![SheetGen duplicate views](../../assets\images\SheetGen\SG-Vl-DuplicateView.gif)
 
@@ -67,7 +67,7 @@ You can perform this action for an individual view by clicking the right mouse b
 
 ### Add parameters columns
 
-By default, the list of views will only show the view name and the list of view. Click the right mouse button under the column header and add the desired parameters.
+By default, the list of views will only show the name of the view and the list of view. Right-click under the column header and add the desired parameters.
 
 ![SheetGen add parameters columns](../../assets\images\SheetGen\SG-Vl-AddParameters.png)
 
@@ -106,8 +106,8 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 
 ### Build Name
 
-Similar to the Rename tool, the SheetGen have the Build Name. Select the views you want and click to Build Name.
-Then define the Default Field Separator, Custom Field, Custom Separator and add or remove Parameters.
+Like the Rename tool, the SheetGen have the Build Name. Select the views you want and click to Build Name.
+Then set the Default Field Separator, Custom Field, Custom Separator and add or remove Parameters.
 
 ![SheetGen build name](../../assets\images\SheetGen\SG-Vl-BuildName.gif)
 
@@ -117,7 +117,7 @@ Then define the Default Field Separator, Custom Field, Custom Separator and add 
 
 ## Save V/S Set
 
-To organize the model views, especially when there are many views created, SheetGen offers the tool to save views sets.
+To organize the views of the model, especially when there are many views created, SheetGen offers the tool to save sets of views.
 To create a new set, select the views you want to separate into this set and click on New Set, then assign a name to finish creating the set.
 
 ![SheetGen new set](../../assets\images\SheetGen\SG-Vl-NewSet.gif)
@@ -132,7 +132,7 @@ You can also add views to an existing set.
 
 ### Filter by V/S Sets
 
-After organizing the model views into sets, you can apply filters to make the work process easier.
+Once you have organized the model views into sets, you can apply filters to make the work process easier.
 
 ![SheetGen existing set](../../assets\images\SheetGen\SG-Vl-FilterSet.png)
 
@@ -152,9 +152,9 @@ After organizing the model views into sets, you can apply filters to make the wo
 
 ## View Template tab
 
-This tab allows you to manage the view templates created, renaming or creating a build name.
+This tab allows you to manage the view templates you have created by renaming or creating a build name.
 
-1. Select the view templates that you want and click to Rename. Assign a Prefix, Suffix, the name to Replace and the new Name.
+1. Select the view templates you want and click Rename. Assign a Prefix, Suffix, the name to Replace and the new Name.
 
 ![SheetGen rename view templates](../../assets\images\SheetGen\SG-Vl-RenameViewTemplate.png)
 
@@ -181,7 +181,7 @@ After exporting the file and editing it, import and update the edited sheets.
 
 ## Apply filter by template
 
-Similar to the filters by set, apply filters by sheet templates and see the views assigned to each template.
+As with the filters by set, apply filters by sheet templates and see the views assigned to each template.
 
 ![SheetGen apply filters](../../assets\images\SheetGen\SG-Vl-Template.png)
 
@@ -191,7 +191,7 @@ Similar to the filters by set, apply filters by sheet templates and see the view
 
 ## Filter by V/S Sets
 
-Apply filters by the sheets sets created.
+Apply filters to the sheet sets created.
 
 ![SheetGen apply filters](../../assets\images\SheetGen\SG-Vl-FilterbySet.png)
 
@@ -201,13 +201,13 @@ Apply filters by the sheets sets created.
 
 ## Add views to sheets
 
-From the third column onwards we have the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then choose the view you want and click Select to add it to the sheet. The Views columns allow adding more than one view per sheet.
+The third column shows the views to be applied to the sheets. To add them, simply click on the "more options" button and then Select. Then choose the view you want and click Select to add it to the sheet. The Views columns allow adding more than one view per sheet.
 
 ![SheetGen add views](../../assets\images\SheetGen\SG-Vl-AddViewSheet.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-On the select view panel you can choose the view type in the list, select some parameters, and if you want to see just the views not applied click to Hide Placed Views and then view just the unselected views.
+In the select view panel you can choose the view type in the list, select some parameters and if you want to see just the unapplied views, click Hide Placed Views and then see only the unselected views.
 
 ![SheetGen add views](../../assets\images\SheetGen\SG-Vl-AddViewSettings.gif)
 
@@ -223,7 +223,7 @@ To remove a view from the sheet, click on the "more options" button, and choose 
 
 ### Open view
 
-Click on the "more options" button and select Open View. Note that the current view will open on Revit.
+Click on the "more options" button and select Open View. Note that the current view will be opened in Revit.
 
 ![SheetGen open views](../../assets\images\SheetGen\SG-Vl-OpenView.gif)
 
