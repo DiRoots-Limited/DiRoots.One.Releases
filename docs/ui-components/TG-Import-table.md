@@ -24,18 +24,18 @@ Collaborate with non-Revit users and bring the beauty of your Excel Tables into 
 
 Follow the firsts steps:
 
-1. Choose a spreadsheet that you would like to import into Revit and make a selection of the information you want to bring it.
-After to select the data, save the Excel file to import it.
+1. Choose a spreadsheet you want to import into Revit and make a selection of the information you want to bring in.
+After selecting the data, save the Excel file to import it.
 
 ![TableGen selecting data to import](../../assets\images\TableGen\TG-PrepareSheet.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
-2. Select the TableGen in the DiRootsOne menu, and click on the Add Tables button. The next step is to select the Excel file.
+2. Select the TableGen from the DiRootsOne menu, and click on the Add Tables button. The next step is to select the Excel file.
 
 ![TableGen add tables](../../assets\images\TableGen\TG-AddTable.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
-2. The fields will be completed by default, but you can change it to complete the process. 
+2. The fields will be filled in by default, but you can change them to complete the process. 
 
 - Number of copies: the TableGen you import the number of copies filled in this field.
 - Excel File: select the Excel file to be imported.
@@ -46,25 +46,25 @@ After to select the data, save the Excel file to import it.
 ![TableGen complete fields](../../assets\images\TableGen\TG-CompleteFields.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
-3. Confirm the import on the OK button, wait a few seconds for the import.
+3. Confirm the import on the OK button, and wait a few seconds for the import to complete.
 
 ![TableGen file imported](../../assets\images\TableGen\TG-FileImported.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
-You can edit some file information before the "Apply" action, to create the views.
+You can edit some information in the file before the "Apply" action, to create the views.
 
 ```yaml
 # Editable fields:  
-View Name: it is a text field and you can change the actual name.
-WorkSheet: change the WorkSheet selected on this drop-down field.
-Region: drop-down to change the selection made in the excel file.
-View Type: change the view type to be create.
+View Name: it is a text field and you can change the current name.
+WorkSheet: change the selected WorkSheet in this drop-down field.
+Region: drop-down field to change the selection made in the Excel file.
+View Type: change the type of view to be created.
 ```
 
 ![TableGen edit file](../../assets\images\TableGen\TG-EditFile.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
-4. Click on the Apply button to complete the process, and look of the new views created.
+4. Click the Apply button to complete the process and see the new views created.
 
 ![TableGen create views](../../assets\images\TableGen\TG-ApplyTable.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
