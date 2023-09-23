@@ -32,16 +32,6 @@ If you have created content about SheetLink and you want to see it featured here
 
  <div class="di-iframe-container">
   <iframe
-  title="FREE Revit batch printer/exporter: ProSheets by DiRoots!"
-  class="di-responsive-iframe" 
-  src="https://www.youtube.com/embed/FkLAB8nbRh0?feature=oembed">
-  </iframe>
-</div> 
-
-<div class="empty-space-small"></div>
-
- <div class="di-iframe-container">
-  <iframe
   title="Revit | SheetLink - Create Rooms and Spaces"
   class="di-responsive-iframe" 
   src="https://www.youtube.com/embed/3rlV2ltk3Vk">
