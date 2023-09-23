@@ -24,7 +24,7 @@ Follow the steps:
 
 1. Use the radio button to choose whether you want to manage All Families, Active View Families or Selected Families.
 
-![FamilyReviser radio button](../../assets\images\FamilyReviser\FR-Ed-Families.gif)
+![FamilyReviser radio button](../../../assets\images\FamilyReviser\FR-Ed-Families.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -34,7 +34,7 @@ Follow the steps:
 - Choose the categories
 - If you want to search for Family Name or Type Name.
 
-![FamilyReviser families options](../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
+![FamilyReviser families options](../../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -44,7 +44,7 @@ After selecting the families, lets replace some family names.
 
 1. Add a word to search for and choose whether you want Find Next or Find All. Note that the family name will be filtered.
 
-![FamilyReviser find and replace](../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
+![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -54,7 +54,7 @@ a. In the first field, enter the word to Find Next or Find All.
 
 b. The second field, enter the word to Replace Next or Replace All.
 
-![FamilyReviser find and replace](../../assets\images\FamilyReviser\FR-Ed-FindReplace.gif)
+![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-FindReplace.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -66,7 +66,7 @@ a. In the first field, enter the prefix and set it to apply to Selected or All f
 
 b. The second field, enter the suffix and set apply to Selected or All families.
 
-![FamilyReviser find and replace](../../assets\images\FamilyReviser\FR-Ed-PrefixSuffix.gif)
+![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-PrefixSuffix.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -74,14 +74,14 @@ b. The second field, enter the suffix and set apply to Selected or All families.
 
 Click the Clear button and set other data.
 
-![FamilyReviser clear data](../../assets\images\FamilyReviser\FR-Ed-Clear.png)
+![FamilyReviser clear data](../../../assets\images\FamilyReviser\FR-Ed-Clear.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
 ### Reload
 Click to Reload model changes.
 
-![FamilyReviser reload data](../../assets\images\FamilyReviser\FR-Ed-Reload.png)
+![FamilyReviser reload data](../../../assets\images\FamilyReviser\FR-Ed-Reload.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -89,7 +89,7 @@ Click to Reload model changes.
 
 If some changes cannot be applied, click the Undo button and go back over the changes.
 
-![FamilyReviser undo actions](../../assets\images\FamilyReviser\FR-Ed-Undo.png)
+![FamilyReviser undo actions](../../../assets\images\FamilyReviser\FR-Ed-Undo.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -97,7 +97,7 @@ If some changes cannot be applied, click the Undo button and go back over the ch
 
 Select Export to Excel from the list and open the file.
 
-![FamilyReviser export to excel](../../assets\images\FamilyReviser\FR-Ed-ExportExcel.png)
+![FamilyReviser export to excel](../../../assets\images\FamilyReviser\FR-Ed-ExportExcel.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -105,7 +105,7 @@ Select Export to Excel from the list and open the file.
 
 Select the option to Export Elements ID to CSV.
 
-![FamilyReviser export elements ID](../../assets\images\FamilyReviser\FR-Ed-ExportID.png)
+![FamilyReviser export elements ID](../../../assets\images\FamilyReviser\FR-Ed-ExportID.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -113,7 +113,7 @@ Select the option to Export Elements ID to CSV.
 
 Make changes in the exported Excel and import it to update the families.
 
-![FamilyReviser import from excel](../../assets\images\FamilyReviser\FR-Ed-ImportExcel.png)
+![FamilyReviser import from excel](../../../assets\images\FamilyReviser\FR-Ed-ImportExcel.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
@@ -121,7 +121,7 @@ Make changes in the exported Excel and import it to update the families.
 
 To apply changes to the model, click on the Apply button.
 
-![FamilyReviser apply](../../assets\images\FamilyReviser\FR-Ed-ApplyChanges.gif)
+![FamilyReviser apply](../../../assets\images\FamilyReviser\FR-Ed-ApplyChanges.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
 
