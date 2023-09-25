@@ -14,7 +14,7 @@ If you have created content about ReOrdering and you want to see it featured her
   <iframe
   title="ReOrdering | How to renumber Revit elements using ReOrdering"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/watch?v=6BQzPqShnTY">
+  src="https://www.youtube.com/embed/6BQzPqShnTY">
   </iframe>
 </div>
 
@@ -22,7 +22,7 @@ If you have created content about ReOrdering and you want to see it featured her
   <iframe
   title="ReOrdering | Renumbering Automation Diroots App"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/watch?v=XJyEd5abQXA">
+  src="https://www.youtube.com/embed/XJyEd5abQXA">
   </iframe>
 </div>
 
@@ -30,6 +30,6 @@ If you have created content about ReOrdering and you want to see it featured her
   <iframe
   title="ReOrdering | ReOrdering | Revit Add-in For Renumbering Revit Elements - DiRoots"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/watch?v=SCRu_SDrep0">
+  src="https://www.youtube.com/embed/SCRu_SDrep0">
   </iframe>
 </div>
