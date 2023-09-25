@@ -7,7 +7,7 @@ nav_order: 1
 ---
 
 # PointKit tutorials and demo videos in English.
-If you have created content about ParaManager and you want to see it featured here, drop us an email at info@diroots.com
+If you have created content about PointKit and you want to see it featured here, drop us an email at info@diroots.com
 {: .no_toc }
 
  <div class="di-iframe-container">
