@@ -14,6 +14,6 @@ If you have created content about PointKit and you want to see it featured here,
   <iframe
   title="PointKit | Point Cloud 🔌 Revit Plugin"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/watch?v=0ZbAaSCKbLE">
+  src="https://www.youtube.com/embed/0ZbAaSCKbLE">
   </iframe>
 </div>
