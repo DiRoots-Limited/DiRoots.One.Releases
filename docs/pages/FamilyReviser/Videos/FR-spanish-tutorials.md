@@ -6,7 +6,7 @@ grand_parent: FamilyReviser User Guide
 nav_order: 3
 ---
 
-# FamilyReviser tutorials and demo videos in English.
+# FamilyReviser tutorials and demo videos in Spanish.
 If you have created content about FamilyReviser and you want to see it featured here, drop us an email at info@diroots.com
 {: .no_toc }
 
