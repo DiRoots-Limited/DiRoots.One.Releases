@@ -13,7 +13,7 @@ If you have created content about ParaManager and you want to see it featured he
  <div class="di-iframe-container">
   <iframe
   title="ParaManager | 📈 Administración de Parámetros con DiRoots🏢"
-  class="di-responsive-iframe" 
+  class="di-responsive-iframe"
   src="https://www.youtube.com/embed/CxsVtjZIpvs">
   </iframe>
 </div>

@@ -21,7 +21,7 @@ If you have created content about OneFilter and you want to see it featured here
  <div class="di-iframe-container">
   <iframe
   title="OneFilter | OneFilter 1.3 | Free Autodesk Revit Add-in"
-  class="di-responsive-iframe" 
+  class="di-responsive-iframe"
   src="https://www.youtube.com/embed/Bp-Nh1MM3tk">
   </iframe>
 </div>
@@ -29,7 +29,7 @@ If you have created content about OneFilter and you want to see it featured here
  <div class="di-iframe-container">
   <iframe
   title="OneFilter | OneFilter Tutorial | How to quickly filter and select Revit families in a project"
-  class="di-responsive-iframe" 
+  class="di-responsive-iframe"
   src="https://www.youtube.com/embed/I24pOGoEN2w">
   </iframe>
 </div>

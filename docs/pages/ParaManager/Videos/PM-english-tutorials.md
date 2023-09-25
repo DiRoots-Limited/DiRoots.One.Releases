@@ -13,7 +13,7 @@ If you have created content about ParaManager and you want to see it featured he
  <div class="di-iframe-container">
   <iframe
   title="ParaManager | ParaManager 1.1 | Free Revit Add-in to manage your Revit parameters"
-  class="di-responsive-iframe" 
+  class="di-responsive-iframe"
   src="https://www.youtube.com/embed/ly-rkEs2TRE">
   </iframe>
 </div>
@@ -53,7 +53,7 @@ If you have created content about ParaManager and you want to see it featured he
  <div class="di-iframe-container">
   <iframe
   title="ParaManager | ParaManager | Manage Revit Parameters in the Family Environment"
-  class="di-responsive-iframe" 
+  class="di-responsive-iframe"
   src="https://www.youtube.com/embed/V_vQ8RljMGA">
   </iframe>
 </div>
