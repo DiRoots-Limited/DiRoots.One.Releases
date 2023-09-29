@@ -74,7 +74,7 @@ You can choose to define a prefix and suffix to apply the element numbering, but
 
 - Crossing: to renumber elements draw a detail line and all elements of the that fit criteria above will be numbered. If the line touches the element it will be counted.
 
-![ReOrdering crossing](../../assets\images\RO-Crossing.gif)  
+![ReOrdering crossing](../../../assets\images\RO-Crossing.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 - Vertex: to renumber elements draw a line and all elements that line endpoint (vertex) touch will be numbered. Line drawing direction/orientation will be taken into account.
