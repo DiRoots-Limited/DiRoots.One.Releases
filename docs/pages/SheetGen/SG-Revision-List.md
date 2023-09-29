@@ -55,17 +55,21 @@ By default, the table have the sheet number, name, revisions, current revision, 
 
 ## Import/Export
 
-If you have several sheets, this tool makes editing much easier. Export an Excel file, edit it as you want, then import it into SheetGen and update the revisions.
+If you have several sheets, this tool makes editing much easier. Export an Excel file, edit it as you want, then import it into SheetGen and update the revisions. Edit it to the name as you wish, then import it into SheetGen and update the views.
 
-1. Export the Review list Excel file.
-
-![SheetGen export excel file from revisions](../../../assets\images\SheetGen\SG-Rl-ExportExcel.png)
+![SheetGen export view](../../../assets\images\SheetGen\SG-Sl-ExcelEdit.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
-2. Import an Excel file to update the list of sheets and view the result.
+1. Export the excel file from view list.
 
-![SheetGen import excel file](../../../assets\images\SheetGen\SG-Rl-ImportExcel.gif)
+![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2.  Once you have edited the Excel file, import it to SheetGen.
+
+![SheetGen import excel file](../../../assets\images\SheetGen\SG-Rl-Import.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
