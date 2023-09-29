@@ -24,10 +24,15 @@ Collaborate with non-Revit users and bring the beauty of your Excel Tables into 
 
 Follow the firsts steps:
 
-1. Choose a spreadsheet you want to import into Revit and make a selection of the information you want to bring in.
+1. Choose a spreadsheet you want to import into Revit and make a selection of the range of cells you want to bring to Revit, and then name the previously selected range of cells and hit Enter.
 After selecting the data, save the Excel file to import it.
 
 ![TableGen selecting data to import](../../../assets\images\TableGen\TG-PrepareSheet.png)  
+<sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+
+You can also to create multiple worksheet regions and each one can be individually imported to Revit.
+
+![TableGen selecting data to import](../../../assets\images\TableGen\TG-Selection.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
 2. Select the TableGen from the DiRootsOne menu, and click on the Add Tables button. The next step is to select the Excel file.
@@ -37,9 +42,9 @@ After selecting the data, save the Excel file to import it.
 
 2. The fields will be filled in by default, but you can change them to complete the process. 
 
-- Number of copies: the TableGen you import the number of copies filled in this field.
+- Number of copies: the TableGen will import the number of copies filled in this field.
 - Excel File: select the Excel file to be imported.
-- WorkSheet: choose the current WorkSheet to select the data.
+- WorkSheet: choose the current WorkSheet.
 - WorkSheet Region: choose the selection created in the Excel file.
 - View Type: choose if you want to import like a Legend View, Schedule View or Drafting View.
 
