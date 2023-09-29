@@ -26,7 +26,7 @@ Click on the Load SP File button and choose the parameters file to import.
 
 ![ParaManager import shared parameters](../../../assets\images\ParaManager\PM-Se-LoadFile.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Add Parameter
 
@@ -34,7 +34,7 @@ Create new shared parameters by clicking on the Add Parameter button and then de
 
 ![ParaManager add shared parameters](../../../assets\images\ParaManager\PM-Se-AddParameter.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -44,13 +44,13 @@ Create new shared parameters by clicking on the Add Parameter button and then de
 
 ![ParaManager duplicate and delete](../../../assets\images\ParaManager\PM-Se-ManualDuplicateDelete.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Right-click on the parameter and select New Guid to generate a new Guid to replace the current one.
 
 ![ParaManager duplicate and delete](../../../assets\images\ParaManager\PM-Se-ManualGuid.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Batch Actions
 
@@ -60,19 +60,19 @@ Select the parameters and choose from the Batch actions list:
 
 ![ParaManager duplicate in batch](../../../assets\images\ParaManager\PM-Se-BatchDuplicate.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Delete shared parameters.
 
 ![ParaManager delete in batch](../../../assets\images\ParaManager\PM-Se-BatchDelete.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Generate New Guid.
 
 ![ParaManager new guid](../../../assets\images\ParaManager\PM-Se-GuidBatch.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -83,7 +83,7 @@ Click on the Groups button to manage it by creating, editing and removing groups
 
 ![ParaManager add shared parameters](../../../assets\images\ParaManager\PM-Se-Groups.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Rename
 
@@ -91,7 +91,7 @@ Rename button allows you to add a suffix and/or prefix to parameters marked with
 
 ![ParaManager rename](../../../assets\images\ParaManager\PM-Se-Rename.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```yaml
 # Note:
@@ -104,7 +104,7 @@ The clear button has options to clean all changes made in the current ParaManage
 
 ![ParaManager clear modifications](../../../assets\images\ParaManager\PM-Se-Clear.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Search Shared Parameters
 
@@ -112,7 +112,7 @@ The search box will search for shared parameters contained in the Schedules.
 
 ![ParaManager search shared parameters](../../../assets\images\ParaManager\PM-Se-Search.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -122,4 +122,4 @@ When you have finished managing the shared parameters, save them in a txt file s
 
 ![ParaManager save shared parameters](../../../assets\images\ParaManager\PM-Se-Save.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

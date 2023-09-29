@@ -26,7 +26,7 @@ In the first table, select the panels to export the properties.
 Use the search box to search for the panels.
 
 ![PanelLink select panel](../../../assets\images\SheetLink\SL-Pl-SelectPanel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Properties table
 
@@ -39,7 +39,7 @@ Properties are identified by colors that represent the instance, type and read-o
 ```
 
 ![PanelLink properties table](../../../assets\images\SheetLink\SL-Pl-Properties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -48,7 +48,7 @@ Properties are identified by colors that represent the instance, type and read-o
 Clear all selections made.
 
 ![PanelLink reset](../../../assets\images\SheetLink\SL-Pl-Reset.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Export
 
@@ -60,11 +60,11 @@ Note that, you can keep formatting of the schedules, but you wont be able to imp
 ```
 
 ![PanelLink export](../../../assets\images\SheetLink\SL-Pl-Export.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Import
 
 Select the Import button and choose to import from Exel file or Google Drive, then update the current model.
 
 ![PanelLink import](../../../assets\images\SheetLink\SL-Pl-Import.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

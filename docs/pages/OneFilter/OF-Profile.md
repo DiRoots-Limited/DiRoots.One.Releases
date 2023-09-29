@@ -37,7 +37,7 @@ Steps:
 4. Click on the "Save" button to save the profile.
 
 ![OneFilter Creating profiles](../../../assets\images\SheetGen\SG-Pf-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```
 Tip for BIM Managers!  
@@ -56,7 +56,7 @@ Steps:
 3. Click on the "Open" button to import the profile.
 
 ![OneFilter importing profile](../../../assets\images\SheetGen\SG-Pf-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Deleting Profiles
 
@@ -66,4 +66,4 @@ Steps:
 3. Confirm.
 
 ![OneFilter delete profile](../../../assets\images\SheetGen\SG-Pf-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

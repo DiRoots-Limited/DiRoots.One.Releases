@@ -24,25 +24,25 @@ The FamilyReviser also allows you to manage and create worksets from categories.
 
 ![FamilyReviser view categories](../../../assets\images\FamilyReviser\FR-Ws-SelectCat.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2.	Open the list of categories to choose which one to assign the workset to. By default, all categories will be selected, but you can choose as many as you like.
 
 ![FamilyReviser select categories](../../../assets\images\FamilyReviser\FR-Ws-Categories.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3.	Now click on the Manage Workset button, to open the Worksets panel. Manage the current worksets or create new worksets, and save them.
 
 ![FamilyReviser manage workset](../../../assets\images\FamilyReviser\FR-Ws-ManageWorkset.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. The next step is to select the families of the selected categories and select the corresponding workset in the WorkSet column.
 
 ![FamilyReviser assign workset](../../../assets\images\FamilyReviser\FR-Ws-AssignWorkset.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```yaml
 # Note:
@@ -61,7 +61,7 @@ This tool allows to filter the categories by rules to assign the corresponding w
 
 ![FamilyReviser create rules](../../../assets\images\FamilyReviser\FR-Ws-Rule.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Save Rule
 
@@ -77,7 +77,7 @@ In this panel, manage all the existing rules to be applied in the current model.
 
 ![FamilyReviser rules panel](../../../assets\images\FamilyReviser\FR-Ws-ManageRules.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Refresh
 
@@ -85,7 +85,7 @@ Use this button to refresh the table whenever you make any changes, to get the n
 
 ![FamilyReviser refresh](../../../assets\images\FamilyReviser\FR-Ws-Refresh.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Undo
 
@@ -93,4 +93,4 @@ This button resets the settings not applied to the model. If you want to restore
 
 ![FamilyReviser undo changes](../../../assets\images\FamilyReviser\FR-Ws-Undo.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

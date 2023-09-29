@@ -29,7 +29,7 @@ Let's get started:
 If you wish, you can deselect the categories you don't want to see.
 
 ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Sl-SelectCategories.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -38,7 +38,7 @@ If you wish, you can deselect the categories you don't want to see.
 Click on the Export list, and choose which way you want to export, whether it's to an Excel file, to Google Drive or whether you want to export the IDs in CSV.
 
 ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Sl-Export.png)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -54,7 +54,7 @@ Mark with checkbox elements that you want isolate with the Section Box. You have
 - Click the Apply button to finish.
 
 ![OneFilter views](../../../assets\images\OneFilter\OF-Sl-View.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -63,7 +63,7 @@ Mark with checkbox elements that you want isolate with the Section Box. You have
 Click on Save Selection button, and enter the name of the selection to save it. Note that, if you go to the Manage menu in Revit and click on the Load button, the new selection you have created will appear.
 
 ![OneFilter save selection](../../../assets\images\OneFilter\OF-Sl-SaveSelection.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -72,25 +72,25 @@ Click on Save Selection button, and enter the name of the selection to save it. 
 The Isolate Selection button, will isolate the filtered elements in a Temporary Hide/Isolate view. Click on Unisolate Selection to restore the view.
 
 ![OneFilter isolate selection](../../../assets\images\OneFilter\OF-Sl-Isolate.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Reset
 
 The Reset button will clear all the filters applied on Filter tab.
 
 ![OneFilter reset filter](../../../assets\images\OneFilter\OF-Sl-Reset.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Visualize
 
 Click on Visualize button to navigate to the Visualize tab.
 
 ![OneFilter visualize](../../../assets\images\OneFilter\OF-Sl-Visualize.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Select
 
 Click on Select button to select the elements in the current view.
 
 ![OneFilter visualize](../../../assets\images\OneFilter\OF-Sl-Select.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter](https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

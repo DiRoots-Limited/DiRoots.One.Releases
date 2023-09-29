@@ -26,7 +26,7 @@ Follow the steps:
 
 ![FamilyReviser radio button](../../../assets\images\FamilyReviser\FR-Ed-Families.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. The next step is to choose the families options:
 
@@ -36,7 +36,7 @@ Follow the steps:
 
 ![FamilyReviser families options](../../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Find and Replace
 
@@ -46,7 +46,7 @@ After selecting the families, lets replace some family names.
 
 ![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Enter the word that you want to replace it, and then choose whether you want to Replace Next or Replace All.
 
@@ -56,7 +56,7 @@ b. The second field, enter the word to Replace Next or Replace All.
 
 ![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-FindReplace.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Prefix/Suffix
 
@@ -68,7 +68,7 @@ b. The second field, enter the suffix and set apply to Selected or All families.
 
 ![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-PrefixSuffix.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Clear
 
@@ -76,14 +76,14 @@ Click the Clear button and set other data.
 
 ![FamilyReviser clear data](../../../assets\images\FamilyReviser\FR-Ed-Clear.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Reload
 Click to Reload model changes.
 
 ![FamilyReviser reload data](../../../assets\images\FamilyReviser\FR-Ed-Reload.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Undo
 
@@ -91,7 +91,7 @@ If some changes cannot be applied, click the Undo button and go back over the ch
 
 ![FamilyReviser undo actions](../../../assets\images\FamilyReviser\FR-Ed-Undo.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Export to Excel
 
@@ -99,7 +99,7 @@ Select Export to Excel from the list and open the file.
 
 ![FamilyReviser export to excel](../../../assets\images\FamilyReviser\FR-Ed-ExportExcel.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Export elements ID
 
@@ -107,7 +107,7 @@ Select the option to Export Elements ID to CSV.
 
 ![FamilyReviser export elements ID](../../../assets\images\FamilyReviser\FR-Ed-ExportID.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Import from Excel
 
@@ -115,7 +115,7 @@ Make changes in the exported Excel and import it to update the families.
 
 ![FamilyReviser import from excel](../../../assets\images\FamilyReviser\FR-Ed-ImportExcel.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Apply
 
@@ -123,5 +123,5 @@ To apply changes to the model, click on the Apply button.
 
 ![FamilyReviser apply](../../../assets\images\FamilyReviser\FR-Ed-ApplyChanges.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 

@@ -34,7 +34,7 @@ Steps:
 4. Click on the "Save" button to save the profile.
 
 ![SheetLink Creating profiles](../../assets\images\SL-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```
 Tip for BIM Managers!  
@@ -53,7 +53,7 @@ Steps:
 3. Click on the "Open" button to import the profile.
 
 ![SheetLink importing profiles](../../assets\images\SL-ImportProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Deleting Profiles
 
@@ -63,4 +63,4 @@ Steps:
 3. Confirm.
 
 //![SheetLink delete profiles](../../../assets\images\SheetLink\SH-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink](https://diroots.com/revit-plugins/revit-to-excel-sheetlink/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
