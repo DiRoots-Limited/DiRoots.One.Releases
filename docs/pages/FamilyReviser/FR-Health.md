@@ -25,7 +25,7 @@ The families with error will show a warming icon, and you can click it to see th
 
 ![FamilyReviser ryn health check](../../../assets\images\FamilyReviser\FR-Ht-Run.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser](https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```yaml
 # Note:

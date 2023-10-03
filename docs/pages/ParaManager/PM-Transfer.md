@@ -25,13 +25,13 @@ There are two ways to choose the family to copy the parameters:
 
 ![ParaManager select element](../../../assets\images\ParaManager\PM-Tr-SelectFamily.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Open the Family list: select the family in this list to transfer the parameters to.
 
 ![ParaManager select family](../../../assets\images\ParaManager\PM-Tr-SelectFamilyList.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -41,7 +41,7 @@ Modify allows you to add a suffix and/or prefix to parameters marked with a chec
 
 ![ParaManager modify](../../../assets\images\ParaManager\PM-Tr-Modify.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```yaml
 # Note:
@@ -59,7 +59,7 @@ This tools can be used before applying Modify functionality or manually editing 
 
 ![ParaManager clear modify](../../../assets\images\ParaManager\PM-Tr-Clear.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Hide un-checked
 
@@ -67,7 +67,7 @@ Select this checkbox to hide unselected families.
 
 ![ParaManager hide un-checked](../../../assets\images\ParaManager\PM-Tr-HideUnselected.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -78,4 +78,4 @@ Now select the family that should receive the selected parameters in the table o
 
 ![ParaManager Apply](../../../assets\images\ParaManager\PM-Tr-Apply.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

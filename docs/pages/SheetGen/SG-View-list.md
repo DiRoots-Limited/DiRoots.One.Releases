@@ -25,7 +25,7 @@ On this page, you'll find all the views in the model, and in All column, choose 
 
 ![SheetGen manage views](../../../assets\images\SheetGen\SG-Vl-ManageView.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Views tab
 
@@ -34,7 +34,7 @@ On this page, you'll find all the views in the model, and in All column, choose 
 Right-click on the view and choose Open view.
 
 ![SheetGen open view](../../../assets\images\SheetGen\SG-Vl-OpenView.png)
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Duplicate View
 
@@ -42,7 +42,7 @@ You can perform this action for individual views by right-clicking and selecting
 
 ![SheetGen duplicate views](../../../assets\images\SheetGen\SG-Vl-DuplicateView.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Duplicate View with Detailing
 
@@ -63,7 +63,7 @@ You can perform this action for an individual view by clicking the right mouse b
 
 ![SheetGen delete sheet](../../../assets\images\SheetGen\SG-Vl-DeleteView.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Add parameters columns
 
@@ -71,7 +71,7 @@ By default, the list of views will only show the name of the view and the list o
 
 ![SheetGen add parameters columns](../../../assets\images\SheetGen\SG-Vl-AddParameters.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -81,19 +81,19 @@ If you have several views created in the project, this tool makes editing much e
 
 ![SheetGen export view](../../../assets\images\SheetGen\SG-Sl-ExcelEdit.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 1. Export the excel file from view list.
 
 ![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2.  Once you have edited the Excel file, import it to SheetGen.
 
 ![SheetGen import excel file](../../../assets\images\SheetGen\SG-Vl-Import.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Rename
 
@@ -102,7 +102,7 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 
 ![SheetGen rename views](../../../assets\images\SheetGen\SG-Vl-Rename.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Build Name
 
@@ -111,7 +111,7 @@ Then set the Default Field Separator, Custom Field, Custom Separator and add or 
 
 ![SheetGen build name](../../../assets\images\SheetGen\SG-Vl-BuildName.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -122,13 +122,13 @@ To create a new set, select the views you want to separate into this set and cli
 
 ![SheetGen new set](../../../assets\images\SheetGen\SG-Vl-NewSet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 You can also add views to an existing set.
 
 ![SheetGen existing set](../../../assets\images\SheetGen\SG-Vl-AddtoSet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Filter by V/S Sets
 
@@ -136,7 +136,7 @@ Once you have organized the model views into sets, you can apply filters to make
 
 ![SheetGen existing set](../../../assets\images\SheetGen\SG-Vl-FilterSet.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -146,7 +146,7 @@ Once you have organized the model views into sets, you can apply filters to make
 
 ![SheetGen clear all](../../../assets\images\SheetGen\SG-Vl-Clean.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -158,13 +158,13 @@ This tab allows you to manage the view templates you have created by renaming or
 
 ![SheetGen rename view templates](../../../assets\images\SheetGen\SG-Vl-RenameViewTemplate.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Select the view templates that you want and click to Build Name. In this case, you can manage the Default Field Separator, Custom Field, Custom Separator and assign the view parameters to build the name.
 
 ![SheetGen view templates build name](../../../assets\images\SheetGen\SG-Vl-BuildNameView.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -174,7 +174,7 @@ Return to the List of Views tab and click on the Export button to generate an Ex
 
 ![SheetGen export sheets](../../../assets\images\SheetGen\SG-Vl-ExportSheets.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 1. Export the excel file from sheet list.
 
@@ -197,7 +197,7 @@ As with the filters by set, apply filters by sheet templates and see the views a
 
 ![SheetGen apply filters](../../../assets\images\SheetGen\SG-Vl-Template.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -207,7 +207,7 @@ Apply filters to the sheet sets created.
 
 ![SheetGen apply filters](../../../assets\images\SheetGen\SG-Vl-FilterbySet.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -217,13 +217,13 @@ The third column shows the views to be applied to the sheets. To add them, simpl
 
 ![SheetGen add views](../../../assets\images\SheetGen\SG-Vl-AddViewSheet.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 In the select view panel you can choose the view type in the list, select some parameters and if you want to see just the unapplied views, click Hide Placed Views and then see only the unselected views.
 
 ![SheetGen add views](../../../assets\images\SheetGen\SG-Vl-AddViewSettings.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Remove view from sheet
 
@@ -231,7 +231,7 @@ To remove a view from the sheet, click on the "more options" button, and choose 
 
 ![SheetGen remove views](../../../assets\images\SheetGen\SG-Vl-RemoveView.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Open view
 
@@ -239,7 +239,7 @@ Click on the "more options" button and select Open View. Note that the current v
 
 ![SheetGen open views](../../../assets\images\SheetGen\SG-Vl-OpenView.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -254,7 +254,7 @@ With this tool, only changes that have not yet been applied will be cleared. Cha
 
 ![SheetGen clear staging](../../../assets\images\SheetGen\SG-Vl-Clear.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
 

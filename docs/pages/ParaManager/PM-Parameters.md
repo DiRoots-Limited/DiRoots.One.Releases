@@ -26,7 +26,7 @@ Click on the Add Parameters button to create a new parameter.
 
 ![ParaManager add parameter](../../../assets\images\ParaManager\PM-Pm-AddParameter.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Edit the new parameter
 
@@ -42,7 +42,7 @@ Click on the Add Parameters button to create a new parameter.
 
 ![ParaManager edit new parameter](../../../assets\images\ParaManager\PM-Pm-EditParameter.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Individual actions
 
@@ -52,7 +52,7 @@ Click on the Add Parameters button to create a new parameter.
 
 ![ParaManager individual actions](../../../assets\images\ParaManager\PM-Pm-IndividualActions.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Batch Actions
 
@@ -60,7 +60,7 @@ Select the parameter and click to batch editing. Batch editing allows you to del
 
 ![ParaManager batch actions](../../../assets\images\ParaManager\PM-Pm-Batch.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Show Existing Parameters
 
@@ -68,7 +68,7 @@ You can choose whether you want to see the Existing Parameters or just the new o
 
 ![ParaManager existing parameters](../../../assets\images\ParaManager\PM-Pm-ExistingParameter.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Additional Attibutes
 
@@ -76,7 +76,7 @@ Right-click on the column header and select additional attributes for the column
 
 ![ParaManager existing parameters](../../../assets\images\ParaManager\PM-Pm-AdditionalAttibutes.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -88,7 +88,7 @@ Click on the Import/Export list, and select Export to Excel option. The next ste
 
 ![ParaManager export parameters to excel](../../../assets\images\ParaManager\PM-Pm-ExporttoExcel.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Import from Excel
 
@@ -96,7 +96,7 @@ Click on the Import/Export list, and select Import from Excel option. Select the
 
 ![ParaManager import parameters from excel](../../../assets\images\ParaManager\PM-Pm-ImportParameters.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Export Shared Parameters
 
@@ -104,7 +104,7 @@ Click on the Import/Export list, and select Export Shared Parameters option. The
 
 ![ParaManager export shared parameters](../../../assets\images\ParaManager\PM-Pm-ExportShared.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Import Shared Parameters
 
@@ -113,7 +113,7 @@ The next step is to select the file and choose the parameters to import.
 
 ![ParaManager import shared parameters](../../../assets\images\ParaManager\PM-Pm-ImportShared.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Search Parameters
 
@@ -121,7 +121,7 @@ The search box will search for parameters contained in the Schedules.
 
 ![ParaManager search parameters](../../../assets\images\ParaManager\PM-Pm-SearchParameters.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager](https://diroots.com/revit-plugins/manage-revit-parameters-in-projects-and-families-with-paramanager/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```yaml
 # Note:
