@@ -25,10 +25,17 @@ This page will show all sheets in the project.
 # Note:
 You must have at least one sheet created, to be used as a template in SheetGen.
 ```
+### Sheet template
+
+The first step before you start managing the sheets in SheetGen, is to create a sheet as a template. Basically, you need to create a sheet and fill it in, organizing the views as you wish. So, that will be used to generate new sheets on SheetGen, which will have the same settings as the template sheet. A sheet template is simply a sheet with some views in place.
+
+![SheetGen sheet template example](../../../assets\images\SheetGen\SG-Sl-SheetTemplate.png)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 ## New Sheet
 
-1. Click on the New Sheet button, or right-click on an existing sheet and choose the Create Sheets from template option.
+1. Click on the New Sheet button, or right-click on an existing sheet and choose the Create Sheets from sheet template option.
 
 ![SheetGen create new sheet](../../../assets\images\SheetGen\SG-Sl-NewSheet.gif)
 
@@ -137,10 +144,11 @@ To edit the individual sheets, double-click on the cell you want to edit (number
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Import/Export excel file
-
+ 
 If you have several sheets created in the project, this tool makes editing much easier. Export an Excel file, edit it as you want, then import it into SheetGen and update the number and name of the sheets. Note that in the Sheet Name header column has a lock icon, by activating this icon, the column will be locked for any editing.
+In the Excel file exported you can numbering, naming, changing parameters and also add new rows to create new Sheets.
 
-![SheetGen editing sheet](../../../assets\images\SheetGen\SG-Sl-LockColumn.png)
+![SheetGen add sheets on excel file](../../../assets\images\SheetGen\SG-Sl-ExcelEdit.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -150,9 +158,9 @@ If you have several sheets created in the project, this tool makes editing much 
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Import exel file to update the sheet list.
+2. Once you have edited the Excel file, import it to SheetGen.
 
-![SheetGen import excel file](../../../assets\images\SheetGen\SG-Sl-ImportExcel.gif)
+![SheetGen import excel file](../../../assets\images\SheetGen\SG-Sl-Import.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 

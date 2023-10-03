@@ -79,7 +79,7 @@ By default, the list of views will only show the name of the view and the list o
 
 If you have several views created in the project, this tool makes editing much easier. Export an Excel file, edit it to the name as you wish, then import it into SheetGen and update the views.
 
-![SheetGen export view](../../../assets\images\SheetGen\SG-Vl-ExportExcel.png)
+![SheetGen export view](../../../assets\images\SheetGen\SG-Sl-ExcelEdit.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -89,9 +89,9 @@ If you have several views created in the project, this tool makes editing much e
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Import exel file to update the view list.
+2.  Once you have edited the Excel file, import it to SheetGen.
 
-![SheetGen import excel file](../../../assets\images\SheetGen\SG-Vl-ImportExcel.gif)
+![SheetGen import excel file](../../../assets\images\SheetGen\SG-Vl-Import.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -170,12 +170,24 @@ This tab allows you to manage the view templates you have created by renaming or
 
 ## Import/Export sheets
 
-Return to the List of Views tab and click on the Export button to generate an Excel file. In this file you can also change the number and name of the sheets if necessary.
-After exporting the file and editing it, import and update the edited sheets.
+Return to the List of Views tab and click on the Export button to generate an Excel file. In the Excel file exported you can numbering, naming, changing parameters and also add new rows to create new Sheets.
 
 ![SheetGen export sheets](../../../assets\images\SheetGen\SG-Vl-ExportSheets.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+1. Export the excel file from sheet list.
+
+![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
+2. Once you have edited the Excel file, import it to SheetGen.
+
+![SheetGen import excel file](../../../assets\images\SheetGen\SG-Sl-Import.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+
 
 ---
 
