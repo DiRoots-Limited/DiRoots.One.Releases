@@ -180,7 +180,7 @@ To learn more about connecting to the Dead API, click on "How to get the API Key
 
 Note that maybe can exist a table with the same name and you can choose to Create a new table with a suffix or Overwrite existing tables.
 
-![SheetLink table with the same name](../../../assets\images\SheetLink\SH-Sc-googledrive.gif)  
+![SheetLink table with the same name](../../../assets\images\SheetLink\SL-Sc-Name.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 You can also choose a Table type to export sheet, according you have in your selected project.
