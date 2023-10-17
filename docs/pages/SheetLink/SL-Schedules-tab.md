@@ -124,10 +124,7 @@ Click to preview and edit the sheet before exporting it.
 
 ### Export
 
-Click to export the sheet to Google Drive or Excel.
-
-![SheetLink Export sheet](../../../assets\images\SheetLink\SH-Sc-Export.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+Click to export the sheet to Google Drive, Excel or Morta.
 
 ```yaml
 # Note:  
@@ -139,7 +136,7 @@ See below for the difference between the exported sheets, keeping the format and
 ![SheetLink difference between the sheets](../../../assets\images\SheetLink\SH-Sc-Sheets.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-The template Excel file is editable and after the editing, can be imported through SheetLink.
+The template Sheet file is editable and after the editing, can be imported through SheetLink.
 Caution, open the Instruction tab in your Excel file to get the colors legend.  
 
 ```yaml
@@ -153,6 +150,43 @@ Grey: Parameter does not exist for this element.
 # Note:  
 If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
 ```
+
+1. Export to Excel file.
+
+Choose the folder location to export the Excel file, and wait for a few seconds for the export process.
+
+![SheetLink export to excel file](../../../assets\images\SheetLink\SH-Sc-excel.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+2. Export to Google Drive.
+
+Connect to your Google Drive account, and then select a folder to export the schedule to.
+
+![SheetLink export to Google Drive](../../../assets\images\SheetLink\SH-Sc-googledrive.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+3. Export to Morta.
+
+To export sheet to Morta, make sure you are connected to the Morta API. Don't worry if you're not connected, just go to your Morta profile > Integrations and click on the New API Key button. Copy the created key, and paste it into the Morta API Key field in SheetLink.
+Now, choose your project into Morta and click on Upload to Morta button.
+
+```yaml
+# Note:  
+To learn more about connecting to the Dead API, click on "How to get the API Key" link.
+```
+
+![SheetLink export to Morta](../../../assets\images\SheetLink\SH-Sc-Morta.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+Note that maybe can exist a table with the same name and you can choose to Create a new table with a suffix or Overwrite existing tables.
+
+![SheetLink table with the same name](../../../assets\images\SheetLink\SL-Sc-Name.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+You can also choose a Table type to export sheet, according you have in your selected project.
+
+![SheetLink table type](../../../assets\images\SheetLink\SL-Sc-tabletype.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Import
 
