@@ -70,16 +70,6 @@ Instance parameters are displayed in green.
 Type parameters are displayed in yellow.
 Read-only parameters are displayed in red.
 ```
-
----
-
-### Filter elements within a section box
-
-You can use the existing 3D view or duplicate it. Visualize only filtered elements or all elements within Section Box, with ability to define offset from marked elements.
-
-![SheetLink filter elements within a section box](../../../assets\images\SheetLink\SH-Sc-bx.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
 ---
 
 ### Preview/Edit
@@ -182,6 +172,15 @@ If you have made any edits to the file, import it and update the schedules in Re
 The Isolate Selection button allows filtering the elements from the selected Schedules in a Temporary View (Hide/Isolate).
 
 ![SheetLink isolate the elements from schedules](../../../assets\images\SheetLink\SH-Sc-Isolate.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+#### Create a section box
+
+You can use the existing 3D view or duplicate it. Visualize only filtered elements or all elements within Section Box, with ability to define offset from marked elements.
+
+![SheetLink filter elements within a section box](../../../assets\images\SheetLink\SH-Sc-bx.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
