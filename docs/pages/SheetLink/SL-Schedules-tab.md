@@ -47,12 +47,29 @@ The 'Active View' radio button will show the existing schedules in the current v
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
-### Search Schedules
+### Search & Filtering
+
+#### Find Schedules
 
 The search box will search for schedules contained in the Select Schedules column.
 
 ![SheetLink Searching for schedules](../../../assets\images\SheetLink\SH-Sc-SearchSchedule.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+
+#### Filter Parameters 
+
+The parameters can be filtered by Instance, Type and Read-only.
+  
+![SheetLink select the parameters](../../../assets\images\SheetLink\SH-Sc-Instance.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+```yaml
+# Note:  
+Instance parameters are displayed in green.
+Type parameters are displayed in yellow.
+Read-only parameters are displayed in red.
+```
 
 ---
 
@@ -61,56 +78,6 @@ The search box will search for schedules contained in the Select Schedules colum
 You can use the existing 3D view or duplicate it. Visualize only filtered elements or all elements within Section Box, with ability to define offset from marked elements.
 
 ![SheetLink filter elements within a section box](../../../assets\images\SheetLink\SH-Sc-bx.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
----
-
-### Isolate Selection
-
-The Isolate Selection button allows filtering the elements from the selected Schedules in a Temporary View (Hide/Isolate).
-
-![SheetLink isolate the elements from schedules](../../../assets\images\SheetLink\SH-Sc-Isolate.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
----
-
-### Export Project Standards
-
-The Export Project Standards button allows yoy to export the main project data to Excel or Google Drive. The data to be exported is the Project Information, Object Styles, Line Styles and Families.
-
-![SheetLink Export Project Standard to Excel or Google Drive](../../../assets\images\SheetLink\SH-Sc-ExportProject.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Import Project Standards file
-
-You can also edit some Project Information and import to update the current model.
-
-![SheetLink Import Project Standards file](../../../assets\images\SheetLink\SH-Sc-ImportProject.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
----
-
-### Instance, Type and Read-only
-
-After choosing the schedules, SheetLink has options to see only instance, type and read-only parameters of the schedules.
-
-Click on the table headers to select the instance parameters, for example.
-
-```yaml
-# Note:  
-If selected, the instance parameters, will shown it in the green.
-If selected the type parameters, will be shown it in the yellow.
-If selected the read-only parameters, will be shown in the red.
-```
-  
-![SheetLink select the parameters](../../../assets\images\SheetLink\SH-Sc-Instance.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Reset Values
-
-Select the Reset Values button to clear all the selected schedules.
-
-![SheetLink Reset Values](../../../assets\images\SheetLink\SH-Sc-ResetValues.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -126,10 +93,18 @@ Click to preview and edit the sheet before exporting it.
 
 Click to export the sheet to Google Drive, Excel or Morta.
 
+#### Export Options
+
 ```yaml
 # Note:  
-Choose to keep formatting of the schedule, or export as a template file. If you choose to keep format, you will not be able to import data back to Revit.
+Choose to keep formatting of the schedule, or export as a template file. 
+If you choose to keep format, you will not be able to import data back to Revit.
 ```
+To export the linked elements use the 'Keep formatting of Schedules' option.
+
+![SheetLink linked elements warning](../../../assets\images\SheetLink\SL-Sc-Linked-Elements-Warning.png)  
+
+![SheetLink Schedules Export Options](../../../assets\images\SheetLink\SL-Sc-Export-Options.png)  
 
 See below for the difference between the exported sheets, keeping the format and the template sheet.
 
@@ -151,21 +126,21 @@ Grey: Parameter does not exist for this element.
 If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
 ```
 
-1. Export to Excel file.
+#### 1. Export to Excel file.
 
 Choose the folder location to export the Excel file, and wait for a few seconds for the export process.
 
 ![SheetLink export to excel file](../../../assets\images\SheetLink\SH-Sc-excel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Export to Google Drive.
+#### 2. Export to Google Drive.
 
 Connect to your Google Drive account, and then select a folder to export the schedule to.
 
 ![SheetLink export to Google Drive](../../../assets\images\SheetLink\SH-Sc-googledrive.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-3. Export to Morta.
+#### 3. Export to Morta.
 
 To export sheet to Morta, make sure you are connected to the Morta API. Don't worry if you're not connected, just go to your Morta profile > Integrations and click on the New API Key button. Copy the created key, and paste it into the Morta API Key field in SheetLink.
 Now, choose your project into Morta and click on Upload to Morta button.
@@ -199,3 +174,39 @@ If you have made any edits to the file, import it and update the schedules in Re
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
 ```
+### Other Features
+
+
+#### Isolate Selection
+
+The Isolate Selection button allows filtering the elements from the selected Schedules in a Temporary View (Hide/Isolate).
+
+![SheetLink isolate the elements from schedules](../../../assets\images\SheetLink\SH-Sc-Isolate.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+#### Export Project Standards
+
+The Export Project Standards button allows yoy to export the main project data to Excel or Google Drive. The data to be exported is the Project Information, Object Styles, Line Styles and Families.
+
+![SheetLink Export Project Standard to Excel or Google Drive](../../../assets\images\SheetLink\SH-Sc-ExportProject.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+#### Import Project Standards file
+
+You can also edit some Project Information and import to update the current model.
+
+![SheetLink Import Project Standards file](../../../assets\images\SheetLink\SH-Sc-ImportProject.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+#### Reset Values
+
+Select the Reset Values button to clear all the selected schedules.
+
+![SheetLink Reset Values](../../../assets\images\SheetLink\SH-Sc-ResetValues.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
