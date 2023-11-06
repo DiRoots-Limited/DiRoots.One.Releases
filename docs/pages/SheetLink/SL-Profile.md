@@ -33,7 +33,7 @@ Steps:
 3. Choose the location to save it.
 4. Click on the "Save" button to save the profile.
 
-![SheetLink Creating profiles](../../assets\images\SL-SaveProfile.gif)  
+![SheetLink Creating profiles](../../../assets\images\SheetLink\SL-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```
@@ -52,7 +52,7 @@ Steps:
 2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the "Open" button to import the profile.
 
-![SheetLink importing profiles](../../assets\images\SL-ImportProfile.gif)  
+![SheetLink importing profiles](../../../assets\images\SheetLink\SL-ImportProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Deleting Profiles
@@ -62,5 +62,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-//![SheetLink delete profiles](../../../assets\images\SheetLink\SH-DeleteProfile.png)
+![SheetLink delete profiles](../../../assets\images\SheetLink\SH-DeleteProfile.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
