@@ -25,12 +25,12 @@ The Levels tab allows the user to select categories of elements to find between 
 
 1. The first step is to select whether you want to apply filters based on the Whole Model or the Active View. Select the radio button to choose the view.
 
-![OneFilter select model view](../../../)  
+![OneFilter select model view](../../../assets\images\OneFilter\OF-Lv-WholeModel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, Level and count columns.
 
-![OneFilter choose categories](../../../)  
+![OneFilter choose categories](../../../assets\images\OneFilter\OF-Lv-Categories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Find Elements
@@ -47,21 +47,24 @@ Once you have selected it, define whether you want to find elements above or bel
 
 4. Repeat the last step by selecting the corresponding reference level/plane to find elements between the two selected situations.
 
-![OneFilter level/reference plane](../../../)  
+![OneFilter level/reference plane](../../../assets\images\OneFilter\OF-Lv-Rule.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 5. Click on the Filter button to execute the rule condition.
 
+![OneFilter apply filter level/reference plane](../../../assets\images\OneFilter\OF-Lv-Filter.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
 6. Click the Clear button to reset the condition of the rule you created.
 
-![OneFilter level/reference plane](../../../)  
+![OneFilter clear level/reference plane](../../../assets\images\OneFilter\OF-Lv-Clear.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Search
 
 The search box will search for elements contained in the filtered elements table.
 
-![OneFilter search](../../../)  
+![OneFilter search](../../../assets\images\OneFilter\OF-Lv-Search.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -77,7 +80,7 @@ Mark with checkbox elements that you want isolate with the Section Box. You have
 - Select the Isolate Selected Elements checkbox, to save the view with the isolated elements.
 - Click the Apply button to finish.
 
-![OneFilter views](../../../)  
+![OneFilter views](../../../assets\images\OneFilter\OF-Lv-Views.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -86,7 +89,7 @@ Mark with checkbox elements that you want isolate with the Section Box. You have
 
 Click on Save Selection button, and enter the name of the selection to save it. Note that, if you go to the Manage menu in Revit and click on the Load button, the new selection you have created will appear.
 
-![OneFilter save selection](../../../)  
+![OneFilter save selection](../../../assets\images\OneFilter\OF-Lv-Selection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -95,33 +98,30 @@ Click on Save Selection button, and enter the name of the selection to save it. 
 
 The Isolate Selection button, will isolate the filtered elements in a Temporary Hide/Isolate view. Click on Unisolate Selection to restore the view.
 
-![OneFilter isolate selection](../../../)  
+![OneFilter isolate selection](../../../assets\images\OneFilter\OF-Lv-Isolate.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Reset
 
 The Reset button will clear all the filters applied on Levels tab.
 
-![OneFilter reset filter](../../../)  
+![OneFilter reset filter](../../../assets\images\OneFilter\OF-Lv-Reset.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Visualize
 
 Click on Visualize button to navigate to the Visualize tab, recording the filtered elements.
 
-![OneFilter visualize](../../../)  
+![OneFilter visualize](../../../assets\images\OneFilter\OF-Lv-Visualize.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Contains
 
 Click on Contains button to navigate to the Contains tab, recording the filtered elements.
 
-![OneFilter contains](../../../)  
+![OneFilter contains](../../../assets\images\OneFilter\OF-Lv-Contains.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Select
 
 Click on Select button to select the elements in the current view.
-
-![OneFilter visualize](../../../)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
