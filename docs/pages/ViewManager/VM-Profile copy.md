@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Profile
-parent: SheetGen User Guide
+parent: ViewManager User Guide
 nav_order: 1
 ---
 
@@ -25,7 +25,7 @@ The following settings are saved in the profiles.
 
 ## Creating Profiles
 
-SheetGen profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
+ViewManager profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
 
 Steps:
 1. In the window header, click on the save button next to the profiles list.
@@ -33,8 +33,8 @@ Steps:
 3. Choose the location to save it.
 4. Click on the "Save" button to save the profile.
 
-![SheetGen Creating profiles](../../../assets\images\SheetGen\SG-Pf-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+![ViewManager Creating profiles](../../../)  
+<sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```
 Tip for BIM Managers!  
@@ -45,15 +45,15 @@ See the "Importing Profiles" section to teach users how to pull profiles from a 
 
 ## Importing Profiles
 
-SheetGen profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
+ViewManager profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
 
 Steps:
 1. In the window header, click on the Import button next to the profiles list.
 2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the "Open" button to import the profile.
 
-![SheetGen importing profiles](../../../assets\images\SheetGen\SG-Pf-ImportProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+![ViewManager importing profiles](../../../)  
+<sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Deleting Profiles
 
@@ -62,5 +62,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-![SheetGen delete profiles](../../../assets\images\SheetGen\SG-Pf-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+![ViewManager delete profiles](../../../)
+<sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
