@@ -33,7 +33,7 @@ Steps:
 3. Choose the location to save it.
 4. Click on the "Save" button to save the profile.
 
-![ViewManager Creating profiles](../../../)  
+![ViewManager Creating profiles](../../../assets\images\ViewManager\VM-Profile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```
@@ -52,7 +52,7 @@ Steps:
 2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the "Open" button to import the profile.
 
-![ViewManager importing profiles](../../../)  
+![ViewManager importing profiles](../../../assets\images\ViewManager\VM-ProfileImport.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Deleting Profiles
@@ -62,5 +62,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-![ViewManager delete profiles](../../../)
+![ViewManager delete profiles](../../../assets\images\ViewManager\VM-DeleteProfile.gif)
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
