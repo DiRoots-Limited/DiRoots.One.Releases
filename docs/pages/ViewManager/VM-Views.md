@@ -1,13 +1,13 @@
 ---
 layout: default
-title: ViewManager
+title: Views
 parent: ViewManager User Guide
 nav_order: 2
 ---
 
 # ViewManager
 {: .no_toc }
-Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
+Manage all the Views in your project, as well as View Templates and View Range settings in a single window.
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -20,7 +20,7 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 
 The View Manager is a tool for managing the existing views in the project and performing actions such as renaming them, organizing them by sets, exporting them and even duplicating them. 
 
-## Views
+## Filter Views
 
 In the second column choose the view type to show in this column.
 
@@ -48,7 +48,7 @@ Right-click on the view and select the Open View option.
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Duplicate Views
+### Duplicate View
 
 Right-click on the view and it will show you three options for duplicating it.
 
@@ -60,7 +60,7 @@ Right-click on the view and it will show you three options for duplicating it.
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Delete
+### Delete View
 
 Right-click on the view and select the Delete option to remove view.
 
@@ -86,7 +86,7 @@ Select the views and click on the Batch Actions list.
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Delete
+### Delete Views
 
 Select the views and click on the Delete button.
 

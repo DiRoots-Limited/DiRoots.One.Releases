@@ -1,13 +1,13 @@
 ---
 layout: default
-title: View Manager
+title: View Range
 parent: ViewManager User Guide
 nav_order: 4
 ---
 
 # ViewManager
 {: .no_toc }
-Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
+Manage all the Views in your project, as well as View Templates and View Range settings in a single window.
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -16,24 +16,50 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 
 ---
 
-# View Templates tab
+# View Range tab
 
-Manage all View Templates in this tab.
+Manage the View Range of your views individually or in batch in one place.
 
-## Rename
+## Manual actions
 
-View Manager also allows view templates to be renamed in batch. To do this, select the view templates you want and click to Rename. 
-Then define a Prefix, a Suffix, enter the name that will be replaced and finally the name that will replace it.
+1. Right-click on the view and click to open view.
 
-![View Manager rename view templates](../../../assets\images\ViewManager\SG-Vt-RenameTemplate.gif)
+2. In the Levels columns open the drop-down list to change it.
+
+3. Double-clik in the Offset cell and enter a value to assign to the view.
+
+```yaml
+# Note:  
+Please note that all View Range settings made with the plug-in must respect Revit's view range rules. If the rules are not respected, the settings will not be applied and a warning will be displayed.
+```
+
+![View Range manual actions](../../../)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub
 
-## Build Name
+---
 
-For the Build Name tool, select the view templates you want and click to Build Name.
-Then define the Default Field Separator, Custom Field, Custom Separator, and add or remove Parameters.
+## Batch View Range
 
-![View Manager build name](../../../assets\images\ViewManager\SG-Vt-BuildNameTemplate.gif)
+Select multiple views and click to manage it in batch. In this window, you can also change the Top Level, Bottom Level, Depth Level and the Offsets from the selected views.
+
+![View Range manual actions](../../../)
+
+<sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub
+
+---
+
+## Clear all modifications
+
+Click the Clear all Modifications button, and reset all edits applied to the view names and numbers, in the table view.
+
+![View Range clear all](../../../)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+```yaml
+# Tip:
+Hover the mouse over the information icon for more details about the view range.
+```
