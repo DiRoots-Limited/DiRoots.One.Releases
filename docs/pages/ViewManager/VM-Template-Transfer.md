@@ -18,7 +18,7 @@ Manage all the Views in your project, as well as View Templates and View Range s
 
 # Template Transfer tab
 
-The Template Transfer allows you to copy the View Template properties from multiple View Templates.
+The Template Transfer allows you to copy the View Template properties from several View Templates.
 
 ![Template Transfer](../../../assets\images\ViewManager\VM-Tt-Tab.gif)
 
@@ -26,13 +26,13 @@ The Template Transfer allows you to copy the View Template properties from multi
 
 ## Select Origin Template
 
-Choose one Origin View Template to copy their properties.
+Select a Origin View Template to copy its properties.
 
-1. On the first table use the first drop-down list to filter view templates by Disciplines.
+1. In the first table, use the first drop-down list to filter the view templates by Disciplines.
 
 2. The second drop-down list allows you to filter view templates by View Types.
 
-3. Use the search box to search by view template names.
+3. Use the search box to search for view template names.
 
 ![Selecting Origin View Template](../../../assets\images\ViewManager\VM-Tt-OriginTemplate.gif)
 
@@ -40,7 +40,7 @@ Choose one Origin View Template to copy their properties.
 
 ### Edit View Template
 
-Right-click on the Origin View Template and select to Edit View Template to open the Revit window, and manage it.
+Right-click on the Origin View Template and select Edit View Template to open the Revit window and manage it.
 
 ![Edit View Template](../../../assets\images\ViewManager\VM-Tt-EditViewTemplate.gif)
 
@@ -50,15 +50,15 @@ Right-click on the Origin View Template and select to Edit View Template to open
 
 ## Select Origin Properties
 
-On this table you are able to choose one or multiple properties from the Origin View Template, to copy to another one.
+In this table, you can choose one or more properties from the Origin View Template to copy to another.
 
-1. Use the search box to search by view template properties.
+1. Use the search box to search for view template properties.
 
-2. Use the checkboxes to select properties.
+2. Use the checkboxes to select the properties.
 
 ```yaml
 # Note:  
-Check the Hide un-checked properties to see only the choosen properties.
+Check the option Hide un-checked properties to see only the selected properties.
 ```
 
 ![Selecting Origin Properties](../../../assets\images\ViewManager\VM-Tt-Properties.gif)
@@ -69,19 +69,19 @@ Check the Hide un-checked properties to see only the choosen properties.
 
 ## Select Destination Template
 
-Choose one or multiple Destination View Templates to transfer the selected properties.
+Choose one or more Destination View Templates to transfer the selected properties.
 
-1. On this table use the first drop-down list to filter view templates by Disciplines.
+1. In this table, use the first drop-down list to filter view templates by Disciplines.
 
 2. The second drop-down list allows you to filter view templates by View Types.
 
-3. Use the search box to search by view template names.
+3. Use the search box to search for view template names.
 
-4. Click the Apply button to transfer the selected properties to destination view templates.
+4. Click the Apply button to transfer the selected properties to the destination view templates.
 
 ```yaml
 # Note:  
-Check the Hide un-checked templates to see only the choosen destination view templates.
+Check the Hide un-checked templates option to see only the chosen destination view templates.
 ```
 
 ![Selecting Destination View Templates](../../../assets\images\ViewManager\VM-Tt-Destination.gif)
