@@ -96,7 +96,7 @@ Use the drop-down lists to filter view templates by Disciplines and View Types.
 
 ### Quick visualization
 
-Visualize only the selected view templates, by clicking on Hide un-checked. You can also visualize only the view templates with associated views, by clicking on Has Associated Views.
+Visualize only the selected View Templates, by clicking on "Hide Unchecked". You can also visualize only the View Templates with associated Views, by clicking on "Has Associated Views".
 
 ![View Templates quick visualization](../../../assets\images\ViewManager\VM-Vt-QuickView.gif)
 

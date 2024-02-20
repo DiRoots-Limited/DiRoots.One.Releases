@@ -18,15 +18,15 @@ Manage all the Views in your project, as well as View Templates and View Range s
 
 # View Range tab
 
-Manage the View Range of your views individually or in batch in one place.
+Manage the View Range of your Views individually or in batches in one place.
 
 ## Manual actions
 
-1. Right-click on the view and click to open view.
+1. Right-click on the View and click to open View.
 
 2. In the Levels columns open the drop-down list to change it.
 
-3. Double-clik in the Offset cell and enter a value to assign to the view.
+3. Double-clik in the Offset cell and enter a value to assign to the View.
 
 4. Filter View Types by selecting in the drop-down list in the View Type column header.
 

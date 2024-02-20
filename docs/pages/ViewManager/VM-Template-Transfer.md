@@ -26,7 +26,7 @@ The Template Transfer allows you to copy the View Template properties from sever
 
 ## Select Origin Template
 
-Select a Origin View Template to copy its properties.
+Select an Origin View Template to copy its properties.
 
 1. In the first table, use the first drop-down list to filter the view templates by Disciplines.
 
