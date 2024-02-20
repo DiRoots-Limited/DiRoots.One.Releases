@@ -32,7 +32,7 @@ Right-click on the view template and select the Edit View Template to open the R
 
 Right-click on the view template and click to Duplicate View Template.
 
-![View Templates duplicate view](../../../assets\images\ViewManager\VM-Vt-duplicateManual.gif)
+![View Templates duplicate view](../../../assets\images\ViewManager\VM-Vt-Duplicate.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -40,7 +40,7 @@ Right-click on the view template and click to Duplicate View Template.
 
 Right-click on the view template and select Delete to remove it.
 
-![View Templates delete view](../../../assets\images\ViewManager\VM-Vt-deleteManual.gif)
+![View Templates delete view](../../../assets\images\ViewManager\VM-Vt-DeleteViewTemplate.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -52,7 +52,7 @@ Right-click on the view template and select Delete to remove it.
 
 Select the view templates and open the first drop-down list to choose the Duplicate View Templates option.
 
-![View Templates duplicate view](../../../assets\images\ViewManager\VM-Vt-BatchDuplicate.gif)
+![View Templates duplicate view](../../../assets\images\ViewManager\VM-Vt-DuplicateBatch.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -60,7 +60,7 @@ Select the view templates and open the first drop-down list to choose the Duplic
 
 Select the view templates and open the first drop-down list to choose the Delete View Templates option.
 
-![View Templates delete view](../../../assets\images\ViewManager\VM-Vt-BatchDelete.gif)
+![View Templates delete view](../../../assets\images\ViewManager\VM-Vt-DeleteBatch.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -80,7 +80,7 @@ Then define the Prefix, the Suffix, enter the name you want to replace and final
 For the Build Name tool, select the view templates you want and click to Build Name.
 Then define the Default Field Separator, Custom Field, Custom Separator, and add or remove Parameters to build the name of the view templates.
 
-![View Templates build name](../../../assets\images\ViewManager\VM-Vt-Build.gif)
+![View Templates build name](../../../assets\images\ViewManager\VM-Vt-BuildName.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -98,7 +98,7 @@ Use the drop-down lists to filter view templates by Disciplines and View Types.
 
 Visualize only the selected View Templates, by clicking on "Hide Unchecked". You can also visualize only the View Templates with associated Views, by clicking on "Has Associated Views".
 
-![View Templates quick visualization](../../../assets\images\ViewManager\VM-Vt-QuickView.gif)
+![View Templates quick visualization](../../../assets\images\ViewManager\VM-Vt-Quick.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
