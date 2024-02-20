@@ -20,10 +20,6 @@ Manage all the Views in your project, as well as View Templates and View Range s
 
 The Template Transfer allows you to copy the View Template properties from several View Templates.
 
-![Template Transfer](../../../assets\images\ViewManager\VM-Tt-Tab.gif)
-
-<sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
 ## Select Origin Template
 
 Select an Origin View Template to copy its properties.
@@ -34,7 +30,7 @@ Select an Origin View Template to copy its properties.
 
 3. Use the search box to search for view template names.
 
-![Selecting Origin View Template](../../../assets\images\ViewManager\VM-Tt-OriginTemplate.gif)
+![Selecting Origin View Template](../../../assets\images\ViewManager\VM-Tt-Origin.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -42,7 +38,7 @@ Select an Origin View Template to copy its properties.
 
 Right-click on the Origin View Template and select Edit View Template to open the Revit window and manage it.
 
-![Edit View Template](../../../assets\images\ViewManager\VM-Tt-EditViewTemplate.gif)
+![Edit View Template](../../../assets\images\ViewManager\VM-Tt-Edit.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
