@@ -5,18 +5,15 @@ parent: User Guide
 nav_order: 1
 ---
 
-!["DiRootsOne" Quick Views - Create internal views by Callouts, Elevations and Sections](../../../)  
-
-
 # Quick Views
 {: .no_toc }
-The Quick Views allows you to create multiple views as Callouts, Elevantions and Sections of internal rooms and spaces.
+The Quick Views allow you to create multiple views as Callouts, Elevantions and Sections of internal rooms and spaces.
 
 ## Core Features
 {: .no_toc }
 - Create Callouts from rooms and spaces.
 - Create Elevations and Sections from rooms and spaces.
-- Update views in batch.
+- Update views in batches.
 - Assign Shared Parameters to views.
 
 ## Table of contents
@@ -37,7 +34,7 @@ Note that the table will show all the rooms and spaces for the currently selecte
 
 ### Filter Categories
 
-In the Categories column header, filter Rooms and Spaces.
+In the header of the Categories column, filter Rooms and Spaces.
 
 ![DiRootsOne Quick Views - choose rooms/spaces](../../../assets\images\QuickViews\QV-CategoriesFilter.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
