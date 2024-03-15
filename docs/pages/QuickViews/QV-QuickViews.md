@@ -5,12 +5,12 @@ parent: User Guide
 nav_order: 1
 ---
 
-![DiStem Quick Views - Create internal views by Callouts, Elevations and Sections](../../../assets\images\QuickViews\QuickView_LightMode_Icon150px.png)  
+!["DiRootsOne" Quick Views - Create internal views by Callouts, Elevations and Sections](../../../)  
 
 
 # Quick Views
 {: .no_toc }
-The Quick Views allows you to create multiple views of Callouts, Elevantions and Sections of internal rooms and spaces.
+The Quick Views allows you to create multiple views as Callouts, Elevantions and Sections of internal rooms and spaces.
 
 ## Core Features
 {: .no_toc }
@@ -30,30 +30,30 @@ The Quick Views allows you to create multiple views of Callouts, Elevantions and
 ## Whole Model or Active View
 
 Select the radio button to manage rooms and spaces from the Whole Model or the Active View.
-Note that the table will show all the rooms and spaces for the currently selected option. In this table you can see the level, number, name, rooms and spaces, and the Status column shows whether any views have been created.
+Note that the table will show all the rooms and spaces for the currently selected option. In this table you can see the Project Name, Level, Number, Name, Rooms and Spaces, and the Status column shows whether any views have been created.
 
-![DiStem Quick Views - Whole Model or Active View](../../)  
+![DiRootsOne Quick Views - Whole Model or Active View](../../../assets\images\QuickViews\QV-RadioFilter.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
-### Filter Types
+### Filter Categories
 
-In the Type column header, select Rooms and Spaces.
+In the Categories column header, filter Rooms and Spaces.
 
-![DiStem Quick Views - choose rooms/spaces](../../)  
+![DiRootsOne Quick Views - choose rooms/spaces](../../../assets\images\QuickViews\QV-CategoriesFilter.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ### Linked Files
 
 Select the Linked Files checkbox to also manage linked model rooms/spaces.
 
-![DiStem Quick Views - linked files](../../)  
+![DiRootsOne Quick Views - linked files](../../../assets\images\QuickViews\QV-LinkedFiles.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ### Status list
 
-Use the Status list to filter the views created or not.
+Use the Status list to filter the Callouts or Elevations/Sections views, created, not created or updated. 
 
-![DiStem Quick Views - Filter by status](../../)  
+![DiRootsOne Quick Views - Filter by status](../../../assets\images\QuickViews\QV-StatusFilter.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -85,14 +85,14 @@ In this tab, you can manage all the details for creating Callout views.
 Use the Info icon to see the example of the boudaries.
 ```
 
-![DiStem Quick Views - View tab](../../)  
+![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewtabCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
 
 ### Naming Configuration tab
 
-Let's customize the names of the views.
+Let's customize the name of the views.
 
 In the first table, you can see all the existing parameters that you can use to name the views. Select the parameters you want, and click on the arrow button to assign them to the Selected Parameters table. You can also sort the Selected Parameters using the arrows below the table.
 
@@ -106,14 +106,14 @@ Use the checkbox to also see the Project Information parameters.
 Select the checkbox to add a default Field Separator between the selected parameters.
 ```
 
-![DiStem Quick Views - select parameters to naming](../../)  
+![DiRootsOne Quick Views - select parameters to naming](../../../assets\images\QuickViews\QV-NametabCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
-1. Enter Custom Fields to name the views.
+1. Enter Custom Field to name the views.
 
-2. Enter Custom Separators betwen the parameters to be named.
+2. Enter Custom Separator between  the parameters to be named.
 
-![DiStem Quick Views - custom field and custom separator](../../)  
+![DiRootsOne Quick Views - custom field and custom separator](../../../assets\images\QuickViews\QV-CustomFieldSeparator.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -123,12 +123,12 @@ Select the checkbox to add a default Field Separator between the selected parame
 To manage this tab you need to create at least one Shared Parameter from the Views category. Then, click on Add button to add a Shared Parameter to the views you are going to create.
 Once you have added it, open the list to select the parameter and in the second column, assign it a value.
 
-![DiStem Quick Views - Parameters tab](../../)  
+![DiRootsOne Quick Views - Parameters tab](../../../assets\images\QuickViews\QV-Parameters.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
 
-### Save settigs
+### Save settings
 
 Click on Apply to save the settings and then select the rooms and spaces for which you want to create the callout views.
 To finish, click on the Create button and wait a few seconds for the views to be created.
@@ -138,7 +138,7 @@ To finish, click on the Create button and wait a few seconds for the views to be
 You can also use the Select rooms/spaces buttons to choose them manually.
 ```
 
-![DiStem Quick Views - create views](../../)  
+![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-Select.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -163,7 +163,7 @@ In this tab, you can manage all the details for creating the views.
 
 6. Select the checkbox to Join Elevation Views into Single Marker. If the room is square or retangle, this option places all the views on a single marker.
 
-![DiStem Quick Views - View tab](../../)  
+![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewtabElevationSection.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -189,7 +189,7 @@ Now let's define the section height and offsets to the rooms and spaces.
 Use the Info icon to see the boudaries and Offsets examples.
 ```
 
-![DiStem Quick Views - View tab](../../)  
+![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-OffsetsElevationSection.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -209,15 +209,11 @@ Use the checkbox to also see the Project Information parameters.
 #Note:
 Select the checkbox to add a default Field Separator between the selected parameters.
 ```
-
-![DiStem Quick Views - select parameters to naming](../../)  
-<sub>Note: the version on the image may not reflect the latest version of the application.</sub>
-
 1. Enter Custom Fields to name the views.
 
 2. Enter Custom Separators between the parameters to name.
 
-![DiStem Quick Views - custom field and custom separator](../../)  
+![DiRootsOne Quick Views - select parameters to naming](../../../assets\images\QuickViews\QV-NametabElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -237,7 +233,7 @@ Let's create a condition to count the views.
 To use the View Count condition, you must to select the View Count Parameter, in the previous table.
 ```
 
-![DiStem Quick Views - custom field and custom separator](../../)  
+![DiRootsOne Quick Views - custom field and custom separator](../../../assets\images\QuickViews\QV-ViewCount.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -247,7 +243,7 @@ To use the View Count condition, you must to select the View Count Parameter, in
 To manage this tab you need to create at least one Shared Parameter from the Views category. Then, click on Add button to add a Shared Parameter to the views you are going to create.
 Once you have added it, open the list to select the parameter and in the second column assign it a text value.
 
-![DiStem Quick Views - Parameters tab](../../)  
+![DiRootsOne Quick Views - Parameters tab](../../../assets\images\QuickViews\QV-ParametersElevations.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -262,7 +258,7 @@ To finish, click on the Create button and wait a few seconds for the views to be
 You can also use the Select rooms button to choose them manually.
 ```
 
-![DiStem Quick Views - create views](../../)  
+![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-SelectElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -275,6 +271,9 @@ Right-click on the room/space within the table and you can:
 
 - Open Callout and Elevations/Sections.
 
+![DiRootsOne Quick Views - right-click](../../../assets\images\QuickViews\QV-Rightclick.gif)  
+<sub>Note: the version on the image may not reflect the latest version of the application.</sub>
+
 ---
 
 ## Update Views
@@ -286,10 +285,7 @@ Update the views of the selected rooms/spaces. All the views of the selected roo
 Details and dimensions will be lost.
 ```
 
-![DiStem Quick Views - create views](../../)  
+![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-Update.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 All done! Verify your created views.
-
-![DiStem Quick Views - created views](../../)  
-<sub>Note: the version on the image may not reflect the latest version of the application.</sub>
