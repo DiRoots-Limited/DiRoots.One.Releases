@@ -31,17 +31,17 @@ To make it easier to see the parameter values, use a schedule view.
 
 2. First, the user has to select a parameter to manage. In the table on the left, use the list to filter the parameters by Instance or Type.
 
-![Filter Instance and Type parameters](../../../)  
+![Filter Instance and Type parameters](../../../assets\images\OneParameter\OP-FilterInstanceType.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Use the serachbox to search for a specfic parameter.
 
-![Search parameters](../../../)  
+![Search parameters](../../../assets\images\OneParameter\OP-Search.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. Click on the buttons below the table to sort the parameters by Type or Instance.
 
-![Sort parameters](../../../)  
+![Sort parameters](../../../assets\images\OneParameter\OP-Sort.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Filter by Parameter Value
@@ -54,7 +54,7 @@ After selecting a parameter, enter a value assigned to the parameter to be searc
 
 3. Click on the eye icon to select the elements found in the current view.
 
-![Find parameter values](../../../)  
+![Find parameter values](../../../assets\images\OneParameter\OP-Filter.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Prefix/Suffix
@@ -66,7 +66,7 @@ When a parameter is selected, add a prefix and a suffix to the values assigned t
 If you have filtered values in the previous field (Filter by parameter value), the prefix and suffix added will only be assigned to the filtered values. If there is no filtered parameter, the suffix and prefix will be added to all the values of the selected parameter.
 ```
 
-![Add prefix and suffix](../../../)  
+![Add prefix and suffix](../../../assets\images\OneParameter\OP-PrefixSuffix.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Parameter Value
@@ -80,12 +80,12 @@ If you have filtered values in the previous field (Filter by parameter value), t
 
 1. Click the "Clear parameter Value" button to remove the values assigned to the selected Parameter.
 
-![Clear parameter value](../../../)  
+![Clear parameter value](../../../assets\images\OneParameter\OP-ClearParameter.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Enter a value and click the "Add" button to add the value in bulk.
 
-![Add value](../../../)  
+![Add value](../../../assets\images\OneParameter\OP-AddValue.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -94,5 +94,5 @@ If you have filtered values in the previous field (Filter by parameter value), t
 
 In order to perform actions on another parameter, click on the "Clear inputs" button to clear all fields and start actions on another parameter.
 
-![Clear inputs](../../../)  
+![Clear inputs](../../../assets\images\OneParameter\OP-ClearInput.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
