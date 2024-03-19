@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Quick Views
-parent: User Guide
+title: QuickViews
+parent: QuickViews User Guide
 nav_order: 1
 ---
 
