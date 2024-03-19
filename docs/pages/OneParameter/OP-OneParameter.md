@@ -54,7 +54,7 @@ After selecting a parameter, enter a value assigned to the parameter to be searc
 
 3. Click on the eye icon to select the elements found in the current view.
 
-![Find parameter values](../../../assets\images\OneParameter\OP-Filter.gif)  
+![Find parameter values](../../../assets\images\OneParameter\OP-FilterValue.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Prefix/Suffix
@@ -80,12 +80,12 @@ If you have filtered values in the previous field (Filter by parameter value), t
 
 1. Click the "Clear parameter Value" button to remove the values assigned to the selected Parameter.
 
-![Clear parameter value](../../../assets\images\OneParameter\OP-ClearParameter.gif)  
+![Clear parameter value](../../../assets\images\OneParameter\OP-ClearValue.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Enter a value and click the "Add" button to add the value in bulk.
 
-![Add value](../../../assets\images\OneParameter\OP-AddValue.gif)  
+![Add value](../../../assets\images\OneParameter\OP-Add.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
