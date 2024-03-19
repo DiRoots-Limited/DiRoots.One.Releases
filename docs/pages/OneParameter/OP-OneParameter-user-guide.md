@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OneParameter User Guide
-nav_order: 8
+nav_order: 5
 has_children: true
 permalink: /docs/OneParameter-user-guide
 ---
