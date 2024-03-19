@@ -1,12 +1,12 @@
 ---
 layout: default
-title: ParaManager User Guide
-nav_order: 10
+title: OneParameter User Guide
+nav_order: 5
 has_children: true
-permalink: /docs/paramanager-user-guide
+permalink: /docs/OneParameter-user-guide
 ---
 
-# ParaManager User Guide
+# OneParameter User Guide
 
 Learn how to use DiRootsOne to speed up your drawing production.
 {: .fs-6 .fw-300 }
