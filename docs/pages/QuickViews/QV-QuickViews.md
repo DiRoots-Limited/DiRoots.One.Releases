@@ -82,7 +82,7 @@ In this tab, you can manage all the details for creating Callout views.
 Use the Info icon to see the example of the boudaries.
 ```
 
-![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewtabCallout.gif)  
+![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -103,14 +103,14 @@ Use the checkbox to also see the Project Information parameters.
 Select the checkbox to add a default Field Separator between the selected parameters.
 ```
 
-![DiRootsOne Quick Views - select parameters to naming](../../../assets\images\QuickViews\QV-NametabCallout.gif)  
+![DiRootsOne Quick Views - select parameters to naming](../../../assets\images\QuickViews\QV-NameCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 1. Enter Custom Field to name the views.
 
 2. Enter Custom Separator between  the parameters to be named.
 
-![DiRootsOne Quick Views - custom field and custom separator](../../../assets\images\QuickViews\QV-CustomFieldSeparator.gif)  
+![DiRootsOne Quick Views - custom field and custom separator](../../../assets\images\QuickViews\QV-CustomFieldCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -120,7 +120,7 @@ Select the checkbox to add a default Field Separator between the selected parame
 To manage this tab you need to create at least one Shared Parameter from the Views category. Then, click on Add button to add a Shared Parameter to the views you are going to create.
 Once you have added it, open the list to select the parameter and in the second column, assign it a value.
 
-![DiRootsOne Quick Views - Parameters tab](../../../assets\images\QuickViews\QV-Parameters.gif)  
+![DiRootsOne Quick Views - Parameters tab](../../../assets\images\QuickViews\QV-ParameterCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -135,7 +135,7 @@ To finish, click on the Create button and wait a few seconds for the views to be
 You can also use the Select rooms/spaces buttons to choose them manually.
 ```
 
-![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-Select.gif)  
+![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-SelectCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -160,7 +160,7 @@ In this tab, you can manage all the details for creating the views.
 
 6. Select the checkbox to Join Elevation Views into Single Marker. If the room is square or retangle, this option places all the views on a single marker.
 
-![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewtabElevationSection.gif)  
+![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -186,7 +186,7 @@ Now let's define the section height and offsets to the rooms and spaces.
 Use the Info icon to see the boudaries and Offsets examples.
 ```
 
-![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-OffsetsElevationSection.gif)  
+![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-OffsetsElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -210,7 +210,7 @@ Select the checkbox to add a default Field Separator between the selected parame
 
 2. Enter Custom Separators between the parameters to name.
 
-![DiRootsOne Quick Views - select parameters to naming](../../../assets\images\QuickViews\QV-NametabElevation.gif)  
+![DiRootsOne Quick Views - select parameters to naming](../../../assets\images\QuickViews\QV-NameElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -240,7 +240,7 @@ To use the View Count condition, you must to select the View Count Parameter, in
 To manage this tab you need to create at least one Shared Parameter from the Views category. Then, click on Add button to add a Shared Parameter to the views you are going to create.
 Once you have added it, open the list to select the parameter and in the second column assign it a text value.
 
-![DiRootsOne Quick Views - Parameters tab](../../../assets\images\QuickViews\QV-ParametersElevations.gif)  
+![DiRootsOne Quick Views - Parameters tab](../../../assets\images\QuickViews\QV-ParameterElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -268,7 +268,7 @@ Right-click on the room/space within the table and you can:
 
 - Open Callout and Elevations/Sections.
 
-![DiRootsOne Quick Views - right-click](../../../assets\images\QuickViews\QV-Rightclick.gif)  
+![DiRootsOne Quick Views - right-click](../../../assets\images\QuickViews\QV-RightClick.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 ---
@@ -282,7 +282,8 @@ Update the views of the selected rooms/spaces. All the views of the selected roo
 Details and dimensions will be lost.
 ```
 
-![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-Update.gif)  
+![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-Update.gif
+)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
 All done! Verify your created views.
