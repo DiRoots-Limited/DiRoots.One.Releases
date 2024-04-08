@@ -7,7 +7,8 @@ nav_order: 1
 
 # OneParameter
 {: .no_toc }
-A free Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
+Manage the values of the Instance and Type parameters of your Revit model in bulk. OneParameter allows you to filter and replace values, add prefixes and suffixes, add or clear parameter values.
+
 ## Table of contents
 {: .no_toc .text-delta }
 
