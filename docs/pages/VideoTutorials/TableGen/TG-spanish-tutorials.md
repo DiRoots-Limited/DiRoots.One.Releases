@@ -2,7 +2,7 @@
 layout: default
 title: Spanish | Video Tutorials
 parent: Video Tutorials
-grand_parent: TableGen User Guide
+grand_parent: TableGen
 nav_order: 3
 ---
 

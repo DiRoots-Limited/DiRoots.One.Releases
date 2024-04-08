@@ -2,7 +2,7 @@
 layout: default
 title: English | Video Tutorials
 parent: Video Tutorials
-grand_parent: OneParameter User Guide
+grand_parent: OneParameter
 nav_order: 1
 ---
 

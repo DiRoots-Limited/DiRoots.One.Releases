@@ -2,7 +2,7 @@
 layout: default
 title: English | Video Tutorials
 parent: Video Tutorials
-grand_parent: SheetLink User Guide
+grand_parent: SheetLink
 nav_order: 1
 ---
 

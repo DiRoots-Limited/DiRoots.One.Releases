@@ -2,7 +2,7 @@
 layout: default
 title: English | Video Tutorials
 parent: Video Tutorials
-grand_parent: PointKit User Guide
+grand_parent: PointKit
 nav_order: 1
 ---
 

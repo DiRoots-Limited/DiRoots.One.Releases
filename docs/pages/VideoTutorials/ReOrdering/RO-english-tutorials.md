@@ -2,7 +2,7 @@
 layout: default
 title: English | Video Tutorials
 parent: Video Tutorials
-grand_parent: ReOrdering User Guide
+grand_parent: ReOrdering
 nav_order: 1
 ---
 

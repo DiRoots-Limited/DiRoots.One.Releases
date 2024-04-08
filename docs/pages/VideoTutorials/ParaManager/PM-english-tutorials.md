@@ -2,7 +2,7 @@
 layout: default
 title: English | Video Tutorials
 parent: Video Tutorials
-grand_parent: ParaManager User Guide
+grand_parent: ParaManager
 nav_order: 1
 ---
 

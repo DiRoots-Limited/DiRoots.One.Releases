@@ -2,7 +2,7 @@
 layout: default
 title: English | Video Tutorials
 parent: Video Tutorials
-grand_parent: OneFilter User Guide
+grand_parent: OneFilter
 nav_order: 1
 ---
 

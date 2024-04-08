@@ -2,7 +2,7 @@
 layout: default
 title: Spanish | Video Tutorials
 parent: Video Tutorials
-grand_parent: SheetGen User Guide
+grand_parent: SheetGen
 nav_order: 2
 ---
 
