@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Video Tutorials
-parent: PointKit User Guide
+title: Videos
+nav_order: 14
 has_children: true
-nav_order: 100
+permalink: /docs/video-tutorials
 ---
 
 # Video Tutorials
