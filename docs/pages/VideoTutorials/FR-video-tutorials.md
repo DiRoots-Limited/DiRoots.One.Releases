@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Videos
+title: Video Tutorials
 nav_order: 14
 has_children: true
 permalink: /docs/video-tutorials
