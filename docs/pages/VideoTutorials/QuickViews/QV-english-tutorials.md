@@ -1,7 +1,7 @@
 ---
 layout: default
 title: English | Video Tutorials
-parent: PointKit
+parent: QuickViews
 grand_parent: Video Tutorials
 nav_order: 1
 ---
