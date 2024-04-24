@@ -2,7 +2,6 @@
 layout: default
 title: Tiếng Việt | Video Tutorials
 parent: Video Tutorials
-grand_parent: FamilyReviser User Guide
 nav_order: 4
 ---
 
