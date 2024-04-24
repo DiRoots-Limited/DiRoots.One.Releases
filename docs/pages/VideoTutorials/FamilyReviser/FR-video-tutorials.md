@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FamilyReviser Video Tutorials
+title: FamilyReviser
 nav_order: 15
 has_children: true
 permalink: /docs/video-tutorials
