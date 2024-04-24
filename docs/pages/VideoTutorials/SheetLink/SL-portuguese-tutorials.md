@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Portuguese | Video Tutorials
-parent: Video Tutorials
-grand_parent: SheetLink User Guide
+parent: SheetLink
+grand_parent: Video Tutorials
 nav_order: 2
 ---
 

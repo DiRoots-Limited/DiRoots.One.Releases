@@ -1,8 +1,8 @@
 ---
 layout: default
 title: English | Video Tutorials
-parent: Video Tutorials
-grand_parent: TableGen User Guide
+parent: TableGen
+grand_parent: Video Tutorials
 nav_order: 1
 ---
 
