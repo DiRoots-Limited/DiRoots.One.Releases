@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Spanish | Video Tutorials
-parent: Video Tutorials
-grand_parent: OneFilter User Guide
+parent: OneFilter
+grand_parent: Video Tutorials
 nav_order: 2
 ---
 
