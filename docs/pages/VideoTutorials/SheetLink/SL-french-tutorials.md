@@ -1,9 +1,9 @@
 ---
 layout: default
 title: French | Video Tutorials
-parent: Video Tutorials
-grand_parent: SheetLink User Guide
-nav_order: 2
+parent: SheetLink
+grand_parent: Video Tutorials
+nav_order: 3
 ---
 
 # SheetLink tutorials and demo videos in French.
