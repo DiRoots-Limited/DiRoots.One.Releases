@@ -2,7 +2,6 @@
 layout: default
 title: Spanish | Video Tutorials
 parent: Video Tutorials
-grand_parent: FamilyReviser User Guide
 nav_order: 3
 ---
 
