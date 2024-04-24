@@ -18,7 +18,7 @@ A free Autodesk Revit Add-in to boost your productivity when working with Point 
 
 # OneParameter
 
-The OneParameter tool allows the user to select a Parameter Type or Instance and filter the values assigned to it. As well as filtering parameter values, the user can also add prefixes and suffixes, and add or remove values in bulk.
+Edit values from Instance/Type Parameters in your Revit model in bulk. With OneParameter, you can add prefixes/suffixes, replace, and clear multiple Parameter values with a single click.
 
 ```yaml
 # Tip:  

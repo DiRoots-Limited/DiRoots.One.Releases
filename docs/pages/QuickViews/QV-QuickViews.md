@@ -7,7 +7,7 @@ nav_order: 1
 
 # Quick Views
 {: .no_toc }
-The Quick Views allow you to create multiple views as Callouts, Elevantions and Sections of internal rooms and spaces.
+With QuickViews, you can easily create Internal Elevation/Section Views and Callouts from Rooms/Spaces.
 
 ## Core Features
 {: .no_toc }
