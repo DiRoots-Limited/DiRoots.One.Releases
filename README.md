@@ -20,23 +20,30 @@ Import your spreadsheets into Revit as Legend Views, Schedule Views, and Draftin
 Create multiple Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
 
 - ReOrdering
-Easily renumber instance Revit parameters using a prefix, a suffix, and a multiplier (manually or following a path/detail line).
+Easily renumber instance Revit parameters by using a prefix, a suffix, and a multiplier (manually or following a path/detail line).
 
 - ParaManager
-Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, and export/import parameters to/from Excel and Shared Parameters file. Edit Shared Parameter in a user-friendly manner (no more Notepad).
+Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, export/import parameters to/from Excel and Shared Parameters file. Edit Shared Parameter in a user-friendly maner (no more Notepad).
 
 - PointKit
 A free Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
 
+- QuickViews
+An Autodesk Revit Add-in to easily create Internal Elevation/Section Views and Callouts from Rooms/Spaces.
+
+- OneParameter
+An Autodesk Revit plugin to bulk edit values from Instance/Type Parameters in your Revit model with a single click.
+
+
 ### Supported Revit Versions
-2018, 2019, 2020, 2021, 2022, 2023, and 2024.
+2018, 2019, 2020, 2021, 2022, 2023, 2024, and 2025.
 
 ### Useful links
-[User Guide](https://docs.dirootsone.diroots.com/)
+[Videos & Documentation](https://docs.dirootsone.diroots.com/)
 [Provide Feedback](https://diroots.com/contact-us/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne)
 [Custom Software Development](https://diroots.com/custom-software-development/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne)
 
-[DiRoots, LDA](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne) 
+[DiRoots Limited](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne) 
 
 🇵🇹 Portugal Office:
 R. da Marcha Gualtariana, 628
