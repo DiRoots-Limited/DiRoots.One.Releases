@@ -156,14 +156,26 @@ You can also choose a Table type to export sheet, according you have in your sel
 ### Import
 
 If you have made any edits to the file, import it and update the schedules in Revit. Before importing the file, you can preview the sheet to make sure, and then complete the import.
-![SheetLink Import file](../../../assets\images\SheetLink\SH-Sc-Import.png)  
+![SheetLink Import file](../../../assets\images\SheetLink\SL-ImportSchedule.png)  
+<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+1. Click on "Import" and select where you want to bring the data from.
+
+2. In the selected application (Excel, Google Drive or Morta) select the desired schedule.
+
+![SheetLink select file](../../../assets\images\SheetLink\SL-ImportMorta.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ```yaml
 # Note:  
-- Import file from Google Drive or from Excel.
-- Track the file import progress bar.
+Note that if the schedule has been exported by selecting the "Keep formatting" option, it will not be possible to import the edited data outside Revit. Make sure that the schedule have been exported while keeping the template editable. 
 ```
+
+```yaml
+# Note:  
+New columns added in the Morta application will not be added to the Revit model.
+```
+
 ### Other Features
 
 
