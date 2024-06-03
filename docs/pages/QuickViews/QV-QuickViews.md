@@ -5,9 +5,9 @@ parent: QuickViews User Guide
 nav_order: 1
 ---
 
-# Quick Views
+# QuickViews
 {: .no_toc }
-With QuickViews, you can easily create Internal Elevation/Section Views and Callouts from Rooms/Spaces.
+The QuickViews allow you to create multiple views as Callouts, Elevations and Sections of internal rooms and spaces.
 
 ## Core Features
 {: .no_toc }
