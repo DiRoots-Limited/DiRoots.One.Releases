@@ -7,7 +7,7 @@ nav_order: 3
 # How to use it
 {: .no_toc }
 
-Now that you know DiRootsOne and have installed it, let's learn some good practices for using the 8 plugins in the package. These tips can help you improve your work and save a lot of time.
+Now that you know DiRootsOne and have installed it, let's learn some good practices for using the plugins in the package. These tips can help you improve your work and save a lot of time.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -20,14 +20,14 @@ Now that you know DiRootsOne and have installed it, let's learn some good practi
 
 ## Sort the plugins
 
-DiRootsOne has 8 plugins included in its package, and you can organize them in the sequence in which you use each plugin the most. In this way, the sequence you define can help you access the tools you need more quickly.
+Arrange DiRootsOne tools in the sequence you prefer. This way, the sequence you define can help you access the tools you need more quickly.
 
 ![DiRoots-Tips Sort the plugins](../assets\images\Tips\DO-SortPlugins.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiRootsOne Package](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Collapse and Expand window
 
-DiRootsOne plugins allow you to work with Revit while keeping the plugin window open, but you can get more space to work with Revit. All you have to do is double-clik on the window header to Collapse and Expand it.
+DiRootsOne plugins allow you to work with Revit while keeping the plugin window open, but you can get more space to work with Revit. All you have to do is double-click on the window header to Collapse and Expand it.
 
 ![DiRoots-Tips Collapse and Expand window](../assets\images\Tips\DO-Collapse-Expand.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiRootsOne Package](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -48,14 +48,14 @@ Click on the column header and sort it by number or alphabetically.
 
 ## Select multiple rows
 
-DiRootsOne plugins have a great advantage for making bulk actions and saving time. To make this task simpler, you don't need to select row per row, just select one and press the Shift button in your keyboard and then select the last row. Now you have several rows selected to perform the batch actions.
+DiRootsOne plugins have a great advantage for making bulk actions and saving time. To make it simpler, you don't need to select row by row. Just select one, press the Shift button on your keyboard, and then select the last row. Now you have several rows selected to perform the batch actions.
 
 ![DiRoots-Tips select rows](../assets\images\Tips\DO-SelectRows.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiRootsOne Package](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Double-click and Drag and Drop
 
-Double-click or drag and drop do add or remove data.
+Double-click or drag and drop to add or remove data.
 
 where to do this:
 
@@ -72,7 +72,7 @@ where to do this:
 
 ## Right-click on the column header
 
-Some tables allows you to add new columns and get a customized table. Right-click on the column header and select properties/parameters to create a new column.
+Some tables allow you to add new columns and get a customized table. Right-click on the column header and select properties/parameters to create a new column.
 
 where to do this:
 
