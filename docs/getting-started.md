@@ -7,7 +7,7 @@ nav_order: 2
 # Getting Started
 {: .no_toc }
 
-DiRootsOne has 8 Autodesk Revit Productivity Tools for Data Management, Filtering, Model Checking, Drawing Production, Point Clouds, etc. Includes SheetLink, FamilyReviser, OneFilter, TableGen, SheetGen, ReOrdering, ParaManager, PointKit.
+DiRootsOne has several Autodesk Revit Productivity Tools for Data Management, Filtering, Model Checking, Drawing Production, Point Clouds, etc. Includes SheetLink, FamilyReviser, OneFilter, TableGen, SheetGen, ReOrdering, ParaManager, PointKit, QuickViews, and OneParameter.
 Not permitted:
 -	Sell/resell
 -	make modifications to the software.
@@ -30,7 +30,7 @@ Download the [latest version of DiRootsOne](https://diroots.com/revit-plugins/di
 
 ### Compatibility
 - Windows 7, 8, 10 and 11.
-- Revit 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
+- Revit 2018, 2019, 2020, 2021, 2022, 2023, 2024, and 2025.
 
 ### Standard Installation
 
