@@ -105,3 +105,7 @@ The families will be imported into the project.
 ![FamilyReviser import families](../../../assets\images\FamilyReviser\FR-Im-ImportFamily.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to manage and edit Families.
