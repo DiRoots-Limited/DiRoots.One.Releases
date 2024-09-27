@@ -194,3 +194,7 @@ This tab is similar to the Shared Editor management tab in general, but in this 
 ![ParaManager Shared Editor](../../../assets\images\ParaManager\PM-Se-SharedEditor.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to manage the Shared Parameters.
