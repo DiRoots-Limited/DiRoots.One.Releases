@@ -83,3 +83,7 @@ Check the Hide un-checked templates option to see only the chosen destination vi
 ![Selecting Destination View Templates](../../../assets\images\ViewManager\VM-Tt-Destination.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to manage the View Ranges.

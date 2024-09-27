@@ -160,3 +160,7 @@ Click the Clear all Modifications button, and reset all edits applied to the vie
 ![View Manager clear all](../../../assets\images\ViewManager\VM-Vw-Clear.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to manage the View Templates.
