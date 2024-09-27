@@ -159,3 +159,7 @@ Set created parameter value in common text instance parameter for elements that 
 
 ![OneFilter visualize](../../../assets\images\OneFilter\OF-Ct-SetParameterValue.png)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to Visualize conditions.
