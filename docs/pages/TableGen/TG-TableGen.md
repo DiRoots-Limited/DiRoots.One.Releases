@@ -27,12 +27,12 @@ Follow the firsts steps:
 1. Choose a spreadsheet you want to import into Revit and make a selection of the range of cells you want to bring to Revit, and then name the previously selected range of cells and hit Enter.
 After selecting the data, save the Excel file to import it.
 
-![TableGen selecting data to import](../../../assets\images\TableGen\TG-PrepareSheet.png)  
+![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 You can also to create multiple worksheet regions and each one can be individually imported to Revit.
 
-![TableGen selecting data to import](../../../assets\images\TableGen\TG-Selection.png)  
+![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
 2. Select the TableGen from the DiRootsOne menu, and click on the Add Tables button. The next step is to select the Excel file.
@@ -48,7 +48,7 @@ You can also to create multiple worksheet regions and each one can be individual
 - View Type: choose if you want to import like a Legend View, Schedule View or Drafting View.
 - Assign a view scale.
 
-![TableGen import Excel](../../../)  
+![TableGen import Excel](../../../assets\images\TableGen\TG-ImportExcel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 Confirm the import on the OK button, and wait a few seconds for the import to complete.
@@ -70,7 +70,7 @@ Follow the steps:
 - View Type: choose if you want to import like a Legend View, Schedule View or Drafting View.
 - Assign a view scale.
 
-![TableGen import word](../../../)  
+![TableGen import word](../../../assets\images\TableGen\TG-ImportWord.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 Confirm the import on the OK button, and wait a few seconds for the import to complete.
@@ -92,7 +92,7 @@ Follow the steps:
 - View Type: choose if you want to import like a Legend View, Schedule View or Drafting View.
 - Assign a view scale.
 
-![TableGen import PDF](../../../)  
+![TableGen import PDF](../../../assets\images\TableGen\TG-ImportPDF.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 Confirm the import on the OK button, and wait a few seconds for the import to complete.
@@ -112,7 +112,7 @@ Confirm the import on the OK button, and wait a few seconds for the import to co
 Note that it is not possible to edit the WorkSheet and Region columns of Word and PDF files.
 ```
 
-![TableGen manage table](../../../)  
+![TableGen manage table](../../../assets\images\TableGen\TG-ManageFiles.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Use the searchbox to search by documents imported.
@@ -121,24 +121,24 @@ Note that it is not possible to edit the WorkSheet and Region columns of Word an
 
 The “Batch actions” allow the user to perform certain actions on the imported files. The user has to select the required files and go to the “Batch actions” drop-down list.
 
-1. Update Views:
-2. Duplicate Views:
-3. Absolute/Relative Path:
+- Update Views:
+- Duplicate Views:
+- Delete Views
 
-![TableGen batch actions 01](../../../)  
+![TableGen batch actions 01](../../../assets\images\TableGen\TG-Batch01.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-4. Open Files:
-5. Open Folders:
-6. Delete Views:
-7. Unlink View:
+- Open Files:
+- Open Folders:
+- Absolute/Relative Path:
+- Unlink View:
 
-![TableGen batch actions 02](../../../)  
+![TableGen batch actions 02](../../../assets\images\TableGen\TG-Batch02.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 You can also find these options using the context menu by right-clicking on the desired file.
 
-![TableGen right-click](../../../)  
+![TableGen right-click](../../../assets\images\TableGen\TG-ContextMenu.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -149,15 +149,9 @@ You can also find these options using the context menu by right-clicking on the 
 
 Click on the Sync button and refresh the Excel data: Last Modified, WorkSheets, and Regions.
 
-![TableGen refresh table](../../../)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
 ### Auto Sync
 
 You can select the checkbox to anable automatic table synchronization. That is, whenever the Revit model is started, it will be synchronized to to look for the most recent file updates.
-
-![TableGen refresh table](../../../)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
