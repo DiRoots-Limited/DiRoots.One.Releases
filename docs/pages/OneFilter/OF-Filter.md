@@ -140,3 +140,7 @@ Click on Select button to select the elements in the current view.
 
 ![OneFilter visualize](../../../assets\images\OneFilter\OF-Ft-Select.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to manage the Rules & Sets.

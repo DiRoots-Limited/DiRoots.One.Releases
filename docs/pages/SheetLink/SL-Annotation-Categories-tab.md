@@ -178,3 +178,7 @@ If you have made some file edition, import it and update the current model on Re
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
 ```
+
+---
+
+Let's go to the next tab to manage the Elements.

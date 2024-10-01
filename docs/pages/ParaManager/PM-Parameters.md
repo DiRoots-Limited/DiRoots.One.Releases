@@ -127,3 +127,7 @@ The search box will search for parameters contained in the Schedules.
 # Note:
 Click Next button to go to the Categories tab and assign the parameters to categories.
 ```
+
+---
+
+Let's go to the next tab to manage the Categories.

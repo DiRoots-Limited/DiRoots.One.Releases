@@ -94,3 +94,7 @@ This button resets the settings not applied to the model. If you want to restore
 ![FamilyReviser undo changes](../../../assets\images\FamilyReviser\FR-Ws-Undo.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to analyze the Families.

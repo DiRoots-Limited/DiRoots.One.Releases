@@ -113,3 +113,7 @@ The families will be exported to the selected location.
 ![FamilyReviser set the repository](../../../assets\images\FamilyReviser\FR-Ex-Export.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to Import Families.

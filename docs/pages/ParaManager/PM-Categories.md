@@ -112,3 +112,7 @@ Click on the Apply button to create the parameters assigned to the selected cate
 # Note:
 Click the Previous button to return to the Parameters window and make further settings.
 ```
+
+---
+
+Let's go to the next tab to Transfer Parameters.

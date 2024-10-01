@@ -79,3 +79,7 @@ Now select the family that should receive the selected parameters in the table o
 ![ParaManager Apply](../../../assets\images\ParaManager\PM-Tr-Apply.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to manage Family Parameters.

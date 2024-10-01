@@ -256,6 +256,10 @@ With this tool, only changes that have not yet been applied will be cleared. Cha
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
+---
+
+Let's go to the next tab to manage the Revision List.
+
 
 
 

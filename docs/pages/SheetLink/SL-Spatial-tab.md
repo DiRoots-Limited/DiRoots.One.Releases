@@ -171,3 +171,8 @@ Note if you have created rooms or spaces in the Excel file, these will be create
 ![SheetLink assign created rooms](../../../assets\images\SheetLink\SH-Sp-CreateRoom.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
+---
+
+If you want to find out more about SheetLink and explore detailed tutorials on how to use it, visit our YouTube channel. There, you'll find a series of videos that can help answer questions and improve your knowledge. Be sure to check it out and subscribe to keep up to date with our news and tips!
+
+[DiRoots Channel](https://www.youtube.com/@DiRootsNews){: .btn .btn-di-orange }

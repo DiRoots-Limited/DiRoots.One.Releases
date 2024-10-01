@@ -234,3 +234,7 @@ With this tool, only changes that have not yet been applied will be cleared. Cha
 ![SheetGen clear staging](../../../assets\images\SheetGen\SG-Sl-ClearStaging.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+---
+
+Let's go to the next tab to manage the View List.

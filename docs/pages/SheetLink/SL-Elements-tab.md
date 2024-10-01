@@ -186,3 +186,7 @@ If you have made any edits to the file, import it and update the current model i
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
 ```
+
+---
+
+Let's go to the next tab to manage the Schedules.
