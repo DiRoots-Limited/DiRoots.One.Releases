@@ -12,7 +12,7 @@ If you have created content about ParaManager and you want to see it featured he
 
  <div class="di-iframe-container">
   <iframe
-  title="ParaManager | ParaManager 1.1 | Free Revit Add-in to manage your Revit parameters"
+  title="ParaManager | ParaManager 1.1 | Revit Add-in to manage your Revit parameters"
   class="di-responsive-iframe"
   src="https://www.youtube.com/embed/ly-rkEs2TRE">
   </iframe>

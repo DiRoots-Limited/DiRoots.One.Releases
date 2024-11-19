@@ -7,7 +7,7 @@ nav_order: 1
 
 # PointKit
 {: .no_toc }
-A free Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
+Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
 ## Table of contents
 {: .no_toc .text-delta }
 

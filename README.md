@@ -26,7 +26,7 @@ Easily renumber instance Revit parameters by using a prefix, a suffix, and a mul
 Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, export/import parameters to/from Excel and Shared Parameters file. Edit Shared Parameter in a user-friendly maner (no more Notepad).
 
 - PointKit
-A free Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
+Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
 
 - QuickViews
 An Autodesk Revit Add-in to easily create Internal Elevation/Section Views and Callouts from Rooms/Spaces.
