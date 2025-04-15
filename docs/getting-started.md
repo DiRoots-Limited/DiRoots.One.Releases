@@ -30,7 +30,7 @@ Download the [latest version of DiRootsOne](https://diroots.com/revit-plugins/di
 
 ### Compatibility
 - Windows 7, 8, 10 and 11.
-- Revit 2018, 2019, 2020, 2021, 2022, 2023, 2024, and 2025.
+- Revit 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
 
 ### Standard Installation
 
