@@ -20,8 +20,7 @@ nav_order: 1
 
 The following settings are saved in the profiles.
 
-- New sheets created.
-- Views assigned to the sheets.
+- The selected parameters that appear as columns in the sheet list table (e.g., Sheet Number, Checked By, Current Revision, etc.).
 
 ## Creating Profiles
 

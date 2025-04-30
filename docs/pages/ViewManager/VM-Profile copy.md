@@ -20,8 +20,7 @@ nav_order: 1
 
 The following settings are saved in the profiles.
 
-- New sheets created.
-- Views assigned to the sheets.
+- The selected parameters that are displayed as columns in the Views table (e.g., Referencing Sheet, Title on Sheet, View Template, etc.).
 
 ## Creating Profiles
 
