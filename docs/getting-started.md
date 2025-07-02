@@ -61,6 +61,13 @@ This method is ideal for IT administrators who want to deploy DiRootsOne to mult
 <installer-name>.exe /i // /qn accept_eula=1
 ```
 
+- Disable automatic check for update (i.e., users won't be prompt to install updates).
+
+```yaml
+# In this example DiRootsOne will NOT be installed for Revit 2017, 2018, and 2019.
+<installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
+```
+
 - Exclude specific Revit versions.
 
 ```yaml
