@@ -29,15 +29,11 @@ On that tool, you'll find all the views in the model, and in All column, choose 
 
 ## Import/Export excel file
 
-If you have several views created in the project, this tool makes editing much easier. Export an Excel file, edit it to the name as you wish, then import it into SheetGen and update the views.
-
-![SheetGen export view](../../../assets\images\SheetGen\SG-Sl-ExcelEdit.png)
-
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+If you have several views you want to place in the project, exporting to excel makes editing much easier. Export an Excel file, edit it as you wish, then import it into SheetGen to update the views placements.
 
 1. Export the excel file from view list.
 
-![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
+![SheetGen export views in sheets](../../../assets\images\SheetGen\SG-Vl-ExportSheets.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
