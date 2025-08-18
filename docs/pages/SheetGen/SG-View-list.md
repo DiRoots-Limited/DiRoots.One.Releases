@@ -21,59 +21,11 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 After creating the project sheets and organizing their names and sets, we go to the View List tab to define the views for each sheet.
 
 1. To get started, click on the View Manager button to manage the views in your model.
-On this page, you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view.
+On that tool, you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view. For more information visit the [View Manager User Guide](../ViewManager\VM-ViewManager-user-guide.md)
 
 ![SheetGen manage views](../../../assets\images\SheetGen\SG-Vl-ManageView.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-## Views tab
-
-### Open View
-
-Right-click on the view and choose Open view.
-
-![SheetGen open view](../../../assets\images\SheetGen\SG-Vl-OpenView.png)
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Duplicate View
-
-You can perform this action for individual views by right-clicking and selecting the Duplicate option, or you can perform this action in batch for several views simultaneously. To duplicate in batch, select the views you want, and in the Batch Actions list, choose Duplicate.
-
-![SheetGen duplicate views](../../../assets\images\SheetGen\SG-Vl-DuplicateView.gif)
-
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Duplicate View with Detailing
-
-If you right-click, and click Duplicate View Duplicate with Detailing, both the model geometry and the detail geometry are copied into the new view.
-
-### Duplicate View as a Dependent
-
-All dependent views, remain synchronous with the primary view and all other dependent views, so that when view-specific changes (such as view scale and annotations) are made in one view, they are reflected in all views.
-
-```yaml
-# Note:
-You cannot create a dependent view from another dependent view.
-```
-
-### Delete View
-
-You can perform this action for an individual view by clicking the right mouse button and choosing the Delete view option, or you can perform this action in batch for several views simultaneously. To Delete in batch, select the views you want, and in the Batch Actions list, choose Delete.
-
-![SheetGen delete sheet](../../../assets\images\SheetGen\SG-Vl-DeleteView.gif)
-
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Add parameters columns
-
-By default, the list of views will only show the name of the view and the list of view. Right-click under the column header and add the desired parameters.
-
-![SheetGen add parameters columns](../../../assets\images\SheetGen\SG-Vl-AddParameters.png)
-
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
----
 
 ## Import/Export excel file
 
