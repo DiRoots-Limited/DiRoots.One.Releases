@@ -21,7 +21,7 @@ Batch create Drawing Sheets, place Views based on a pre-defined template, and ea
 After creating the project sheets and organizing their names and sets, we go to the View List tab to define the views for each sheet.
 
 1. To get started, click on the View Manager button to manage the views in your model.
-On that tool, you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view. For more information visit the [View Manager User Guide](../ViewManager\VM-ViewManager-user-guide.md)
+On that tool, you'll find all the views in the model, and in All column, choose whether you want to manage all the views or a specific type of view. For more information visit the [View Manager User Guide](/docs/ViewManager-user-guide)
 
 ![SheetGen manage views](../../../assets\images\SheetGen\SG-Vl-ManageView.gif)
 
