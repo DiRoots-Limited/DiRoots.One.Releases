@@ -8,5 +8,5 @@ permalink: /docs/pointkit-user-guide
 
 # PointKit User Guide
 
-Learn how to use PointKit to speed up your drawing production.
+Boost your productivity when working with Point Clouds. Show/hide points, import DXF and ASCII point cloud files, export from Revit to mesh (DXF).
 {: .fs-6 .fw-300 }

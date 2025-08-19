@@ -8,5 +8,5 @@ permalink: /docs/paramanager-user-guide
 
 # ParaManager User Guide
 
-Learn how to use DiRootsOne to speed up your drawing production.
+Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, export/import parameters to/from Excel and Shared Parameters file.
 {: .fs-6 .fw-300 }

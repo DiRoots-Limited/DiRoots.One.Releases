@@ -8,5 +8,6 @@ permalink: /docs/tablegen-user-guide
 
 # TableGen User Guide
 
-Learn how to use DiRootsOne to speed up your drawing production.
+Import your spreadsheets, PDF and Word document into Revit as Legend Views, Schedule Views and Drafting Views.
+Collaborate with non-Revit users and bring the beauty of your Excel Tables, PDF and Word documents into Revit.
 {: .fs-6 .fw-300 }

@@ -8,6 +8,6 @@ permalink: /docs/familyreviser-user-guide
 
 # FamilyReviser User Guide
 
-Learn how to use DiRootsOne to speed up your drawing production.
+Manage your Revit families (rename, add prefix and suffix, save them in an organised way) and worksets (modify worksets by category or create your own rules).
 {: .fs-6 .fw-300 }
 

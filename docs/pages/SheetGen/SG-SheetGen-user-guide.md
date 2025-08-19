@@ -8,6 +8,6 @@ permalink: /docs/sheetgen-user-guide
 
 # SheetGen User Guide
 
-Learn how to use DiRootsOne to speed up your drawing production.
+Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
 {: .fs-6 .fw-300 }
 

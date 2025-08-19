@@ -8,6 +8,6 @@ permalink: /docs/ViewManager-user-guide
 
 # ViewManager User Guide
 
-Learn how to use DiRootsOne to speed up your drawing production.
+Manage all the Views in your project, as well as View Templates and View Range settings in a single window.
 {: .fs-6 .fw-300 }
 
