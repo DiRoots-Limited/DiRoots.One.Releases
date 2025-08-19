@@ -8,5 +8,5 @@ permalink: /docs/reordering-user-guide
 
 # ReOrdering User Guide
 
-Learn how to use ReOrdering to speed up your drawing production.
+Easily renumber instance Revit parameters by using a prefix, a suffix, and a multiplier (manually or following a path/detail line).
 {: .fs-6 .fw-300 }

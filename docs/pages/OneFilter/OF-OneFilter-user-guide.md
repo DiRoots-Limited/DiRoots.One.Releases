@@ -8,5 +8,5 @@ permalink: /docs/onefilter-user-guide
 
 # OneFilter User Guide
 
-Learn how to use OneFilter to speed up your drawing production.
+Quickly find your families in Revit models. Search by category, parameter name and value. Find elements within Areas, Masses, Rooms, Spaces, and Zones.
 {: .fs-6 .fw-300 }

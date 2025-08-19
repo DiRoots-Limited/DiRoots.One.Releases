@@ -8,5 +8,5 @@ permalink: /docs/QuickViews-user-guide
 
 # QuickViews User Guide
 
-Learn how to use DiRootsOne to speed up your drawing production.
+Create multiple views as Callouts, Elevations and Sections of internal rooms and spaces.
 {: .fs-6 .fw-300 }

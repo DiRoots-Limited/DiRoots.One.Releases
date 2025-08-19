@@ -8,5 +8,5 @@ permalink: /docs/sheetlink-user-guide
 
 # SheetLink User Guide
 
-Learn how to use DiRootsOne to speed up your drawing production.
+Export your Revit model data (by categories, elements, schedules) to Excel and Google Sheets. Edit the data and import it back to update the model.
 {: .fs-6 .fw-300 }
