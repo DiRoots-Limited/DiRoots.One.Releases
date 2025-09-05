@@ -34,6 +34,8 @@ An Autodesk Revit Add-in to easily create Internal Elevation/Section Views and C
 - OneParameter
 An Autodesk Revit plugin to bulk edit values from Instance/Type Parameters in your Revit model with a single click.
 
+- SectionBoxer
+Quickly create a section box from selected elements, with a buffer and optionally into a new view, to help you better inspect or manipulate those elements in isolation.
 
 ### Supported Revit Versions
 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
