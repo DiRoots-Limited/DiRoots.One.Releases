@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SectionBoxer
-parent: OneParameter User Guide
+parent: SectionBoxer User Guide
 nav_order: 1
 ---
 
