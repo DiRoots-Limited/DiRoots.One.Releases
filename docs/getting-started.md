@@ -35,7 +35,7 @@ Download the [latest version of DiRootsOne](https://diroots.com/revit-plugins/di
 ### Standard Installation
 
 ```yaml
-This method is ideal for individuals who want to install DiRootsOne in one computer.
+This method is ideal for individuals who want to install DiRootsOne on one computer.
 ```
 
 1. Run DiRootsOne installer.
@@ -61,17 +61,17 @@ This method is ideal for IT administrators who want to deploy DiRootsOne to mult
 <installer-name>.exe /i // /qn accept_eula=1
 ```
 
-- Disable automatic check for update (i.e., users won't be prompt to install updates).
+- Disable automatic check for update (i.e., users won't be prompted to install updates).
 
 ```yaml
-# In this example DiRootsOne will NOT be installed for Revit 2017, 2018, and 2019.
+# In this example, DiRootsOne will be installed with the automatic update feature turned off.
 <installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
 ```
 
 - Exclude specific Revit versions.
 
 ```yaml
-# In this example DiRootsOne will NOT be installed for Revit 2017, 2018, and 2019.
+# In this example, DiRootsOne will NOT be installed for Revit 2017, 2018, and 2019.
 <installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
 ```
 
