@@ -1,7 +1,7 @@
 ---
 layout: default
 title: QuickViews User Guide
-nav_order: 8
+nav_order: 9
 has_children: true
 permalink: /docs/QuickViews-user-guide
 ---
