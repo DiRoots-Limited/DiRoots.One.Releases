@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ViewAligner User Guide
-nav_order: 15
+nav_order: 8
 has_children: true
 permalink: /docs/ViewAligner-user-guide
 ---

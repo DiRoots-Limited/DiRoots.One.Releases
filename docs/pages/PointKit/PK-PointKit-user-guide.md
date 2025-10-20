@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PointKit User Guide
-nav_order: 13
+nav_order: 14
 has_children: true
 permalink: /docs/pointkit-user-guide
 ---
