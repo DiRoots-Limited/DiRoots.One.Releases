@@ -22,9 +22,9 @@ Batch create Sheets and Placeholder sheets, place Views on Sheets based on a pre
 The Placeholder Sheets tab allows you to create, edit and manage Revit placeholder sheets using a workflow similar to the Sheet List tab. 
 
 The existing placeholder sheets will be displayed in the main table at startup, where you can easily duplicate them, create new ones, and batch rename/renumber them.
-You can also select what parameters you want to view and edit in the main table, and you can export/import the table to/from excel to more easily fill in the parameter values.
+You can also select what parameters you want to view and edit in the main table, and you can export/import the table to/from Excel to more easily fill in the parameter values.
 
-All changes will be staged and will only be updated to the model when clicking apply.
+All changes will be staged and will only be updated to the model when clicking Apply.
 
 ```yaml
 # Note:
@@ -53,11 +53,11 @@ If the Sheet Name header shows a lock icon, toggle it to lock/unlock editing for
 
 
 ## Add Parameter Columns
-By default, the table only shows the the number and name of the sheet, but you can add more columns corresponding to Parameters of the placeholder sheets.
+By default, the table only shows the number and name of the sheet, but you can add more columns corresponding to Parameters of the placeholder sheets.
 
 ### Headers Context Menu
 
- The quickest way to add or remove columns is to right-click under the column header and use the context menu to add or remove the desired parameters.
+The quickest way to add or remove columns is to right-click under the column header and use the context menu to add or remove the desired parameters.
 
 ![SheetGen add parameters columns](../../../assets\images\SheetGen\SG-PS-ParametersContextMenu.gif)
 
@@ -98,8 +98,8 @@ You can perform this action by right-clicking and choosing the Delete Placeholde
 
 ### Import/Export excel file
  
-If you have many placeholder sheets that you want to create or edit, this workflow is much more streamlined. Export an Excel file, edit it as you want, then import it into SheetGen to quickly create placeholder sheets, or edit their names, numbers and parameters. Note that in the Sheet Name header column has a lock icon, by activating this icon, the column will be locked for any editing.
-In the Excel file exported you can numbering, naming, changing parameters and also add new rows to create new placeholder Sheets.
+If you have many placeholder sheets that you want to create or edit, this workflow is much more streamlined. Export an Excel file, edit it as you want, then import it into SheetGen to quickly create placeholder sheets, or edit their names, numbers and parameters. Note that the Sheet Name header column has a lock icon, by activating this icon the column will be locked for any editing.
+In the exported Excel file you can edit numbering, naming, parameters, and also add new rows to create new placeholder sheets.
 
 1. Export the excel file from sheet list.
 
@@ -124,14 +124,14 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 
 ### Build Number and Build Name
 
-1. Similar the Rename tool, SheetGen has a Build Number. Select the placeholder sheets you want and click Build Number.
+1. Similar to the Rename tool, SheetGen has a Build Number. Select the placeholder sheets you want and click Build Number.
 Then set the Default Field Separator, Custom Field, Custom Separator, Counter and add or remove Parameters.
 
 ![SheetGen build number](../../../assets\images\SheetGen\SG-PS-BuildNumber.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. For the Build Name tool, it is the same steps. Select the placeholder sheets you want and click to Build Name.
+2. For the Build Name tool, it is the same steps. Select the placeholder sheets you want and click Build Name.
 Then define the Default Field Separator, Custom Field, Custom Separator, and add or remove Parameters.
 
 ![SheetGen build name](../../../assets\images\SheetGen\SG-PS-BuildName.png)
