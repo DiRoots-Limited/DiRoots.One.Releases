@@ -35,35 +35,54 @@ The first step before you start managing the sheets in SheetGen, is to create a 
 
 ## New Sheet
 
-1. Click on the New Sheet button, or right-click on an existing sheet and choose the Create Sheets from sheet template option.
+To create new sheets, you can use the New Sheet button, or you can right-click an existing sheet and choose Create Sheets from Template.
+You can create sheets from scratch and then edit their names, numbers, and parameters, or you can use existing placeholder sheets.
 
-![SheetGen create new sheet](../../../assets\images\SheetGen\SG-Sl-NewSheet.gif)
+### From Sheet Template
+
+This tab allows you to create new sheets that will use a selected sheet as template, you can later change the sheets name, number and parameter values.
+
+![SheetGen create new sheet](../../../assets\images\SheetGen\SG-Sl-NewSheet-CreateFromTemplate.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Fill the fields for the new sheet.
+2. Fill the options for the new sheets.
 
-- Number of Sheets - put the number of sheets you want to create.
-- Populate View from template - Create the new sheet with the same view settings as the template sheet.
+- Number of Sheets - enter the number of sheets you want to create.
+- Populate View from template - create the new sheet with the same view settings as the template sheet.
 - Keep Legends - you can choose to keep the legends as the template sheet.
 - Keep Schedules - you can choose to keep the schedules as the template sheet.
 
-![SheetGen fill the fields](../../../assets\images\SheetGen\SG-Sl-FillFields.png)
+![SheetGen fill the options](../../../assets/images/SheetGen/SG-Sl-NewSheet-FillFields.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-3. Select the existing sheet to be  used as a template for the new sheet.
+3. Select the existing sheet to be used as a template for the new sheet.
 
-### Search sheet
+You can use the search box to quickly find sheets contained in the project.
 
-The search box will look for the sheets contained in the project.
-
-![SheetGen search existing sheet](../../../assets\images\SheetGen\SG-Sl-SearchTemplate.gif)
+![SheetGen search existing sheet](../../../assets/images/SheetGen/SG-Sl-NewSheet-Search.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. Note that the new sheets appear in the list of sheets, but have not yet been created in the project. To complete the creation, click Apply.
 
-![SheetGen apply new sheets](../../../assets\images\SheetGen\SG-Sl-ApplySheets.gif)
+![SheetGen apply new sheets](../../../assets/images/SheetGen/SG-Sl-ApplySheets.gif)
+
+<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+### From Placeholder Sheets
+
+This tab will allow you to convert placeholder sheets into actual sheets and lets you to select a sheet to use as template.
+
+The sheets will be created and the original placeholder sheets will be deleted from the project once you click Apply.
+
+You have the following options on each placeholder sheet:
+- Sheet to use as Template - select a sheet from the project to use as template (leave empty or select \<None> to create an empty sheet).
+- Views (Populate Views from template) - duplicates the views from the template and places them in the same locations.
+- Legends - keep the legends from the template sheet.
+- Schedules - keep the schedules from the template sheet.
+
+![SheetGen placeholder sheets](../../../assets/images/SheetGen/SG-Sl-NewSheet-FromPlaceholders.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
