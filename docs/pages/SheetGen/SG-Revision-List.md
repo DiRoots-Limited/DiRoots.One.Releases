@@ -7,7 +7,7 @@ nav_order: 4
 
 # SheetGen
 {: .no_toc }
-Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
+Batch create Sheets and Placeholder sheets, place Views on Sheets based on a pre-defined template, and easily manage Drawing Sheets revisions. Export sheets/views lists to/from Excel.
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -88,9 +88,7 @@ With this tool, only changes that have not yet been applied will be cleared. Cha
 
 ---
 
-If you want to find out more about SheetGen and explore detailed tutorials on how to use it, visit our YouTube channel. There, you'll find a series of videos that can help answer questions and improve your knowledge. Be sure to check it out and subscribe to keep up to date with our news and tips!
-
-[DiRoots Channel](https://www.youtube.com/@DiRootsNews){: .btn .btn-di-orange }
+Let's go to the next tab to manage the Placeholder Sheets.
 
 
 

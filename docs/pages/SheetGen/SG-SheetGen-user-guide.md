@@ -8,6 +8,6 @@ permalink: /docs/sheetgen-user-guide
 
 # SheetGen User Guide
 
-Batch create Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
+Batch create Sheets and Placeholder sheets, place Views on Sheets based on a pre-defined template, and easily manage Drawing Sheets revisions. Export sheets/views lists to/from Excel.
 {: .fs-6 .fw-300 }
 
