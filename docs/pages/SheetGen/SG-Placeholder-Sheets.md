@@ -47,7 +47,6 @@ If the Sheet Name header shows a lock icon, toggle it to lock/unlock editing for
 ```
 
 ![SheetGen new placeholder + edit](../../../assets\images\SheetGen\SG-PS-NewEditPlaceholder.gif)
-
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
@@ -60,7 +59,6 @@ By default, the table only shows the number and name of the sheet, but you can a
 The quickest way to add or remove columns is to right-click under the column header and use the context menu to add or remove the desired parameters.
 
 ![SheetGen add parameters columns](../../../assets\images\SheetGen\SG-PS-ParametersContextMenu.gif)
-
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Parameters Window
@@ -69,7 +67,6 @@ Clicking the Parameters button will open a window that allows you to select para
 
 
 ![SheetGen Parameters Window](../../../assets\images\SheetGen\SG-PS-ParametersWindow.gif)
-
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -84,7 +81,6 @@ You can perform this action by right-clicking and choosing the Duplicate Placeho
 A window will give you the option to select a number of copies.
 
 ![SheetGen duplicate sheet](../../../assets\images\SheetGen\SG-PS-DuplicateSheets.gif)
-
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
@@ -93,7 +89,6 @@ A window will give you the option to select a number of copies.
 You can perform this action by right-clicking and choosing the Delete Placeholder Sheets option, or you can use the Batch Actions dropdown. To delete in batch, check the placeholder sheets you want, and in the Batch Actions list, choose Delete.
 
 ![SheetGen delete sheet](../../../assets\images\SheetGen\SG-PS-DeleteSheets.gif)
-
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Import/Export excel file
@@ -109,7 +104,6 @@ In the exported Excel file you can edit numbering, naming, parameters, and also 
 2. Once you have edited the Excel file, import it to SheetGen.
    
    ![SheetGen import excel file](../../../assets\images\SheetGen\SG-PS-ExcelImport.gif)
-   
    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
    
 ### Rename
@@ -118,7 +112,6 @@ This tool allows placeholder sheets to be renamed in batch. To do this, select t
 Then define a Prefix, a Suffix, enter the name that will be replaced and finally the name that will replace it.
 
 ![SheetGen rename sheets](../../../assets\images\SheetGen\SG-PS-Rename.gif)
-
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Build Number and Build Name
@@ -144,7 +137,6 @@ Then define the Default Field Separator, Custom Field, Custom Separator, and add
 1. Click the Clear all Modifications button, and reset all edition applied to the placeholder sheet names and numbers, in the table view by the Rename, Build Name or Build Number commands.
    
    ![SheetGen clear all](../../../assets\images\SheetGen\SG-PS-ClearAll.gif)
-   
    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
    
 2. Click on the Clear Staging button, and clear the staging cached modifications.
@@ -155,7 +147,6 @@ Then define the Default Field Separator, Custom Field, Custom Separator, and add
    ```
    
    ![SheetGen clear staging](../../../assets\images\SheetGen\SG-PS-ClearStaging.gif)
-   
    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
    
 
@@ -164,7 +155,6 @@ Then define the Default Field Separator, Custom Field, Custom Separator, and add
 The search box allows you to find placeholder sheets in table by finding matches of the search text in the name, number and visible parameters.
 
 ![SheetGen search existing sheet](../../../assets\images\SheetGen\SG-PS-Search.gif)
-
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
