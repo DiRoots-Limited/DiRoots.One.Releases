@@ -20,84 +20,70 @@ Collaborate with non-Revit users and bring the beauty of your Excel Tables, PDF 
 
 # TableGen
 
-## Import from Excel
+There are three main ways to import files with TableGen. Each has different results in terms of visual fidelity, editability, and model weight.
 
-Follow the firsts steps:
+1. Image import (Excel, Word, PDF) - Imports the content as images into a Legend or Drafting view, allowing you to set the resolution (DPI). 
 
-1. Choose a spreadsheet you want to import into Revit and make a selection of the range of cells you want to bring to Revit, and then name the previously selected range of cells and hit Enter.
-After selecting the data, save the Excel file to import it.
+2. Table import into Legend or Drafting view (Excel) - Converts the Excel table into Revit elements (text and linework). 
 
-![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)  
+3. Table import into Schedule (Excel) - Places the data into the schedule header section.
+
+
+## Add files
+
+The first step is to add the files you want to import. You can do this in multiple ways:
+
+- Drag & Drop - Drag one or more supported files from window explorer and drop them into the main TableGen grid.
+
+- Add Table - Click the "Add Table" button and use the file dialog to select one or more supported files.
+
+- Browse link ("click here to browse") - Opens the file dialog and allows you to select one or more supported files.
+
+![TableGen selecting data to import](../../../assets\images\TableGen\TG-270-AddFiles.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-You can also to create multiple worksheet regions and each one can be individually imported to Revit.
 
-![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+## Worksheet Selection Window
 
-2. Select the TableGen from the DiRootsOne menu, and click on the Add Tables button. The next step is to select the Excel file.
+Once you drop or select the files to add, the worksheet selection window opens and lets you create multiple views in one operation by selecting which worksheets (and which region in each worksheet) should be imported. It also allows defining the default properties that will be applied to the new views.
 
-3. The fields will be filled in by default, but you can change them to complete the process. 
+- Files table: Each added file is displayed in here, you can use the context menu to switch to Relative/Absolute path.
 
-- In the firts dropdown list select Excel file.
-- Then select the if you wan to import as table or image.
-- Select the Excel file in your browser.
-- Number of copies: the TableGen will import the number of copies filled in this field.
-- WorkSheet: choose the current WorkSheet.
-- WorkSheet Region: choose the selection created in the Excel file.
-- View Type: choose if you want to import like a Legend View, Schedule View or Drafting View.
-- Assign a view scale.
+- Excel files can be expanded to view and configure its worksheets. 
 
-![TableGen import Excel](../../../assets\images\TableGen\TG-ImportExcel.gif)  
+  - Worksheet selection: Use the checkboxes to choose which worksheets will be imported.
+
+  - Region selection: For each worksheet, use the dropdown to pick the source range: Named Region, Print Area, or Used Range.
+
+- Word and Pdf files cannot be expanded, but the view count field is editable, allowing you to create multiple views for the same file (you can edit the pages later).
+
+- Default View Properties: Set the properties to be applied to every view created from this selection. The available properties are: Type (Table/Image), View Type (Legend/Drafting/Schedule), View Scale, and Black and White.
+
+- Search: You can use the search bar on top to filter files by file name or path.
+
+- When pressing "Ok", the views will be added to TableGen. The default view name will be the name of the Worksheet (Excel files) or the file name (Word/Pdf).
+
+![TableGen selecting data to import](../../../assets\images\TableGen\TG-270-WorksheetSelectionWindow.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-Confirm the import on the OK button, and wait a few seconds for the import to complete.
+## Named Regions in Excel
+
+Named regions allow you to specify the range that you want to import into Revit. To create them follow the following steps:
+
+1. In the worksheet you want to import select the desired range of cells, and then choose a name and type it in the Name Box - located to the left of the formula bar (see image below).
+After creating the named region, save the Excel file to import it.
+
+    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)  
+    <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+    You can also to create multiple worksheet regions and each one can be individually imported to Revit.
+
+    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)  
+    <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
+
 
 ---
 
-## Import from Word
-
-Word documents are imported by images into Revit.
-
-Follow the steps:
-
-- Select the Word file to import.
-- Number of copies: the TableGen will import the number of copies filled in this field.
-- Open the dropdown and select All Pages or Selected.
-    - If you choose only "selected" pages, you need to enter the pages number you want.
-    - Sepate pages by commas counting from the start of the document. E.g. typing "1, 3, 5-7" will add pages 1, 3, 5, 6, and 7 as images.
-- Open the dropdown list and select the density (DPI) of the image to be created.
-- View Type: choose if you want to import like a Legend View, Schedule View or Drafting View.
-- Assign a view scale.
-
-![TableGen import word](../../../assets\images\TableGen\TG-ImportWord.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-Confirm the import on the OK button, and wait a few seconds for the import to complete.
-
----
-
-## Import PDF
-
-PDF documents are imported by images into Revit.
-
-Follow the steps:
-
-- Select the PDF file to import.
-- Number of copies: the TableGen will import the number of copies filled in this field.
-- Open the dropdown and select All Pages or Selected.
-    - If you choose only "selected" pages, you need to enter the pages number you want.
-    - Sepate pages by commas counting from the start of the document. E.g. typing "1, 3, 5-7" will add pages 1, 3, 5, 6, and 7 as images.
-- Open the dropdown list and select the density (DPI) of the image to be created.
-- View Type: choose if you want to import like a Legend View, Schedule View or Drafting View.
-- Assign a view scale.
-
-![TableGen import PDF](../../../assets\images\TableGen\TG-ImportPDF.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-Confirm the import on the OK button, and wait a few seconds for the import to complete.
-
----
 
 ## Manage imported tables
 
@@ -107,13 +93,13 @@ Confirm the import on the OK button, and wait a few seconds for the import to co
 
 3. The WorkSheet, Region and View Type columns are editable via the drop-down list.
 
-```yaml
-# Note:
-Note that it is not possible to edit the WorkSheet and Region columns of Word and PDF files.
-```
+    ```yaml
+    # Note:
+    Note that it is not possible to edit the WorkSheet and Region columns of Word and PDF files.
+    ```
 
-![TableGen manage table](../../../assets\images\TableGen\TG-ManageFiles.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+    ![TableGen manage table](../../../assets\images\TableGen\TG-ManageFiles.gif)  
+    <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Use the searchbox to search by documents imported.
 
@@ -125,8 +111,8 @@ The “Batch actions” allow the user to perform certain actions on the importe
 - Duplicate Views:
 - Delete Views
 
-![TableGen batch actions 01](../../../assets\images\TableGen\TG-Batch01.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+    ![TableGen batch actions 01](../../../assets\images\TableGen\TG-Batch01.gif)  
+    <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 - Open Files:
 - Open Folders:
@@ -138,8 +124,8 @@ The “Batch actions” allow the user to perform certain actions on the importe
 
 You can also find these options using the context menu by right-clicking on the desired file.
 
-![TableGen right-click](../../../assets\images\TableGen\TG-ContextMenu.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+    ![TableGen right-click](../../../assets\images\TableGen\TG-ContextMenu.gif)  
+    <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
@@ -153,6 +139,22 @@ Click on the Sync button and refresh the Excel data: Last Modified, WorkSheets, 
 
 You can select the checkbox to anable automatic table synchronization. That is, whenever the Revit model is started, it will be synchronized to to look for the most recent file updates.
 
+---
+
+## Black and White – Remove color formatting
+
+Use this option to ignore all Excel colors when importing tables, keeping the result black and white.
+Where to find it:
+- Checkbox Column in the main window ("Black & White")
+- In the Worksheet Selection window, in the Default View Properties a checkbox labeled "Black & White – Remove color formatting".
+
+What it does when enabled:
+- Converts all text to black 
+- Converts all borders to black 
+- Removes cell background colors (background becomes transparent)
+
+    ![TableGen right-click](../../../assets\images\TableGen\TG-270-Black&White.gif)  
+    <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 ---
 
 If you want to find out more about TableGen and explore detailed tutorials on how to use it, visit our YouTube channel. There, you'll find a series of videos that can help answer questions and improve your knowledge. Be sure to check it out and subscribe to keep up to date with our news and tips!
