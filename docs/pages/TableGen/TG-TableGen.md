@@ -33,7 +33,7 @@ There are three main ways to import files with TableGen. Each has different resu
 
 The first step is to add the files you want to import. You can do this in multiple ways:
 
-- Drag & Drop - Drag one or more supported files from window explorer and drop them into the main TableGen grid.
+- Drag & Drop - Drag one or more supported files from Windows Explorer and drop them into the main TableGen grid.
 
 - Add Table - Click the "Add Table" button and use the file dialog to select one or more supported files.
 
@@ -47,7 +47,7 @@ The first step is to add the files you want to import. You can do this in multip
 
 Once you drop or select the files to add, the worksheet selection window opens and lets you create multiple views in one operation by selecting which worksheets (and which region in each worksheet) should be imported. It also allows defining the default properties that will be applied to the new views.
 
-- Files table: Each added file is displayed in here, you can use the context menu to switch to Relative/Absolute path.
+- Files table: Each added file is displayed here, you can use the context menu to switch between relative and absolute paths.
 
 - Excel files can be expanded to view and configure their worksheets. 
 
@@ -55,28 +55,28 @@ Once you drop or select the files to add, the worksheet selection window opens a
 
   - Region selection: For each worksheet, use the dropdown to pick the source range: Named Region, Print Area, or Used Range.
 
-- Word and Pdf files cannot be expanded, but the view count field is editable, allowing you to create multiple views for the same file (you can edit the pages later).
+- Word and PDF files cannot be expanded, but the view count field is editable, allowing you to create multiple views for the same file (you can edit the pages later).
 
 - Default View Properties: Set the properties to be applied to every view created from this selection. The available properties are: Type (Table/Image), View Type (Legend/Drafting/Schedule), View Scale, and Black and White.
 
-- Search: You can use the search bar on top to filter files by file name or path.
+- Search: You can use the search bar at the top to filter files by file name or path.
 
-- When pressing "Ok", the views will be added to TableGen. The default view name will be the name of the Worksheet (Excel files) or the file name (Word/Pdf).
+- When pressing "Ok", the views will be added to TableGen. The default view name will be the name of the Worksheet (Excel files) or the file name (Word/PDF).
 
 ![TableGen selecting data to import](../../../assets\images\TableGen\TG-270-WorksheetSelectionWindow.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Named Regions in Excel
 
-Named regions allow you to specify the range that you want to import into Revit. To create them follow the following steps:
+Named regions allow you to specify the range that you want to import into Revit. To create them follow these steps:
 
-1. In the worksheet you want to import select the desired range of cells, and then choose a name and type it in the Name Box - located to the left of the formula bar (see image below).
+1. In the worksheet you want to import, select the desired range of cells, and then choose a name and type it in the Name Box - located to the left of the formula bar (see image below).
 After creating the named region, save the Excel file to import it.
 
     ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)  
     <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. You can also to create multiple worksheet regions and each one can be individually imported to Revit.
+2. You can also create multiple worksheet regions, and each one can be individually imported into Revit.
 
     ![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)  
     <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
@@ -105,7 +105,7 @@ The main grid is the central place to review and edit all imported tables. Each 
 
 - **DPI** - sets the image resolution. Only active for Image type entries.
 
-- **Auto Sync** - when enabled, this view will automatically be updated if there are changes to the file, it triggers whenever the Revit model is opened.
+- **Auto Sync** - when enabled, this view will automatically be updated if there are changes to the file. It triggers whenever the Revit model is opened.
 
 - **Black and White** - removes all color formatting on import (text and borders become black, backgrounds transparent). Only available for Table type entries.
 
@@ -135,7 +135,7 @@ The "Batch Actions" dropdown allows you to perform various actions on multiple v
 
 - **Duplicate Views** - creates a copy of the selected views.
 
-- **Reload From** - relinks the selected views to a new file location. When a single view is selected, you are prompted to choose a file. When multiple views are selected, you are prompted to choose a folder, and each file is matched by name within that folder. Useful when source files have been moved or reorganised.
+- **Reload From** - relinks the selected views to a new file location. When a single view is selected, you are prompted to choose a file. When multiple views are selected, you are prompted to choose a folder, and each file is matched by name within that folder. Useful when source files have been moved or reorganized.
 
 - **Absolute/Relative Path** - toggles the file path format for the selected entries.
 
