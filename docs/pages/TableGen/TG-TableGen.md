@@ -20,7 +20,7 @@ Collaborate with non-Revit users and bring the beauty of your Excel Tables, PDF 
 
 # TableGen
 
-There are three main ways to import files with TableGen. Each has different results in terms of visual fidelity, editability, and model weight.
+There are three main ways to import files with TableGen. Each has different results in terms of visual fidelity and model weight.
 
 1. Image import (Excel, Word, PDF) - Imports the content as images into a Legend or Drafting view, allowing you to set the resolution (DPI). 
 
