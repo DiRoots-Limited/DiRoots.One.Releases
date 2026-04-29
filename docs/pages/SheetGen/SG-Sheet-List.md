@@ -46,12 +46,12 @@ This tab allows you to create new sheets that will use a selected sheet as templ
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Fill the options for the new sheets.
+1. Fill the options for the new sheets.
 
-- Number of Sheets - enter the number of sheets you want to create.
-- Populate View from template - create the new sheet with the same view settings as the template sheet.
-- Keep Legends - you can choose to keep the legends as the template sheet.
-- Keep Schedules - you can choose to keep the schedules as the template sheet.
+  - Number of Sheets - enter the number of sheets you want to create.
+  - Populate View from template - create the new sheet with the same view settings as the template sheet.
+  - Keep Legends - you can choose to keep the legends as the template sheet.
+  - Keep Schedules - you can choose to keep the schedules as the template sheet.
 
 ![SheetGen fill the options](../../../assets/images/SheetGen/SG-Sl-NewSheet-FillFields.png)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
