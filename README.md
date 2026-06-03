@@ -38,7 +38,7 @@ An Autodesk Revit plugin to bulk edit values from Instance/Type Parameters in yo
 Quickly create a section box from selected elements, with a buffer and optionally into a new view, to help you better inspect or manipulate those elements in isolation.
 
 ### Supported Revit Versions
-2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
+2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, and 2027.
 
 ### Useful links
 [Videos & Documentation](https://docs.dirootsone.diroots.com/)
