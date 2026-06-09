@@ -84,6 +84,135 @@ After creating the named region, save the Excel file to import it.
 
 ---
 
+## Advanced Mapping & Formatting
+
+Advanced Mapping settings provide greater control over how Excel data is converted into Revit documentation.
+
+Use these settings to align imported tables with office standards, control style creation, preserve Revit formatting during updates, and define how units and formatting should be displayed.
+
+### Use Advanced Mapping
+
+If you have existing views in TableGen, Use Advanced Mapping is disabled by default to prevent affecting those views.
+
+Enabling Use Advanced Mapping activates Line/Text Styles and Update Behavior features.
+
+![TableGen Global Settings](../../../assets\images\TableGen\TG-280-GlobalSettings.gif)
+<sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
+
+### Line & Text Mapping
+
+Line & Text Mapping controls how imported Excel borders and text styles are converted into Revit styles.
+
+Once at least one Excel file is imported, the line and text styles detected from the source Excel file appear in the Line Styles and Text Styles tabs of the Global Settings window.
+
+#### Line Styles
+
+The Line Styles tab displays the border styles detected from the source Excel file.
+
+For each Excel line style, TableGen shows:
+
+- Excel Style
+- Color
+- Revit Style
+
+Use the Revit Style dropdown to map each Excel line style to the desired Revit line style.
+
+This allows imported table borders to follow the line styles already available in the Revit project.
+
+![TableGen Line Styles Mapping](../../../assets\images\TableGen\TG-280-LineStyles.gif)
+<sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
+
+#### Text Styles
+
+The Text Styles tab displays the text styles detected from the source Excel file.
+
+For each Excel text style, TableGen shows:
+
+- Font
+- Color
+- Size (pt)
+- Bold / Italic
+
+The mapping options allow you to control how these Excel text styles are applied in Revit.
+
+You can manage:
+
+- Legend / Drafting Text Style
+- Schedule Font Size
+
+Use these options to map imported Excel text to the desired Revit text styles and control the text size used in Schedules.
+
+![TableGen Text Styles Mapping](../../../assets\images\TableGen\TG-280-TextStyles.gif)
+<sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
+
+### Update Behavior
+
+Update Behavior controls how imported views are refreshed when the source Excel file changes.
+
+- **Recreate View** - Updates both the data and formatting from the source Excel file. Use this option when the Excel file is the source of truth for both content and formatting.
+
+- **Update Data Only** - Updates the data while preserving the formatting applied in Revit. When enabled, TableGen updates the cell values from Excel and retains Revit-side formatting, including:
+  - Text styles
+  - Line styles
+  - Colors
+  - Column widths
+  - Row height
+  - Image positions
+  - Other formatting changes made in Revit
+
+  Use this option when Excel data changes frequently, but the appearance of the view has already been adjusted to match project or office standards.
+
+  The Recreate option appears in the context menu when Update Data Only is enabled in Global Settings and you need to recreate the view.
+
+![TableGen Recreate View](../../../assets\images\TableGen\TG-280-RecreateView.png)
+<sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
+
+### Black & White Settings
+
+Black & White Settings control how colors from the source Excel file are converted when creating or updating views with the Black & White option enabled.
+
+These settings can be applied separately to text and lines, and to cell backgrounds.
+
+#### Text & Lines
+
+Controls how text and border colors are processed.
+
+- **Convert All Colors to Black** - Converts all text and line colors from the source Excel file to black.
+
+- **Keep White and Grays** - Converts colored text and lines to black while preserving existing white and grayscale colors.
+
+- **Convert Colors to Grayscale** - Converts all text and line colors to their grayscale equivalents.
+
+#### Backgrounds
+
+Controls how cell background colors are processed.
+
+- **Remove All Backgrounds** - Removes all cell background colors from the imported view.
+
+- **Keep Grays, Remove Colors** - Removes colored backgrounds while preserving existing grayscale fills.
+
+- **Convert to Grayscale** - Converts all background colors to grayscale equivalents.
+
+![TableGen Black and White Settings](../../../assets\images\TableGen\TG-280-BlackAndWhite.gif)
+<sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
+
+## Decimal Symbol & Digit Grouping
+
+Decimal Symbol & Digit Grouping controls how numeric values are formatted when imported into Revit.
+
+These settings allow imported tables to follow either the operating system settings or the formatting rules defined in the current Revit project.
+
+### Use System Settings
+
+Uses the decimal symbol and digit grouping settings configured in the operating system.
+
+This option is useful when imported tables should follow local or regional formatting standards defined on the user's computer.
+
+### Use Document Settings
+
+Uses the decimal symbol and digit grouping settings defined in the current Revit document.
+
+This option is recommended when imported tables should match the formatting standards used throughout the project documentation.
 
 ## Manage imported tables
 
