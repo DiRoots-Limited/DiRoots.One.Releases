@@ -1,7 +1,6 @@
-A single application bundle that includes 8 free Autodesk Revit Plugins to boost your productivity. 
-DiRootsOne allows seamless interoperability between our plugins, opening doors to new workflows and ways to get your job done faster and better.
+DiRootsOne is a single application bundle that brings together 13 Autodesk Revit add-ins designed to help BIM professionals work faster, reduce repetitive tasks, and improve model and documentation workflows.
 
-Tools for Data Management, Filtering, Model Checking, Drawing Production, and Point Clouds.
+With seamless interoperability between DiRoots tools, DiRootsOne helps you manage model data, filter and inspect elements, automate drawing production, work with point clouds, and streamline everyday Revit tasks.
 
 ### Included in DiRootsOne bundle
 - SheetLink
@@ -37,6 +36,9 @@ An Autodesk Revit plugin to bulk edit values from Instance/Type Parameters in yo
 - SectionBoxer
 Quickly create a section box from selected elements, with a buffer and optionally into a new view, to help you better inspect or manipulate those elements in isolation.
 
+- ViewAligner
+ViewAligner streamlines the process of positioning views across Revit sheets by using a reference view as a template.
+
 ### Supported Revit Versions
 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, and 2027.
 
@@ -45,7 +47,7 @@ Quickly create a section box from selected elements, with a buffer and optionall
 [Provide Feedback](https://diroots.com/contact-us/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne)
 [Custom Software Development](https://diroots.com/custom-software-development/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne)
 
-[DiRoots Limited](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne) 
+[DiRoots, LDA](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=DiRootsOne) 
 
 🇵🇹 Portugal Office:
 R. da Marcha Gualtariana, 628
