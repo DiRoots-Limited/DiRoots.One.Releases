@@ -95,7 +95,7 @@ Choose an action:
 
 In Elements mode, Hide and Unhide use Revit element-level visibility.
 
-![Hide in Views hiding and unhiding selected elements](../../../assets/images/HideInViews/HI-Element-Hide-Unhide.gif)  
+![Hide in Views hiding and unhiding selected elements](../../../assets/images/HideInViews/HV-Element-Hide-Unhide.gif)  
 <sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 In Category mode, Hide and Unhide turn the collected categories off or on through Revit Visibility/Graphics.
@@ -105,10 +105,10 @@ In Category mode, Hide and Unhide turn the collected categories off or on throug
 Unhide reverses only the element-level or category-level visibility controlled by the active mode. Elements may remain invisible if other Revit visibility settings or view conditions affect them.
 ```
 
-![Hide in Views hiding selected element categories](../../../assets/images/HideInViews/HI-Category-Hide.gif)  
+![Hide in Views hiding selected element categories](../../../assets/images/HideInViews/HV-Category-Hide.gif)  
 <sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-![Hide in Views unhiding selected element categories](../../../assets/images/HideInViews/HI-Category-Unhide.gif)  
+![Hide in Views unhiding selected element categories](../../../assets/images/HideInViews/HV-Category-Unhide.gif)  
 <sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 When the operation starts, a separate progress dialog displays the execution progress.
