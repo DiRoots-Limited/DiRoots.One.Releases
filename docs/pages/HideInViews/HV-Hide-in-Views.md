@@ -51,23 +51,13 @@ Category mode uses Revit Visibility/Graphics category visibility. It does not hi
 
 ## Select Target Views
 
-Select one or more views where you want to apply the Hide or Unhide action.
+Select one or more views where you want to apply the Hide or Unhide action using their checkboxes.
 
-Hide in Views supports the following view types:
-
-- Area Plans
-- Ceiling Plans
-- Elevations
-- Floor Plans
-- Sections
-- 3D Views
-
-Use the available controls to find and select target views:
+Use the available controls to filter and more easily find and select target views:
 
 - **Search** - Searches views by name.
-- **View Type** - Filters the list by supported view type.
-- **Checkboxes** - Select individual views.
-- **Header checkbox** - Selects or deselects the currently displayed views.
+- **View Type** - Filters the list by supported view type: Area Plans, Ceiling Plans, Elevations, Floor Plans, Sections and 3D Views.
+- **Header checkbox** - Selects or deselects all the currently displayed views.
 - **Column headers** - Sorts the available views.
 
 The currently active Revit view is marked with an "Active" label.
