@@ -23,12 +23,6 @@ Hide in Views allows you to quickly hide or unhide selected elements or their ca
 
 You can work with either the selected Revit elements or the categories belonging to those elements, and then choose the views where the Hide or Unhide action should be applied.
 
-**GIF reference: Hide in Views workflow**
-
-To be added later
-
-<sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
 ## Select Elements
 
 Steps:
@@ -40,10 +34,6 @@ Steps:
 # Note:
 If no elements are selected, Hide in Views prompts you to select elements before the tool opens.
 ```
-
-**Image reference: Selecting elements and opening Hide in Views**
-
-To be added later
 
 ## Choose the Hide/Unhide Mode
 
@@ -58,10 +48,6 @@ The status bar at the bottom of the window displays **Selected Views** and eithe
 # Note:
 Category mode uses Revit Visibility/Graphics category visibility. It does not hide the individual elements.
 ```
-
-**Image reference: Elements and Category options**
-
-To be added later
 
 ## Select Target Views
 
@@ -90,10 +76,6 @@ The currently active Revit view is marked with an "Active" label.
 
 In Category mode, views with an applied view template cannot be selected because the template controls their Visibility/Graphics settings. Switch to Elements mode to hide or unhide individual elements in those views.
 
-**Image reference: Target view selection, Active view, and disabled templated views**
-
-To be added later
-
 ## Refresh
 
 While Hide in Views is open, you can change the selected elements or project views in Revit. Click "Refresh" to update Hide in Views with the current Revit state.
@@ -104,10 +86,6 @@ While Hide in Views is open, you can change the selected elements or project vie
 - Reloads supported views and reevaluates the active-view and view-template states.
 - Preserves the selected mode and any target views that remain valid.
 
-**Image reference: Refresh button**
-
-To be added later
-
 ## Hide or Unhide
 
 Choose an action:
@@ -117,6 +95,9 @@ Choose an action:
 
 In Elements mode, Hide and Unhide use Revit element-level visibility.
 
+![Hide in Views hiding and unhiding selected elements](../../../assets/images/HideInViews/HI-Element-Hide-Unhide.gif)  
+<sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
 In Category mode, Hide and Unhide turn the collected categories off or on through Revit Visibility/Graphics.
 
 ```yaml
@@ -124,19 +105,17 @@ In Category mode, Hide and Unhide turn the collected categories off or on throug
 Unhide reverses only the element-level or category-level visibility controlled by the active mode. Elements may remain invisible if other Revit visibility settings or view conditions affect them.
 ```
 
+![Hide in Views hiding selected element categories](../../../assets/images/HideInViews/HI-Category-Hide.gif)  
+<sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+![Hide in Views unhiding selected element categories](../../../assets/images/HideInViews/HI-Category-Unhide.gif)  
+<sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
 When the operation starts, a separate progress dialog displays the execution progress.
-
-**Image reference: Execution progress dialog**
-
-To be added later
 
 After the operation is complete, a report displays the execution results.
 
 The Hide in Views window remains open after the operation. Select different target views to repeat the operation, or change the Revit selection, click **Refresh**, and run another operation.
-
-**GIF reference: Running multiple Hide/Unhide operations using Refresh**
-
-To be added later
 
 ## Undo Considerations
 
