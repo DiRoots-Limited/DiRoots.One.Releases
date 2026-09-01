@@ -35,7 +35,7 @@ Steps:
 If no elements are selected, Hide in Views prompts you to select elements before the tool opens.
 ```
 
-## Choose the Hide/Unhide Mode
+## Choose Elements or Category
 
 Choose whether to control the visibility of the selected elements or their categories.
 
@@ -74,7 +74,7 @@ The currently active Revit view is marked with an "Active" label.
 
 ### Views with View Templates
 
-In Category mode, views with an applied view template cannot be selected because the template controls their Visibility/Graphics settings. Switch to Elements mode to hide or unhide individual elements in those views.
+In Category mode, views with an applied view template cannot be selected because category visibility is controlled by the template. Switch to Elements mode to hide or unhide individual elements in those views.
 
 ## Refresh
 
