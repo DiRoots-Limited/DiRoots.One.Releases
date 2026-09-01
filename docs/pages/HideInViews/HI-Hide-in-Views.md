@@ -52,22 +52,12 @@ Choose whether to control the visibility of the selected elements or their categ
 - **Elements** - Hides or unhides only the elements currently selected in Revit.
 - **Category** - Hides or unhides the unique categories of the selected elements through Revit Visibility/Graphics.
 
-The status area at the bottom of the window changes according to the selected mode:
-
-- **Elements** - Selected Views: XX of XX | Selected Elements: XX
-- **Category** - Selected Views: XX of XX | Categories Collected: XX
-
-Hover over a mode to display its tooltip:
-
-- **Elements tooltip:** Hide or unhide the selected Revit elements in the selected views.
-- **Category tooltip:** Hide or unhide the categories of the selected elements through Visibility/Graphics in the selected views.
+The status bar at the bottom of the window displays **Selected Views** and either **Selected Elements** in Elements mode or **Categories Collected** in Category mode.
 
 ```yaml
 # Note:
 Category mode uses Revit Visibility/Graphics category visibility. It does not hide the individual elements.
 ```
-
-**Categories Collected** represents the number of unique categories identified from the currently selected elements.
 
 **Image reference: Elements and Category options**
 
@@ -94,23 +84,11 @@ Use the available controls to find and select target views:
 - **Header checkbox** - Selects or deselects the currently displayed views.
 - **Column headers** - Sorts the available views.
 
-The bottom of the window displays the selected-view count:
-
-**Selected Views: XX of XX**
-
-### Active View
-
 The currently active Revit view is marked with an "Active" label.
-
-Hover over the "Active" label to display the tooltip:
-
-**Tooltip:** Currently active Revit view.
 
 ### Views with View Templates
 
-In Category mode, views with an applied view template are automatically unchecked, grayed out, and unavailable for selection.
-
-Hover over a disabled view to display the message: "This view is controlled by a view template and cannot be processed." Switch to Elements mode to make these views available again.
+In Category mode, views with an applied view template cannot be selected because the template controls their Visibility/Graphics settings. Switch to Elements mode to hide or unhide individual elements in those views.
 
 **Image reference: Target view selection, Active view, and disabled templated views**
 
@@ -122,17 +100,9 @@ While Hide in Views is open, you can change the selected elements or project vie
 
 "Refresh" performs the following actions:
 
-- Updates the current Revit element selection.
-- Updates the selected-element count in Elements mode or recalculates the unique categories in Category mode.
-- Reloads the available supported views and reevaluates their view-template status.
-- Updates the Active view indicator if the active Revit view has changed.
-- Preserves the currently selected target views where they remain valid for the active mode.
-- Preserves the selected Elements or Category mode.
-- Automatically unchecks and disables views with an applied view template in Category mode.
-
-Hover over "Refresh" to display the tooltip:
-
-**Refresh tooltip:** Refresh the current Revit element selection and available views while preserving the selected views and mode.
+- Updates the selected elements or collected categories.
+- Reloads supported views and reevaluates the active-view and view-template states.
+- Preserves the selected mode and any target views that remain valid.
 
 **Image reference: Refresh button**
 
@@ -147,16 +117,11 @@ Choose an action:
 
 In Elements mode, Hide and Unhide use Revit element-level visibility.
 
-```yaml
-# Note:
-Unhiding an element removes its element-level hide state in the selected view. The element may still remain invisible if other Revit visibility settings or view conditions affect it.
-```
-
 In Category mode, Hide and Unhide turn the collected categories off or on through Revit Visibility/Graphics.
 
 ```yaml
 # Note:
-Unhiding a category turns that category back on in the selected view's Visibility/Graphics settings. Elements from that category may still remain invisible if other Revit visibility settings or view conditions affect them.
+Unhide reverses only the element-level or category-level visibility controlled by the active mode. Elements may remain invisible if other Revit visibility settings or view conditions affect them.
 ```
 
 When the operation starts, a separate progress dialog displays the execution progress.
@@ -167,14 +132,7 @@ To be added later
 
 After the operation is complete, a report displays the execution results.
 
-The main Hide in Views window remains open, allowing you to perform additional operations without reopening the tool.
-
-Steps:
-
-1. Select different elements in Revit.
-2. Click "Refresh".
-3. Adjust the mode or target views if required.
-4. Click "Hide" or "Unhide".
+The Hide in Views window remains open after the operation. Select different target views to repeat the operation, or change the Revit selection, click **Refresh**, and run another operation.
 
 **GIF reference: Running multiple Hide/Unhide operations using Refresh**
 
@@ -182,9 +140,4 @@ To be added later
 
 ## Undo Considerations
 
-Revit Undo can reverse a Hide or Unhide operation.
-
-```yaml
-# Note:
-Undo reverses the entire Hide or Unhide batch operation, not individual views. If you perform other Revit actions after Hide or Unhide, multiple Undo steps may be required to return to the Hide or Unhide operation.
-```
+Revit Undo reverses the entire Hide or Unhide batch operation, not individual views. If you perform other Revit actions after Hide or Unhide, multiple Undo steps may be required to return to the operation.
