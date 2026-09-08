@@ -132,7 +132,7 @@ Connect to your Google Drive account, and then select a folder to export the sch
 
 #### 3. Export to Morta.
 
-To export sheet to Morta, make sure you are connected to the Morta API. Don't worry if you're not connected, just go to your Morta profile > Integrations and click on the New API Key button. Copy the created key, and paste it into the Morta API Key field in SheetLink.
+To export a schedule to Morta, make sure you are connected to the Morta API. Don't worry if you're not connected, just go to your Morta profile > Integrations and click on the New API Key button. Copy the created key, and paste it into the Morta API Key field in SheetLink.
 Now, choose your project into Morta and click on Upload to Morta button.
 
 ```yaml
