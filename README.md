@@ -1,3 +1,6 @@
+<!-- SHORT_DESCRIPTION_START -->
+Autodesk Revit Productivity Tools for Data Management, Filtering, Model Checking, Drawing Production, Point Clouds, etc.
+<!-- SHORT_DESCRIPTION_END -->
 DiRootsOne is a single application bundle that brings together 13 Autodesk Revit add-ins designed to help BIM professionals work faster, reduce repetitive tasks, and improve model and documentation workflows.
 
 With seamless interoperability between DiRoots tools, DiRootsOne helps you manage model data, filter and inspect elements, automate drawing production, work with point clouds, and streamline everyday Revit tasks.
