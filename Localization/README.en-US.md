@@ -25,7 +25,7 @@ Create multiple Drawing Sheets, place Views based on a pre-defined template, and
 Easily renumber instance Revit parameters by using a prefix, a suffix, and a multiplier (manually or following a path/detail line).
 
 - ParaManager
-Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, export/import parameters to/from Excel and Shared Parameters file. Edit Shared Parameter in a user-friendly maner (no more Notepad).
+Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, export/import parameters to/from Excel and Shared Parameters file. Edit Shared Parameter in a user-friendly manner (no more Notepad).
 
 - PointKit
 Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
