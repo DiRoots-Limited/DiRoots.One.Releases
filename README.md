@@ -36,6 +36,9 @@ An Autodesk Revit plugin to bulk edit values from Instance/Type Parameters in yo
 - SectionBoxer
 Quickly create a section box from selected elements, with a buffer and optionally into a new view, to help you better inspect or manipulate those elements in isolation.
 
+- Hide in Views
+Quickly hide or unhide selected elements and categories across multiple Revit views, helping you standardize visibility and prepare documentation more efficiently.
+
 - ViewAligner
 ViewAligner streamlines the process of positioning views across Revit sheets by using a reference view as a template.
 
