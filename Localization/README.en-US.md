@@ -19,7 +19,7 @@ Quickly find and colorize your families in Revit models. Search by category, par
 Import your spreadsheets into Revit as Legend Views, Schedule Views, and Drafting Views. Collaborate with non-Revit users and bring your Excel Tables into Revit.
 
 - SheetGen
-Create multiple Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and sheets/views lists to/from Excel.
+Create multiple Drawing Sheets, place Views based on a pre-defined template, and easily manage Drawing Sheets revisions. Export and import sheet/view lists to/from Excel.
 
 - ReOrdering
 Easily renumber instance Revit parameters by using a prefix, a suffix, and a multiplier (manually or following a path/detail line).
