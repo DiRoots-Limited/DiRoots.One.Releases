@@ -13,4 +13,3 @@ permalink: /docs/ViewAligner-user-guide
 redirect_to: /docs/pages/ViewAligner/VA-ViewAligner.html
 search_exclude: true
 ---
-<p>ViewAligner now opens directly at <a href="{{ page.redirect_to | relative_url }}">VA-ViewAligner</a>.</p>

@@ -19,4 +19,3 @@ permalink: /docs/reordering-user-guide
 redirect_to: /docs/pages/ReOrdering/RO-ReOrdering.html
 search_exclude: true
 ---
-<p>ReOrdering now opens directly at <a href="{{ page.redirect_to | relative_url }}">RO-ReOrdering</a>.</p>

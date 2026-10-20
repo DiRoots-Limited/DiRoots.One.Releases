@@ -17,4 +17,3 @@ permalink: /docs/QuickViews-user-guide
 redirect_to: /docs/pages/QuickViews/QV-QuickViews.html
 search_exclude: true
 ---
-<p>QuickViews now opens directly at <a href="{{ page.redirect_to | relative_url }}">QV-QuickViews</a>.</p>

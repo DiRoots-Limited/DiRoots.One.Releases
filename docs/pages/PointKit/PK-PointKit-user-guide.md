@@ -15,4 +15,3 @@ permalink: /docs/pointkit-user-guide
 redirect_to: /docs/pages/PointKit/PK-PointKit.html
 search_exclude: true
 ---
-<p>PointKit now opens directly at <a href="{{ page.redirect_to | relative_url }}">PK-PointKit</a>.</p>
