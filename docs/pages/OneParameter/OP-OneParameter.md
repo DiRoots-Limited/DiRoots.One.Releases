@@ -1,9 +1,15 @@
 ---
 layout: default
 title: OneParameter
-parent: OneParameter User Guide
+parent: OneParameter
+nav_exclude: true
 nav_order: 1
+nav_sections:
+  - title: "Select Parameter"
+    anchor: select-parameter
 ---
+
+<span id="oneparameter"></span>
 
 # OneParameter
 {: .no_toc }
@@ -16,7 +22,6 @@ An Autodesk Revit plugin to bulk edit values from Instance/Type Parameters in yo
 
 ---
 
-# OneParameter
 
 Edit values from Instance/Type Parameters in your Revit model in bulk. With OneParameter, you can add prefixes/suffixes, replace, and clear multiple Parameter values with a single click.
 

@@ -1,12 +1,22 @@
 ---
-layout: default
-title: ReOrdering User Guide
+layout: redirect
+title: ReOrdering
 nav_order: 13
-has_children: true
+nav_sections:
+  - title: "Define Value"
+    anchor: define-value
+  - title: "Remove values"
+    anchor: remove-values
+  - title: "Preview Colors"
+    anchor: preview-colors
+  - title: "Update or duplicate view"
+    anchor: update-or-duplicate-view
+  - title: "Save Selection"
+    anchor: save-selection
+  - title: "Isolate Selection"
+    anchor: isolate-selection
 permalink: /docs/reordering-user-guide
+redirect_to: /docs/pages/ReOrdering/RO-ReOrdering.html
+search_exclude: true
 ---
-
-# ReOrdering User Guide
-
-Easily renumber instance Revit parameters by using a prefix, a suffix, and a multiplier (manually or following a path/detail line).
-{: .fs-6 .fw-300 }
+<p>ReOrdering now opens directly at <a href="{{ page.redirect_to | relative_url }}">RO-ReOrdering</a>.</p>

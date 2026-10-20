@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Levels
-parent: OneFilter User Guide
+parent: OneFilter
 nav_order: 8
+nav_sections:
+  - title: "Select Category"
+    anchor: select-category
+  - title: "Find Elements"
+    anchor: find-elements
 ---
 
 # OneFilter

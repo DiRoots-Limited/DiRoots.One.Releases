@@ -1,8 +1,19 @@
 ---
 layout: default
 title: View list
-parent: SheetGen User Guide
+parent: SheetGen
 nav_order: 3
+nav_sections:
+  - title: "Import/Export excel file"
+    anchor: importexport-excel-file
+  - title: "Apply filter by template"
+    anchor: apply-filter-by-template
+  - title: "Filter by V/S Sets"
+    anchor: filter-by-vs-sets
+  - title: "Add views to sheets"
+    anchor: add-views-to-sheets
+  - title: "Clear Staging"
+    anchor: clear-staging
 ---
 
 # SheetGen

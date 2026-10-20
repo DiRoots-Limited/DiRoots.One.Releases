@@ -1,9 +1,28 @@
 ---
 layout: default
 title: TableGen
-parent: TableGen User Guide
+parent: TableGen
 nav_order: 1
+nav_sections:
+  - title: "Add files"
+    anchor: add-files
+  - title: "Worksheet Selection Window"
+    anchor: worksheet-selection-window
+  - title: "Advanced Mapping & Formatting"
+    anchor: advanced-mapping--formatting
+  - title: "Decimal Symbol & Digit Grouping"
+    anchor: decimal-symbol--digit-grouping
+  - title: "Manage imported tables"
+    anchor: manage-imported-tables
+  - title: "Batch Actions"
+    anchor: batch-actions
+  - title: "Tables synchronization"
+    anchor: tables-synchronization
+  - title: "Black and White – Remove color formatting"
+    anchor: black-and-white--remove-color-formatting
 ---
+
+<span id="tablegen"></span>
 
 # TableGen
 {: .no_toc }

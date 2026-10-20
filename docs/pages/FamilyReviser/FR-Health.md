@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Health
-parent: FamilyReviser User Guide
+parent: FamilyReviser
 nav_order: 5
 ---
 

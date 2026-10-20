@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: OneParameter
-grand_parent: Video Tutorials
-nav_order: 1
+title: OneParameter | English
+parent: Video Tutorials
+nav_order: 7
 ---
 
 # OneParameter tutorials and demo videos in English.

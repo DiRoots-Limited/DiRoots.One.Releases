@@ -1,9 +1,8 @@
 ---
 layout: default
 title: OneFilter
-parent: Video Tutorials
-has_children: true
 nav_order: 11
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

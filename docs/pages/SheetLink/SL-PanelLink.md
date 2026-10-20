@@ -1,8 +1,17 @@
 ---
 layout: default
 title: PanelLink
-parent: SheetLink User Guide
+parent: SheetLink
 nav_order: 7
+nav_sections:
+  - title: "Select Panel Schedules"
+    anchor: select-panel-schedules
+  - title: "Reset"
+    anchor: reset
+  - title: "Export"
+    anchor: export
+  - title: "Import"
+    anchor: import
 ---
 
 # SheetLink

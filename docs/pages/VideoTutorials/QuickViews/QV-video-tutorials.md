@@ -1,9 +1,8 @@
 ---
 layout: default
 title: QuickViews
-parent: Video Tutorials
-has_children: true
 nav_order: 8
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

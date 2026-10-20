@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Tiếng Việt | Video Tutorials
-parent: FamilyReviser
-grand_parent: Video Tutorials
-nav_order: 4
+title: FamilyReviser | Tiếng Việt
+parent: Video Tutorials
+nav_order: 15
 ---
 
 # FamilyReviser tutorials and demo videos in Tiếng Việt.

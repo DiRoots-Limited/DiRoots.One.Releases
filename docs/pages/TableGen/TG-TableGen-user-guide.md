@@ -1,13 +1,10 @@
 ---
-layout: default
-title: TableGen User Guide
+layout: redirect
+title: TableGen
 nav_order: 4
 has_children: true
 permalink: /docs/tablegen-user-guide
+redirect_to: /docs/pages/TableGen/TG-TableGen.html
+search_exclude: true
 ---
-
-# TableGen User Guide
-
-Import your spreadsheets, PDF and Word document into Revit as Legend Views, Schedule Views and Drafting Views.
-Collaborate with non-Revit users and bring the beauty of your Excel Tables, PDF and Word documents into Revit.
-{: .fs-6 .fw-300 }
+<p>TableGen now opens directly at <a href="{{ page.redirect_to | relative_url }}">TG-TableGen</a>.</p>

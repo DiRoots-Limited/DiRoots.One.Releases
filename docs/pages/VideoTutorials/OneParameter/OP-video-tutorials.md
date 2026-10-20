@@ -1,9 +1,8 @@
 ---
 layout: default
 title: OneParameter
-parent: Video Tutorials
-has_children: true
 nav_order: 5
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: ReOrdering
-parent: Video Tutorials
-has_children: true
 nav_order: 12
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

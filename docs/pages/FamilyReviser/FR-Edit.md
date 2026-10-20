@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Edit
-parent: FamilyReviser User Guide
+parent: FamilyReviser
 nav_order: 3
+nav_sections:
+  - title: "Find and Replace"
+    anchor: find-and-replace
+  - title: "Prefix/Suffix"
+    anchor: prefixsuffix
 ---
 
 # FamilyReviser

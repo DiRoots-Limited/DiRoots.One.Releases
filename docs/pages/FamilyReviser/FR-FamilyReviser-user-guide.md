@@ -1,13 +1,10 @@
 ---
-layout: default
-title: FamilyReviser User Guide
+layout: redirect
+title: FamilyReviser
 nav_order: 10
 has_children: true
 permalink: /docs/familyreviser-user-guide
+redirect_to: /docs/pages/FamilyReviser/FR-Export.html
+search_exclude: true
 ---
-
-# FamilyReviser User Guide
-
-Manage your Revit families (rename, add prefix and suffix, save them in an organised way) and worksets (modify worksets by category or create your own rules).
-{: .fs-6 .fw-300 }
-
+<p>FamilyReviser now opens directly at <a href="{{ page.redirect_to | relative_url }}">FR-Export</a>.</p>

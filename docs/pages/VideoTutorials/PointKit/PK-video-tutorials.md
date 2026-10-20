@@ -1,9 +1,8 @@
 ---
 layout: default
 title: PointKit
-parent: Video Tutorials
-has_children: true
 nav_order: 13
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

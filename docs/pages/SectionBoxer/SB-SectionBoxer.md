@@ -1,23 +1,16 @@
 ---
 layout: default
 title: SectionBoxer
-parent: SectionBoxer User Guide
+parent: SectionBoxer
+nav_exclude: true
 nav_order: 1
 ---
+
+<span id="sectionboxer"></span>
 
 # SectionBoxer
 {: .no_toc }
 Quickly create a section box from selected elements, with a buffer and optionally into a new view, to help you better inspect or manipulate those elements in isolation.
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-# SectionBoxer
-
 This tool allows you to create a section box from the selected elements. To use it, follow these steps:
 
 1. Open SectionBoxer from the DiRootsOne tab or the Modify tab.

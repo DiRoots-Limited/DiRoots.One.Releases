@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Spanish | Video Tutorials
-parent: ParaManager
-grand_parent: Video Tutorials
-nav_order: 2
+title: ParaManager | Spanish
+parent: Video Tutorials
+nav_order: 17
 ---
 
 # ParaManager tutorials and demo videos in Spanish.

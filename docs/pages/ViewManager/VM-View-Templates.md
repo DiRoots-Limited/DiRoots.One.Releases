@@ -1,8 +1,21 @@
 ---
 layout: default
 title: View Templates
-parent: ViewManager User Guide
+parent: ViewManager
 nav_order: 3
+nav_sections:
+  - title: "Manual actions"
+    anchor: manual-actions
+  - title: "Batch actions"
+    anchor: batch-actions
+  - title: "Rename"
+    anchor: rename
+  - title: "Build Name"
+    anchor: build-name
+  - title: "Filter View Templates"
+    anchor: filter-view-templates
+  - title: "Clear all modifications"
+    anchor: clear-all-modifications
 ---
 
 # ViewManager

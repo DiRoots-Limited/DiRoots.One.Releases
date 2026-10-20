@@ -1,9 +1,16 @@
 ---
 layout: default
 title: Parameters
-parent: ParaManager User Guide
+parent: ParaManager
 nav_order: 1
+nav_sections:
+  - title: "Add Parameters"
+    anchor: add-parameters
+  - title: "Import/Export"
+    anchor: importexport
 ---
+
+<span id="paramanager"></span>
 
 # ParaManager
 {: .no_toc }

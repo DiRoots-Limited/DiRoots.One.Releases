@@ -1,9 +1,8 @@
 ---
 layout: default
 title: ParaManager
-parent: Video Tutorials
-has_children: true
 nav_order: 10
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

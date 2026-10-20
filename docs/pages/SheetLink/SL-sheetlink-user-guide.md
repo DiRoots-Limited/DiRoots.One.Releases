@@ -1,12 +1,10 @@
 ---
-layout: default
-title: SheetLink User Guide
+layout: redirect
+title: SheetLink
 nav_order: 3
 has_children: true
 permalink: /docs/sheetlink-user-guide
+redirect_to: /docs/pages/SheetLink/SL-Profile.html
+search_exclude: true
 ---
-
-# SheetLink User Guide
-
-Export your Revit model data (by categories, elements, schedules) to Excel and Google Sheets. Edit the data and import it back to update the model.
-{: .fs-6 .fw-300 }
+<p>SheetLink now opens directly at <a href="{{ page.redirect_to | relative_url }}">SL-Profile</a>.</p>

@@ -1,13 +1,10 @@
 ---
-layout: default
-title: SheetGen User Guide
+layout: redirect
+title: SheetGen
 nav_order: 6
 has_children: true
 permalink: /docs/sheetgen-user-guide
+redirect_to: /docs/pages/SheetGen/SG-Profile.html
+search_exclude: true
 ---
-
-# SheetGen User Guide
-
-Batch create Sheets and Placeholder sheets, place Views on Sheets based on a pre-defined template, and easily manage Drawing Sheets revisions. Export sheets/views lists to/from Excel.
-{: .fs-6 .fw-300 }
-
+<p>SheetGen now opens directly at <a href="{{ page.redirect_to | relative_url }}">SG-Profile</a>.</p>

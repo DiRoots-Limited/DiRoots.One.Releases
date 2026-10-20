@@ -1,8 +1,21 @@
 ---
 layout: default
 title: Placeholder Sheets
-parent: SheetGen User Guide
+parent: SheetGen
 nav_order: 5
+nav_sections:
+  - title: "New Placeholder Sheet"
+    anchor: new-placeholder-sheet
+  - title: "Edit Sheet Number, Sheet Name and Parameters"
+    anchor: edit-sheet-number-sheet-name-and-parameters
+  - title: "Add Parameter Columns"
+    anchor: add-parameter-columns
+  - title: "Actions"
+    anchor: actions
+  - title: "Clear editions"
+    anchor: clear-editions
+  - title: "Search"
+    anchor: search
 ---
 
 # SheetGen

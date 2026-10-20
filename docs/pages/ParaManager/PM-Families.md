@@ -1,8 +1,19 @@
 ---
 layout: default
 title: Families
-parent: ParaManager User Guide
+parent: ParaManager
 nav_order: 4
+nav_sections:
+  - title: "Add Parameter"
+    anchor: add-parameter
+  - title: "Batch Actions"
+    anchor: batch-actions
+  - title: "Modify"
+    anchor: modify
+  - title: "Import/Export"
+    anchor: importexport
+  - title: "Parameters from Nested Elements"
+    anchor: parameters-from-nested-elements
 ---
 
 # ParaManager

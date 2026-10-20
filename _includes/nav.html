@@ -60,22 +60,36 @@
   {%- for node in pages_list -%}
     {%- if node.parent == nil -%}
       {%- unless node.nav_exclude -%}
-      <li class="nav-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
-        {%- if node.has_children -%}
+      {%- assign direct_parent = false -%}
+      {%- if page.parent == node.title and page.grand_parent == nil -%}
+        {%- assign direct_parent = true -%}
+      {%- endif -%}
+      <li class="nav-list-item{% if page.url == node.url or direct_parent or page.grand_parent == node.title %} active{% endif %}">
+        {%- if node.has_children or node.nav_sections -%}
           <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
         {%- endif -%}
         <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
         {%- if node.has_children -%}
-          {%- assign children_list = pages_list | where: "parent", node.title -%}
+          {%- assign children_list = pages_list -%}
           <ul class="nav-list ">
+          {%- if node.nav_self_title -%}
+            <li class="nav-list-item{% if page.url == node.url %} active{% endif %}">
+              <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.nav_self_title }}</a>
+            </li>
+          {%- endif -%}
           {%- for child in children_list -%}
+            {%- if child.parent == node.title and child.grand_parent == nil -%}
             {%- unless child.nav_exclude -%}
-            <li class="nav-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
-              {%- if child.has_children -%}
+            {%- assign nested_parent = false -%}
+            {%- if page.parent == child.title and page.grand_parent == node.title -%}
+              {%- assign nested_parent = true -%}
+            {%- endif -%}
+            <li class="nav-list-item {% if page.url == child.url or nested_parent %} active{% endif %}">
+              {%- if child.has_children or child.nav_sections -%}
                 <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
               {%- endif -%}
               <a href="{{ child.url | absolute_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
-              {%- if child.has_children -%}
+              {%- if child.has_children or child.nav_sections -%}
                 {%- assign grand_children_list = pages_list | where: "parent", child.title | where: "grand_parent", node.title -%}
                 <ul class="nav-list">
                 {%- for grand_child in grand_children_list -%}
@@ -87,9 +101,28 @@
                 {%- endfor -%}
                 </ul>
               {%- endif -%}
+              {%- if child.nav_sections -%}
+                <ul class="nav-list">
+                  {%- for section in child.nav_sections -%}
+                  <li class="nav-list-item">
+                    <a href="{{ child.url | absolute_url }}#{{ section.anchor | escape }}" class="nav-list-link">{{ section.title | escape }}</a>
+                  </li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
             </li>
             {%- endunless -%}
+            {%- endif -%}
           {%- endfor -%}
+          </ul>
+        {%- endif -%}
+        {%- if node.nav_sections -%}
+          <ul class="nav-list">
+            {%- for section in node.nav_sections -%}
+            <li class="nav-list-item">
+              <a href="{{ node.url | absolute_url }}#{{ section.anchor | escape }}" class="nav-list-link">{{ section.title | escape }}</a>
+            </li>
+            {%- endfor -%}
           </ul>
         {%- endif -%}
       </li>

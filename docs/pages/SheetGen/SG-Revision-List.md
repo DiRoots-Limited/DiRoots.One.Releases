@@ -1,8 +1,19 @@
 ---
 layout: default
 title: Revision list
-parent: SheetGen User Guide
+parent: SheetGen
 nav_order: 4
+nav_sections:
+  - title: "Revisions"
+    anchor: revisions
+  - title: "Filter by V/S Sets"
+    anchor: filter-by-vs-sets
+  - title: "Assign Revisions to the sheets"
+    anchor: assign-revisions-to-the-sheets
+  - title: "Import/Export"
+    anchor: importexport
+  - title: "Clear Staging"
+    anchor: clear-staging
 ---
 
 # SheetGen

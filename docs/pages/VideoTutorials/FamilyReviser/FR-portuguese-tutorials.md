@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Portuguese | Video Tutorials
-parent: FamilyReviser
-grand_parent: Video Tutorials
-nav_order: 2
+title: FamilyReviser | Portuguese
+parent: Video Tutorials
+nav_order: 13
 ---
 
 # FamilyReviser tutorials and demo videos in Portuguese.

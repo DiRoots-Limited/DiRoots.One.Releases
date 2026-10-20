@@ -1,12 +1,12 @@
 ---
-layout: default
-title: OneParameter User Guide
+layout: redirect
+title: OneParameter
 nav_order: 5
-has_children: true
+nav_sections:
+  - title: "Select Parameter"
+    anchor: select-parameter
 permalink: /docs/OneParameter-user-guide
+redirect_to: /docs/pages/OneParameter/OP-OneParameter.html
+search_exclude: true
 ---
-
-# OneParameter User Guide
-
-Edit values from Instance/Type Parameters in your Revit model in bulk. With OneParameter, you can add prefixes/suffixes, replace, and clear multiple Parameter values with a single click.
-{: .fs-6 .fw-300 }
+<p>OneParameter now opens directly at <a href="{{ page.redirect_to | relative_url }}">OP-OneParameter</a>.</p>

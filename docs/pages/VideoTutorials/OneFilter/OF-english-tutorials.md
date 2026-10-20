@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: OneFilter
-grand_parent: Video Tutorials
-nav_order: 1
+title: OneFilter | English
+parent: Video Tutorials
+nav_order: 18
 ---
 
 # OneFilter tutorials and demo videos in English.

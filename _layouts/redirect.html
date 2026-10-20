@@ -1,0 +1,21 @@
+---
+---
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+</head>
+<body>
+  <p id="redirect-fallback">{{ page.title | escape }} opens at <a href="{{ page.redirect_to | relative_url }}">the first guide article</a>.</p>
+  <script>
+    const destination = new URL({{ page.redirect_to | relative_url | jsonify }}, window.location.origin);
+    destination.search = window.location.search;
+    destination.hash = window.location.hash;
+    const fallbackLink = document.querySelector('#redirect-fallback a');
+    if (fallbackLink) fallbackLink.href = destination.href;
+    window.location.replace(destination.href);
+  </script>
+</body>
+</html>

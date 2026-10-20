@@ -2,6 +2,11 @@
 layout: default
 title: Getting Started
 nav_order: 2
+nav_sections:
+  - title: "Download"
+    anchor: download
+  - title: "Install"
+    anchor: install
 ---
 
 # Getting Started

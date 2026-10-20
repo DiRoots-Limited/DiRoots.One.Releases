@@ -1,9 +1,16 @@
 ---
 layout: default
 title: Export
-parent: FamilyReviser User Guide
+parent: FamilyReviser
 nav_order: 1
+nav_sections:
+  - title: "Preferences"
+    anchor: preferences
+  - title: "Export families"
+    anchor: export-families
 ---
+
+<span id="familyreviser"></span>
 
 # FamilyReviser
 {: .no_toc }

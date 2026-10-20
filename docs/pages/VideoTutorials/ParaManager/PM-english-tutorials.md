@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: ParaManager
-grand_parent: Video Tutorials
-nav_order: 1
+title: ParaManager | English
+parent: Video Tutorials
+nav_order: 16
 ---
 
 # ParaManager tutorials and demo videos in English.
