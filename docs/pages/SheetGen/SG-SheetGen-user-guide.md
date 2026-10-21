@@ -4,6 +4,6 @@ title: SheetGen
 nav_order: 6
 has_children: true
 permalink: /docs/sheetgen-user-guide
-redirect_to: /docs/pages/SheetGen/SG-Profile.html
+redirect_to: /docs/pages/SheetGen/SG-Sheet-List.html
 search_exclude: true
 ---
