@@ -1,8 +1,15 @@
 ---
 layout: default
 title: Template Transfer
-parent: ViewManager User Guide
+parent: ViewManager
 nav_order: 4
+nav_sections:
+  - title: "Select Origin Template"
+    anchor: select-origin-template
+  - title: "Select Origin Properties"
+    anchor: select-origin-properties
+  - title: "Select Destination Template"
+    anchor: select-destination-template
 ---
 
 # ViewManager

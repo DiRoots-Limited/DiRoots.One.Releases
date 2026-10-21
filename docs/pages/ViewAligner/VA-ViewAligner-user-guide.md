@@ -1,12 +1,15 @@
 ---
-layout: default
-title: ViewAligner User Guide
+layout: redirect
+title: ViewAligner
 nav_order: 8
-has_children: true
+nav_sections:
+  - title: "Select the Source View"
+    anchor: select-the-source-view
+  - title: "Alignment Options"
+    anchor: alignment-options
+  - title: "Select Views to Align"
+    anchor: select-views-to-align
 permalink: /docs/ViewAligner-user-guide
+redirect_to: /docs/pages/ViewAligner/VA-ViewAligner.html
+search_exclude: true
 ---
-
-# ViewAligner User Guide
-
-Easily replicate the alignment of a reference view across multiple sheets to quicky achieve consistent sheet layouts.
-{: .fs-6 .fw-300 }

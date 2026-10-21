@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Spanish | Video Tutorials
-parent: SheetGen
-grand_parent: Video Tutorials
-nav_order: 2
+title: SheetGen | Spanish
+parent: Video Tutorials
+nav_order: 9
 ---
 
 # SheetGen tutorials and demo videos in Spanish.

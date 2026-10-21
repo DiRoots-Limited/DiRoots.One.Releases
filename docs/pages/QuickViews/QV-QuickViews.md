@@ -1,9 +1,23 @@
 ---
 layout: default
 title: QuickViews
-parent: QuickViews User Guide
+parent: QuickViews
+nav_exclude: true
 nav_order: 1
+nav_sections:
+  - title: "Whole Model or Active View"
+    anchor: whole-model-or-active-view
+  - title: "Callout View"
+    anchor: callout-view
+  - title: "Elevation and Section views"
+    anchor: elevation-and-section-views
+  - title: "Right-click actions"
+    anchor: right-click-actions
+  - title: "Update Views"
+    anchor: update-views
 ---
+
+<span id="quickviews"></span>
 
 # QuickViews
 {: .no_toc }

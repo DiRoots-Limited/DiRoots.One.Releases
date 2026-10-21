@@ -1,9 +1,8 @@
 ---
 layout: default
 title: SheetLink
-parent: Video Tutorials
-has_children: true
 nav_order: 3
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

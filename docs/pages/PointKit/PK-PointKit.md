@@ -1,9 +1,21 @@
 ---
 layout: default
 title: PointKit
-parent: PointKit User Guide
+parent: PointKit
+nav_exclude: true
 nav_order: 1
+nav_sections:
+  - title: "Select Points"
+    anchor: select-points
+  - title: "Import DXF File"
+    anchor: import-dxf-file
+  - title: "Import ASCII point cloud file"
+    anchor: import-ascii-point-cloud-file
+  - title: "Export"
+    anchor: export
 ---
+
+<span id="pointkit"></span>
 
 # PointKit
 {: .no_toc }
@@ -15,10 +27,6 @@ Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
 {:toc}
 
 ---
-
-# Point Cloud
-
-Point Cloud from PointKit is a package of tools to make working with point clouds easier.
 
 ## Select Points
 

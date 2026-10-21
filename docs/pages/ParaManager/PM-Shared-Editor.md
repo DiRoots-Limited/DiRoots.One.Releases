@@ -1,8 +1,17 @@
 ---
 layout: default
 title: Shared Editor
-parent: ParaManager User Guide
+parent: ParaManager
 nav_order: 5
+nav_sections:
+  - title: "Load Shared Parameters File (SP File)"
+    anchor: load-shared-parameters-file-sp-file
+  - title: "Add Parameter"
+    anchor: add-parameter
+  - title: "Groups"
+    anchor: groups
+  - title: "Save"
+    anchor: save
 ---
 
 # ParaManager

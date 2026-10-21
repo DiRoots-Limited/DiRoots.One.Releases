@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Spanish | Video Tutorials
-parent: FamilyReviser
-grand_parent: Video Tutorials
-nav_order: 3
+title: FamilyReviser | Spanish
+parent: Video Tutorials
+nav_order: 14
 ---
 
 # FamilyReviser tutorials and demo videos in Spanish.

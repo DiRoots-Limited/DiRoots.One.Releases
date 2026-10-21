@@ -1,9 +1,8 @@
 ---
 layout: default
 title: SheetGen
-parent: Video Tutorials
-has_children: true
 nav_order: 6
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

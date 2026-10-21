@@ -1,8 +1,23 @@
 ---
 layout: default
 title: Views
-parent: ViewManager User Guide
+parent: ViewManager
 nav_order: 2
+nav_sections:
+  - title: "Filter Views"
+    anchor: filter-views
+  - title: "Manual actions"
+    anchor: manual-actions
+  - title: "Batch actions"
+    anchor: batch-actions
+  - title: "Rename"
+    anchor: rename
+  - title: "Build Name"
+    anchor: build-name
+  - title: "Save V/S Set"
+    anchor: save-vs-set
+  - title: "Clear all modifications"
+    anchor: clear-all-modifications
 ---
 
 # ViewManager

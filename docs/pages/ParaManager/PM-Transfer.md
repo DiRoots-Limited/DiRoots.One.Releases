@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Transfer
-parent: ParaManager User Guide
+parent: ParaManager
 nav_order: 3
+nav_sections:
+  - title: "Modify"
+    anchor: modify
+  - title: "Apply"
+    anchor: apply
 ---
 
 # ParaManager

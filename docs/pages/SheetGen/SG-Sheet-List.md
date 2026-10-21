@@ -1,8 +1,19 @@
 ---
 layout: default
 title: Sheet list
-parent: SheetGen User Guide
+parent: SheetGen
 nav_order: 2
+nav_sections:
+  - title: "New Sheet"
+    anchor: new-sheet
+  - title: "Actions between the sheets"
+    anchor: actions-between-the-sheets
+  - title: "Edit sheets Number and Name"
+    anchor: edit-sheets-number-and-name
+  - title: "Save V/S Set"
+    anchor: save-vs-set
+  - title: "Clear editions"
+    anchor: clear-editions
 ---
 
 # SheetGen

@@ -1,8 +1,17 @@
 ---
 layout: default
 title: Filter
-parent: OneFilter User Guide
+parent: OneFilter
 nav_order: 2
+nav_sections:
+  - title: "Export"
+    anchor: export
+  - title: "Update or duplicate view"
+    anchor: update-or-duplicate-view
+  - title: "Save Selection"
+    anchor: save-selection
+  - title: "Isolate Selection"
+    anchor: isolate-selection
 ---
 
 # OneFilter

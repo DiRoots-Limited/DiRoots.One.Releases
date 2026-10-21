@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Selection Manager
-parent: OneFilter User Guide
+parent: OneFilter
 nav_order: 8
+nav_sections:
+  - title: "Saved Selections"
+    anchor: saved-selections
+  - title: "Rule-based Filters"
+    anchor: rule-based-filters
 ---
 
 # OneFilter

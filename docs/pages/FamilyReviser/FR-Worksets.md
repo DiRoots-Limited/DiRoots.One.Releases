@@ -1,8 +1,15 @@
 ---
 layout: default
 title: Worksets
-parent: FamilyReviser User Guide
+parent: FamilyReviser
 nav_order: 4
+nav_sections:
+  - title: "Create Rules"
+    anchor: create-rules
+  - title: "Rules panel"
+    anchor: rules-panel
+  - title: "Undo"
+    anchor: undo
 ---
 
 # FamilyReviser

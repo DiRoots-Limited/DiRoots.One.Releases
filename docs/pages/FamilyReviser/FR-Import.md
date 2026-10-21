@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Import
-parent: FamilyReviser User Guide
+parent: FamilyReviser
 nav_order: 2
+nav_sections:
+  - title: "Import families"
+    anchor: import-families
 ---
 
 # FamilyReviser

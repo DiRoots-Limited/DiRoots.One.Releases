@@ -1,8 +1,15 @@
 ---
 layout: default
 title: Categories
-parent: ParaManager User Guide
+parent: ParaManager
 nav_order: 2
+nav_sections:
+  - title: "Assign Categories"
+    anchor: assign-categories
+  - title: "Import/Export"
+    anchor: importexport
+  - title: "Apply Parameters"
+    anchor: apply-parameters
 ---
 
 # ParaManager

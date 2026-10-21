@@ -1,12 +1,9 @@
 ---
-layout: default
-title: OneFilter User Guide
+layout: redirect
+title: OneFilter
 nav_order: 12
 has_children: true
 permalink: /docs/onefilter-user-guide
+redirect_to: /docs/pages/OneFilter/OF-Filter.html
+search_exclude: true
 ---
-
-# OneFilter User Guide
-
-Quickly find your families in Revit models. Search by category, parameter name and value. Find elements within Areas, Masses, Rooms, Spaces, and Zones.
-{: .fs-6 .fw-300 }

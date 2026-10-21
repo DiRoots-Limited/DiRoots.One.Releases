@@ -1,13 +1,9 @@
 ---
-layout: default
-title: ViewManager User Guide
+layout: redirect
+title: ViewManager
 nav_order: 7
 has_children: true
 permalink: /docs/ViewManager-user-guide
+redirect_to: /docs/pages/ViewManager/VM-Views.html
+search_exclude: true
 ---
-
-# ViewManager User Guide
-
-Manage all the Views in your project, as well as View Templates and View Range settings in a single window.
-{: .fs-6 .fw-300 }
-

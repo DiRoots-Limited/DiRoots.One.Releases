@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: TableGen
-grand_parent: Video Tutorials
-nav_order: 1
+title: TableGen | English
+parent: Video Tutorials
+nav_order: 4
 ---
 
 # TableGen tutorials and demo videos in English.

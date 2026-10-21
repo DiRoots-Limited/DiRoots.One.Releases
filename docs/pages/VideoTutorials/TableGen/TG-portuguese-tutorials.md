@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Portuguese | Video Tutorials
-parent: TableGen
-grand_parent: Video Tutorials
-nav_order: 2
+title: TableGen | Portuguese
+parent: Video Tutorials
+nav_order: 5
 ---
 
 # TableGen tutorials and demo videos in Portuguese.

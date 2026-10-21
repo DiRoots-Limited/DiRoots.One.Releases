@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: ReOrdering
-grand_parent: Video Tutorials
-nav_order: 1
+title: ReOrdering | English
+parent: Video Tutorials
+nav_order: 20
 ---
 
 # ReOrdering tutorials and demo videos in English.

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: FamilyReviser
-parent: Video Tutorials
-has_children: true
 nav_order: 9
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

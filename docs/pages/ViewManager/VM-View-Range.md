@@ -1,8 +1,15 @@
 ---
 layout: default
 title: View Range
-parent: ViewManager User Guide
+parent: ViewManager
 nav_order: 5
+nav_sections:
+  - title: "Manual actions"
+    anchor: manual-actions
+  - title: "Batch View Change"
+    anchor: batch-view-change
+  - title: "Clear all modifications"
+    anchor: clear-all-modifications
 ---
 
 # ViewManager

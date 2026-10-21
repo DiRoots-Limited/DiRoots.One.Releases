@@ -121,8 +121,8 @@ layout: table_wrappers
             <ol class="breadcrumb-nav-list">
               {% if page.grand_parent %}
                 <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
-                <li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
-              {% else %}
+                {% unless page.parent == page.title %}<li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>{% endunless %}
+              {% elsif page.parent != page.title %}
                 <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
               {% endif %}
               <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>

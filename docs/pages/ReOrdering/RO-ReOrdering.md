@@ -1,9 +1,25 @@
 ---
 layout: default
 title: ReOrdering
-parent: ReOrdering User Guide
+parent: ReOrdering
+nav_exclude: true
 nav_order: 1
+nav_sections:
+  - title: "Define Value"
+    anchor: define-value
+  - title: "Remove values"
+    anchor: remove-values
+  - title: "Preview Colors"
+    anchor: preview-colors
+  - title: "Update or duplicate view"
+    anchor: update-or-duplicate-view
+  - title: "Save Selection"
+    anchor: save-selection
+  - title: "Isolate Selection"
+    anchor: isolate-selection
 ---
+
+<span id="reordering"></span>
 
 # ReOrdering
 {: .no_toc }
@@ -16,7 +32,6 @@ Easily renumber instance Revit parameters by using a prefix, a suffix, and a mul
 
 ---
 
-# ReOrdering
 
 The ReOrdering plugin allows the user to organize elements in the ideal order.
 

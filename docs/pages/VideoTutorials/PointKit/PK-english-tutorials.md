@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: PointKit
-grand_parent: Video Tutorials
-nav_order: 1
+title: PointKit | English
+parent: Video Tutorials
+nav_order: 21
 ---
 
 # PointKit tutorials and demo videos in English.

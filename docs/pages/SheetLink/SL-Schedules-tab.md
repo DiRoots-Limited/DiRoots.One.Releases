@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Schedules
-parent: SheetLink User Guide
+parent: SheetLink
 nav_order: 5
 ---
 

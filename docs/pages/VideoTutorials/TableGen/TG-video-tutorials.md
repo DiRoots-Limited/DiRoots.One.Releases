@@ -1,9 +1,8 @@
 ---
 layout: default
 title: TableGen
-parent: Video Tutorials
-has_children: true
 nav_order: 4
+nav_exclude: true
 permalink: /docs/video-tutorials
 ---
 

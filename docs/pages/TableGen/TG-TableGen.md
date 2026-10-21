@@ -1,9 +1,12 @@
 ---
 layout: default
 title: TableGen
-parent: TableGen User Guide
+parent: TableGen
 nav_order: 1
+nav_exclude: true
 ---
+
+<span id="tablegen"></span>
 
 # TableGen
 {: .no_toc }
@@ -17,8 +20,6 @@ Collaborate with non-Revit users and bring the beauty of your Excel Tables, PDF 
 {:toc}
 
 ---
-
-# TableGen
 
 There are three main ways to import files with TableGen. Each has different results in terms of visual fidelity and model weight.
 

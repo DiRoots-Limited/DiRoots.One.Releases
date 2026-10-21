@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: FamilyReviser
-grand_parent: Video Tutorials
-nav_order: 1
+title: FamilyReviser | English
+parent: Video Tutorials
+nav_order: 12
 ---
 
 # FamilyReviser tutorials and demo videos in English.

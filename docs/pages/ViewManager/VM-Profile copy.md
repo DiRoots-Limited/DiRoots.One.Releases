@@ -1,9 +1,20 @@
 ---
 layout: default
 title: Profile
-parent: ViewManager User Guide
-nav_order: 1
+parent: ViewManager
+nav_order: 6
+nav_sections:
+  - title: "What’s saved in the profile"
+    anchor: whats-saved-in-the-profile
+  - title: "Creating Profiles"
+    anchor: creating-profiles
+  - title: "Importing Profiles"
+    anchor: importing-profiles
+  - title: "Deleting Profiles"
+    anchor: deleting-profiles
 ---
+
+<span id="viewmanager"></span>
 
 # Profiles
 {: .no_toc }

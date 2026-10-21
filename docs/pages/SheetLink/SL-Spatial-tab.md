@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Spatial
-parent: SheetLink User Guide
+parent: SheetLink
 nav_order: 6
+nav_sections:
+  - title: "Instance and Read-only"
+    anchor: instance-and-read-only
+  - title: "Selected Parameters"
+    anchor: selected-parameters
 ---
 
 # SheetLink

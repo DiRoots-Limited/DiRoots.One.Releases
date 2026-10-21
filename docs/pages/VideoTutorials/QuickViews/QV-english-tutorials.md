@@ -1,9 +1,8 @@
 ---
 layout: default
-title: English | Video Tutorials
-parent: QuickViews
-grand_parent: Video Tutorials
-nav_order: 1
+title: QuickViews | English
+parent: Video Tutorials
+nav_order: 11
 ---
 
 # QuickViews tutorials and demo videos in English.

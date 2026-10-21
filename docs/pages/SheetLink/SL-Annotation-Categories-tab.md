@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Annotation Categories
-parent: SheetLink User Guide
+parent: SheetLink
 nav_order: 3
+nav_sections:
+  - title: "Instance, Type and Read-only"
+    anchor: instance-type-and-read-only
+  - title: "Selected Parameters"
+    anchor: selected-parameters
 ---
 
 # SheetLink

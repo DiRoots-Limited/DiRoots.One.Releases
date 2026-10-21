@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Tiếng Việt | Video Tutorials
-parent: SheetGen
-grand_parent: Video Tutorials
-nav_order: 3
+title: SheetGen | Tiếng Việt
+parent: Video Tutorials
+nav_order: 10
 ---
 
 # SheetGen tutorials and demo videos in Tiếng Việt.

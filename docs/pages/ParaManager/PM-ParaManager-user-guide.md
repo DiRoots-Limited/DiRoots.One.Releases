@@ -1,12 +1,9 @@
 ---
-layout: default
-title: ParaManager User Guide
+layout: redirect
+title: ParaManager
 nav_order: 11
 has_children: true
 permalink: /docs/paramanager-user-guide
+redirect_to: /docs/pages/ParaManager/PM-Parameters.html
+search_exclude: true
 ---
-
-# ParaManager User Guide
-
-Manage Revit parameters inside project and family environments. Create new parameters, modify existing parameters, export/import parameters to/from Excel and Shared Parameters file.
-{: .fs-6 .fw-300 }

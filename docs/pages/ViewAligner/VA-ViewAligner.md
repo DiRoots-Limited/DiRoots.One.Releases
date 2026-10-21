@@ -1,9 +1,19 @@
 ---
 layout: default
 title: ViewAligner
-parent: ViewAligner User Guide
+parent: ViewAligner
+nav_exclude: true
 nav_order: 1
+nav_sections:
+  - title: "Select the Source View"
+    anchor: select-the-source-view
+  - title: "Alignment Options"
+    anchor: alignment-options
+  - title: "Select Views to Align"
+    anchor: select-views-to-align
 ---
+
+<span id="viewaligner"></span>
 
 # ViewAligner
 {: .no_toc }
@@ -16,7 +26,6 @@ Easily replicate the alignment of a reference view across multiple sheets to qui
 
 ---
 
-# ViewAligner
 ViewAligner streamlines the process of positioning views across Revit sheets by using a reference view as a template. This ensures consistent layouts, reduces manual adjustments, and helps teams maintain drawing standards efficiently. The tool supports all Revit view types placed on sheets, including floor plans, RCPs, structural plans, sections, elevations, 3D views, legends, schedules, and drafting views. With flexible alignment modes and options for scope box and view title consistency, ViewAligner makes sheet management both faster and more reliable.  
 
 
