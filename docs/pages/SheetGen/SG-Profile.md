@@ -2,7 +2,7 @@
 layout: default
 title: Profile
 parent: SheetGen
-nav_order: 1
+nav_order: 6
 nav_sections:
   - title: "What’s saved in the profile"
     anchor: whats-saved-in-the-profile

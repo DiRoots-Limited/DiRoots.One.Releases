@@ -33,8 +33,6 @@ Hide or unhide selected Revit elements, or their categories, across multiple vie
 
 ---
 
-# Hide in Views
-
 Hide in Views allows you to quickly hide or unhide selected elements or their categories across multiple Revit views without updating each view individually.
 
 You can work with either the selected Revit elements or the categories belonging to those elements, and then choose the views where the Hide or Unhide action should be applied.
