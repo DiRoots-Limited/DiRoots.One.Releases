@@ -74,8 +74,8 @@ Named regions allow you to specify the range that you want to import into Revit.
 1. In the worksheet you want to import, select the desired range of cells, and then choose a name and type it in the Name Box - located to the left of the formula bar (see image below).
    After creating the named region, save the Excel file to import it.
 
-       ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)<br />
-       <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. You can also create multiple worksheet regions, and each one can be individually imported into Revit.
 
