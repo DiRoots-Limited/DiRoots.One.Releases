@@ -27,23 +27,20 @@ The first step is to select the SheetLink from the DiRootsOne menu and to choose
 
 Steps:
 
-1. Click on the radio buttons to switch between Whole Model, Active View or Current Selection to choose the categories.
+1. Click a radio button to choose which categories to show:
+   - **Whole Model** shows all existing model categories.
+   - **Active View** shows the categories in the current view.
+   - **Current Selection** shows the categories in the current selection.
 
-```yaml
-The 'Whole Model' radio button will show the all existing model categories.
-The 'Active View' radio button will show the existing categories in the current view.
-The 'Current Selection' radio button will show the existing categories in the current selection.
-```
+2. Use the checkboxes above the table to include linked files and export by Type ID.
 
-2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID.
-
-![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-LinkedFile-TypeID.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-LinkedFile-TypeID.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Use the checkboxes to select specific categories, or use the checkbox in the table header to select all categories.
 
-![SheetLink Selecting Revit categories](../../../assets\images\SheetLink\SH-Select-Categoriesgif.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![SheetLink Selecting Revit categories](../../../assets\images\SheetLink\SH-Select-Categoriesgif.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Search Categories
 
