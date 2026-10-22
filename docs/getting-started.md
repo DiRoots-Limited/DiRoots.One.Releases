@@ -106,7 +106,13 @@ The updater checks for new versions as you close Revit. If an update is availabl
 
 ### Updater Settings
 
-The updater checks for new versions every two days by default. In Updater Settings, you can configure automatic update checks, change the check frequency, and choose the download folder. To disable automatic update checks during a silent installation, use `UPDATER="FALSE"` as shown above.
+By default, Updater Settings does not provide an option to disable automatic update checks. Administrators can change how often the updater checks by editing its configuration file:
+
+1. Go to `%programdata%\DiRoots.DiRootsOne\Settings`.
+2. Open `updater.ini`.
+3. Change `CheckFrequency=2` to `CheckFrequency=365`, for example, to check less frequently.
+
+For unattended deployments, automatic update checks can also be disabled with the `UPDATER="FALSE"` installer option shown above.
 
 We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.
 
