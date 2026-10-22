@@ -102,10 +102,8 @@ Rename button allows you to add a suffix and/or prefix to parameters marked with
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+**Note:**
 Note that manual name modification in the list view is allowed.
-```
 
 ### Clear modifications
 

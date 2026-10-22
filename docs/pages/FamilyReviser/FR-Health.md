@@ -27,10 +27,8 @@ The families with error will show a warming icon, and you can click it to see th
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+**Note:**
 This diagnosis of errors in families is reported by Revit and is collected in the Health check in FamilyReviser.
-```
 
 ---
 

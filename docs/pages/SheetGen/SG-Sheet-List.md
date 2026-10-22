@@ -32,10 +32,8 @@ Batch create Sheets and Placeholder sheets, place Views on Sheets based on a pre
 The first step is to select the SheetGen from the DiRootsOne menu and choose the Sheet List tab.
 This page will show all sheets in the project.
 
-```yaml
-# Note:
+**Note:**
 You must have at least one sheet created, to be used as a template in SheetGen.
-```
 ### Sheet template
 
 The first step before you start managing the sheets in SheetGen, is to create a sheet as a template. Basically, you need to create a sheet and fill it in, organizing the views as you wish. So, that will be used to generate new sheets on SheetGen, which will have the same settings as the template sheet. A sheet template is simply a sheet with some views in place.
@@ -125,10 +123,8 @@ You can perform this action for individual sheets by right-clicking and choosing
  - Select the checkbox if you want to Copy Revisions from sheet
  - Select the checkbox if you want to Copy Title Block Parameter Values from sheet
  
- ```yaml
- # Note:
+ **Note:**
  If you prefer, you could select the checkbox Change Template for copies, so the list of sheets will be able to select another one.
- ```
  
  ![SheetGen duplicate individual sheet](../../../assets\images\SheetGen\SG-Sl-DuplicateIndividual.png)
  
@@ -256,10 +252,8 @@ Once you have organized the project sheets into sets, you can apply filters to m
  
 2. Click on the Clear Staging button, and clear the staging cached modifications.
  
- ```yaml
- # Note:
+ **Note:**
  With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
- ```
  
  ![SheetGen clear staging](../../../assets\images\SheetGen\SG-Sl-ClearStaging.png)
  

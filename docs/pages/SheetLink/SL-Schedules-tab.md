@@ -64,12 +64,10 @@ The parameters can be filtered by Instance, Type and Read-only.
 ![SheetLink select the parameters](../../../assets\images\SheetLink\SH-Sc-Instance.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:  
+**Note:**
 Instance parameters are displayed in green.
 Type parameters are displayed in yellow.
 Read-only parameters are displayed in red.
-```
 ---
 
 ### Preview/Edit
@@ -85,11 +83,9 @@ Click to export the sheet to Google Drive, Excel or Morta.
 
 #### Export Options
 
-```yaml
-# Note:  
+**Note:**
 Choose to keep formatting of the schedule, or export as a template file. 
 If you choose to keep format, you will not be able to import data back to Revit.
-```
 To export the linked elements use the 'Keep formatting of Schedules' option.
 
 ![SheetLink linked elements warning](../../../assets\images\SheetLink\SL-Sc-Linked-Elements-Warning.png)  
@@ -104,17 +100,13 @@ See below for the difference between the exported sheets, keeping the format and
 The template Sheet file is editable and after the editing, can be imported through SheetLink.
 Caution, open the Instruction tab in your Excel file to get the colors legend.  
 
-```yaml
-# Note:  
+**Note:**
 Yellow: Type Value
 Red: Read-only Value. This fields can not be edited.
 Grey: Parameter does not exist for this element.
-```
 
-```yaml
-# Note:  
+**Note:**
 If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
-```
 
 #### 1. Export to Excel file.
 
@@ -135,10 +127,8 @@ Connect to your Google Drive account, and then select a folder to export the sch
 To export a schedule to Morta, make sure you are connected to the Morta API. Don't worry if you're not connected, just go to your Morta profile > Integrations and click on the New API Key button. Copy the created key, and paste it into the Morta API Key field in SheetLink.
 Now, choose your project into Morta and click on Upload to Morta button.
 
-```yaml
-# Note:  
-To learn more about connecting to the Dead API, click on "How to get the API Key" link.
-```
+**Note:**
+To learn more about connecting to the Morta API, click the "How to get the API Key" link.
 
 ![SheetLink export to Morta](../../../assets\images\SheetLink\SH-Sc-Morta.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -166,15 +156,11 @@ If you have made any edits to the file, import it and update the schedules in Re
 ![SheetLink select file](../../../assets\images\SheetLink\SL-ImportMorta.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:  
+**Note:**
 Note that if the schedule has been exported by selecting the "Keep formatting" option, it will not be possible to import the edited data outside Revit. Make sure that the schedule have been exported while keeping the template editable. 
-```
 
-```yaml
-# Note:  
+**Note:**
 New columns added in the Morta application will not be added to the Revit model.
-```
 
 ### Other Features
 

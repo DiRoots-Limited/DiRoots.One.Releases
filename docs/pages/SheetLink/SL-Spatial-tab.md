@@ -49,11 +49,9 @@ The search box will search for Rooms or Spaces contained in the Select column.
 
 Select some rooms or spaces and right-click to choose to highlight the elements.
 
-```yaml
-# Note:  
+**Note:**
 Make sure you have the correct view opened to highlight the room.
 If you do not have the correct view opened, the SheetLink can find the view, but could take a long time.
-```
 
 ![SheetLink highlight Rooms or Spaces](../../../assets\images\SheetLink\SH-Sp-Higlight.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -66,15 +64,7 @@ After choosing the Rooms or Spaces, the SheetLink has options to see only the in
 
 Click on the table headers to select the instance parameters, for example.
 
-```yaml
-# Note:  
-Rooms and Spaces do not have type parameters, so in this case only the instance and read-only options will appear.
-
-```yaml
-# Note:  
-If selected the instance parameters, will show it in the green color.
-If selected the read-only parameters, will show it in the red color.
-```
+> **Note:** Rooms and Spaces do not have type parameters, so only the instance and read-only options will appear. Instance parameters are shown in green; read-only parameters are shown in red.
   
 ![SheetLink select the parameters](../../../assets\images\SheetLink\SH-Sp-Instance.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -142,17 +132,13 @@ The Excel file is editable and after the editing of it you can import through Sh
 
 Caution, open the Instruction tab on Excel file to get the colors legend and other information. 
 
-```yaml
-# Note:
+**Note:**
 Yellow: Type Value.
 Red: Read-only Value. This fields can not be edited.
 Grey: Parameter does not exist for this element.
-```
 
-```yaml
-# Note:
+**Note:**
 To create new Rooms or Spaces you should add new rows of information. Provide a minimum of Number, Name, and Phase parameter values to create correctly Rooms and Spaces. Please don’t input values to the GUID(hidden) and Element ID columns for new rows. Revit will automatically assign GUID and Element ID when elements are created.
-```
 
 Follow the example below.
 ![SheetLink creating rooms](../../../assets\images\SheetLink\SH-Sp-CreateRooms.png)  
@@ -165,11 +151,9 @@ If you have made any edits to the file, import it and update the schedules in Re
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-Sc-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:  
+**Note:**
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
-```
 
 Note if you have created rooms or spaces in the Excel file, these will be created on Revit and can now be assigned to the model.
 

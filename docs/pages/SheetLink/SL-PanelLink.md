@@ -42,10 +42,8 @@ Use the search box to search for the panels.
 Note that when you select a panel, its properties will be shown, separated into two tables, the Electrical Equipment table and the Electrical Circuit table.
 If you prefer, you can select from the first list of tables whether you want to filter instance, type or read-only properties.
 
-```yaml
-# Note:
+**Note:**
 Properties are identified by colors that represent the instance, type and read-only properties.
-```
 
 ![PanelLink properties table](../../../assets\images\SheetLink\SL-Pl-Properties.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -63,10 +61,8 @@ Clear all selections made.
 
 Click on the Export button and choose whether you want to export to Excel or Google Drive.
 
-```yaml
-# Note:
+**Note:**
 Note that, you can keep formatting of the schedules, but you wont be able to import the data back to Revit.
-```
 
 ![PanelLink export](../../../assets\images\SheetLink\SL-Pl-Export.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

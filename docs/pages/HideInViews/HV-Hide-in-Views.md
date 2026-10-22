@@ -44,10 +44,8 @@ Steps:
 1. Select one or more elements in your Revit project.
 2. Open Hide in Views from the "Utilities" panel on the "DiRootsOne" tab.
 
-```yaml
-# Note:
+**Note:**
 If no elements are selected, Hide in Views prompts you to select elements before the tool opens.
-```
 
 ## Choose Elements or Category
 
@@ -58,10 +56,8 @@ Choose whether to control the visibility of the selected elements or their categ
 
 The status bar at the bottom of the window displays **Selected Views** and either **Selected Elements** in Elements mode or **Categories Collected** in Category mode.
 
-```yaml
-# Note:
+**Note:**
 Category mode uses Revit Visibility/Graphics category visibility. It does not hide the individual elements.
-```
 
 ## Select Target Views
 
@@ -104,10 +100,8 @@ In Elements mode, Hide and Unhide use Revit element-level visibility.
 
 In Category mode, Hide and Unhide turn the collected categories off or on through Revit Visibility/Graphics.
 
-```yaml
-# Note:
+**Note:**
 Unhide reverses only the element-level or category-level visibility controlled by the active mode. Elements may remain invisible if other Revit visibility settings or view conditions affect them.
-```
 
 ![Hide in Views hiding selected element categories](../../../assets/images/HideInViews/HV-Category-Hide.gif)  
 <sub>**Note:** the version shown in the GIF may not reflect the [latest version of Hide in Views/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

@@ -51,10 +51,8 @@ The FamilyReviser also allows you to manage and create worksets from categories.
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+**Note:**
 Make sure everything is correct and click Apply to save the changes.
-```
 
 ## Create Rules
 

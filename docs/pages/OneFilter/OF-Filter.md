@@ -27,7 +27,7 @@ Quickly find your families in Revit models. Search by category, parameter name a
 
 # Filter
 
-The Filter is the first tab of OneFilter, and this tool allows you yo create filter categories and create conditions to refine the filter. Moreover, you can also manage the views and create new one based on filters applied. Let's get started:
+The Filter tab is the first tab in OneFilter. Use it to create filter categories and conditions, manage views, and create new views based on the applied filters.
 
 1. The first step is to select whether you want to apply filters based on the Whole Model, the Active View or the Current Selection. Select the radio button to choose the view.
 
@@ -49,7 +49,7 @@ The search box will search for elements contained in the filtered elements table
 3. To refine the filter, in Filter choose a condition to apply the filter to.
 
 - In the Parameter Type, select whether you want to search by Instance, Type or both parameters.
-- The second fild Filter By Value, select the property to search for.
+- In Filter By Value, select the property to search for.
 - Now choose the condition to apply the filter: equals, does not equal, contains, does not contain, begin with, does not begin with, does not end with or ends with.
 - In the search bar, enter the value to search for. If you prefer, press the right arrow on your keyboard and a drop-down menu will open with the existing values.
 

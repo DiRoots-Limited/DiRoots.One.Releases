@@ -48,19 +48,15 @@ Modify allows you to add a suffix and/or prefix to parameters marked with a chec
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+**Note:**
 Note that manual name modification in the list view is allowed.
-```
 
 ### Clear Modify
 
 By clicking the clear button ParaManager will restore original parameter names.
 
-```yaml
-# Note:
+**Note:**
 This tools can be used before applying Modify functionality or manually editing names.
-```
 
 ![ParaManager clear modify](../../../assets\images\ParaManager\PM-Tr-Clear.gif)
 

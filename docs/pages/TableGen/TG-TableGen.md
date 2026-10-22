@@ -242,10 +242,8 @@ The main grid is the central place to review and edit all imported tables. Each 
 - **Last Modified** - shows the last modified date of the source file.
 
 - **Region / Page Selection** - for Excel files, two dropdowns let you select the worksheet and the named region or range. For Word and PDF files, use the first dropdown to choose All pages or a custom selection.  
-    ```yaml
-    # Note:
+    **Note:**
     When using custom page selection, type page numbers and/or page ranges separated by commas, counting from the start of the document. For example, typing "1, 3, 5-7" will add pages 1, 3, 5, 6, and 7 as images.
-    ```
 
 - **View Type** - the Revit view type to create: Legend, Drafting, or Schedule. Cannot be changed after the view has been created in Revit.
 

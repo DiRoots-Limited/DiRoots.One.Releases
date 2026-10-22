@@ -39,10 +39,8 @@ You can also select what parameters you want to view and edit in the main table,
 
 All changes will be staged and will only be updated to the model when clicking Apply.
 
-```yaml
-# Note:
+**Note:**
 The Placeholder Sheets tab is available for premium users only.
-```
 
 ## New Placeholder Sheet
 
@@ -54,10 +52,8 @@ The Placeholder Sheets tab is available for premium users only.
 1. Double-click the cell.
 2. Type the new value and confirm.
 
-```yaml
-# Note:
+**Note:**
 If the Sheet Name header shows a lock icon, toggle it to lock/unlock editing for that column.
-```
 
 ![SheetGen new placeholder + edit](../../../assets\images\SheetGen\SG-PS-NewEditPlaceholder.gif)
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -154,10 +150,8 @@ Then define the Default Field Separator, Custom Field, Custom Separator, and add
    
 2. Click on the Clear Staging button, and clear the staging cached modifications.
    
-   ```yaml
-   # Note:
+   **Note:**
    With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
-   ```
    
    ![SheetGen clear staging](../../../assets\images\SheetGen\SG-PS-ClearStaging.gif)
    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
