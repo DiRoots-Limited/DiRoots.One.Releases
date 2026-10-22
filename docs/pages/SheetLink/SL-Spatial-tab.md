@@ -64,7 +64,8 @@ After choosing the Rooms or Spaces, the SheetLink has options to see only the in
 
 Click on the table headers to select the instance parameters, for example.
 
-> **Note:** Rooms and Spaces do not have type parameters, so only the instance and read-only options will appear. Instance parameters are shown in green; read-only parameters are shown in red.
+{: .note }
+Rooms and Spaces do not have type parameters, so only the instance and read-only options will appear. Instance parameters are shown in green; read-only parameters are shown in red.
   
 ![SheetLink select the parameters](../../../assets\images\SheetLink\SH-Sp-Instance.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
