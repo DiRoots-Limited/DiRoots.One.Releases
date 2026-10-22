@@ -25,10 +25,8 @@ An Autodesk Revit plugin to bulk edit values from Instance/Type Parameters in yo
 
 Edit values from Instance/Type Parameters in your Revit model in bulk. With OneParameter, you can add prefixes/suffixes, replace, and clear multiple Parameter values with a single click.
 
-```yaml
-# Tip:  
+{: .new }
 To make it easier to see the parameter values, use a schedule view.
-```
 
 ## Select Parameter
 
@@ -36,13 +34,13 @@ To make it easier to see the parameter values, use a schedule view.
 
 2. First, the user has to select a parameter to manage. In the table on the left, use the list to filter the parameters by Instance or Type.
 
-![Filter Instance and Type parameters](../../../assets\images\OneParameter\OP-FilterInstanceType.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![Filter Instance and Type parameters](../../../assets\images\OneParameter\OP-FilterInstanceType.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Use the searchbox to search for a specific parameter.
 
-![Search parameters](../../../assets\images\OneParameter\OP-Search.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![Search parameters](../../../assets\images\OneParameter\OP-Search.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. Click on the buttons below the table to sort the parameters by Type or Instance.
 
@@ -66,10 +64,8 @@ After selecting a parameter, enter a value assigned to the parameter to be searc
 
 When a parameter is selected, add a prefix and a suffix to the values assigned to the parameter, just enter a value and click add.
 
-```yaml
-# Note:  
+{: .note }
 If you have filtered values in the previous field (Filter by parameter value), the prefix and suffix added will only be assigned to the filtered values. If there is no filtered parameter, the suffix and prefix will be added to all the values of the selected parameter.
-```
 
 ![Add prefix and suffix](../../../assets\images\OneParameter\OP-PrefixSuffix.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -78,15 +74,13 @@ If you have filtered values in the previous field (Filter by parameter value), t
 
 When a parameter is selected, use the Parameter Value tools.
 
-```yaml
-# Note:  
+{: .note }
 If you have filtered values in the previous field (Filter by parameter value), the actions in the Parameter Value section will only be assigned to the filtered values. If there is no filtered parameter, the actions in the Parameter Value section will be applied to all values of the selected parameter.
-```
 
 1. Click the "Clear parameter Value" button to remove the values assigned to the selected Parameter.
 
-![Clear parameter value](../../../assets\images\OneParameter\OP-ClearValue.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![Clear parameter value](../../../assets\images\OneParameter\OP-ClearValue.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Enter a value and click the "Add" button to add the value in bulk.
 

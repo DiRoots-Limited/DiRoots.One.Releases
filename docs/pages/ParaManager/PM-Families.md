@@ -56,9 +56,9 @@ Select the parameters and choose from the Batch actions list:
 
 1. Duplicate parameters.
 
-![ParaManager duplicate in batch](../../../assets\images\ParaManager\PM-Fm-DuplicateBatch.gif)
+   ![ParaManager duplicate in batch](../../../assets\images\ParaManager\PM-Fm-DuplicateBatch.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Delete parameters.
 
@@ -76,19 +76,15 @@ Modify allows you to add a suffix and/or prefix to parameters marked with a chec
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+{: .note }
 Note that manual name modification in the list view is allowed.
-```
 
 ### Clear modifications
 
 By clicking the clear button ParaManager will restore original parameter names.
 
-```yaml
-# Note:
+{: .note }
 This tools can be used before applying Modify functionality or manually editing names.
-```
 
 ![ParaManager clear modify](../../../assets\images\ParaManager\PM-Fm-Clear.gif)
 

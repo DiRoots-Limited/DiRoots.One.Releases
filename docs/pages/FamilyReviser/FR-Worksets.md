@@ -27,23 +27,23 @@ Manage your Revit families (rename, add prefix and suffix, save them in an organ
 
 The FamilyReviser also allows you to manage and create worksets from categories. Let’s start learning more about:
 
-1.	Choose the categories you want to manage by selecting the radio button between Whole Model, Active View or Current Selection.
+1. Choose the categories you want to manage by selecting the radio button between Whole Model, Active View or Current Selection.
 
-![FamilyReviser view categories](../../../assets\images\FamilyReviser\FR-Ws-SelectCat.gif)
+   ![FamilyReviser view categories](../../../assets\images\FamilyReviser\FR-Ws-SelectCat.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2.	Open the list of categories to choose which one to assign the workset to. By default, all categories will be selected, but you can choose as many as you like.
+2. Open the list of categories to choose which one to assign the workset to. By default, all categories will be selected, but you can choose as many as you like.
 
-![FamilyReviser select categories](../../../assets\images\FamilyReviser\FR-Ws-Categories.gif)
+   ![FamilyReviser select categories](../../../assets\images\FamilyReviser\FR-Ws-Categories.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-3.	Now click on the Manage Workset button, to open the Worksets panel. Manage the current worksets or create new worksets, and save them.
+3. Now click on the Manage Workset button, to open the Worksets panel. Manage the current worksets or create new worksets, and save them.
 
-![FamilyReviser manage workset](../../../assets\images\FamilyReviser\FR-Ws-ManageWorkset.gif)
+   ![FamilyReviser manage workset](../../../assets\images\FamilyReviser\FR-Ws-ManageWorkset.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. The next step is to select the families of the selected categories and select the corresponding workset in the WorkSet column.
 
@@ -51,10 +51,8 @@ The FamilyReviser also allows you to manage and create worksets from categories.
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+{: .note }
 Make sure everything is correct and click Apply to save the changes.
-```
 
 ## Create Rules
 
@@ -64,7 +62,7 @@ This tool allows to filter the categories by rules to assign the corresponding w
 
 2. Select the field you want to filter by from the second list and choose the condition (Equal, Not equal, Contains).
 
-3.	Now, in the text field, enter the value to be filtered and click on Apply to make the filter.
+3. Now, in the text field, enter the value to be filtered and click on Apply to make the filter.
 
 ![FamilyReviser create rules](../../../assets\images\FamilyReviser\FR-Ws-Rule.gif)
 

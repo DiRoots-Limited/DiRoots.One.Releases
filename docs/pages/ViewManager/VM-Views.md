@@ -117,9 +117,9 @@ Export an Excel file, edit it as you want, then import it into View Manager and 
 
 1. Export the excel file from view list.
 
-![View Manager export excel file from views](../../../assets\images\ViewManager\VM-Vw-Export.gif)
+   ![View Manager export excel file from views](../../../assets\images\ViewManager\VM-Vw-Export.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Import exel file to update the views list.
 

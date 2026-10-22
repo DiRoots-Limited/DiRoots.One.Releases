@@ -72,14 +72,14 @@ Once you drop or select the files to add, the worksheet selection window opens a
 Named regions allow you to specify the range that you want to import into Revit. To create them follow these steps:
 
 1. In the worksheet you want to import, select the desired range of cells, and then choose a name and type it in the Name Box - located to the left of the formula bar (see image below).
-After creating the named region, save the Excel file to import it.
+   After creating the named region, save the Excel file to import it.
 
-    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)  
-    <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. You can also create multiple worksheet regions, and each one can be individually imported into Revit.
 
-    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)  
+    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)<br />
     <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
 
@@ -242,12 +242,13 @@ The main grid is the central place to review and edit all imported tables. Each 
 - **Last Modified** - shows the last modified date of the source file.
 
 - **Region / Page Selection** - for Excel files, two dropdowns let you select the worksheet and the named region or range. For Word and PDF files, use the first dropdown to choose All pages or a custom selection.  
-    ```yaml
-    # Note:
+    **Note:**
     When using custom page selection, type page numbers and/or page ranges separated by commas, counting from the start of the document. For example, typing "1, 3, 5-7" will add pages 1, 3, 5, 6, and 7 as images.
-    ```
 
-- **View Type** - the Revit view type to create: Legend, Drafting, or Schedule. Cannot be changed after the view has been created in Revit.
+- **View Type** - the Revit view type to create: Legend, Drafting, or Schedule.
+
+{: .warning }
+The view type cannot be changed after the view has been created in Revit.
 
 - **View Scale** - sets the scale of the Revit view.
 
@@ -303,7 +304,7 @@ What it does when enabled:
 - Converts all borders to black 
 - Removes cell background colors (background becomes transparent)
 
-    ![TableGen right-click](../../../assets\images\TableGen\TG-270-Black&White.gif)  
+    ![TableGen right-click](../../../assets\images\TableGen\TG-270-Black&White.gif)<br />
     <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 ---
 

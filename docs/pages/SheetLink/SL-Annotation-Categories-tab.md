@@ -29,17 +29,15 @@ Steps:
 
 1. Click radio buttons to switch between Whole Model, Active View or Current Selection to choose the categories.
 
-```yaml
-# Note:
-The 'Whole Model' radio button will show the existing all annotation categories.
-The 'Active View' radio button will show the existing annotation categories in the current view.
-The 'Current Selection' radio button will show the existing annotation categories in the current selection.
-```
+   {: .note }
+   The 'Whole Model' radio button will show the existing all annotation categories.
+   The 'Active View' radio button will show the existing annotation categories in the current view.
+   The 'Current Selection' radio button will show the existing annotation categories in the current selection.
 
 2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
 
-![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-IncludeLink.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-IncludeLink.png)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
 3. Use the checkboxes to select specific annotation categories, or use the checkbox in the table header to select all annotation categories.
@@ -62,12 +60,10 @@ After to choose the categories, the SheetLink has options to see just instance, 
 
 Click on the table headers to select the instance parameters, for example.
 
-```yaml
-# Note:  
+{: .note }
 If selected, the instance parameters, will show it in the green color.
 If selected the type parameters, will show it in the yellow color.
 If selected the read-only parameters, will show it in the red color.
-```
   
 
 ![SheetLink select the parameters](../../../assets\images\SheetLink\SH-ac-SelectInstance.gif)  
@@ -157,19 +153,16 @@ Click to export the sheet to Google Drive or Excel.
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 The Excel file is editable and after the editing of it you can import through SheetLink.
-Caution, open the Instruction tab in your Excel file to get the colors legend. 
+{: .note }
+Open the Instruction tab in your Excel file to view the color legend.
 
-```yaml
-# Note:  
+{: .note }
 Yellow: Type Value
 Red: Read-only Value. This fields can not be edited.
 Grey: Parameter does not exist for this element.
-```
 
-```yaml
-# Note:  
+{: .note }
 If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
-```
 
 ### Import
 
@@ -178,11 +171,9 @@ If you have made some file edition, import it and update the current model on Re
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-ac-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:  
+{: .note }
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
-```
 
 ---
 

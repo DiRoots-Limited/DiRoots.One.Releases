@@ -97,10 +97,8 @@ Click to export the current point cloud.
 - In the first list, select the density level to be exported.
 - Select the checkbox if you want to Open Family After Export. And then, open the browse to select the file.
 
-```yaml
-# Note:
+{: .note }
 Applied only for .DXF files.
-```
 
 - Select Family template
 - Select the radio button to choose the orientation of the file to be imported. You can choose to import Center to Center or On Origin to Internal Origin.

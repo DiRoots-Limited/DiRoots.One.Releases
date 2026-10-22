@@ -29,9 +29,9 @@ Follow the steps:
 
 1. Use the radio button to choose whether you want to manage All Families, Active View Families or Selected Families.
 
-![FamilyReviser radio button](../../../assets\images\FamilyReviser\FR-Ed-Families.gif)
+   ![FamilyReviser radio button](../../../assets\images\FamilyReviser\FR-Ed-Families.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. The next step is to choose the families options:
 
@@ -49,9 +49,9 @@ After selecting the families, lets replace some family names.
 
 1. Add a word to search for and choose whether you want Find Next or Find All. Note that the family name will be filtered.
 
-![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
+   ![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Enter the word that you want to replace it, and then choose whether you want to Replace Next or Replace All.
 

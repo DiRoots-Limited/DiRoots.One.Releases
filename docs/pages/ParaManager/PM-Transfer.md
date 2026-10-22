@@ -28,9 +28,9 @@ There are two ways to choose the family to copy the parameters:
 
 1. Select Family: click this button and select the element in the view to manage its parameters.
 
-![ParaManager select element](../../../assets\images\ParaManager\PM-Tr-SelectFamily.gif)
+   ![ParaManager select element](../../../assets\images\ParaManager\PM-Tr-SelectFamily.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Open the Family list: select the family in this list to transfer the parameters to.
 
@@ -48,19 +48,15 @@ Modify allows you to add a suffix and/or prefix to parameters marked with a chec
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+{: .note }
 Note that manual name modification in the list view is allowed.
-```
 
 ### Clear Modify
 
 By clicking the clear button ParaManager will restore original parameter names.
 
-```yaml
-# Note:
+{: .note }
 This tools can be used before applying Modify functionality or manually editing names.
-```
 
 ![ParaManager clear modify](../../../assets\images\ParaManager\PM-Tr-Clear.gif)
 

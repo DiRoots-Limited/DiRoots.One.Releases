@@ -55,10 +55,8 @@ In the Revisions column, open the list and choose the revision for each sheet.
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+{: .note }
 By default, the table have the sheet number, name, revisions, current revision, current revision date and current revision description columns, but if you want click in the header column with the right mouse button, and choose more columns to add to the table.
-```
 
 ![SheetGen add more columns](../../../assets\images\SheetGen\SG-Rl-Columns.png)
 
@@ -74,9 +72,9 @@ If you have several sheets, this tool makes editing much easier. Export an Excel
 
 1. Export the excel file from view list.
 
-![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
+   ![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2.  Once you have edited the Excel file, import it to SheetGen.
 
@@ -88,10 +86,8 @@ If you have several sheets, this tool makes editing much easier. Export an Excel
 
 Click on the Clear Staging button, and clear the staging cached modifications.
 
-```yaml
-# Note:
+{: .note }
 With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
-```
 
 ![SheetGen clear staging](../../../assets\images\SheetGen\SG-Rl-Clear.png)
 

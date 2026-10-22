@@ -51,9 +51,9 @@ Create new shared parameters by clicking on the Add Parameter button and then de
 
 1. Right-click on the parameter and select the Duplicate or Delete option.
 
-![ParaManager duplicate and delete](../../../assets\images\ParaManager\PM-Se-ManualDuplicateDelete.gif)
+   ![ParaManager duplicate and delete](../../../assets\images\ParaManager\PM-Se-ManualDuplicateDelete.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Right-click on the parameter and select New Guid to generate a new Guid to replace the current one.
 
@@ -67,15 +67,15 @@ Select the parameters and choose from the Batch actions list:
 
 1. Duplicate shared parameters.
 
-![ParaManager duplicate in batch](../../../assets\images\ParaManager\PM-Se-BatchDuplicate.gif)
+   ![ParaManager duplicate in batch](../../../assets\images\ParaManager\PM-Se-BatchDuplicate.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Delete shared parameters.
 
-![ParaManager delete in batch](../../../assets\images\ParaManager\PM-Se-BatchDelete.gif)
+   ![ParaManager delete in batch](../../../assets\images\ParaManager\PM-Se-BatchDelete.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Generate New Guid.
 
@@ -102,10 +102,8 @@ Rename button allows you to add a suffix and/or prefix to parameters marked with
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+{: .note }
 Note that manual name modification in the list view is allowed.
-```
 
 ### Clear modifications
 

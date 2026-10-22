@@ -33,13 +33,13 @@ In this tab, you can filter by existing categories and apply colors to them. Let
 
 1. The first step is to select whether you want to apply filters based on the Whole Model, the Active View or the Current Selection. Select the radio button to choose the view.
 
-![OneFilter selecting model view](../../../assets\images\OneFilter\OF-Vs-WholeModel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter selecting model view](../../../assets\images\OneFilter\OF-Vs-WholeModel.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter.
 
-![OneFilter choose categories](../../../assets\images\OneFilter\OF-Vs-SelectCategories.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Vs-SelectCategories.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Select the parameter you want to filter in the Select Parameter table.
 

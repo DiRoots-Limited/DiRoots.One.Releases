@@ -12,10 +12,7 @@ nav_sections:
 # Getting Started
 {: .no_toc }
 
-DiRootsOne has several Autodesk Revit Productivity Tools for Data Management, Filtering, Model Checking, Drawing Production, Point Clouds, etc. Includes SheetLink, FamilyReviser, OneFilter, TableGen, SheetGen, ReOrdering, ParaManager, PointKit, QuickViews, and OneParameter.
-Not permitted:
--	Sell/resell
--	make modifications to the software.
+DiRootsOne is a productivity toolkit for Autodesk Revit. Its tools help you manage model data, filter and inspect models, automate views and sheets, create tables, and work with point clouds.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -34,20 +31,18 @@ Download the [latest version of DiRootsOne](https://diroots.com/revit-plugins/di
 ## Install
 
 ### Compatibility
-- Windows 7, 8, 10 and 11.
-- Revit 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
+- Revit 2018–2027.
+- Windows requirements depend on the Revit version. Revit 2027 requires 64-bit Windows 11; see [Autodesk's Revit system requirements](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-Revit-2027-products.html) for details.
 
 ### Standard Installation
 
-```yaml
-This method is ideal for individuals who want to install DiRootsOne on one computer.
-```
+This method is ideal for installing DiRootsOne on a single computer.
 
 1. Run DiRootsOne installer.
 
 2. Select the Revit versions and click 'Install'.
 
-![DiRootsOne Installation First Step](..\assets\images\One-Installer.gif)
+   ![DiRootsOne Installation First Step](..\assets\images\One-Installer.gif)
 
 3. Wait for the installation to complete and click 'Finish'.
 
@@ -55,29 +50,24 @@ This method is ideal for individuals who want to install DiRootsOne on one compu
 
 ### Silent Installation
 
-```yaml
-This method is ideal for IT administrators who want to deploy DiRootsOne to multiple computers.
-```
+This method is for IT administrators deploying DiRootsOne to multiple computers.
 
 - Install for all compatible Revit versions.
 
-```yaml
-# This method will silently install DiRootsOne for all compatible Revit versions.
+```cmd
 <installer-name>.exe /i // /qn accept_eula=1
 ```
 
 - Disable automatic check for update (i.e., users won't be prompted to install updates).
 
-```yaml
-# In this example, DiRootsOne will be installed with the automatic update feature turned off.
+```cmd
 <installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
 ```
 
 - Exclude specific Revit versions.
 
-```yaml
-# In this example, DiRootsOne will NOT be installed for Revit 2017, 2018, and 2019.
-<installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
+```cmd
+<installer-name>.exe /i // /qn accept_eula=1 revit2018="" revit2019="" revit2020=""
 ```
 
 ## Uninstall
@@ -88,16 +78,15 @@ This method is ideal for IT administrators who want to deploy DiRootsOne to mult
 
 2. Select and click 'Remove'.
 
-![DiRootsOne Uninstall](..\assets\images\One-Installer-Finished.png)
+   ![DiRootsOne Uninstall](..\assets\images\One-Installer-Finished.png)
 
-3 . Wait for the uninstallation to complete and click 'Finish'.
+3. Wait for the uninstallation to complete and click 'Finish'.
 
 ### Using the installer silently
 
 Uninstall DiRootsOne without user interaction.
 
-```yaml
-# This method will remove DiRootsOne from your computer.
+```cmd
 <installer-name>.exe /x // /qn
 ```
 
@@ -111,38 +100,20 @@ Uninstall DiRootsOne without user interaction.
 
 ## Updates
 
-DiRootsOne includes an updater to help you keep it up to date. 
-The updater will:
-- notify you whenever a new version is released (the action is triggered on Revit close event).
-- ask you to install now or to remind you tomorrow.
+The updater checks for new versions as you close Revit. If an update is available, it lets you install it or be reminded the next day.
 
 ![DiRootsOne Updater UI](../assets\images\DiRootsOne-Updates.png)
 
 ### Updater Settings
 
-The following Update Options can be tweaked:
-- activate automatic updates.
-- check for updates frequency (the default value is 2 days). 
-- change the downloads folder.
+By default, Updater Settings does not provide an option to disable automatic update checks. Administrators can change how often the updater checks by editing its configuration file:
 
-```yaml
-# Pro Tip for Users
-By default the automatic updates can't be disabled.
-To go around it, you can set up the check for updates frequency to 365 days, for example.
-# Keep in mind that it' recommended to keep your apps updated. Plus, we do not provide support for outdated applications.
-```
+1. Go to `%programdata%\DiRoots.DiRootsOne\Settings`.
+2. Open `updater.ini`.
+3. Change `CheckFrequency=2` to `CheckFrequency=365`, for example, to check less frequently.
 
-```yaml
-# Pro Tip for IT Administrators
-By default the automatic updates can't be disabled.
-To go around it, there's a configuration file that can be tweaked.
+For unattended deployments, automatic update checks can also be disabled with the `UPDATER="FALSE"` installer option shown above.
 
-# Steps required
-- go to %programdata%\DiRoots.DiRootsOne\Settings
-- open the 'updater.ini' file
-- Search for the line 'CheckFrequency=2' and change the value to 365, for example.
-
-# Keep in mind that it' recommended to keep your apps updated. Plus, we do not provide support for outdated applications.
-```
+We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>

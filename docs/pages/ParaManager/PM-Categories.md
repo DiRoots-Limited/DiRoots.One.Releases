@@ -115,10 +115,8 @@ Click on the Apply button to create the parameters assigned to the selected cate
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+{: .note }
 Click the Previous button to return to the Parameters window and make further settings.
-```
 
 ---
 

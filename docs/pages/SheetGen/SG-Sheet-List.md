@@ -32,10 +32,8 @@ Batch create Sheets and Placeholder sheets, place Views on Sheets based on a pre
 The first step is to select the SheetGen from the DiRootsOne menu and choose the Sheet List tab.
 This page will show all sheets in the project.
 
-```yaml
-# Note:
+{: .note }
 You must have at least one sheet created, to be used as a template in SheetGen.
-```
 ### Sheet template
 
 The first step before you start managing the sheets in SheetGen, is to create a sheet as a template. Basically, you need to create a sheet and fill it in, organizing the views as you wish. So, that will be used to generate new sheets on SheetGen, which will have the same settings as the template sheet. A sheet template is simply a sheet with some views in place.
@@ -69,11 +67,11 @@ This tab allows you to create new sheets that will use a selected sheet as templ
 
 3. Select the existing sheet to be used as a template for the new sheet.
 
-You can use the search box to quickly find sheets contained in the project.
+   You can use the search box to quickly find sheets contained in the project.
 
-![SheetGen search existing sheet](../../../assets/images/SheetGen/SG-Sl-NewSheet-Search.gif)
+   ![SheetGen search existing sheet](../../../assets/images/SheetGen/SG-Sl-NewSheet-Search.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. Note that the new sheets appear in the list of sheets, but have not yet been created in the project. To complete the creation, click Apply.
 
@@ -85,7 +83,8 @@ You can use the search box to quickly find sheets contained in the project.
 
 This tab will allow you to convert placeholder sheets into actual sheets and lets you to select a sheet to use as template.
 
-The sheets will be created and the original placeholder sheets will be deleted from the project once you click Apply.
+{: .warning }
+Clicking Apply creates the sheets and deletes the original placeholder sheets from the project.
 
 You have the following options on each placeholder sheet:
 - Sheet to use as Template - select a sheet from the project to use as template (leave empty or select \<None> to create an empty sheet).
@@ -118,21 +117,19 @@ You can perform this action for individual sheets by right-clicking and choosing
 
 1. Options for duplicating individual sheets.
  
- - Set a number of copies
- - Select the checkbox if you want to Duplicate Views from sheet
- - Select the checkbox if you want to Keep Legends from sheet
- - Select the checkbox if you want to Keep Schedules from sheet
- - Select the checkbox if you want to Copy Revisions from sheet
- - Select the checkbox if you want to Copy Title Block Parameter Values from sheet
+    - Set a number of copies
+    - Select the checkbox if you want to Duplicate Views from sheet
+    - Select the checkbox if you want to Keep Legends from sheet
+    - Select the checkbox if you want to Keep Schedules from sheet
+    - Select the checkbox if you want to Copy Revisions from sheet
+    - Select the checkbox if you want to Copy Title Block Parameter Values from sheet
  
- ```yaml
- # Note:
- If you prefer, you could select the checkbox Change Template for copies, so the list of sheets will be able to select another one.
- ```
+    **Note:**
+    If you prefer, you could select the checkbox Change Template for copies, so the list of sheets will be able to select another one.
  
- ![SheetGen duplicate individual sheet](../../../assets\images\SheetGen\SG-Sl-DuplicateIndividual.png)
+    ![SheetGen duplicate individual sheet](../../../assets\images\SheetGen\SG-Sl-DuplicateIndividual.png)
  
- <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
  
 2. Options for duplicating sheets in batch.
  
@@ -184,9 +181,9 @@ In the Excel file exported you can numbering, naming, changing parameters and al
 
 1. Export the excel file from sheet list.
 
- ![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
+    ![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
 
- <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Once you have edited the Excel file, import it to SheetGen.
 
@@ -206,11 +203,11 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 ### Build Number and Build Name
 
 1. Similar the Rename tool, SheetGen has a Build Number. Select the sheets you want and click Build Number.
-Then set the Default Field Separator, Custom Field, Custom Separator, Counter and add or remove Parameters.
+   Then set the Default Field Separator, Custom Field, Custom Separator, Counter and add or remove Parameters.
  
- ![SheetGen build number](../../../assets\images\SheetGen\SG-Sl-BuildNumber.gif)
+    ![SheetGen build number](../../../assets\images\SheetGen\SG-Sl-BuildNumber.gif)
  
- <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
  
 2. For the Build Name tool, it is the same steps. Select the sheets you want and click to Build Name.
 Then define the Default Field Separator, Custom Field, Custom Separator, and add or remove Parameters.
@@ -250,16 +247,14 @@ Once you have organized the project sheets into sets, you can apply filters to m
 
 1. Click the Clear all Modifications button, and reset all edition applied to the sheet names and numbers, in the table view by the Rename, Build Name or Build Number commands.
  
- ![SheetGen clear all](../../../assets\images\SheetGen\SG-Sl-ClearAll.png)
+    ![SheetGen clear all](../../../assets\images\SheetGen\SG-Sl-ClearAll.png)
  
- <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+    <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
  
 2. Click on the Clear Staging button, and clear the staging cached modifications.
  
- ```yaml
- # Note:
+ **Note:**
  With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
- ```
  
  ![SheetGen clear staging](../../../assets\images\SheetGen\SG-Sl-ClearStaging.png)
  

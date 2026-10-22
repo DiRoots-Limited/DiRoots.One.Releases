@@ -39,23 +39,21 @@ Follow the steps below:
 
 1. The first step is to select whether you want to apply filters based on the Whole Model, the Active View or the Current Selection. Select the radio button to choose the view.
 
-![ReOrdering select model view](../../../assets\images\ReOrdering\RO-WholeModel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![ReOrdering select model view](../../../assets\images\ReOrdering\RO-WholeModel.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the Family table will show the existing families to be selected.
 
-![ReOrdering select the categories](../../../assets\images\ReOrdering\RO-SelectCategories.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![ReOrdering select the categories](../../../assets\images\ReOrdering\RO-SelectCategories.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. When selecting the desired family, note that the Type table will be active for selecting element types.
 
 ![ReOrdering select the families](../../../assets\images\ReOrdering\RO-SelectFamilyType.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
+{: .note }
 Note that the header of the Category, Family and Type tables is an accordion component. Click on these headings to expand and collapse the view of the tables.
-```
 
 ---
 
@@ -82,25 +80,26 @@ You can choose to define a prefix and suffix to apply the element numbering, but
 
 3. To complete the order of the elements, choose the order to be followed.
 
-- Manually: manually select elements in the model to apply the numbering value. You will be able to apply incremental and non-incremental values.
+   - Manually: manually select elements in the model to apply the numbering value. You will be able to apply incremental and non-incremental values.
 
-![ReOrdering manually](../../../assets\images\ReOrdering\RO-Manually.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![ReOrdering manually](../../../assets\images\ReOrdering\RO-Manually.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-- Crossing: to renumber elements draw a detail line and all elements of the that fit criteria above will be numbered. If the line touches the element it will be counted.
+   - Crossing: to renumber elements draw a detail line and all elements of the that fit criteria above will be numbered. If the line touches the element it will be counted.
 
-![ReOrdering crossing](../../../assets\images\RO-Crossing.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![ReOrdering crossing](../../../assets\images\RO-Crossing.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-- Vertex: to renumber elements draw a line and all elements that line endpoint (vertex) touch will be numbered. Line drawing direction/orientation will be taken into account.
+   - Vertex: to renumber elements draw a line and all elements that line endpoint (vertex) touch will be numbered. Line drawing direction/orientation will be taken into account.
 
-![ReOrdering vertex](../../../assets\images\ReOrdering\RO-Vertex.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![ReOrdering vertex](../../../assets\images\ReOrdering\RO-Vertex.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-- Auto: Random place unique number is chosen elements in the model. Values will be directly applied to the parameter you chose above.
+   - Auto: Random place unique number is chosen elements in the model. Values will be directly applied to the parameter you chose above.
 
-![ReOrdering auto](../../../assets\images\ReOrdering\RO-Auto.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![ReOrdering auto](../../../assets\images\ReOrdering\RO-Auto.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+{: start="3"}
 
 ---
 

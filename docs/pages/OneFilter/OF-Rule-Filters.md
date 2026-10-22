@@ -31,8 +31,8 @@ The Rule Filters tab is for users to manage the filters they have already create
 
 1. The first step is to select whether you want to apply filters based on the Whole Model or the Active View. Select the radio button to choose the view.
 
-![OneFilter select model view](../../../assets\images\OneFilter\OF-Rf-WholeModel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter select model view](../../../assets\images\OneFilter\OF-Rf-WholeModel.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name and count columns.
 

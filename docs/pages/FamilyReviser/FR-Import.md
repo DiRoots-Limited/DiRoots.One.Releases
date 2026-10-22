@@ -25,23 +25,19 @@ Import families from your repositories.
 
 1. Open FamilyReviser Import tab and choose a repository and then, open the tree and select the category of the family to import.
 
-```yaml
-# Note:
-Note that when you select a family category, it is shown in the second table. You can select specific families to import them into the project.
-```
+   {: .note }
+   Note that when you select a family category, it is shown in the second table. You can select specific families to import them into the project.
 
-![FamilyReviser select repository](../../../assets\images\FamilyReviser\FR-Im-SelectRepository.gif)
+   ![FamilyReviser select repository](../../../assets\images\FamilyReviser\FR-Im-SelectRepository.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```yaml
-# Note:
-To view the family folder, right-click and select Open folder.
-```
+   {: .note }
+   To view the family folder, right-click and select Open folder.
 
-![FamilyReviser open family folder](../../../assets\images\FamilyReviser\FR-Im-OpenFolder.png)
+   ![FamilyReviser open family folder](../../../assets\images\FamilyReviser\FR-Im-OpenFolder.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Preferences
 
