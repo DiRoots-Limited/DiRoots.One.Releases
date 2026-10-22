@@ -160,15 +160,17 @@ Click to export the sheet to Google Drive or Excel.
 
 The Excel file is editable and after editing can be imported through SheetLink.
 {: .note }
+
 Open the Instruction tab in your Excel file to view the color legend.
-
 {: .note }
-Yellow: Type Value
-Red: Read-only Value. This fields can not be edited.
-Grey: Parameter does not exist for this element.
 
+> **Yellow:** Type value  
+> **Red:** Read-only value; this field cannot be edited.  
+> **Grey:** Parameter does not exist for this element.
 {: .note }
-If you are changing the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
+
+If you are changing the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'.
+{: .note }
 
 ### Import
 
@@ -177,10 +179,8 @@ If you have made any edits to the file, import it and update the current model o
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-ImportFile.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
+During import, choose a file from Google Drive or Excel and monitor the progress bar.
 {: .note }
-- Import file from Google Drive or from Excel.
-- Track the file import progress bar.
-
 ---
 
 Let's go to the next tab to manage the Annotation Categories.

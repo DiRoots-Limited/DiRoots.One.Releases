@@ -79,7 +79,6 @@ You can choose to define a prefix and suffix to apply the element numbering, but
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. To complete the order of the elements, choose the order to be followed.
-{: start="3"}
 
    - Manually: manually select elements in the model to apply the numbering value. You will be able to apply incremental and non-incremental values.
 
@@ -100,6 +99,7 @@ You can choose to define a prefix and suffix to apply the element numbering, but
 
    ![ReOrdering auto](../../../assets\images\ReOrdering\RO-Auto.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+{: start="3"}
 
 ---
 

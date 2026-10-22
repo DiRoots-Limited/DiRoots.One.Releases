@@ -47,7 +47,6 @@ The search box will search for elements contained in the filtered elements table
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. To refine the filter, in Filter choose a condition to apply the filter to.
-{: start="3"}
 
    - In the Parameter Type, select whether you want to search by Instance, Type or both parameters.
    - In Filter By Value, select the property to search for.
@@ -56,6 +55,7 @@ The search box will search for elements contained in the filtered elements table
 
    ![OneFilter filter](../../../assets\images\OneFilter\OF-Ft-FilterCondition.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+{: start="3"}
 
 ### Filter
 
