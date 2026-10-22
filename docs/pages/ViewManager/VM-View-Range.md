@@ -37,7 +37,7 @@ Manage the View Range of your Views individually or in batches in one place.
 
 4. Filter View Types by selecting in the drop-down list in the View Type column header.
 
-**Note:**
+{: .note }
 Please note that all View Range settings made with the plug-in must respect Revit's view range rules. If the rules are not respected, the settings will not be applied and a warning will be displayed.
 
 ![View Range manual actions](../../../assets\images\ViewManager\VM-Vr-Manual.gif)
@@ -64,7 +64,7 @@ Click the Clear all Modifications button, and reset all edits applied to the vie
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-**Tip:**
+{: .new }
 Hover the mouse over the information icon for more details about the view range.
 
 ![View Range details](../../../assets\images\ViewManager\VM-Vr-Info.gif)

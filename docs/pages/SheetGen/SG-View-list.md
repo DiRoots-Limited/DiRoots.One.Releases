@@ -112,7 +112,7 @@ Click on the "more options" button and select Open View. Note that the current v
 
 Click on the Clear Staging button, and clear the staging cached modifications.
 
-**Note:**
+{: .note }
 With this tool, only changes that have not yet been applied will be cleared. Changes that have been applied cannot be cleared.
 
 ![SheetGen clear staging](../../../assets\images\SheetGen\SG-Vl-Clear.png)

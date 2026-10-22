@@ -39,7 +39,7 @@ You can also select what parameters you want to view and edit in the main table,
 
 All changes will be staged and will only be updated to the model when clicking Apply.
 
-**Note:**
+{: .note }
 The Placeholder Sheets tab is available for premium users only.
 
 ## New Placeholder Sheet
@@ -52,7 +52,7 @@ The Placeholder Sheets tab is available for premium users only.
 1. Double-click the cell.
 2. Type the new value and confirm.
 
-**Note:**
+{: .note }
 If the Sheet Name header shows a lock icon, toggle it to lock/unlock editing for that column.
 
 ![SheetGen new placeholder + edit](../../../assets\images\SheetGen\SG-PS-NewEditPlaceholder.gif)

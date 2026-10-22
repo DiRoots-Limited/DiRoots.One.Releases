@@ -32,7 +32,7 @@ Batch create Sheets and Placeholder sheets, place Views on Sheets based on a pre
 The first step is to select the SheetGen from the DiRootsOne menu and choose the Sheet List tab.
 This page will show all sheets in the project.
 
-**Note:**
+{: .note }
 You must have at least one sheet created, to be used as a template in SheetGen.
 ### Sheet template
 
@@ -83,7 +83,8 @@ You can use the search box to quickly find sheets contained in the project.
 
 This tab will allow you to convert placeholder sheets into actual sheets and lets you to select a sheet to use as template.
 
-The sheets will be created and the original placeholder sheets will be deleted from the project once you click Apply.
+{: .warning }
+Clicking Apply creates the sheets and deletes the original placeholder sheets from the project.
 
 You have the following options on each placeholder sheet:
 - Sheet to use as Template - select a sheet from the project to use as template (leave empty or select \<None> to create an empty sheet).

@@ -47,12 +47,9 @@ Steps:
 ![SheetLink Creating profiles](../../../assets\images\SheetLink\SL-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```
-Tip for BIM Managers!  
-
-Create the profiles in a network location to allow other users to import them.
+{: .new }
+**For BIM managers:** Create profiles in a network location so other users can import them.
 See the "Importing Profiles" section to teach users how to pull profiles from a network location.
-```
 
 ## Importing Profiles
 

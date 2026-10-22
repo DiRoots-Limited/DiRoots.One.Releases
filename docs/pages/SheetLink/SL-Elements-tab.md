@@ -60,7 +60,7 @@ Once you've chosen the elements, SheetLink has options to see only instance, typ
 
 Click on the table headers to select the instance parameters, for example.
 
-**Note:**
+{: .note }
 If selected, the instance parameters, will shown it in the green.
 If selected the type parameters, will be shown it in the yellow.
 If selected the read-only parameters, will be shown in the red.
@@ -163,14 +163,15 @@ Click to export the sheet to Google Drive or Excel.
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 The Excel file is editable and after the editing of it you can be imported through SheetLink.
-Caution, open the Instruction tab in your Excel file to get the colors legend. 
+{: .note }
+Open the Instruction tab in your Excel file to view the color legend.
 
-**Note:**
+{: .note }
 Yellow: Type Value
 Red: Read-only Value. This fields can not be edited.
 Grey: Parameter does not exist for this element.
 
-**Note:**
+{: .note }
 If you are altering the value of 'Type Parameters', ensure that you have the same value for all elements with the same 'Type ID'
 
 ### Import
@@ -180,7 +181,7 @@ If you have made any edits to the file, import it and update the current model i
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-El-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-**Note:**
+{: .note }
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
 

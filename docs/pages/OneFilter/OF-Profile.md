@@ -35,7 +35,8 @@ The following settings are saved in the profiles.
 - Filters with Rules and Sets
 - The visualization rules.
 
-The profile settings will not be available in the Contains, Selections and Rule Filters tabs.
+{: .note }
+Profile settings are unavailable in the Contains, Selections, and Rule Filters tabs.
 
 ## Creating Profiles
 
@@ -50,12 +51,9 @@ Steps:
 ![OneFilter Creating profiles](../../../assets\images\OneFilter\OF-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-```
-Tip for BIM Managers!  
-
-Create the profiles in a network location to allow other users to import them.
+{: .new }
+**For BIM managers:** Create profiles in a network location so other users can import them.
 See the "Importing Profiles" section to teach users how to pull profiles from a network location.
-```
 
 ## Importing Profiles
 

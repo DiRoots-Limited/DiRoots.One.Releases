@@ -49,7 +49,7 @@ The search box will search for Rooms or Spaces contained in the Select column.
 
 Select some rooms or spaces and right-click to choose to highlight the elements.
 
-**Note:**
+{: .note }
 Make sure you have the correct view opened to highlight the room.
 If you do not have the correct view opened, the SheetLink can find the view, but could take a long time.
 
@@ -130,14 +130,15 @@ Click to export the sheet to Google Drive or Excel.
 
 The Excel file is editable and after the editing of it you can import through SheetLink. The Spacial SheetLink allows you to create more rooms on Excel file exported, or export an empty Excel file template, to create rooms.
 
-Caution, open the Instruction tab on Excel file to get the colors legend and other information. 
+{: .note }
+Open the Instruction tab in your Excel file to view the color legend and other information.
 
-**Note:**
+{: .note }
 Yellow: Type Value.
 Red: Read-only Value. This fields can not be edited.
 Grey: Parameter does not exist for this element.
 
-**Note:**
+{: .note }
 To create new Rooms or Spaces you should add new rows of information. Provide a minimum of Number, Name, and Phase parameter values to create correctly Rooms and Spaces. Please don’t input values to the GUID(hidden) and Element ID columns for new rows. Revit will automatically assign GUID and Element ID when elements are created.
 
 Follow the example below.
@@ -151,7 +152,7 @@ If you have made any edits to the file, import it and update the schedules in Re
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-Sc-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-**Note:**
+{: .note }
 - Import file from Google Drive or from Excel.
 - Track the file import progress bar.
 

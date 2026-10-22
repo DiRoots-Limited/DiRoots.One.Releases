@@ -52,7 +52,7 @@ Follow the steps below:
 ![ReOrdering select the families](../../../assets\images\ReOrdering\RO-SelectFamilyType.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-**Note:**
+{: .note }
 Note that the header of the Category, Family and Type tables is an accordion component. Click on these headings to expand and collapse the view of the tables.
 
 ---

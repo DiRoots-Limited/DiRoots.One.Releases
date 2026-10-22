@@ -97,7 +97,7 @@ Click to export the current point cloud.
 - In the first list, select the density level to be exported.
 - Select the checkbox if you want to Open Family After Export. And then, open the browse to select the file.
 
-**Note:**
+{: .note }
 Applied only for .DXF files.
 
 - Select Family template

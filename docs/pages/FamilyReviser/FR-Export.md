@@ -39,12 +39,12 @@ Select FamilyReviser from the DiRootsOne menu and open the Export tab. Families 
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-**Note:**
+{: .note }
 Select the checkbox bellow the first table to Hide un-checked categories.
 
 3.	The second table shows the families of the selected categories, separated by the columns Family name, Repository name and Location.
 
-**Note:**
+{: .note }
 Make sure the recording location is correct to export the families.
 
 ## Preferences

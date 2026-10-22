@@ -130,7 +130,7 @@ The search box will search for parameters contained in the Schedules.
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-**Note:**
+{: .note }
 Click Next button to go to the Categories tab and assign the parameters to categories.
 
 ---

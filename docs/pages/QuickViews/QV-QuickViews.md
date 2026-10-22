@@ -91,10 +91,8 @@ In this tab, you can manage all the details for creating Callout views.
 
 7. Choose whether you want the Callout boudary to be a rectangle or aligned with room/space boundary.
 
-```yaml
-#Note:
+{: .note }
 Use the Info icon to see the example of the boudaries.
-```
 
 ![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -107,15 +105,11 @@ Let's customize the name of the views.
 
 In the first table, you can see all the existing parameters that you can use to name the views. Select the parameters you want, and click on the arrow button to assign them to the Selected Parameters table. You can also sort the Selected Parameters using the arrows below the table.
 
-```yaml
-#Note:
+{: .note }
 Use the checkbox to also see the Project Information parameters.
-```
 
-```yaml
-#Note:
+{: .note }
 Select the checkbox to add a default Field Separator between the selected parameters.
-```
 
 ![DiRootsOne Quick Views - select parameters to naming](../../../assets\images\QuickViews\QV-NameCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -144,10 +138,8 @@ Once you have added it, open the list to select the parameter and in the second 
 Click on Apply to save the settings and then select the rooms and spaces for which you want to create the callout views.
 To finish, click on the Create button and wait a few seconds for the views to be created.
 
-```yaml
-#Note:
+{: .note }
 You can also use the Select rooms/spaces buttons to choose them manually.
-```
 
 ![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-SelectCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -195,10 +187,8 @@ Now let's define the section height and offsets to the rooms and spaces.
 
 7. To conclude, define a Boundary break tolerance. For example, if there are small walls in the room, you can assign a tolerance value to create the views. Whether you want to create a view for each small wall, or a general view, without taking these smaller values into account.
 
-```yaml
-#Note:
+{: .note }
 Use the Info icon to see the boudaries and Offsets examples.
-```
 
 ![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-OffsetsElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -211,15 +201,11 @@ Let's customize the names of the views.
 
 In the first table, you can see all the existing parameters that you can use to name the views. Select the parameters you want, and click on the arrow button to assign them to the Selected Parameters table. You can also sort the Selected Parameters using the arrows below the table.
 
-```yaml
-#Note:
+{: .note }
 Use the checkbox to also see the Project Information parameters.
-```
 
-```yaml
-#Note:
+{: .note }
 Select the checkbox to add a default Field Separator between the selected parameters.
-```
 1. Enter Custom Fields to name the views.
 
 2. Enter Custom Separators between the parameters to name.
@@ -239,10 +225,8 @@ Let's create a condition to count the views.
 
 4. Enter the value to start.
 
-```yaml
-#Caution:
+{: .warning }
 To use the View Count condition, you must to select the View Count Parameter, in the previous table.
-```
 
 ![DiRootsOne Quick Views - custom field and custom separator](../../../assets\images\QuickViews\QV-ViewCount.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -264,10 +248,8 @@ Once you have added it, open the list to select the parameter and in the second 
 Click Apply to save the settings and select the rooms and spaces for which you want to create Elevations/Sections views.
 To finish, click on the Create button and wait a few seconds for the views to be created.
 
-```yaml
-#Note:
+{: .note }
 You can also use the Select rooms button to choose them manually.
-```
 
 ![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-SelectElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -289,12 +271,8 @@ Right-click on the room/space within the table and you can:
 
 ## Update Views
 
-Update the views of the selected rooms/spaces. All the views of the selected rooms will be deleted and new views will be created.
-
-```yaml
-#Note:
-Details and dimensions will be lost.
-```
+{: .warning }
+Updating the views of selected rooms and spaces deletes their existing views and creates new ones. Details and dimensions will be lost.
 
 ![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-Update.gif
 )  

@@ -59,7 +59,7 @@ In this table, you can choose one or more properties from the Origin View Templa
 
 2. Use the checkboxes to select the properties.
 
-**Note:**
+{: .note }
 Check the option Hide un-checked properties to see only the selected properties.
 
 ![Selecting Origin Properties](../../../assets\images\ViewManager\VM-Tt-Properties.gif)
@@ -80,7 +80,7 @@ Choose one or more Destination View Templates to transfer the selected propertie
 
 4. Click the Apply button to transfer the selected properties to the destination view templates.
 
-**Note:**
+{: .note }
 Check the Hide un-checked templates option to see only the chosen destination view templates.
 
 ![Selecting Destination View Templates](../../../assets\images\ViewManager\VM-Tt-Destination.gif)
