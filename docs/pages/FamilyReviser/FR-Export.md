@@ -29,20 +29,20 @@ Select FamilyReviser from the DiRootsOne menu and open the Export tab. Families 
 
 1. To start, select the radio button to choose whether you want to manage All families or only selected Families. Now, choose in the first list to see the families categories, By Category or By Family Name and Type Name.
 
-![FamilyReviser select categories](../../../assets\images\FamilyReviser\FR-Ex-Families.gif)
+   ![FamilyReviser select categories](../../../assets\images\FamilyReviser\FR-Ex-Families.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Select the categories and get the families. Note that there is a tree representing category > family > type, and you can select the level you want.
 
-![FamilyReviser choose categories](../../../assets\images\FamilyReviser\FR-Ex-SelectCategory.gif)
+   ![FamilyReviser choose categories](../../../assets\images\FamilyReviser\FR-Ex-SelectCategory.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-{: .note }
-Select the checkbox bellow the first table to Hide un-checked categories.
+   {: .note }
+   Select the checkbox bellow the first table to Hide un-checked categories.
 
-3.	The second table shows the families of the selected categories, separated by the columns Family name, Repository name and Location.
+3. The second table shows the families of the selected categories, separated by the columns Family name, Repository name and Location.
 
 {: .note }
 Make sure the recording location is correct to export the families.

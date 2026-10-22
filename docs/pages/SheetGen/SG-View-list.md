@@ -44,9 +44,9 @@ If you have several views you want to place in the project, exporting to excel m
 
 1. Export the excel file from view list.
 
-![SheetGen export views in sheets](../../../assets\images\SheetGen\SG-Vl-ExportSheets.png)
+   ![SheetGen export views in sheets](../../../assets\images\SheetGen\SG-Vl-ExportSheets.png)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2.  Once you have edited the Excel file, import it to SheetGen.
 

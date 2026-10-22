@@ -28,9 +28,9 @@ There are two ways to choose the family to copy the parameters:
 
 1. Select Family: click this button and select the element in the view to manage its parameters.
 
-![ParaManager select element](../../../assets\images\ParaManager\PM-Tr-SelectFamily.gif)
+   ![ParaManager select element](../../../assets\images\ParaManager\PM-Tr-SelectFamily.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Open the Family list: select the family in this list to transfer the parameters to.
 

@@ -29,15 +29,15 @@ Steps:
 
 1. Click radio buttons to switch between Whole Model, Active View or Current Selection to choose the categories.
 
-{: .note }
-The 'Whole Model' radio button will show the existing all annotation categories.
-The 'Active View' radio button will show the existing annotation categories in the current view.
-The 'Current Selection' radio button will show the existing annotation categories in the current selection.
+   {: .note }
+   The 'Whole Model' radio button will show the existing all annotation categories.
+   The 'Active View' radio button will show the existing annotation categories in the current view.
+   The 'Current Selection' radio button will show the existing annotation categories in the current selection.
 
 2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
 
-![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-IncludeLink.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-IncludeLink.png)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
 3. Use the checkboxes to select specific annotation categories, or use the checkbox in the table header to select all annotation categories.

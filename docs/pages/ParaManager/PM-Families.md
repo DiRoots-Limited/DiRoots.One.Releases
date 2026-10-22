@@ -56,9 +56,9 @@ Select the parameters and choose from the Batch actions list:
 
 1. Duplicate parameters.
 
-![ParaManager duplicate in batch](../../../assets\images\ParaManager\PM-Fm-DuplicateBatch.gif)
+   ![ParaManager duplicate in batch](../../../assets\images\ParaManager\PM-Fm-DuplicateBatch.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Delete parameters.
 

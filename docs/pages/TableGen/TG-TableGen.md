@@ -72,14 +72,14 @@ Once you drop or select the files to add, the worksheet selection window opens a
 Named regions allow you to specify the range that you want to import into Revit. To create them follow these steps:
 
 1. In the worksheet you want to import, select the desired range of cells, and then choose a name and type it in the Name Box - located to the left of the formula bar (see image below).
-After creating the named region, save the Excel file to import it.
+   After creating the named region, save the Excel file to import it.
 
-    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)  
-    <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+       ![TableGen selecting data to import](../../../assets\images\TableGen\TG-SelectRegionExcel.png)<br />
+       <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. You can also create multiple worksheet regions, and each one can be individually imported into Revit.
 
-    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)  
+    ![TableGen selecting data to import](../../../assets\images\TableGen\TG-MultipleRegions.png)<br />
     <sub>Note: the version on the image may not reflect the [latest version of TableGen](https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/).</sub>
 
 
@@ -304,7 +304,7 @@ What it does when enabled:
 - Converts all borders to black 
 - Removes cell background colors (background becomes transparent)
 
-    ![TableGen right-click](../../../assets\images\TableGen\TG-270-Black&White.gif)  
+    ![TableGen right-click](../../../assets\images\TableGen\TG-270-Black&White.gif)<br />
     <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 ---
 

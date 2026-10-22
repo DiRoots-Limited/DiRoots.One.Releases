@@ -23,23 +23,20 @@ Make sure that you have created a schedule in Revit, to be exported by SheetLink
 
 Steps:
 
-1. In this tab, you can choose between selecting a schedule from the Whole Model or from the Active View.
-
-```yaml
-The 'Whole Model' radio button will show all existing schedules.
-The 'Active View' radio button will show the existing schedules in the current view.
-```
+1. Choose which schedules to show:
+   - **Whole Model** shows all existing schedules.
+   - **Active View** shows the schedules in the current view.
 
 2. Use the checkboxes above the table to select to Export by Type ID.
 
-![SheetLink including exporting by type ID](../../../assets\images\SheetLink\SH-Sc-TypeID.png)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![SheetLink including exporting by type ID](../../../assets\images\SheetLink\SH-Sc-TypeID.png)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
 3. Use the checkboxes in the Select Schedule table to choose the schedules to be exported by SheeLink.
 
-![SheetLink choosing schedules](../../../assets\images\SheetLink\SH-Sc-SelectSchedule.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![SheetLink choosing schedules](../../../assets\images\SheetLink\SH-Sc-SelectSchedule.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. Right-click on the schedule to choose the option to view it.
 

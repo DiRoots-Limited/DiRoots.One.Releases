@@ -30,8 +30,8 @@ Steps:
 
 1. Use the checkboxes above the table to select the rooms or spaces to get the parameters.
 
-![SheetLink selecting rooms or spaces](../../../assets\images\SheetLink\SH-Sp-SelectRooms.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![SheetLink selecting rooms or spaces](../../../assets\images\SheetLink\SH-Sp-SelectRooms.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Use the checkboxes above the table to select the Include Linked Files option.
 

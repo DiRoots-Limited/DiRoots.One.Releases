@@ -34,13 +34,13 @@ To make it easier to see the parameter values, use a schedule view.
 
 2. First, the user has to select a parameter to manage. In the table on the left, use the list to filter the parameters by Instance or Type.
 
-![Filter Instance and Type parameters](../../../assets\images\OneParameter\OP-FilterInstanceType.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![Filter Instance and Type parameters](../../../assets\images\OneParameter\OP-FilterInstanceType.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Use the searchbox to search for a specific parameter.
 
-![Search parameters](../../../assets\images\OneParameter\OP-Search.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![Search parameters](../../../assets\images\OneParameter\OP-Search.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 4. Click on the buttons below the table to sort the parameters by Type or Instance.
 
@@ -79,8 +79,8 @@ If you have filtered values in the previous field (Filter by parameter value), t
 
 1. Click the "Clear parameter Value" button to remove the values assigned to the selected Parameter.
 
-![Clear parameter value](../../../assets\images\OneParameter\OP-ClearValue.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![Clear parameter value](../../../assets\images\OneParameter\OP-ClearValue.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Enter a value and click the "Add" button to add the value in bulk.
 

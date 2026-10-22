@@ -33,14 +33,14 @@ In this tab, you can filter by existing categories such as areas, spaces, rooms,
 
 1. The first step is to select whether you want to apply filters based on the Whole Model or the the Active. And then in the first list, choose where do you want to filter the elements.
 
-- Rooms
-- Spaces
-- Mass
-- Zones
-- Areas
+   - Rooms
+   - Spaces
+   - Mass
+   - Zones
+   - Areas
 
-![OneFilter select model and environment](../../../assets\images\OneFilter\OF-Ct-WholeModel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter select model and environment](../../../assets\images\OneFilter\OF-Ct-WholeModel.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter.
 

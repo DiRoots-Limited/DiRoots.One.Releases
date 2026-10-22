@@ -33,8 +33,8 @@ This tab is very similar to the Filters tab, but it allows you to apply rules to
 
 1. The first step is to select whether you want to apply filters based on the Whole Model or the Active View. Select the radio button to choose the view.
 
-![OneFilter rules and sets](../../../assets\images\OneFilter\OF-Rs-WholeModel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter rules and sets](../../../assets\images\OneFilter\OF-Rs-WholeModel.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, in-place and count columns.
 
@@ -52,17 +52,17 @@ The search box will search for elements contained in the filtered elements table
 
 1. In the first list select the condition.
 
-- AND: All rules must ne true
-- OR: Any rules may be true
+   - AND: All rules must ne true
+   - OR: Any rules may be true
 
 2. Click on Rule button to open the field.
 
-- Choose the property to filter.
-- In the second list choose the condition: equals, does not equal, contains, does not contain, begin with, does not begin with, does not end with or ends with.
-- In the search bar, enter the value to search for. If you prefer, press the right arrow on your keyboard and a drop-down menu will open with the existing values.
+   - Choose the property to filter.
+   - In the second list choose the condition: equals, does not equal, contains, does not contain, begin with, does not begin with, does not end with or ends with.
+   - In the search bar, enter the value to search for. If you prefer, press the right arrow on your keyboard and a drop-down menu will open with the existing values.
 
-![OneFilter rule](../../../assets\images\OneFilter\OF-Rs-Rule.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter rule](../../../assets\images\OneFilter\OF-Rs-Rule.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. Click on the Set button to add more conditions.
 

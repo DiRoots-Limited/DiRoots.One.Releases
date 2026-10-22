@@ -30,8 +30,8 @@ The Levels tab allows the user to select categories of elements to find between 
 
 1. The first step is to select whether you want to apply filters based on the Whole Model or the Active View. Select the radio button to choose the view.
 
-![OneFilter select model view](../../../assets\images\OneFilter\OF-Lv-WholeModel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter select model view](../../../assets\images\OneFilter\OF-Lv-WholeModel.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, Level and count columns.
 
@@ -48,17 +48,17 @@ Create conditions rules to find elements between Levels and Reference Planes. Fo
 
 3. Select from the Reference level or Reference plane drop-down list
 
-Once you have selected it, define whether you want to find elements above or below the selected level/reference plane and then enter the name of the level/reference plane in the text input. Please note that in some cases the reference plane may not be renamed, so use the Select button to choose the reference plane manually.
+   Once you have selected it, define whether you want to find elements above or below the selected level/reference plane and then enter the name of the level/reference plane in the text input. Please note that in some cases the reference plane may not be renamed, so use the Select button to choose the reference plane manually.
 
 4. Repeat the last step by selecting the corresponding reference level/plane to find elements between the two selected situations.
 
-![OneFilter level/reference plane](../../../assets\images\OneFilter\OF-Lv-Rule.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter level/reference plane](../../../assets\images\OneFilter\OF-Lv-Rule.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 5. Click on the Filter button to execute the rule condition.
 
-![OneFilter apply filter level/reference plane](../../../assets\images\OneFilter\OF-Lv-Filter.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   ![OneFilter apply filter level/reference plane](../../../assets\images\OneFilter\OF-Lv-Filter.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 6. Click the Clear button to reset the condition of the rule you created.
 

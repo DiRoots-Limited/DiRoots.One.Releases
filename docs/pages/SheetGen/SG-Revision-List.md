@@ -72,9 +72,9 @@ If you have several sheets, this tool makes editing much easier. Export an Excel
 
 1. Export the excel file from view list.
 
-![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
+   ![SheetGen export excel file from sheets](../../../assets\images\SheetGen\SG-Sl-ExportExcel.gif)
 
-<sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of SheetGen](https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/).</sub>
 
 2.  Once you have edited the Excel file, import it to SheetGen.
 
