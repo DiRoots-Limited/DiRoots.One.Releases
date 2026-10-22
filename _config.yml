@@ -48,18 +48,4 @@ heading_anchors: true
 # Color scheme supports "light" (default) and "dark"
 color_scheme: light
 
-callouts:
-  note:
-    title: Note
-    color: purple
-  new:
-    title: Tip
-    color: green
-  warning:
-    title: Warning
-    color: red
-  important:
-    title: Important
-    color: blue
-
 

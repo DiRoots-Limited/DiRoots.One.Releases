@@ -128,9 +128,9 @@ Then define a Prefix, a Suffix, enter the name that will be replaced and finally
 1. Similar to the Rename tool, SheetGen has a Build Number. Select the placeholder sheets you want and click Build Number.
    Then set the Default Field Separator, Custom Field, Custom Separator, Counter and add or remove Parameters.
     
-       ![SheetGen build number](../../../assets\images\SheetGen\SG-PS-BuildNumber.gif)
+   ![SheetGen build number](../../../assets\images\SheetGen\SG-PS-BuildNumber.gif)
     
-       <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+   <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
     
 2. For the Build Name tool, it is the same steps. Select the placeholder sheets you want and click Build Name.
 Then define the Default Field Separator, Custom Field, Custom Separator, and add or remove Parameters.
