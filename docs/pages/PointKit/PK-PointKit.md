@@ -30,39 +30,49 @@ Autodesk Revit Add-in to boost your productivity when working with Point Clouds.
 
 ## Select Points
 
-Click on Select Points button and choose to Select Points or Select Between Levels.
+Click the arrow next to **Select Points** to choose **Select Points** or **Select Between Levels**.
 
 ### Select Points
 
-Click and drag the mouse to select certain points and isolate them.
+Draw a box around the points you need, and PointKit isolates them.
+
+Steps:
+
+1. Open a plan view that shows the point cloud.
+2. Click **Select Points**.
+3. Click and drag a box around the points you want to keep.
 
 ![PointKit select points](../../../assets\images\PointKit\PK-SelectPoints.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Select Between Levels
 
-Click on the Select Between Levels button and choose the start of the level and the end of the level to isolate the point cloud within this range.
+Keep only the points between two levels.
 
-![PointKit select Between Levels](../../../assets\images\PointKit\PK-SelectLevel.gif)  
+Steps:
+
+1. Open a view that shows the point cloud, for example a section. A 3D view must be orthographic, not perspective.
+2. Click the arrow next to **Select Points** and choose **Select Between Levels**.
+3. Under **Select start and end levels**, choose the start level and the end level. Use **Offsets** to move either limit up or down.
+4. Click **Isolate**.
+
+![PointKit select between levels](../../../assets\images\PointKit\PK-SelectLevel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Undo and Redo button
+### Undo, Redo and Reset
 
-When performing actions in Point Cloud, such as isolating certain spaces, click the Undo button to revert to the recent action, and the Redo button to reapply the recent action.
+Step through your selections with the small buttons next to **Select Points**.
 
-![PointKit undo and redo button](../../../assets\images\PointKit\PK-UndoRedo.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+- **Undo** reverts the last selection.
+- **Redo** reapplies the selection you just undid.
+- **Reset** clears all selections, so no points are isolated.
 
-### Reset
-
-Click the Reset button to clear all actions and selections made in the point cloud.
-
-![PointKit reset](../../../assets\images\PointKit\PK-Reset.gif)  
+![PointKit undo, redo and reset](../../../assets\images\PointKit\PK-UndoRedo.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Show/Hide
 
-Hide or reactivate the visualization of all points clouds in the current view.
+Click **Show/Hide** to hide all point clouds in the current view. If any of them is already hidden, it shows the hidden ones instead.
 
 ![PointKit show/hide](../../../assets\images\PointKit\PK-ShowHide.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -71,39 +81,50 @@ Hide or reactivate the visualization of all points clouds in the current view.
 
 ## Import DXF File
 
-Import a file in DXF format for your current modeling. Clicking on this button will open a window to open the browser and select the file to be imported.
+Import a DXF file into a new family. PointKit creates the family from the template you choose, opens it and imports the file.
 
-- Select the DXF file on your browse to import.
-- Choose a Family Template.
-- Select the radio button to choose the orientation of the file to be imported. You can choose to import Center to Center or On Origin to Internal Origin.
+Steps:
+
+1. Click **Import DXF File**.
+2. Click **Browse** and select your family templates folder. Then choose a template under **Select Family Template**.
+3. Choose how to place the file: **Import Center to Center** or **Import Origin to Internal Origin**.
+4. Click **Import** and select the .dxf file.
 
 ![PointKit import dxf](../../../assets\images\PointKit\PK-ImportDXF.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Import ASCII point cloud file
 
-Click and select the ASCII file to be imported from your computer.
+Import a point cloud saved as an ASCII text file (.pts or .xyz).
 
-![PointKit import ASCII](../../../assets\images\PointKit\PK-ImportASCII.png)  
+Steps:
+
+1. Click the arrow next to **Import DXF File** and choose **Import ASCII point cloud file**.
+2. Select the .pts or .xyz file on your computer.
+
+The file's origin is placed at Revit's internal origin.
+
+![PointKit import ASCII point cloud file](../../../assets\images\PointKit\PK-ImportASCII.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
 
 ## Export
 
-Click to export the current point cloud. 
+Export the isolated points, or the whole point cloud when nothing is isolated.
 
-- Use the checkbox to choose Export Points and Export Mesh.
-- In the first list, select the density level to be exported.
-- Select the checkbox if you want to Open Family After Export. And then, open the browse to select the file.
+Steps:
+
+1. Click **Export**.
+2. Choose **Export Points**, **Export Mesh** or both.
+3. Choose the density: **Low Density**, **Medium Density** or **High Density**.
+4. **Open Family After Export (Only For DXF Files)** is selected by default. It creates a family from the exported .dxf file and opens it: browse to your family templates folder, then choose a family template and the orientation (**Import Center to Center** or **Import Origin to Internal Origin**). Clear the checkbox if you only need the file.
+5. Click **Export** and choose where to save the file.
 
 {: .note }
-Applied only for .DXF files.
+Points alone can be saved as .pts, .xyz or .dxf. When **Export Mesh** is selected, the file is saved as .dxf.
 
-- Select Family template
-- Select the radio button to choose the orientation of the file to be imported. You can choose to import Center to Center or On Origin to Internal Origin.
-
-![PointKit export](../../../assets\images\PointKit\PK-Export.png)  
+![PointKit export](../../../assets\images\PointKit\PK-Export.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ---
@@ -111,3 +132,5 @@ Applied only for .DXF files.
 If you want to find out more about PointKit and explore detailed tutorials on how to use it, visit our YouTube channel. There, you'll find a series of videos that can help answer questions and improve your knowledge. Be sure to check it out and subscribe to keep up to date with our news and tips!
  
 [DiRoots Channel](https://www.youtube.com/@DiRootsNews){: .btn .btn-di-orange }
+
+<sub>Point cloud in the animations: "LiDAR point-cloud: George IV Bridge, National Library of Scotland", University of Edinburgh and National Library of Scotland, [doi.org/10.34812/6ch4-rp49](https://doi.org/10.34812/6ch4-rp49), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changed: thinned, rotated, recentred, cropped, recoloured, heights shifted and converted for PointKit.</sub>
