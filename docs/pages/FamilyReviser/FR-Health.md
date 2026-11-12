@@ -5,9 +5,12 @@ parent: FamilyReviser
 nav_order: 5
 ---
 
-# FamilyReviser
+# Health
 {: .no_toc }
-Manage your Revit families (rename, add prefix and suffix, save them in an organised way) and worksets (modify worksets by category or create your own rules).
+
+Check your model's loadable families for warnings and errors, see their file sizes, and find out which families need attention.
+{: .fs-6 .fw-300 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -16,22 +19,73 @@ Manage your Revit families (rename, add prefix and suffix, save them in an organ
 
 ---
 
-# Health
+## Run a health check
 
-The Health tool Run a check to analyze all model families to identify some errors.
-Click Run Health Check to verify if there are families with errors.
+1. Open **FamilyReviser** and select the **Health** tab. The list shows the name and type of each editable loadable family. System families, such as walls and floors, are not included.
 
-The families with error will show a warming icon, and you can click it to see the Revit message about the problem.
+2. Click **Run Health Check**. FamilyReviser checks each family and fills in the **File Size** and **Status** columns. In Revit 2027, read the warning shown before the check and choose whether to continue.
 
-![FamilyReviser ryn health check](../../../assets\images\FamilyReviser\FR-Ht-Run.gif)
+3. When the check finishes, review the results. Click a **Warning** or **Invalid** icon to read the messages for that family type.
 
-<sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+> If you load, delete, or rename families after opening the Health tab, close and reopen FamilyReviser before running the check. Otherwise, the list may be out of date. A deleted family can stop the check before it finishes.
+{: .warning }
 
+![FamilyReviser run health check](../../../assets/images/FamilyReviser/FR-Ht-Run.gif)
+
+> Screenshots may show an earlier version of FamilyReviser.
 {: .note }
-This diagnosis of errors in families is reported by Revit and is collected in the Health check in FamilyReviser.
+
+The check opens families one at a time, so larger family collections can take longer. To stop, click **Cancel**. Results already collected remain in the list; unchecked types stay blank.
+
+## Understand the results
+
+- **Valid:** none of the checks found a problem.
+- **Warning:** at least one warning was found, but no errors.
+- **Invalid:** an error was found, or FamilyReviser could not complete the check for that family.
+
+> A Valid result means the family passed these checks. It is not a complete assessment of its quality or performance.
+{: .note }
+
+Results are listed by family type. A problem found in the family itself appears against all its types. Duplicate messages are shown only once for each type.
+
+## What is checked and how to fix it
+
+### Revit warnings and errors
+
+FamilyReviser reads the warnings stored inside each family, such as overlapping lines. It shows Revit's own messages so you can identify the issue.
+
+To investigate, edit the family in Revit and open **Manage > Inquiry > Warnings**. Resolve the reported issues, load the updated family back into your project, and run the check again.
+
+### Families that could not be checked
+
+If FamilyReviser cannot open a family or read its file size, the result is **Invalid** and no file size is shown. Click the icon to see the reason.
+
+- **File not found:** the original family file may have been moved, renamed, or deleted. Restore it at the path shown in the message and run the check again. The family may still open in your project even though that file is missing.
+- **Another error:** try editing the family in Revit. If it cannot be opened, replace it with a working copy.
+
+### Missing family or type information
+
+FamilyReviser also looks for these less common issues. Messages may use the term *family symbol*, which means a family type.
+
+- **No valid category — Invalid:** edit the family and assign a category using **Family Category and Parameters**.
+- **No valid family — Invalid:** reload the family from its original file.
+- **No parameters — Warning:** reload the family from its original file.
+- **No valid type name — Warning:** give the type a name in **Type Properties**.
+
+## Understand file sizes
+
+**File Size** shows the family file's size in MB. FamilyReviser reads the file at the path stored by Revit. If no path is stored, it measures a temporary copy and deletes that copy after the check.
+
+The value describes the family file; it does not measure how much memory the family uses in your project. When an existing file is measured, its size may differ from the family currently edited in the model.
+
+## Export or select results
+
+Click **Export to Excel** to save the results. Each family type gets a row with its family name, type name, file size, status, and messages. The **Warnings** column includes both warnings and errors.
+
+To select a family type in Revit, right-click its row and choose **Select Highlighted Elements**.
 
 ---
 
-If you want to find out more about FamilyReviser and explore detailed tutorials on how to use it, visit our YouTube channel. There, you'll find a series of videos that can help answer questions and improve your knowledge. Be sure to check it out and subscribe to keep up to date with our news and tips!
+For more FamilyReviser tutorials, visit the DiRoots YouTube channel.
 
 [DiRoots Channel](https://www.youtube.com/@DiRootsNews){: .btn .btn-di-orange }
