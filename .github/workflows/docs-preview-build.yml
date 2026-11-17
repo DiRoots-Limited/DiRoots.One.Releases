@@ -1,0 +1,19 @@
+name: Docs preview build
+
+# Builds a preview of documentation pull requests without any credentials. The trusted
+# publisher (docs-preview-publish.yml) publishes the result after this workflow succeeds.
+# Keep this file name: the publisher only trusts runs of this workflow file.
+on:
+  pull_request:
+    branches: [gh-pages]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: DiRoots-Limited/DiRoots.Public.Workflows/.github/workflows/docs-preview-build.yml@8ba2b9bc6aa6f518e6e6df7b69ee041b21b80f15 # v1
+    with:
+      site-url: https://docs.dirootsone.diroots.com
+    # No secrets mapping and never secrets: inherit.
