@@ -1,0 +1,31 @@
+name: Docs preview publish
+
+# Trusted publisher for documentation PR previews. The default-branch copy publishes previews
+# (workflow_run) and runs the monthly cleanup; the gh-pages copy removes a preview as soon as its
+# PR closes (pull_request_target is read from the PR base branch). Keep both copies identical.
+on:
+  workflow_run:
+    workflows: [Docs preview build]
+    types: [completed]
+  pull_request_target:
+    branches: [gh-pages]
+    types: [closed]
+  schedule:
+    - cron: '17 3 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    permissions:
+      contents: read
+      actions: read
+      pull-requests: write
+    uses: DiRoots-Limited/DiRoots.Public.Workflows/.github/workflows/docs-preview-publish.yml@2fa4c708286065cb6a53dab7d9dfdbdad320cb8f # v1.1
+    with:
+      site-url: https://docs.dirootsone.diroots.com
+      app-id: ${{ vars.DOCS_PREVIEW_APP_ID }}
+    secrets:
+      app-private-key: ${{ secrets.DOCS_PREVIEW_APP_PRIVATE_KEY }}
