@@ -30,9 +30,9 @@ To make it easier to see the parameter values, use a schedule view.
 
 ## Select Parameter
 
-1. Use the radio button to filter the Parameters in the Whole Model or Active View.
+1. Use the radio button to choose the scope: Whole Model, Active View or Selection. Selection works only on the elements selected in Revit. If elements are selected when you start OneParameter, it opens in Selection. When you return to the window after changing the selection in Revit, the lists refresh.
 
-2. First, the user has to select a parameter to manage. In the table on the left, use the list to filter the parameters by Instance or Type.
+2. First, the user has to select a parameter to manage. Use the Categories list to choose the categories whose parameters are shown. In the table on the left, use the Parameter Type list to filter the parameters by Instance or Type.
 
    ![Filter Instance and Type parameters](../../../assets\images\OneParameter\OP-FilterInstanceType.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -42,7 +42,7 @@ To make it easier to see the parameter values, use a schedule view.
    ![Search parameters](../../../assets\images\OneParameter\OP-Search.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-4. Click on the buttons below the table to sort the parameters by Type or Instance.
+4. Click on the buttons below the table to sort the parameters by Type or Instance. Click the same button again to clear the sorting.
 
 ![Sort parameters](../../../assets\images\OneParameter\OP-Sort.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -51,11 +51,13 @@ To make it easier to see the parameter values, use a schedule view.
 
 After selecting a parameter, enter a value assigned to the parameter to be searched for.
 
-1. Enable or disable the "Case sensitive" option to find values with upper and lower case letters. 
+1. Choose how to match the value: Contained (the value is part of the parameter value), Entire value, Empty or Not Empty. For Empty and Not Empty no value is needed.
 
-2. Click to Find values. Note that in the bottom right corner, the legend will show the total number of items found with the value entered.
+2. Enable or disable the "Case Sensitive" option (the Aa button) to find values with upper and lower case letters.
 
-3. Click on the eye icon to select the elements found in the current view.
+3. Click Find. The elements found are listed in a grid with the columns Category, Family, Type, Element ID, Current Value and New Value. In family documents a Nested column is also shown. In the bottom left corner, "Total Items" shows the number of elements found.
+
+4. To see the elements in the model, select rows in the grid, right-click and choose Show Elements.
 
 ![Find parameter values](../../../assets\images\OneParameter\OP-FilterValue.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -65,7 +67,7 @@ After selecting a parameter, enter a value assigned to the parameter to be searc
 When a parameter is selected, add a prefix and a suffix to the values assigned to the parameter, just enter a value and click add.
 
 {: .note }
-If you have filtered values in the previous field (Filter by parameter value), the prefix and suffix added will only be assigned to the filtered values. If there is no filtered parameter, the suffix and prefix will be added to all the values of the selected parameter.
+The prefix and suffix are only added to the elements found with Find (Filter by parameter value). Click Find first. The result is shown in the New Value column and is written to the model when you click Apply.
 
 ![Add prefix and suffix](../../../assets\images\OneParameter\OP-PrefixSuffix.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -75,17 +77,23 @@ If you have filtered values in the previous field (Filter by parameter value), t
 When a parameter is selected, use the Parameter Value tools.
 
 {: .note }
-If you have filtered values in the previous field (Filter by parameter value), the actions in the Parameter Value section will only be assigned to the filtered values. If there is no filtered parameter, the actions in the Parameter Value section will be applied to all values of the selected parameter.
+The actions in the Parameter Value section only affect the elements found with Find (Filter by parameter value). Click Find first. They change the New Value column; nothing is written to the model until you click Apply.
 
-1. Click the "Clear parameter Value" button to remove the values assigned to the selected Parameter.
+1. Click the "Clear Values" button at the bottom to empty the New Value column of all listed elements. Confirm the message that appears. Click Apply to write the empty values to the model.
 
    ![Clear parameter value](../../../assets\images\OneParameter\OP-ClearValue.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Enter a value and click the "Add" button to add the value in bulk.
+2. Choose "Replace entire value" or "Replace only searched value". The second option replaces the first occurrence of the searched value inside each parameter value and is available only when the match option is Contained.
+
+3. Enter a value and click the "Add" button to add the value in bulk to the New Value column.
 
 ![Add value](../../../assets\images\OneParameter\OP-Add.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneParameter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+### Apply
+
+Changes are first shown in the New Value column and are not written to the model yet. Review the column, then click the Apply button at the bottom to write the new values to the elements listed in the grid.
 
 ---
 

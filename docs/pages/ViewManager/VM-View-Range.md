@@ -6,8 +6,8 @@ nav_order: 5
 nav_sections:
   - title: "Manual actions"
     anchor: manual-actions
-  - title: "Batch View Change"
-    anchor: batch-view-change
+  - title: "Batch View Range Change"
+    anchor: batch-view-range-change
   - title: "Clear all modifications"
     anchor: clear-all-modifications
 ---
@@ -25,6 +25,9 @@ Manage all the Views in your project, as well as View Templates and View Range s
 
 # View Range tab
 
+{: .note }
+The View Range tab is available for premium users only.
+
 Manage the View Range of your Views individually or in batches in one place.
 
 ## Manual actions
@@ -37,6 +40,10 @@ Manage the View Range of your Views individually or in batches in one place.
 
 4. Filter View Types by selecting in the drop-down list in the View Type column header.
 
+5. The table also has columns for the Cut Plane Level and Cut Plane Offset, next to the Top, Bottom and View Depth columns.
+
+6. Use the search box to find views by name, or select Hide Unchecked Views to show only the checked views.
+
 {: .note }
 Please note that all View Range settings made with the plug-in must respect Revit's view range rules. If the rules are not respected, the settings will not be applied and a warning will be displayed.
 
@@ -46,9 +53,9 @@ Please note that all View Range settings made with the plug-in must respect Revi
 
 ---
 
-## Batch View Change
+## Batch View Range Change
 
-Select multiple views and click to manage it in batch. In this window, you can also change the Top Level, Bottom Level, Depth Level and the Offsets from the selected views.
+Select multiple views and click Batch View Range Change to manage them in batch. In this window, you can also change the Top Level, Cut Plane Level, Bottom Level, Depth Level and the Offsets from the selected views.
 
 ![View Range manual actions](../../../assets\images\ViewManager\VM-Vr-Batch.gif)
 
@@ -58,7 +65,7 @@ Select multiple views and click to manage it in batch. In this window, you can a
 
 ## Clear all modifications
 
-Click the Clear all Modifications button, and reset all edits applied to the view names and numbers, in the table view.
+Click the Clear all Modifications button, and reset all edits made in the View Range table.
 
 ![View Range clear all](../../../assets\images\ViewManager\VM-Vr-Clear.gif)
 

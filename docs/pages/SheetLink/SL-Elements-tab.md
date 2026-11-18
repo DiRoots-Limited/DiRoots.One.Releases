@@ -23,6 +23,9 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Elements
 
+{: .note }
+The Elements tab is available for premium users only.
+
 The first step is to select the SheetLink in the DiRootsOne menu and to choose the Elements tab. 
 
 Steps:
@@ -30,14 +33,16 @@ Steps:
 1. Click a radio button to choose which categories to show:
    - **Whole Model** shows all existing model categories.
    - **Active View** shows the categories in the current view.
-   - **Current Selection** shows the categories in the current selection.
+   - **Current Selection** shows the categories in the current selection. If elements are already selected in Revit when you open the tab, this option is chosen for you.
 
-2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
+2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID. Export by Type ID exports only the type parameters, with one row per type, so the instance parameters are not available. With Whole Model, it also lists the types that are not placed in the model.
 
    ![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-El-LinkedfileTypeID.png)<br />
    <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-3. Select a category in the Select Category table, and use the checkboxes in the table below to choose the specifics type elements.
+3. Select a category in the Select Category table, and use the checkboxes in the table below to choose the specifics type elements. Select Hide un-checked categories or Hide un-checked elements below a table to show only its checked rows.
+
+   Right-click the elements in the table to choose Select Highlighted Elements or Show Highlighted Elements. The menu also offers Isolate Highlighted Elements, or Unisolate Highlighted Elements when a temporary isolate is active in the view.
 
 ![SheetLink choosing elements](../../../assets\images\SheetLink\SH-El-SelectElements.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -56,6 +61,8 @@ The search box will search for categories contained in the Select Categories and
 Once you've chosen the elements, SheetLink has options to see only instance, type and read-only parameters.
 
 Click on the table headers to select the instance parameters, for example.
+
+Right-click the Available Parameters or Selected Parameters list to choose Order By Instance, Order By Type or Select All.
 
 {: .note }
 If selected, the instance parameters, will shown it in the green.
@@ -147,14 +154,14 @@ Select the Reset Values button to clear all the elements and available and selec
 
 ### Preview/Edit
 
-Click to preview and edit the sheet before exporting it.
+Click to preview and edit the sheet before exporting it. Reset Values in the Preview tab discards your edits and reloads the sheet. Click Update Model in the Preview tab to write the edited values directly to the Revit model, without exporting to Excel first.
 
 ![SheetLink Reset Values](../../../assets\images\SheetLink\SH-El-Preview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Export
 
-Click to export the sheet to Google Drive or Excel.
+Click to export the sheet to Google Drive or Excel. The Export Options dialog opens first. Open Excel File After Export is selected by default and opens the Excel file when the export is finished.
 
 ![SheetLink Export sheet](../../../assets\images\SheetLink\SH-El-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -173,7 +180,7 @@ If you are altering the value of 'Type Parameters', ensure that you have the sam
 
 ### Import
 
-If you have made any edits to the file, import it and update the current model in Revit. Before importing the file, you can preview the sheet to be sure, and then complete the import.
+If you have made any edits to the file, import it and update the current model in Revit. Before importing the file, you can preview the sheet to be sure, and then complete the import. To preview, choose Preview Import in the Import dropdown and select the file. The file opens in the Preview tab, where you can edit it and click Update Model to import it.
 
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-El-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

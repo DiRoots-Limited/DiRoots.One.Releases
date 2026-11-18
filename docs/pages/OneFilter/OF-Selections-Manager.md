@@ -37,6 +37,13 @@ Select the elements in the view and click the Save New Selection button. Now, en
 ![Selection Manager select elements](../../../assets\images\OneFilter\OF-Sm-New-Selection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
+### Isolate and Hide
+
+{: .note }
+The Isolate and Hide buttons are available for premium users only.
+
+Click the Isolate button to isolate the selection in the Active View, or the Hide button to hide it.
+
 ### Select
 
 Click the Select button to select the elements in the current view.

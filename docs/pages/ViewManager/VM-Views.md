@@ -71,6 +71,8 @@ Right-click on the view and it will show you three options for duplicating it.
 
 2. Duplicate with Detailing: duplicate view with all detail geometry and annotation into the new view.
 
+3. Duplicate as a Dependent: the new view is a dependent view of the original, as described in the batch actions below.
+
 ![View Manager duplicate view](../../../assets\images\ViewManager\VM-Vw-Duplicate.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ViewManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -95,7 +97,7 @@ Select the views and click on the Batch Actions list.
 
 2. Duplicate with Detailing: duplicate views with all detail geometry and annotation into the new views.
 
-3. Duplicate as a Dependant: all dependent views, remain synchronous with the primary view and all other dependent views, so that when view-specific changes (such as view scale and annotations) are made in one view, they are reflected in all views.
+3. Duplicate as a Dependent: all dependent views, remain synchronous with the primary view and all other dependent views, so that when view-specific changes (such as view scale and annotations) are made in one view, they are reflected in all views.
 
 ![View Manager duplicate view](../../../assets\images\ViewManager\VM-Vw-DuplicateinBatch.gif)
 
@@ -103,7 +105,7 @@ Select the views and click on the Batch Actions list.
 
 ### Delete Views
 
-Select the views and click on the Delete button.
+Select the views and choose Delete in the Batch Actions list.
 
 ![View Manager delete view](../../../assets\images\ViewManager\VM-Vw-DeleteBatch.gif)
 
@@ -113,7 +115,7 @@ Select the views and click on the Delete button.
 
 ### Import/Export
 
-Export an Excel file, edit it as you want, then import it into View Manager and update the number and name of the sheets. You can also import this Excel file in another project to use as a template.
+Export an Excel file, edit it as you want, then import it into View Manager to update the views. You can also import this Excel file in another project to use as a template.
 
 1. Export the excel file from view list.
 

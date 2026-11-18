@@ -27,7 +27,7 @@ Quickly find your families in Revit models. Search by category, parameter name a
 
 # Rule Filters
 
-The Rule Filters tab is for users to manage the filters they have already created in revit. These filters will appear in the Select Rube-based Filters table, select them to manage it.
+The Rule Filters tab is for users to manage the filters they have already created in revit. These filters will appear in the Select Rule-based Filters table, select them to manage it.
 
 1. The first step is to select whether you want to apply filters based on the Whole Model or the Active View. Select the radio button to choose the view.
 

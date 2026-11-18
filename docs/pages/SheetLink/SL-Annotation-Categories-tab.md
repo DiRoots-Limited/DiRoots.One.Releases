@@ -23,6 +23,9 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Annotation Categories
 
+{: .note }
+The Annotation Categories tab is available for premium users only.
+
 The first step is to select the SheetLink in the DiRootsOne menu and to choose the Annotation Categories tab. 
 
 Steps:
@@ -32,15 +35,15 @@ Steps:
    {: .note }
    The 'Whole Model' radio button will show the existing all annotation categories.
    The 'Active View' radio button will show the existing annotation categories in the current view.
-   The 'Current Selection' radio button will show the existing annotation categories in the current selection.
+   The 'Current Selection' radio button will show the existing annotation categories in the current selection. If elements are already selected in Revit when you open the tab, this option is chosen for you.
 
-2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID
+2. Use the checkboxes above the table to select to Include Linked Files and to Export by Type ID. Export by Type ID exports only the type parameters, with one row per type, so the instance parameters are not available. With Whole Model, it also lists the types that are not placed in the model.
 
    ![SheetLink including linked files and exporting by type ID](../../../assets\images\SheetLink\SH-IncludeLink.png)<br />
    <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
-3. Use the checkboxes to select specific annotation categories, or use the checkbox in the table header to select all annotation categories.
+3. Use the checkboxes to select specific annotation categories, or use the checkbox in the table header to select all annotation categories. Select Hide un-checked categories below the table to show only the checked categories.
 
 ![SheetLink Selecting annotation categories](../../../assets\images\SheetLink\SH-Select-AnCategories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -60,10 +63,14 @@ After to choose the categories, the SheetLink has options to see just instance, 
 
 Click on the table headers to select the instance parameters, for example.
 
+Right-click the Available Parameters or Selected Parameters list to choose Order By Instance, Order By Type or Select All.
+
 {: .note }
 If selected, the instance parameters, will show it in the green color.
 If selected the type parameters, will show it in the yellow color.
 If selected the read-only parameters, will show it in the red color.
+
+The Family + Type (editable) parameter is listed for categories that contain family instances. It is not available with Export by Type ID. In Excel it becomes a Family and a Type column with dropdown lists, and the chosen Family and Type are applied to the elements on import. If a Family or Type is not valid, Excel shows an Invalid Family or Invalid Type alert.
   
 
 ![SheetLink select the parameters](../../../assets\images\SheetLink\SH-ac-SelectInstance.gif)  
@@ -142,13 +149,13 @@ Select the Reset Values button to clean all the parameters available and selecte
 
 ### Preview/Edit
 
-Click to preview and to edit the sheet before exporting.
+Click to preview and to edit the sheet before exporting. Reset Values in the Preview tab discards your edits and reloads the sheet. Click Update Model in the Preview tab to write the edited values directly to the Revit model, without exporting to Excel first.
 ![SheetLink Reset Values](../../../assets\images\SheetLink\SH-ac-Preview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Export
 
-Click to export the sheet to Google Drive or Excel.
+Click to export the sheet to Google Drive or Excel. The Export Options dialog opens first. Open Excel File After Export is selected by default and opens the Excel file when the export is finished.
 ![SheetLink export sheet](../../../assets\images\SheetLink\SH-ac-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -166,7 +173,7 @@ If you are altering the value of 'Type Parameters', ensure that you have the sam
 
 ### Import
 
-If you have made some file edition, import it and update the current model on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import.
+If you have made some file edition, import it and update the current model on Revit. Before importing the file, you can preview the sheet to make sure, and after conclude the import. To preview, choose Preview Import in the Import dropdown and select the file. The file opens in the Preview tab, where you can edit it and click Update Model to import it.
 
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-ac-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

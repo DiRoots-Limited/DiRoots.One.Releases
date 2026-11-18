@@ -13,6 +13,8 @@ nav_sections:
     anchor: elevation-and-section-views
   - title: "Right-click actions"
     anchor: right-click-actions
+  - title: "Profiles"
+    anchor: profiles
   - title: "Update Views"
     anchor: update-views
 ---
@@ -60,6 +62,14 @@ Select the Linked Files checkbox to also manage linked model rooms/spaces.
 ![DiRootsOne Quick Views - linked files](../../../assets\images\QuickViews\QV-LinkedFiles.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
+### Parent View
+
+When Whole Model is selected, the table has a Parent View column. For each room or space, choose the view in which its Callout is created.
+
+### Hide Unchecked
+
+Select the Hide Unchecked checkbox, below the table, to show only the checked rooms and spaces.
+
 ### Status list
 
 Use the Status list to filter the Callouts or Elevations/Sections views, created, not created or updated. 
@@ -87,12 +97,14 @@ In this tab, you can manage all the details for creating Callout views.
 
 5. If you want, select a View Template to create it. Note that if a View Template is selected, its settings will override the settings assigned in this window.
 
-6. Set a value for Offset from Callout boudary.
+6. Set a value for Offset from boundary.
 
-7. Choose whether you want the Callout boudary to be a rectangle or aligned with room/space boundary.
+7. Choose whether you want the Callout boundary to be a Rectangle or Aligned with room boundary.
+
+8. Select Create Callout as Dependent View to create each callout as a dependent view of its parent view.
 
 {: .note }
-Use the Info icon to see the example of the boudaries.
+Use the Info icon to see the example of the boundaries.
 
 ![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -141,6 +153,9 @@ To finish, click on the Create button and wait a few seconds for the views to be
 {: .note }
 You can also use the Select rooms/spaces buttons to choose them manually.
 
+{: .note }
+While the views are created, a progress window shows the room or space being processed and the view being created. Click Cancel to stop the run; the views created in it are rolled back.
+
 ![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-SelectCallout.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
 
@@ -154,7 +169,7 @@ Let's create some Elevation and Section views. To do this, select from the list 
 
 In this tab, you can manage all the details for creating the views.
 
-1. Choose the Elevation/Section Type.
+1. Choose the Elevation Type or Section Type.
 
 2. Select a scale to apply to the views.
 
@@ -164,7 +179,7 @@ In this tab, you can manage all the details for creating the views.
 
 5. If you want, select a View Template to create it. Note that if a View Template is selected, its settings will override the settings assigned in this window.
 
-6. Select the checkbox to Join Elevation Views into Single Marker. If the room is square or retangle, this option places all the views on a single marker.
+6. Select the checkbox to Join Elevation Views into Single Marker. If the room is square or rectangle, this option places all the views on a single marker.
 
 ![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-ViewElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -173,13 +188,13 @@ In this tab, you can manage all the details for creating the views.
 
 Now let's define the section height and offsets to the rooms and spaces.
 
-1. Section Height- open the list and choose if you want to apply the value From Instance or Absoulte, and then define de value to apply it.
+1. Section Height- open the list and choose if you want to apply the value From Instance or Absolute, and then define de value to apply it.
 
-2. Define the Offset Bottom value.
+2. Define the Offset [Bottom] value.
 
-3. Enter an Offset Left value.
+3. Enter an Offset [Left] value.
 
-4. Enter an Offset Right value.
+4. Enter an Offset [Right] value.
 
 5. Define the distance before boundary.
 
@@ -188,7 +203,7 @@ Now let's define the section height and offsets to the rooms and spaces.
 7. To conclude, define a Boundary break tolerance. For example, if there are small walls in the room, you can assign a tolerance value to create the views. Whether you want to create a view for each small wall, or a general view, without taking these smaller values into account.
 
 {: .note }
-Use the Info icon to see the boudaries and Offsets examples.
+Use the Info icon to see the boundaries and Offsets examples.
 
 ![DiRootsOne Quick Views - View tab](../../../assets\images\QuickViews\QV-OffsetsElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -221,9 +236,11 @@ Let's create a condition to count the views.
 
 2. Choose the direction to start.
 
-3. Definde the style by number or alphabet.
+3. Define the style: Number, Alphabet or Cardinal Directions.
 
 4. Enter the value to start.
+
+When the style is Cardinal Directions, the order, start direction and start value are not used. Select Include intercardinal directions to also name the views with the intercardinal directions (northeast, southeast, southwest and northwest). The Cardinal Values and Intercardinal Values show the abbreviations used.
 
 {: .warning }
 To use the View Count condition, you must to select the View Count Parameter, in the previous table.
@@ -243,13 +260,16 @@ Once you have added it, open the list to select the parameter and in the second 
 
 ---
 
-### Save settigs
+### Save settings
 
 Click Apply to save the settings and select the rooms and spaces for which you want to create Elevations/Sections views.
 To finish, click on the Create button and wait a few seconds for the views to be created.
 
 {: .note }
 You can also use the Select rooms button to choose them manually.
+
+{: .note }
+While the views are created, a progress window shows the room or space being processed and the view being created. Click Cancel to stop the run; the views created in it are rolled back.
 
 ![DiRootsOne Quick Views - create views](../../../assets\images\QuickViews\QV-SelectElevation.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
@@ -260,12 +280,18 @@ You can also use the Select rooms button to choose them manually.
 
 Right-click on the room/space within the table and you can:
 
-- Delete Callout and Elevations/Sections.
+- Delete Callout Views or Delete Elevation/Section Views.
 
-- Open Callout and Elevations/Sections.
+- Open Callout Views or Open Elevation/Section Views.
 
 ![DiRootsOne Quick Views - right-click](../../../assets\images\QuickViews\QV-RightClick.gif)  
 <sub>Note: the version on the image may not reflect the latest version of the application.</sub>
+
+---
+
+## Profiles
+
+The profile bar at the top of the QuickViews window saves the Callout and Elevation/Section settings so you can reuse them. Use the dropdown to load a profile, the import button to import a saved profile, the save button to Save or Save As, and the delete button to remove the selected profile.
 
 ---
 

@@ -24,6 +24,9 @@ Quickly find elements between Levels and Reference Planes.
 
 # Levels
 
+{: .note }
+The Levels tab is available for premium users only.
+
 The Levels tab allows the user to select categories of elements to find between Levels and Reference Plane.
 
 ## Select Category
@@ -33,7 +36,7 @@ The Levels tab allows the user to select categories of elements to find between 
    ![OneFilter select model view](../../../assets\images\OneFilter\OF-Lv-WholeModel.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, Level and count columns.
+2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, Level and count columns. Use the Categories list to filter the categories by discipline, and select Hide un-checked categories to show only the categories you ticked. Right-click rows in the table to use Select Highlighted Elements, Show Highlighted Elements or Isolate Highlighted Elements.
 
 ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Lv-Categories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -44,7 +47,7 @@ Create conditions rules to find elements between Levels and Reference Planes. Fo
 
 1. Select the AND/OR condition from the drop-down list
 
-2. Click Add Rule
+2. Click the Rule button to add a rule. Use the Set button to add a set of rules.
 
 3. Select from the Reference level or Reference plane drop-down list
 

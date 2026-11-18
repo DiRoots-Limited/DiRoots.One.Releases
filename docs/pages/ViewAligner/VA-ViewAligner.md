@@ -11,6 +11,8 @@ nav_sections:
     anchor: alignment-options
   - title: "Select Views to Align"
     anchor: select-views-to-align
+  - title: "Report"
+    anchor: report
 ---
 
 <span id="viewaligner"></span>
@@ -32,7 +34,7 @@ ViewAligner streamlines the process of positioning views across Revit sheets by 
 ## Select the Source View
 - If the active view is a sheet, the sheet and its first view will be preselected automatically.
 
-- If no sheet is active, you can manually select a sheet and a reference view from the dropdown menus.  
+- If no sheet is active, the first sheet and its first view are preselected. You can select another sheet and reference view from the dropdown menus.  
 
 ![View Aligner Select Source](../../../assets/images/ViewAligner/VA-SelectSourceView.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SectionBoxer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -45,6 +47,14 @@ ViewAligner streamlines the process of positioning views across Revit sheets by 
 - Apply Scope Box – Copies the scope box of the reference view to all selected views, maintaining consistent crop regions.
 
 - Align View Titles (Revit 2022 and later) – Applies the same style, position, and line length of the reference view title to all target views.
+
+Some options are disabled depending on the reference view:
+
+- Align by Model Coordinates is disabled when the reference view is not a plan view, and in Revit 2018. Point to the option to see the reason.
+
+- Apply Scope Box is disabled when the reference view has no scope box. The option then shows "None" as the scope box name.
+
+When you align by model coordinates, the views that are not similar to the reference view (a different scale, or not a plan view) are aligned by viewport placement instead.
 
 ## Select Views to Align
 
@@ -63,3 +73,7 @@ ViewAligner streamlines the process of positioning views across Revit sheets by 
 
 ![View Aligner Select Targets](../../../assets/images/ViewAligner/VA-SelectTargetsAndAply.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SectionBoxer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+## Report
+
+When the alignment finishes, a message confirms that the modifications were applied successfully. If some views could not be aligned, or the scope box or the view title could not be applied, a Report window lists them with the reason, including the views that were aligned by viewport placement because they are not similar to the reference view.

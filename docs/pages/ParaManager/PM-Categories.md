@@ -54,7 +54,7 @@ Once you have assigned the categories to the parameter, you can drag and drop th
 
 ### Show Existing Parameters
 
-Choose whether you want to see the existing parameters or just the new ones.
+Select the Show Existing Parameters checkbox to list the parameters that already exist in the project together with the new ones. Clear it to list only the new parameters.
 
 ![ParaManager existing parameters](../../../assets\images\ParaManager\PM-Ct-ExistingPar.gif)
 
@@ -68,6 +68,8 @@ Choose whether you want to see the existing parameters or just the new ones.
 
 Click on the Import/Export list, and select Export to Excel option. The next step is to select the parameters and click to export.
 
+In the Save dialog, choose the file type: .xlsm (default), .xlsx or .xls. Only the .xlsm file includes the category selector. Select Open Excel file after export to open the file when the export finishes.
+
 ![ParaManager export parameters to excel](../../../assets\images\ParaManager\PM-Ct-ExportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -75,6 +77,11 @@ Click on the Import/Export list, and select Export to Excel option. The next ste
 ### Import from Excel
 
 Click on the Import/Export list, and select Import from Excel option. Select the Excel file and then select the parameters to import.
+
+You can select a .xls, .xlsx or .xlsm file.
+
+{: .note }
+An Excel file exported from the Families tab cannot be imported into a project. ParaManager shows a message and imports nothing.
 
 ![ParaManager import parameters from excel](../../../assets\images\ParaManager\PM-Ct-ImportExcel.gif)
 
@@ -99,7 +106,7 @@ The next step is to select the file and choose the parameters to import.
 
 ### Search Parameters
 
-The search box will search for parameters contained in the Schedules.
+The search box filters the parameters by parameter name or value.
 
 ![ParaManager search parameters](../../../assets\images\ParaManager\PM-Ct-Search.gif)
 

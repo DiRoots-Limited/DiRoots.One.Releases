@@ -26,7 +26,10 @@ Import families from your repositories.
 1. Open FamilyReviser Import tab and choose a repository and then, open the tree and select the category of the family to import.
 
    {: .note }
-   Note that when you select a family category, it is shown in the second table. You can select specific families to import them into the project.
+   Note that when you select a family category, it is shown in the second table, with the columns File Name, Version, Repository Name and Location. You can select specific families to import them into the project.
+
+   {: .note }
+   Use the Include Repository checkbox to select all repositories, and select the checkbox below the list to Hide un-checked repositories.
 
    ![FamilyReviser select repository](../../../assets\images\FamilyReviser\FR-Im-SelectRepository.gif)
 
@@ -57,7 +60,7 @@ Click this button to select or create a new repository folder.
 
 ### Remove Repository
 
-Select one or more repositories and click to Remove Repository button. Then, confirm that you want to remove it.
+Select one or more repositories and click the Remove Repository button. Then, confirm that you want to remove it.
 
 ![FamilyReviser remove repository](../../../assets\images\FamilyReviser\FR-Im-RemoveRepository.gif)
 
@@ -65,7 +68,7 @@ Select one or more repositories and click to Remove Repository button. Then, con
 
 ### Delete Backup Families
 
-If you prefer, you can select the Delete Backup Families checkbox and then the next export will not consider the backup families.
+Select the Delete Backup Families checkbox to delete Revit's numbered backup files (for example, Door.0001.rfa) in the export folder and its zBackup folder when you export. If the checkbox is cleared, the numbered backup files are moved to the zBackup folder instead. This setting is used by the Export tab.
 
 ![FamilyReviser delete backup families](../../../assets\images\FamilyReviser\FR-Im-DeleteBackup.png)
 
@@ -73,15 +76,15 @@ If you prefer, you can select the Delete Backup Families checkbox and then the n
 
 ### Maximum backups
 
-Set a number for the maximum number of export backups.
+Set the maximum number of backup versions kept for each family in the zBackup folder when you export. Enter a number from 1 to 999 (default 10).
 
 ![FamilyReviser maximum backups](../../../assets\images\FamilyReviser\FR-Im-MaxBackup.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Group export by categories
+### Group export by category
 
-This option allows to organize the families by groups. So that, if you select this option will be created for each group of families.
+This option is used by the Export tab. If you select it, a folder is created for each category of families when you export.
 
 ![FamilyReviser group export by categories](../../../assets\images\FamilyReviser\FR-Im-GroupExport.png)
 
@@ -89,7 +92,7 @@ This option allows to organize the families by groups. So that, if you select th
 
 ### Subfolder depth
 
-Assign a value for the number of subfolders you want to be created.
+Set how many levels of subfolders below each repository are read in the Include Repository list. Enter a number from 0 to 5 (default 1).
 
 ![FamilyReviser subfolder depth](../../../assets\images\FamilyReviser\FR-Im-Subfolder.png)
 
@@ -98,7 +101,7 @@ Assign a value for the number of subfolders you want to be created.
 
 ## Import families
 
-After choosing the repository and the family category, to configure the preferences, click to Export.
+After choosing the repository and the family category, and configuring the preferences, click Import.
 The families will be imported into the project.
 
 ![FamilyReviser import families](../../../assets\images\FamilyReviser\FR-Im-ImportFamily.gif)

@@ -104,6 +104,8 @@ Steps:
 
 The file's origin is placed at Revit's internal origin.
 
+On each line, separate the values with commas or with any number of spaces and tabs. Lines that cannot be read as a point, for example lines with fewer than three values or with a value that is not a number, are skipped. If the point cloud cannot be created, or the file has no readable point, the import is cancelled and nothing is added to the model.
+
 ![PointKit import ASCII point cloud file](../../../assets\images\PointKit\PK-ImportASCII.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of PointKit/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 

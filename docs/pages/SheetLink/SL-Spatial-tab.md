@@ -23,12 +23,15 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Spatial
 
+{: .note }
+The Spatial tab is available for premium users only.
+
 The first step is to select the SheetLink from the DiRootsOne menu and to choose the Spatial tab.
 Make sure you have rooms or spaces created in the model, to be exported by SheetLink from DiRootsOne. 
 
 Steps:
 
-1. Use the checkboxes above the table to select the rooms or spaces to get the parameters.
+1. Use the dropdown above the table to choose Rooms or Spaces, then use the checkboxes to select the rooms or spaces to get the parameters. Select Hide un-checked elements below the table to show only the checked rows. Click the Reload button next to the dropdown to reload the changes from the model.
 
    ![SheetLink selecting rooms or spaces](../../../assets\images\SheetLink\SH-Sp-SelectRooms.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -47,7 +50,7 @@ The search box will search for Rooms or Spaces contained in the Select column.
 
 ### Highlighted Elements
 
-Select some rooms or spaces and right-click to choose to highlight the elements.
+Select some rooms or spaces and right-click to choose Select Highlighted Elements or Show Highlighted Elements.
 
 {: .note }
 Make sure you have the correct view opened to highlight the room.
@@ -118,18 +121,18 @@ Select the Reset Values button to clear all the available parameters and selecte
 
 ### Preview/Edit
 
-Click to preview and to edit the sheet before exporting it.
+Click to preview and to edit the sheet before exporting it. Reset Values in the Preview tab discards your edits and reloads the sheet. Click Update Model in the Preview tab to write the edited values directly to the Revit model, without exporting to Excel first.
 ![SheetLink Preview](../../../assets\images\SheetLink\SH-Sp-Preview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ### Export
 
-Click to export the sheet to Google Drive or Excel.
+Click Export Template to export the sheet to Google Drive or Excel. The Export Options dialog opens first. Open Excel File After Export is selected by default and opens the Excel file when the export is finished.
 
 ![SheetLink Export sheet](../../../assets\images\SheetLink\SH-Sp-Export.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-The Excel file is editable and after the editing of it you can import through SheetLink. The Spacial SheetLink allows you to create more rooms on Excel file exported, or export an empty Excel file template, to create rooms.
+The Excel file is editable and after the editing of it you can import through SheetLink. The Spatial SheetLink allows you to create more rooms on Excel file exported, or export an empty Excel file template, to create rooms.
 
 {: .note }
 Open the Instruction tab in your Excel file to view the color legend and other information.
@@ -148,7 +151,7 @@ Follow the example below.
 
 ### Import
 
-If you have made any edits to the file, import it and update the schedules in Revit. Before importing the file, you can preview the sheet to make sure, and then complete the import.
+If you have made any edits to the file, import it and update the rooms and spaces in Revit. Before importing the file, you can preview the sheet to make sure, and then complete the import. To preview, choose Preview Import in the Import dropdown and select the file. The file opens in the Preview tab, where you can edit it and click Update Model to import it.
 
 ![SheetLink Import file](../../../assets\images\SheetLink\SH-Sc-Import.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

@@ -55,6 +55,8 @@ Follow the steps below:
 {: .note }
 Note that the header of the Category, Family and Type tables is an accordion component. Click on these headings to expand and collapse the view of the tables.
 
+Right-click the table of elements to open a menu with these actions: Select Highlighted Elements, Show Highlighted Elements, Isolate Instances Of Highlighted Families (the item changes to Unisolate Instances Of Highlighted Families while they are isolated) and Colorize Highlighted Elements.
+
 ---
 
 ## Define Value
@@ -75,12 +77,19 @@ Note that the header of the Category, Family and Type tables is an accordion com
 Create new rules or edit existing ones.
 You can choose to define a prefix and suffix to apply the element numbering, but if you prefer you can create a rule to name the numbering. Select the Rules checkbox and the prefix and suffix fields will be locked. Click on the button to add a new rule, and the window will open with the parameters that can be added to the element numbering. 
 
+In the rule window you can also:
+
+- Set the Field Separator and add a Custom Field to the value.
+- Add a Counter, with the number it starts from.
+- Select Reset Count on parameter change, and choose the parameters to watch, to restart the count at the start value when their values change (for example, a new level).
+- Select Include Project Information Parameters to add the project information parameters to the list of parameters.
+
 ![ReOrdering rules](../../../assets\images\ReOrdering\RO-Rule.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 3. To complete the order of the elements, choose the order to be followed.
 
-   - Manually: manually select elements in the model to apply the numbering value. You will be able to apply incremental and non-incremental values.
+   - Manually: manually select elements in the model to apply the numbering value. You will be able to apply incremental and non-incremental values. In the Manually window, the Autoincrement checkbox is selected by default and advances the value after each element; clear it to apply the same value to the next element.
 
    ![ReOrdering manually](../../../assets\images\ReOrdering\RO-Manually.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -130,6 +139,8 @@ In the Gradient list, select the gradient you prefer.
 
 Click on the Configure button to edit or delete the current color ramps and create a new custom color ramp.
 
+In the same window, use the Color Brightness slider to set the global color brightness (the reset button restores the default), and select Visualize Edges to show or hide the edges of the geometry.
+
 ![ReOrdering auto](../../../assets\images\ReOrdering\RO-Configure.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -142,7 +153,7 @@ Select the Apply Colors button to add the current colors to the view model.
 
 ### Apply to Views
 
-You can choose the views to which you want to apply the current colors. Select the views to add in this window and click Apply.
+You can choose the views to which you want to apply the current colors. Select the views to add in this window and click Apply. Select Hide un-checked views to list only the checked views.
 
 ![ReOrdering apply to views](../../../assets\images\ReOrdering\RO-ApplytoView.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ReOrdering/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

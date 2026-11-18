@@ -36,7 +36,7 @@ This tab is very similar to the Filters tab, but it allows you to apply rules to
    ![OneFilter rules and sets](../../../assets\images\OneFilter\OF-Rs-WholeModel.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, in-place and count columns.
+2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, in-place and count columns. Use the Categories list to filter the categories by discipline, and select Hide un-checked categories to show only the categories you ticked. Right-click rows in the table to use Select Highlighted Elements, Show Highlighted Elements or Isolate Highlighted Elements.
 
 ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Rs-SelectCategories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -52,13 +52,13 @@ The search box will search for elements contained in the filtered elements table
 
 1. In the first list select the condition.
 
-   - AND: All rules must ne true
+   - AND: All rules must be true
    - OR: Any rules may be true
 
 2. Click on Rule button to open the field.
 
    - Choose the property to filter.
-   - In the second list choose the condition: equals, does not equal, contains, does not contain, begin with, does not begin with, does not end with or ends with.
+   - In the second list choose the condition: equals, does not equal, contains, does not contain, begins with, does not begin with, does not end with or ends with. For number parameters the conditions are equals, does not equal, is greater than, is greater than or equal to, is less than and is less than or equal to.
    - In the search bar, enter the value to search for. If you prefer, press the right arrow on your keyboard and a drop-down menu will open with the existing values.
 
    ![OneFilter rule](../../../assets\images\OneFilter\OF-Rs-Rule.gif)<br />
@@ -101,9 +101,9 @@ Click on the Export list and select the Export to Google Drive option.
 ![OneFilter export to Google Drive](../../../assets\images\OneFilter\OF-Rs-ExportDrive.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Export IDs to CSV
+### Element IDs to CSV
 
-Click on the Export list and select the Export IDs to CSV option.
+Click on the Export list and select the Element IDs to CSV option.
 
 ![OneFilter export IDs to CSV](../../../assets\images\OneFilter\OF-Rs-ExportID.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

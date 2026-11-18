@@ -38,11 +38,12 @@ In this tab, you can filter by existing categories such as areas, spaces, rooms,
    - Mass
    - Zones
    - Areas
+   - Scope Box
 
    ![OneFilter select model and environment](../../../assets\images\OneFilter\OF-Ct-WholeModel.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Now, use the checkboxes to select the categories to filter.
+2. Now, use the checkboxes to select the categories to filter. Use the Categories list to filter the categories by discipline, and select Hide un-checked categories to show only the categories you ticked.
 
 ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Ct-Categories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -50,7 +51,9 @@ In this tab, you can filter by existing categories such as areas, spaces, rooms,
 ## Select Room
 
 On this example we choose filter by Rooms, so in this table you will see the list of existing rooms.
-Select the rooms to filter the categories selected on the last step.
+Select the rooms to filter the categories selected on the last step. Select Hide un-checked elements to show only the checked rows in the table.
+
+Select Use linked files to also search the loaded Revit links. The containers of the links are added to the table, and the categories found in the links are added to the category list. When a row comes from a link, a File Name column shows the linked model. Select Highlighted Elements, Show Highlighted Elements and Section Box work with linked results. Isolate, Visualize, Save Selection and Set Parameter Value skip them. A message tells you when linked results were left out. In Revit versions before 2023, linked results cannot be selected.
 
 ![OneFilter choose rooms](../../../assets\images\OneFilter\OF-Ct-SelectRooms.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -102,9 +105,9 @@ Click on the Export list and select the Export to Google Drive option.
 ![OneFilter export to Google Drive](../../../assets\images\OneFilter\OF-Ct-ExportDrive.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Export IDs to CSV
+### Element IDs to CSV
 
-Click on the Export list and select the Export IDs to CSV option.
+Click on the Export list and select the Element IDs to CSV option.
 
 ![OneFilter export IDs to CSV](../../../assets\images\OneFilter\OF-Ct-ExportID.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

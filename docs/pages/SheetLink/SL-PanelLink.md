@@ -27,12 +27,12 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # PanelLink
 
-PanelLink is a tool to export the properties of electrical distribution panels to Exce.
+PanelLink is a tool to export the properties of electrical distribution panels to Excel.
 
 ## Select Panel Schedules
 
 In the first table, select the panels to export the properties.
-Use the search box to search for the panels.
+Use the search box to search for the panels. Select Hide un-checked elements below the table to show only the checked panels. Right-click a panel and choose Open View to open it.
 
 ![PanelLink select panel](../../../assets\images\SheetLink\SL-Pl-SelectPanel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -62,14 +62,17 @@ Clear all selections made.
 Click on the Export button and choose whether you want to export to Excel or Google Drive.
 
 {: .note }
-Note that, you can keep formatting of the schedules, but you wont be able to import the data back to Revit.
+Note that, you can keep formatting of the schedules, but you wont be able to import the data back to Revit. In the Export Options dialog, Keep Formatting of the Schedules is selected by default and Open Excel File After Export opens the Excel file when the export is finished. If you keep the formatting and have selected more than one panel, the Excel button becomes Export to Folder and one file is created for each panel.
 
 ![PanelLink export](../../../assets\images\SheetLink\SL-Pl-Export.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 ## Import
 
-Select the Import button and choose to import from Exel file or Google Drive, then update the current model.
+Select the Import button and choose to import from Excel file or Google Drive, then update the current model.
+
+{: .note }
+Import from Google Drive is available for premium users only.
 
 ![PanelLink import](../../../assets\images\SheetLink\SL-Pl-Import.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

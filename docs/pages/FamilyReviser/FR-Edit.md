@@ -35,9 +35,11 @@ Follow the steps:
 
 2. The next step is to choose the families options:
 
-- Loadable Families or System Families
+- Loadable Families, System Families, Model Groups or Assemblies
 - Choose the categories
-- If you want to search for Family Name or Type Name.
+- Choose Family Name or Type Name, to set which name Find and Replace and Prefix/Suffix change. For loadable families you can choose either; for the other options the type name is used.
+
+To filter the list, type in the search box. It matches the Family Name, Type Name and Category columns.
 
 ![FamilyReviser families options](../../../assets\images\FamilyReviser\FR-Ed-FamiliesOptions.gif)
 
@@ -59,6 +61,8 @@ a. In the first field, enter the word to Find Next or Find All.
 
 b. The second field, enter the word to Replace Next or Replace All.
 
+Click the Aa button next to the first field to turn match case on or off. It is on by default.
+
 ![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-FindReplace.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -70,6 +74,8 @@ Define a prefix and a suffix for families.
 a. In the first field, enter the prefix and set it to apply to Selected or All families.
 
 b. The second field, enter the suffix and set apply to Selected or All families.
+
+A prefix or suffix is added only once. If a name already has the prefix or suffix you added, applying the same one again leaves the name unchanged.
 
 ![FamilyReviser find and replace](../../../assets\images\FamilyReviser\FR-Ed-PrefixSuffix.gif)
 
@@ -106,9 +112,9 @@ Select Export to Excel from the list and open the file.
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Export elements ID
+### Element IDs to CSV
 
-Select the option to Export Elements ID to CSV.
+Select the option Element IDs to CSV.
 
 ![FamilyReviser export elements ID](../../../assets\images\FamilyReviser\FR-Ed-ExportID.png)
 
