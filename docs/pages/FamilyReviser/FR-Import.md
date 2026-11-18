@@ -44,7 +44,7 @@ Import families from your repositories.
 
 2. Preferences
 
-Open the Preferences pop-up to manage some details for importing families.
+Open the Preferences pop-up to manage some details for importing families. The Export tab uses the same preferences.
 
 ![FamilyReviser open the preferences](../../../assets\images\FamilyReviser\FR-Im-Preferences.gif)
 
@@ -68,7 +68,7 @@ Select one or more repositories and click the Remove Repository button. Then, co
 
 ### Delete Backup Families
 
-Select the Delete Backup Families checkbox to delete Revit's numbered backup files (for example, Door.0001.rfa) in the export folder and its zBackup folder when you export. If the checkbox is cleared, the numbered backup files are moved to the zBackup folder instead. This setting is used by the Export tab.
+Select the Delete Backup Families checkbox to delete Revit's numbered backup files (for example, Door.0001.rfa) in the export folder and its zBackup folder when you export. If the checkbox is cleared, the numbered backup files are moved to the zBackup folder instead.
 
 ![FamilyReviser delete backup families](../../../assets\images\FamilyReviser\FR-Im-DeleteBackup.png)
 
@@ -84,7 +84,7 @@ Set the maximum number of backup versions kept for each family in the zBackup fo
 
 ### Group export by category
 
-This option is used by the Export tab. If you select it, a folder is created for each category of families when you export.
+If you select this option, a folder is created for each category of families when you export.
 
 ![FamilyReviser group export by categories](../../../assets\images\FamilyReviser\FR-Im-GroupExport.png)
 

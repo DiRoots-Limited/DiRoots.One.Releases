@@ -37,7 +37,7 @@ Follow the steps:
 
 - Loadable Families, System Families, Model Groups or Assemblies
 - Choose the categories
-- Choose Family Name or Type Name, to set which name Find and Replace and Prefix/Suffix change. For loadable families you can choose either; for the other options the type name is used.
+- Choose whether Find and Replace and Prefix/Suffix change the Family Name or the Type Name. Family Name is available only for Loadable Families.
 
 To filter the list, type in the search box. It matches the Family Name, Type Name and Category columns.
 

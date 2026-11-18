@@ -50,7 +50,7 @@ Select FamilyReviser from the DiRootsOne menu and open the Export tab. Families 
 Make sure the recording location is correct to export the families.
 
 ## Preferences
-Open the Preferences pop-up window to manage some details for exporting families.
+Open the Preferences pop-up window to manage some details for exporting families. The Import tab uses the same preferences.
 
 ![FamilyReviser open the preferences window](../../../assets\images\FamilyReviser\FR-Ex-OpenPreferences.gif)
 
@@ -107,18 +107,12 @@ Set how many levels of subfolders below each repository the Import tab reads. En
 
 ## Families in linked models
 
-{: .note }
-The Families in linked models option is available for premium users only.
-
 Select the Families in linked models checkbox, next to the Preferences button, to also export the families of the loaded Revit links. Links that are not loaded, links nested inside another link and in-place families are not listed. Your choice is remembered.
 
-1. Use the list above the categories to choose the source models: All models, Current Model or one or more of the linked models.
-
-2. The second table gets a Linked file name column that shows the model each family comes from.
-
-3. By default, the families of each linked model are exported to a subfolder named after the linked model. If you choose another repository or folder for a row, the families are still saved in a subfolder named after the linked model.
-
-4. A Location shown in red is too long: the full path of the family file is longer than the 259 characters Windows allows, so the file cannot be saved. Choose a shorter location for that row.
+- Use the list above the categories to choose the source models: All models, Current Model or one or more of the linked models.
+- The second table shows a Linked file name column with the model each family comes from.
+- By default, the families of each linked model are exported to a subfolder named after the linked model, even if you choose another repository or folder for the row.
+- A Location shown in red is too long: the full path of the family file is longer than the 259 characters Windows allows, so the file cannot be saved. Choose a shorter location for that row.
 
 If two families would be saved to the same file, a message lists them and asks whether to continue. Only the last of them is kept.
 

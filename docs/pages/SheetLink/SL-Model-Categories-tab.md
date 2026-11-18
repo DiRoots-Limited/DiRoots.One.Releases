@@ -23,9 +23,6 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Model Categories
 
-{: .note }
-The Model Categories tab is available for premium users only.
-
 The first step is to select the SheetLink from the DiRootsOne menu and to choose the Model Categories tab. 
 
 Steps:

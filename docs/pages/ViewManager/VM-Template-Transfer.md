@@ -25,9 +25,6 @@ Manage all the Views in your project, as well as View Templates and View Range s
 
 # Template Transfer tab
 
-{: .note }
-The Template Transfer tab is available for premium users only.
-
 The Template Transfer allows you to copy the View Template properties from several View Templates.
 
 ## Select Origin Template
@@ -60,23 +57,23 @@ In this table, you can choose one or more properties from the Origin View Templa
 
 1. Use the search box to search for view template properties.
 
-2. Use the checkboxes to select the properties.
+2. Use the checkboxes to select the properties. The View Scale is also transferred when you select it.
 
-3. For the V/G Overrides properties (the Model, Annotation, Analytical Model and Import categories, the Filters and the Revit Links), a count of the items to transfer (for example 12/40) and a "..." button appear on the row once you check it. By default all items are transferred. Click the "..." button to choose which items to transfer: use the search box to find items, and select the items you want. The Model, Annotation and Analytical Model lists also have a discipline filter. Click Apply to keep the choice. Items you do not select keep the settings they have in the destination view templates.
+3. For the V/G Overrides properties (the Model, Annotation, Analytical Model and Import categories, the Filters and the Revit Links), check the row to show a count of the items to transfer (for example 12/40) and a "..." button. By default all items are transferred.
+
+   Click the "..." button to choose the items: use the search box to find items (the Model, Annotation and Analytical Model lists also have a discipline filter), select the ones you want, and click Apply. Items you don't select keep their settings in the destination view templates.
 
 4. For the Filters, the picker also has an Override behavior choice, which sets what happens to the filters that already exist in the destination view templates:
 
    - Add only new - do not change existing filters
    - Add and overwrite existing filters (the default)
-   - Replace all filters - destination filters are removed
+   - Replace all filters
 
 {: .warning }
 Replace all filters removes the filters of the destination view templates that are not in the origin selection.
 
 {: .note }
 Check the option Hide unchecked properties to see only the selected properties.
-
-The View Scale is also transferred when you select it.
 
 ![Selecting Origin Properties](../../../assets\images\ViewManager\VM-Tt-Properties.gif)
 

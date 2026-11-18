@@ -18,9 +18,6 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Schedules
 
-{: .note }
-Exporting to Excel or Google Drive, and importing with Import from Excel, Import from Google, Preview Import or Update Model, are available for premium users only.
-
 The first step is to select the SheetLink from the DiRootsOne menu and choose the Schedules tab.
 Make sure that you have created a schedule in Revit, to be exported by SheetLink from DiRootsOne. 
 

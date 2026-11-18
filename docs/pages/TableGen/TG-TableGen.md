@@ -93,15 +93,15 @@ Advanced Mapping settings provide greater control over how Excel data is convert
 
 Use these settings to align imported tables with office standards, control style creation, preserve Revit formatting during updates, and define how units and formatting should be displayed.
 
-### Use Advanced Mapping
+### Use advanced mapping
 
-If you have existing views in TableGen, Use Advanced Mapping is disabled by default to prevent affecting those views.
+If you have existing views in TableGen, Use advanced mapping is disabled by default to prevent affecting those views.
 
-Enabling Use Advanced Mapping activates Line/Text Styles and Update Behavior features.
+Enabling Use advanced mapping activates Line/Text Styles and Update Behavior features.
 
 The General tab of the Style Mapping Settings window holds Use advanced mapping, Update behavior, the Black and White settings and the Decimal symbol/Digit grouping settings.
 
-![TableGen Global Settings](../../../assets\images\TableGen\TG-280-GlobalSettings.gif)
+![TableGen Style Mapping Settings](../../../assets\images\TableGen\TG-280-GlobalSettings.gif)
 <sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
 
 ### Line & Text Mapping
@@ -276,7 +276,7 @@ The view type cannot be changed after the view has been created in Revit.
 
 - **View Scale** - sets the scale of the Revit view.
 
-- **File Path** - shows the path to the source file. Can be toggled between absolute and relative path via the context menu or batch action. If the stored path no longer exists and the file is in a SharePoint library synced with OneDrive, TableGen finds it where the library is synced on your PC. When TableGen finds the file at a different path, it updates the stored path and does not mark the table as modified.
+- **File Path** - shows the path to the source file. Can be toggled between absolute and relative path via the context menu or batch action. If the stored path no longer exists and the file is in a SharePoint library synced with OneDrive, TableGen finds it where the library is synced on your PC and updates the stored path.
 
 
 ## Batch Actions
@@ -305,7 +305,7 @@ The "Batch Actions" dropdown allows you to perform various actions on multiple v
 The context menu, accessible by right-clicking on any row in the grid, allows you to run the same commands on the currently selected rows. It also has an additional command:
 -  **Open View** - opens the view in Revit
 
-Press the Delete key to delete the selected rows, as with the Delete command. The key does nothing while you are editing a cell or typing in a text box or dropdown.
+Press the Delete key to delete the selected rows, as with the Delete command.
 
 
 ## Tables synchronization
@@ -321,8 +321,6 @@ The Auto Sync checkbox, available for each view in the main grid, enables automa
 ## Reload all views from the ribbon
 
 Hold Ctrl while clicking the TableGen button on the Revit ribbon to reload all TableGen views in the model from their saved settings, without opening the TableGen window. Views that do not pass the same checks as an update in the TableGen window are listed in a report. If the model has no TableGen views, TableGen shows a message instead.
-
-If the TableGen window is already open, Ctrl+click brings the window to the front and does not reload.
 
 ## Black and White – Remove color formatting
 

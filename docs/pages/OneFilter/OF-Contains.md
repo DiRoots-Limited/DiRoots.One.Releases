@@ -53,7 +53,11 @@ In this tab, you can filter by existing categories such as areas, spaces, rooms,
 On this example we choose filter by Rooms, so in this table you will see the list of existing rooms.
 Select the rooms to filter the categories selected on the last step. Select Hide un-checked elements to show only the checked rows in the table.
 
-Select Use linked files to also search the loaded Revit links. The containers of the links are added to the table, and the categories found in the links are added to the category list. When a row comes from a link, a File Name column shows the linked model. Select Highlighted Elements, Show Highlighted Elements and Section Box work with linked results. Isolate, Visualize, Save Selection and Set Parameter Value skip them. A message tells you when linked results were left out. In Revit versions before 2023, linked results cannot be selected.
+Select Use linked files to also search the loaded Revit links. The containers of the links are added to the table, the categories found in the links are added to the category list, and a File Name column shows the linked model for each linked row.
+
+- Select Highlighted Elements, Show Highlighted Elements and Section Box work with linked results.
+- Isolate, Visualize, Save Selection and Set Parameter Value skip them, and a message tells you when linked results were left out.
+- In Revit versions before 2023, linked results cannot be selected.
 
 ![OneFilter choose rooms](../../../assets\images\OneFilter\OF-Ct-SelectRooms.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

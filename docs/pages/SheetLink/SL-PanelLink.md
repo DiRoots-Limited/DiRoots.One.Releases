@@ -62,7 +62,9 @@ Clear all selections made.
 Click on the Export button and choose whether you want to export to Excel or Google Drive.
 
 {: .note }
-Note that, you can keep formatting of the schedules, but you wont be able to import the data back to Revit. In the Export Options dialog, Keep Formatting of the Schedules is selected by default and Open Excel File After Export opens the Excel file when the export is finished. If you keep the formatting and have selected more than one panel, the Excel button becomes Export to Folder and one file is created for each panel.
+In the Export Options dialog, Keep Formatting of the Schedules is selected by default. If you keep the formatting, you won't be able to import the data back to Revit.
+
+If you keep the formatting and select more than one panel, the Excel button becomes Export to Folder and one file is created for each panel. Open Excel File After Export opens the file when the export finishes.
 
 ![PanelLink export](../../../assets\images\SheetLink\SL-Pl-Export.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -70,9 +72,6 @@ Note that, you can keep formatting of the schedules, but you wont be able to imp
 ## Import
 
 Select the Import button and choose to import from Excel file or Google Drive, then update the current model.
-
-{: .note }
-Import from Google Drive is available for premium users only.
 
 ![PanelLink import](../../../assets\images\SheetLink\SL-Pl-Import.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

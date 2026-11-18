@@ -23,9 +23,6 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Annotation Categories
 
-{: .note }
-The Annotation Categories tab is available for premium users only.
-
 The first step is to select the SheetLink in the DiRootsOne menu and to choose the Annotation Categories tab. 
 
 Steps:

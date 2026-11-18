@@ -21,9 +21,6 @@ Check your model's loadable families for warnings and errors, see their file siz
 
 ## Run a health check
 
-{: .note }
-The Health tab is available for premium users only.
-
 1. Open **FamilyReviser** and select the **Health** tab. The list shows the name and type of each editable loadable family. System families, such as walls and floors, are not included.
 
 2. Click **Run Health Check**. FamilyReviser checks each family and fills in the **File Size** and **Status** columns. In Revit 2027, read the warning shown before the check and choose whether to continue.

@@ -188,7 +188,7 @@ In this tab, you can manage all the details for creating the views.
 
 Now let's define the section height and offsets to the rooms and spaces.
 
-1. Section Height- open the list and choose if you want to apply the value From Instance or Absolute, and then define de value to apply it.
+1. Section Height: open the list and choose if you want to apply the value From Instance or Absolute, and then define the value to apply it.
 
 2. Define the Offset [Bottom] value.
 

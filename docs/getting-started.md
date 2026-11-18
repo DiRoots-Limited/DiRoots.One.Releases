@@ -70,7 +70,7 @@ This method is for IT administrators deploying DiRootsOne to multiple computers.
 <installer-name>.exe /i // /qn accept_eula=1 checkbox2018="" checkbox2019="" checkbox2020=""
 ```
 
-### Language
+## Language
 
 DiRootsOne is available in English (US), English (UK), French, German, Portuguese, Spanish and Simplified Chinese. Set the language in the Options dialog of Revit.
 

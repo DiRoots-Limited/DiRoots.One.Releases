@@ -25,9 +25,6 @@ Manage all the Views in your project, as well as View Templates and View Range s
 
 # View Range tab
 
-{: .note }
-The View Range tab is available for premium users only.
-
 Manage the View Range of your Views individually or in batches in one place.
 
 ## Manual actions
@@ -40,9 +37,9 @@ Manage the View Range of your Views individually or in batches in one place.
 
 4. Filter View Types by selecting in the drop-down list in the View Type column header.
 
-5. The table also has columns for the Cut Plane Level and Cut Plane Offset, next to the Top, Bottom and View Depth columns.
+5. Use the search box to find views by name, or select Hide Unchecked Views to show only the checked views.
 
-6. Use the search box to find views by name, or select Hide Unchecked Views to show only the checked views.
+The table also has columns for the Cut Plane Level and Cut Plane Offset, next to the Top, Bottom and View Depth columns.
 
 {: .note }
 Please note that all View Range settings made with the plug-in must respect Revit's view range rules. If the rules are not respected, the settings will not be applied and a warning will be displayed.

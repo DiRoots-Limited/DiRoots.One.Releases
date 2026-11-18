@@ -31,9 +31,6 @@ Manage all the Views in your project, as well as View Templates and View Range s
 
 # View Templates tab
 
-{: .note }
-The View Templates tab is available for premium users only.
-
 ## Manual actions
 
 ### Edit View Template
@@ -122,7 +119,7 @@ Visualize only the selected View Templates, by clicking on "Hide Unchecked". You
 
 ## Clear all modifications
 
-Click the Clear all Modifications button, and reset all edits applied to the view template names, in the table view by the Rename or Build Name commands.
+Click the Clear all Modifications button to undo the name changes made with Rename or Build Name.
 
 ![View Templates clear all](../../../assets\images\ViewManager\VM-Vt-Clear.gif)
 

@@ -23,9 +23,6 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Spatial
 
-{: .note }
-The Spatial tab is available for premium users only.
-
 The first step is to select the SheetLink from the DiRootsOne menu and to choose the Spatial tab.
 Make sure you have rooms or spaces created in the model, to be exported by SheetLink from DiRootsOne. 
 

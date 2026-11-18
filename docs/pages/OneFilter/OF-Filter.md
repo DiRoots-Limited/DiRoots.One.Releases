@@ -34,7 +34,10 @@ The Filter tab is the first tab in OneFilter. Use it to create filter categories
    ![OneFilter selecting model view](../../../assets\images\OneFilter\OF-Ft-WholeModel.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Now, use the checkboxes to select the categories to filter. Note that, once you have selected the categories, on the right table will show the existing families, with the category, family name, type name, in-place and count columns. The in-place column is available for premium users only. Use the Categories list to filter the categories by discipline, and select Hide un-checked categories to show only the categories you ticked. Right-click rows in the table to use Select Highlighted Elements, Show Highlighted Elements or Isolate Highlighted Elements.
+2. Now, use the checkboxes to select the categories to filter. Once you have selected the categories, the table on the right shows the existing families, with the category, family name, type name, in-place and count columns.
+
+   - Use the Categories list to filter the categories by discipline, and select Hide un-checked categories to show only the categories you ticked.
+   - Right-click rows in the table to use Select Highlighted Elements, Show Highlighted Elements or Isolate Highlighted Elements.
 
 ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Ft-SelectCategories.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

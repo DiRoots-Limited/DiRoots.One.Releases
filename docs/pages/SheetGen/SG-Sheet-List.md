@@ -81,9 +81,6 @@ This tab allows you to create new sheets that will use a selected sheet as templ
 
 ### From Placeholder Sheets
 
-{: .note }
-The From Placeholder Sheets tab is available for premium users only.
-
 This tab will allow you to convert placeholder sheets into actual sheets and lets you to select a sheet to use as template.
 
 {: .warning }
@@ -157,7 +154,7 @@ You can perform this action for individual sheets by right-clicking and choosing
 
 ### Add parameters columns
 
-By default, the list of sheets will only shows the the number and name of the sheet. Right-click under the column header and add the desired parameters, or click the Parameters button in the toolbar.
+By default, the list of sheets only shows the number and name of the sheet. Right-click under the column header and add the desired parameters, or click the Parameters button in the toolbar.
 
 ![SheetGen add parameters columns](../../../assets\images\SheetGen\SG-Sl-AddParameters.gif)
 

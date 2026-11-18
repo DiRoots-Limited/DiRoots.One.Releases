@@ -39,9 +39,6 @@ Select the elements in the view and click the Save New Selection button. Now, en
 
 ### Isolate and Hide
 
-{: .note }
-The Isolate and Hide buttons are available for premium users only.
-
 Click the Isolate button to isolate the selection in the Active View, or the Hide button to hide it.
 
 ### Select
