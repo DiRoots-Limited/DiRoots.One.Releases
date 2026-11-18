@@ -1,7 +1,7 @@
 name: Docs preview publish
 
 # Trusted publisher for documentation PR previews. The default-branch copy publishes previews
-# (workflow_run) and runs the daily cleanup; the gh-pages copy removes a preview as soon as its
+# (workflow_run) and runs the monthly cleanup; the gh-pages copy removes a preview as soon as its
 # PR closes (pull_request_target is read from the PR base branch). Keep both copies identical.
 on:
   workflow_run:
@@ -11,7 +11,7 @@ on:
     branches: [gh-pages]
     types: [closed]
   schedule:
-    - cron: '17 3 * * *'
+    - cron: '17 3 1 * *'
   workflow_dispatch:
 
 permissions:
