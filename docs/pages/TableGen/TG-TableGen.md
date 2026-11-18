@@ -40,6 +40,8 @@ The first step is to add the files you want to import. You can do this in multip
 
 - Browse link ("click here to browse") - Opens the file dialog and allows you to select one or more supported files.
 
+You can also add Excel files that are open in Excel.
+
 ![TableGen selecting data to import](../../../assets\images\TableGen\TG-270-AddFiles.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -91,20 +93,22 @@ Advanced Mapping settings provide greater control over how Excel data is convert
 
 Use these settings to align imported tables with office standards, control style creation, preserve Revit formatting during updates, and define how units and formatting should be displayed.
 
-### Use Advanced Mapping
+### Use advanced mapping
 
-If you have existing views in TableGen, Use Advanced Mapping is disabled by default to prevent affecting those views.
+If you have existing views in TableGen, Use advanced mapping is disabled by default to prevent affecting those views.
 
-Enabling Use Advanced Mapping activates Line/Text Styles and Update Behavior features.
+Enabling Use advanced mapping activates Line/Text Styles and Update Behavior features.
 
-![TableGen Global Settings](../../../assets\images\TableGen\TG-280-GlobalSettings.gif)
+The General tab of the Style Mapping Settings window holds Use advanced mapping, Update behavior, the Black and White settings and the Decimal symbol/Digit grouping settings.
+
+![TableGen Style Mapping Settings](../../../assets\images\TableGen\TG-280-GlobalSettings.gif)
 <sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
 
 ### Line & Text Mapping
 
 Line & Text Mapping controls how imported Excel borders and text styles are converted into Revit styles.
 
-Once at least one Excel file is imported, the line and text styles detected from the source Excel file appear in the Line Styles and Text Styles tabs of the Global Settings window.
+Once at least one Excel file is imported, the line and text styles detected from the source Excel file appear in the Line Styles and Text Styles tabs of the Style Mapping Settings window.
 
 #### Line Styles
 
@@ -150,9 +154,9 @@ Use these options to map imported Excel text to the desired Revit text styles an
 
 Update Behavior controls how imported views are refreshed when the source Excel file changes.
 
-- **Recreate View** - Updates both the data and formatting from the source Excel file. Use this option when the Excel file is the source of truth for both content and formatting.
+- **Recreate view** - Updates both the data and formatting from the source Excel file. Use this option when the Excel file is the source of truth for both content and formatting.
 
-- **Update Data Only** - Updates the data while preserving the formatting applied in Revit. When enabled, TableGen updates the cell values from Excel and retains Revit-side formatting, including:
+- **Data only** - Updates the data while preserving the formatting applied in Revit. When enabled, TableGen updates the cell values from Excel and retains Revit-side formatting, including:
   - Text styles
   - Line styles
   - Colors
@@ -163,14 +167,14 @@ Update Behavior controls how imported views are refreshed when the source Excel 
 
   Use this option when Excel data changes frequently, but the appearance of the view has already been adjusted to match project or office standards.
 
-  The Recreate option appears in the context menu when Update Data Only is enabled in Global Settings and you need to recreate the view.
+  When Data only is selected in the Style Mapping Settings window, the context menu shows Update (Data only) and Recreate, and the Batch Actions dropdown shows Update Views (Data only) and Recreate Views.
 
 ![TableGen Recreate View](../../../assets\images\TableGen\TG-280-RecreateView.png)
 <sub>Note: the version on the image may not reflect the latest version of TableGen/DiRootsOne.</sub>
 
-### Black & White Settings
+### Black and White Settings
 
-Black & White Settings control how colors from the source Excel file are converted when creating or updating views with the Black & White option enabled.
+Black and White settings control how colors from the source Excel file are converted when creating or updating views with the Black & White option enabled.
 
 These settings can be applied separately to text and lines, and to cell backgrounds.
 
@@ -215,6 +219,26 @@ Uses the decimal symbol and digit grouping settings defined in the current Revit
 
 This option is recommended when imported tables should match the formatting standards used throughout the project documentation.
 
+## Profiles
+
+The Style Mapping Settings window has a profile bar at the top. Use it to save the current settings and reuse them later.
+
+- **Profile** - the dropdown lists the saved profiles. Selecting one loads its settings.
+- **Import** - imports a saved profile file.
+- **Save / Save As** - Save updates the selected profile. Save As asks for a profile name and a location, so you can save a new profile or replace one with the same name.
+- **Delete** - removes the selected profile.
+
+A profile stores the settings of the General tab (Use advanced mapping, Update behavior, the Black and White settings and the Decimal symbol/Digit grouping setting) and the line and text style mappings.
+
+{: .note }
+If you close TableGen with unsaved changes to the active profile, TableGen warns you that the changes will be lost.
+
+## Superscript, subscript and in-cell images
+
+Superscript and subscript text in Excel cells is kept in Legend and Drafting views. In Schedule views, it is converted to Unicode superscript and subscript characters where possible.
+
+Images that are placed in a cell in Excel (Place in Cell) are placed in that cell in the Revit view.
+
 ## Manage imported tables
 
 The main grid is the central place to review and edit all imported tables. Each row represents a view and can be configured directly inline.
@@ -241,7 +265,7 @@ The main grid is the central place to review and edit all imported tables. Each 
 
 - **Last Modified** - shows the last modified date of the source file.
 
-- **Region / Page Selection** - for Excel files, two dropdowns let you select the worksheet and the named region or range. For Word and PDF files, use the first dropdown to choose All pages or a custom selection.  
+- **Range / Page Selection** - for Excel files, two dropdowns let you select the worksheet and the named region or range. For Word and PDF files, use the first dropdown to choose All pages or a custom selection.  
     **Note:**
     When using custom page selection, type page numbers and/or page ranges separated by commas, counting from the start of the document. For example, typing "1, 3, 5-7" will add pages 1, 3, 5, 6, and 7 as images.
 
@@ -252,7 +276,7 @@ The view type cannot be changed after the view has been created in Revit.
 
 - **View Scale** - sets the scale of the Revit view.
 
-- **File Path** - shows the path to the source file. Can be toggled between absolute and relative path via the context menu or batch action.
+- **File Path** - shows the path to the source file. Can be toggled between absolute and relative path via the context menu or batch action. If the stored path no longer exists and the file is in a SharePoint library synced with OneDrive, TableGen finds it where the library is synced on your PC and updates the stored path.
 
 
 ## Batch Actions
@@ -262,7 +286,7 @@ The "Batch Actions" dropdown allows you to perform various actions on multiple v
 ![TableGen batch actions 01](../../../assets\images\TableGen\TG-270-BatchActions.png)  
 <sub>Note: the version on the image may not reflect the [latest version of TableGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-- **Update Views** - redraws the linked Revit views using the source file.
+- **Update Views** - redraws the linked Revit views using the source file. When Data only is selected in the Style Mapping Settings window, this action is named **Update Views (Data only)** and a **Recreate Views** action is added.
 
 - **Duplicate Views** - creates a copy of the selected views.
 
@@ -281,6 +305,8 @@ The "Batch Actions" dropdown allows you to perform various actions on multiple v
 The context menu, accessible by right-clicking on any row in the grid, allows you to run the same commands on the currently selected rows. It also has an additional command:
 -  **Open View** - opens the view in Revit
 
+Press the Delete key to delete the selected rows, as with the Delete command.
+
 
 ## Tables synchronization
 
@@ -291,6 +317,10 @@ Click the Sync button to refresh the information displayed in the grid, updating
 ### Auto Sync
 
 The Auto Sync checkbox, available for each view in the main grid, enables automatic synchronization. When enabled, the view will be automatically updated in Revit when the model is opened, if changes are detected in the source file.
+
+## Reload all views from the ribbon
+
+Hold Ctrl while clicking the TableGen button on the Revit ribbon to reload all TableGen views in the model from their saved settings, without opening the TableGen window. Views that do not pass the same checks as an update in the TableGen window are listed in a report. If the model has no TableGen views, TableGen shows a message instead.
 
 ## Black and White – Remove color formatting
 

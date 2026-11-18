@@ -32,6 +32,8 @@ nav_sections:
 The following settings are saved in the profiles.
 
 - The selected parameters that appear as columns in the sheet list table (e.g., Sheet Number, Checked By, Current Revision, etc.).
+- The selected parameters that appear as columns in the Placeholder Sheets tab.
+- The selected parameters that appear as columns in the Revision List tab.
 
 ## Creating Profiles
 

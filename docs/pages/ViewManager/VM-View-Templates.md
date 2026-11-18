@@ -119,7 +119,7 @@ Visualize only the selected View Templates, by clicking on "Hide Unchecked". You
 
 ## Clear all modifications
 
-Click the Clear all Modifications button, and reset all edits applied to the view names and numbers, in the table view.
+Click the Clear all Modifications button to undo the name changes made with Rename or Build Name.
 
 ![View Templates clear all](../../../assets\images\ViewManager\VM-Vt-Clear.gif)
 

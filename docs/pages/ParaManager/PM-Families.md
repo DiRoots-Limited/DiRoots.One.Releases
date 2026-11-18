@@ -98,6 +98,8 @@ This tools can be used before applying Modify functionality or manually editing 
 
 Click on the Import/Export list, and select Export to Excel option. The next step is to select the parameters and click to export.
 
+In the Save dialog, choose the file type: .xlsx (default), .xls or .xlsm.
+
 ![ParaManager export parameters to excel](../../../assets\images\ParaManager\PM-Fm-ExportExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -105,6 +107,8 @@ Click on the Import/Export list, and select Export to Excel option. The next ste
 ### Import from Excel
 
 Click on the Import/Export list, and select Import from Excel option. Select the Excel file and then select the parameters to import.
+
+You can select a .xlsx, .xls or .xlsm file exported from the Families tab or from a project.
 
 ![ParaManager import parameters from excel](../../../assets\images\ParaManager\PM-Fm-ImportExcel.gif)
 
@@ -136,6 +140,10 @@ The search box will search for families contained in the Schedules.
 ![ParaManager search families](../../../assets\images\ParaManager\PM-Fm-Search.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+### Right-click menu
+
+Right-click on a family in the table on the left and select Copy Family Name, Select Instances Of Highlighted Families or Isolate Instances Of Highlighted Families.
 
 ### Hide un-checked
 

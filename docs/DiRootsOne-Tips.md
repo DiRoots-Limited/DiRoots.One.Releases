@@ -13,6 +13,8 @@ nav_sections:
     anchor: sort-columns
   - title: "Select multiple rows"
     anchor: select-multiple-rows
+  - title: "Search and filter lists"
+    anchor: search-and-filter-lists
   - title: "Double-click and Drag and Drop"
     anchor: double-click-and-drag-and-drop
   - title: "Right-click on the column header"
@@ -69,6 +71,12 @@ DiRootsOne plugins have a great advantage for making bulk actions and saving tim
 
 ![DiRoots-Tips select rows](../assets\images\Tips\DO-SelectRows.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiRootsOne Package](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+## Search and filter lists
+
+Search boxes filter the list as you type. Click the clear button in the search box to empty it and show all items again. Press Esc to leave the search box; the filter stays applied.
+
+When a list is filtered by a search or a filter, the checkbox in the column header ticks or clears only the rows you can see. Rows that are hidden by the filter keep their selection.
 
 ## Double-click and Drag and Drop
 

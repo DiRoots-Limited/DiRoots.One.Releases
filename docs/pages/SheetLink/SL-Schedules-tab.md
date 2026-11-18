@@ -18,7 +18,7 @@ Export your Revit model data (by categories, elements, schedules) to Excel and G
 
 # Schedules
 
-The first step is to select the SheetLink from the DiRootsOne menu and choose the Schdules tab.
+The first step is to select the SheetLink from the DiRootsOne menu and choose the Schedules tab.
 Make sure that you have created a schedule in Revit, to be exported by SheetLink from DiRootsOne. 
 
 Steps:
@@ -33,12 +33,14 @@ Steps:
    <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
 
-3. Use the checkboxes in the Select Schedule table to choose the schedules to be exported by SheeLink.
+3. Use the checkboxes in the Select Schedule table to choose the schedules to be exported by SheetLink.
+
+   Select Hide un-checked schedules below the table to show only the checked schedules.
 
    ![SheetLink choosing schedules](../../../assets\images\SheetLink\SH-Sc-SelectSchedule.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-4. Right-click on the schedule to choose the option to view it.
+4. Right-click on the schedule and choose Open View to open it.
 
 ![SheetLink open schedule view](../../../assets\images\SheetLink\SH-Sc-OpenSchedule.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -69,7 +71,7 @@ Read-only parameters are displayed in red.
 
 ### Preview/Edit
 
-Click to preview and edit the sheet before exporting it.
+Click to preview and edit the sheet before exporting it. Reset Values in the Preview tab discards your edits and reloads the sheet. Click Update Model in the Preview tab to write the edited values directly to the Revit model, without exporting to Excel first.
 
 ![SheetLink Preview](../../../assets\images\SheetLink\SH-Sc-Preview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -88,6 +90,8 @@ To export the linked elements use the 'Keep formatting of Schedules' option.
 ![SheetLink linked elements warning](../../../assets\images\SheetLink\SL-Sc-Linked-Elements-Warning.png)  
 
 ![SheetLink Schedules Export Options](../../../assets\images\SheetLink\SL-Sc-Export-Options.png)  
+
+When Keep Formatting of the Schedules is selected, the dialog shows the red text "You won't be able to import the data back to Revit." Remove Unit Symbols exports the values without their unit symbols. Open Excel File After Export is selected by default and opens the Excel file when the export is finished.
 
 See below for the difference between the exported sheets, keeping the format and the template sheet.
 
@@ -143,7 +147,7 @@ You can also choose a Table type to export sheet, according you have in your sel
 
 ### Import
 
-If you have made any edits to the file, import it and update the schedules in Revit. Before importing the file, you can preview the sheet to make sure, and then complete the import.
+If you have made any edits to the file, import it and update the schedules in Revit. Before importing the file, you can preview the sheet to make sure, and then complete the import. To preview, choose Preview Import in the Import dropdown and select the file. The file opens in the Preview tab, where you can edit it and click Update Model to import it.
 ![SheetLink Import file](../../../assets\images\SheetLink\SL-ImportSchedule.png)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
@@ -183,7 +187,7 @@ You can use the existing 3D view or duplicate it. Visualize only filtered elemen
 
 #### Export Project Standards
 
-The Export Project Standards button allows yoy to export the main project data to Excel or Google Drive. The data to be exported is the Project Information, Object Styles, Line Styles and Families.
+The Export Project Standards button allows you to export the main project data to Excel or Google Drive. The data to be exported is the Project Information, Object Styles, Line Styles and Families.
 
 ![SheetLink Export Project Standard to Excel or Google Drive](../../../assets\images\SheetLink\SH-Sc-ExportProject.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

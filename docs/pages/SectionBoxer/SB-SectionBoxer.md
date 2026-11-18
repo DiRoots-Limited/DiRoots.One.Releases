@@ -22,9 +22,9 @@ This tool allows you to create a section box from the selected elements. To use 
    
 3. Configure the available options before applying:
    - Select 3D View: Choose the 3D view to apply the section box, or to be duplicated.
-   - Offset Buffer: Add a buffer around the bounding box of the selected elements (in project units).
+   - Offset buffer from selection bounding box: Add a buffer around the bounding box of the selected elements. Type the value the way you type lengths in Revit, with or without a unit; a value without a unit uses the project units.
    - Duplicate Selected View: Create a new view before applying the section box, keeping the original view unchanged. The tool will automatically suggest a name (e.g. “3D Copy 01”).  
-   - Isolate Selected Elements: Apply a temporary Isolate to the selected elements in the target view.
+   - Isolate Selected Elements: Apply a temporary Isolate to the selected elements in the target view. This option is disabled when only elements from linked models are selected, because Revit isolates a link only as a whole.
 
 4. Click Apply to create the section box from the aggregate bounding box of the selected elements.
    Note: The tool saves your settings on close and restores them on next launch.

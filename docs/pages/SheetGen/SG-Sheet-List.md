@@ -118,7 +118,7 @@ You can perform this action for individual sheets by right-clicking and choosing
 1. Options for duplicating individual sheets.
  
     - Set a number of copies
-    - Select the checkbox if you want to Duplicate Views from sheet
+    - Select the checkbox if you want to Duplicate Views from sheet, and choose in the dropdown how the views are duplicated: Duplicate, Duplicate with Detailing or Duplicate as a Dependent
     - Select the checkbox if you want to Keep Legends from sheet
     - Select the checkbox if you want to Keep Schedules from sheet
     - Select the checkbox if you want to Copy Revisions from sheet
@@ -134,7 +134,7 @@ You can perform this action for individual sheets by right-clicking and choosing
 2. Options for duplicating sheets in batch.
  
  - Set a number of copies
- - Select the checkbox if you want to Duplicate Views from sheet
+ - Select the checkbox if you want to Duplicate Views from sheet, and choose in the dropdown how the views are duplicated: Duplicate, Duplicate with Detailing or Duplicate as a Dependent
  - Select the checkbox if you want to Keep Legends from sheet
  - Select the checkbox if you want to Keep Schedules from sheet
  - Select the checkbox if you want to Copy Revisions from sheet
@@ -154,7 +154,7 @@ You can perform this action for individual sheets by right-clicking and choosing
 
 ### Add parameters columns
 
-By default, the list of sheets will only shows the the number and name of the sheet. Right-click under the column header and add the desired parameters.
+By default, the list of sheets only shows the number and name of the sheet. Right-click under the column header and add the desired parameters, or click the Parameters button in the toolbar.
 
 ![SheetGen add parameters columns](../../../assets\images\SheetGen\SG-Sl-AddParameters.gif)
 

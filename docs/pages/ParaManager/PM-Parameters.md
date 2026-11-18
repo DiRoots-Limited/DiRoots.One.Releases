@@ -39,13 +39,13 @@ Click on the Add Parameters button to create a new parameter.
 
 1. Double-click on the new parameter and rename it.
 
-2. In the Disciplice column, open the list and assign the new paramater to a specific Disciplice.
+2. In the Discipline column, open the list and assign the new parameter to a specific Discipline.
 
 3. In the Type of Parameter column, choose the ideal type for it.
 
 4. Select the group to assign the parameter to, in the Group Under column.
 
-5. Choose bettween Instance or Type parameter in the last default column.
+5. Choose between Instance or Type parameter in the last default column.
 
 ![ParaManager edit new parameter](../../../assets\images\ParaManager\PM-Pm-EditParameter.gif)
 
@@ -71,13 +71,13 @@ Select the parameter and click to batch editing. Batch editing allows you to del
 
 ### Show Existing Parameters
 
-You can choose whether you want to see the Existing Parameters or just the new ones.
+Select the Show Existing Parameters checkbox to list the parameters that already exist in the project together with the new ones. Clear it to list only the new parameters.
 
 ![ParaManager existing parameters](../../../assets\images\ParaManager\PM-Pm-ExistingParameter.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Additional Attibutes
+### Additional Attributes
 
 Right-click on the column header and select additional attributes for the columns.
 
@@ -93,6 +93,8 @@ Right-click on the column header and select additional attributes for the column
 
 Click on the Import/Export list, and select Export to Excel option. The next step is to select the parameters and click to export.
 
+In the Save dialog, choose the file type: .xlsm (default), .xlsx or .xls. Only the .xlsm file includes the category selector. Select Open Excel file after export to open the file when the export finishes.
+
 ![ParaManager export parameters to excel](../../../assets\images\ParaManager\PM-Pm-ExporttoExcel.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -100,6 +102,11 @@ Click on the Import/Export list, and select Export to Excel option. The next ste
 ### Import from Excel
 
 Click on the Import/Export list, and select Import from Excel option. Select the Excel file and then select the parameters to import.
+
+You can select a .xls, .xlsx or .xlsm file.
+
+{: .note }
+An Excel file exported from the Families tab cannot be imported into a project. ParaManager shows a message and imports nothing.
 
 ![ParaManager import parameters from excel](../../../assets\images\ParaManager\PM-Pm-ImportParameters.gif)
 
@@ -124,7 +131,7 @@ The next step is to select the file and choose the parameters to import.
 
 ### Search Parameters
 
-The search box will search for parameters contained in the Schedules.
+The search box filters the parameters by parameter name or value.
 
 ![ParaManager search parameters](../../../assets\images\ParaManager\PM-Pm-SearchParameters.gif)
 

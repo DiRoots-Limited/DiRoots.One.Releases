@@ -6,6 +6,8 @@ nav_order: 1
 nav_sections:
   - title: "Preferences"
     anchor: preferences
+  - title: "Families in linked models"
+    anchor: families-in-linked-models
   - title: "Export families"
     anchor: export-families
 ---
@@ -40,7 +42,7 @@ Select FamilyReviser from the DiRootsOne menu and open the Export tab. Families 
    <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
    {: .note }
-   Select the checkbox bellow the first table to Hide un-checked categories.
+   Select the checkbox below the first table to Hide un-checked categories.
 
 3. The second table shows the families of the selected categories, separated by the columns Family name, Repository name and Location.
 
@@ -48,7 +50,7 @@ Select FamilyReviser from the DiRootsOne menu and open the Export tab. Families 
 Make sure the recording location is correct to export the families.
 
 ## Preferences
-Open the Preferences pop-up window to manage some details for exporting families.
+Open the Preferences pop-up window to manage some details for exporting families. The Import tab uses the same preferences.
 
 ![FamilyReviser open the preferences window](../../../assets\images\FamilyReviser\FR-Ex-OpenPreferences.gif)
 
@@ -73,7 +75,7 @@ Select one or more repositories and click the Remove repository button. Then con
 
 ### Delete Backup Families
 
-If you prefer, you can select the Delete backup Families checkbox and then the next export will disregard the backup families.
+Select the Delete Backup Families checkbox to delete Revit's numbered backup files (for example, Door.0001.rfa) in the export folder and its zBackup folder when you export. If the checkbox is cleared, the numbered backup files are moved to the zBackup folder instead.
 
 ![FamilyReviser delete backup families](../../../assets\images\FamilyReviser\FR-Ex-DeleteBackup.png)
 
@@ -81,15 +83,15 @@ If you prefer, you can select the Delete backup Families checkbox and then the n
 
 ### Maximum backups
 
-Set a number for the maximum number of export backups.
+Set the maximum number of backup versions kept for each family in the zBackup folder. Enter a number from 1 to 999 (default 10).
 
 ![FamilyReviser maximum backups](../../../assets\images\FamilyReviser\FR-Ex-MaxBackups.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Group export by categories
+### Group export by category
 
-This option allows you to organize families by groups. Thus, if you select this option, a folder will be created for each group of families.
+This option allows you to organize families by groups. Thus, if you select this option, a folder will be created for each category of families.
 
 ![FamilyReviser group export by categories](../../../assets\images\FamilyReviser\FR-Ex-GroupExport.png)
 
@@ -97,11 +99,24 @@ This option allows you to organize families by groups. Thus, if you select this 
 
 ### Subfolder depth
 
-Assign a value for the number of subfolders you want to be created.
+Set how many levels of subfolders below each repository the Import tab reads. Enter a number from 0 to 5 (default 1).
 
 ![FamilyReviser subfolder depth](../../../assets\images\FamilyReviser\FR-Ex-Subfolder.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+## Families in linked models
+
+Select the Families in linked models checkbox, next to the Preferences button, to also export the families of the loaded Revit links. Links that are not loaded, links nested inside another link and in-place families are not listed. Your choice is remembered.
+
+- Use the list above the categories to choose the source models: All models, Current Model or one or more of the linked models.
+- The second table shows a Linked file name column with the model each family comes from.
+- By default, the families of each linked model are exported to a subfolder named after the linked model, even if you choose another repository or folder for the row.
+- A Location shown in red is too long: the full path of the family file is longer than the 259 characters Windows allows, so the file cannot be saved. Choose a shorter location for that row.
+
+If two families would be saved to the same file, a message lists them and asks whether to continue. Only the last of them is kept.
+
+If some families are skipped or cannot be written, a message lists them when the export finishes.
 
 ## Export families
 
@@ -110,6 +125,9 @@ Once you have chosen the categories, configured the repositories and locations a
 ![FamilyReviser export families](../../../assets\images\FamilyReviser\FR-Ex-SelectRepository.png)
 
 <sub>Note: the version on the image may not reflect the [latest version of FamilyReviser/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+{: .note }
+In Revit 2027, a warning that the feature might crash Revit is shown first. Click Yes to continue.
 
 The families will be exported to the selected location.
 

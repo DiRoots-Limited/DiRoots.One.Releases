@@ -25,6 +25,9 @@ Manage your Revit families (rename, add prefix and suffix, save them in an organ
 
 # Worksets
 
+{: .note }
+The Worksets tab is not shown in family documents and templates.
+
 The FamilyReviser also allows you to manage and create worksets from categories. Let’s start learning more about:
 
 1. Choose the categories you want to manage by selecting the radio button between Whole Model, Active View or Current Selection.
@@ -60,7 +63,7 @@ This tool allows to filter the categories by rules to assign the corresponding w
 
 1. Click on the New button to create a condition and then, in the first list select the categories to filter.
 
-2. Select the field you want to filter by from the second list and choose the condition (Equal, Not equal, Contains).
+2. Select the field you want to filter by from the second list and choose the condition (Equals To, Not Equals To, Contains).
 
 3. Now, in the text field, enter the value to be filtered and click on Apply to make the filter.
 

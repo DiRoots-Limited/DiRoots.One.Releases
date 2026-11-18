@@ -49,7 +49,7 @@ Create new shared parameters by clicking on the Add Parameter button and then de
 
 ### Manual actions
 
-1. Right-click on the parameter and select the Duplicate or Delete option.
+1. Right-click on the parameter and select Duplicate Parameter or Delete Parameter.
 
    ![ParaManager duplicate and delete](../../../assets\images\ParaManager\PM-Se-ManualDuplicateDelete.gif)
 
@@ -96,7 +96,7 @@ Click on the Groups button to manage it by creating, editing and removing groups
 
 ### Rename
 
-Rename button allows you to add a suffix and/or prefix to parameters marked with a checkbox. Ir also allows you to replace part of the parameter name with a new value.
+Rename button allows you to add a suffix and/or prefix to parameters marked with a checkbox. It also allows you to replace part of the parameter name with a new value.
 
 ![ParaManager rename](../../../assets\images\ParaManager\PM-Se-Rename.gif)
 
@@ -115,7 +115,7 @@ The clear button has options to clean all changes made in the current ParaManage
 
 ### Search Shared Parameters
 
-The search box will search for shared parameters contained in the Schedules.
+The search box filters the shared parameters by name.
 
 ![ParaManager search shared parameters](../../../assets\images\ParaManager\PM-Se-Search.gif)
 

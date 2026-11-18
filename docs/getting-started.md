@@ -67,8 +67,12 @@ This method is for IT administrators deploying DiRootsOne to multiple computers.
 - Exclude specific Revit versions.
 
 ```cmd
-<installer-name>.exe /i // /qn accept_eula=1 revit2018="" revit2019="" revit2020=""
+<installer-name>.exe /i // /qn accept_eula=1 checkbox2018="" checkbox2019="" checkbox2020=""
 ```
+
+## Language
+
+DiRootsOne is available in English (US), English (UK), French, German, Portuguese, Spanish and Simplified Chinese. Set the language in the Options dialog of Revit.
 
 ## Uninstall
 
@@ -115,5 +119,3 @@ By default, Updater Settings does not provide an option to disable automatic upd
 For unattended deployments, automatic update checks can also be disabled with the `UPDATER="FALSE"` installer option shown above.
 
 We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.
-
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>

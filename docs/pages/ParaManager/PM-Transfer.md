@@ -23,7 +23,7 @@ Manage Revit parameters inside project and family environments. Create new param
 
 # Transfer
 
-In this tab, the Transfer tool allows to "copy" paramaters from familiy to another one.
+In this tab, the Transfer tool allows to "copy" parameters from one family to another one.
 There are two ways to choose the family to copy the parameters:
 
 1. Select Family: click this button and select the element in the view to manage its parameters.
@@ -61,6 +61,10 @@ This tools can be used before applying Modify functionality or manually editing 
 ![ParaManager clear modify](../../../assets\images\ParaManager\PM-Tr-Clear.gif)
 
 <sub>Note: the version on the image may not reflect the [latest version of ParaManager/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+### Right-click menu
+
+Right-click on a family in a table and select Copy Family Name, Select Instances Of Highlighted Families or Isolate Instances Of Highlighted Families.
 
 ### Hide un-checked
 

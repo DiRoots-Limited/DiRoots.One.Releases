@@ -38,6 +38,8 @@ On that tool, you'll find all the views in the model, and in All column, choose 
 
 <sub>Note: the version on the image may not reflect the [latest version of SheetGen/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
+By default the list hides the sheets that already exist in the project. Select Show Existing Sheets to list them as well.
+
 ## Import/Export excel file
 
 If you have several views you want to place in the project, exporting to excel makes editing much easier. Export an Excel file, edit it as you wish, then import it into SheetGen to update the views placements.

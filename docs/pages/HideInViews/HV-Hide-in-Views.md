@@ -42,7 +42,7 @@ You can work with either the selected Revit elements or the categories belonging
 Steps:
 
 1. Select one or more elements in your Revit project.
-2. Open Hide in Views from the "Utilities" panel on the "DiRootsOne" tab.
+2. Open Hide in Views from the "Utility" panel on the "DiRootsOne" tab or on the Modify tab.
 
 {: .note }
 If no elements are selected, Hide in Views prompts you to select elements before the tool opens.

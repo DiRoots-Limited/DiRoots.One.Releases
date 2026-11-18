@@ -31,12 +31,12 @@ Quickly find your families in Revit models. Search by category, parameter name a
 
 In this tab, you can filter by existing categories and apply colors to them. Let's get started:
 
-1. The first step is to select whether you want to apply filters based on the Whole Model, the Active View or the Current Selection. Select the radio button to choose the view.
+1. The first step is to select whether you want to apply filters based on the Whole Model, the Active View or the Current Selection. Select the radio button to choose the view. If elements are selected in Revit when you open OneFilter, the Visualize tab opens with Current Selection chosen.
 
    ![OneFilter selecting model view](../../../assets\images\OneFilter\OF-Vs-WholeModel.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-2. Now, use the checkboxes to select the categories to filter.
+2. Now, use the checkboxes to select the categories to filter. Use the Categories list to filter the categories by discipline, and select Hide un-checked categories to show only the categories you ticked.
 
    ![OneFilter choose categories](../../../assets\images\OneFilter\OF-Vs-SelectCategories.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
@@ -75,10 +75,14 @@ Click the Randomize button to update the colors assigned to the elements at rand
 
 ### Preferences
 
-Click on the Preferences button to edit or delete the current color ramps and create a new custom color ramp.
+Click on the Preferences button to edit or delete the current color ramps and create a new custom color ramp. In the Preferences window you can also set the global color brightness (use the reset arrow to restore the default lightness) and select Visualize Edges to draw the edges of the geometry, with a color picker for the edge color.
 
 ![OneFilter preferences](../../../assets\images\OneFilter\OF-Vs-Preferences.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+
+### Colorize Highlighted Elements
+
+Right-click one or more rows in the table and choose Colorize Highlighted Elements. In the window that opens, choose a color and click Apply to set it for the selected rows. The table also offers Select Highlighted Elements, Show Highlighted Elements and Isolate Highlighted Elements in the same menu.
 
 ### Gradient Colors
 
@@ -107,9 +111,9 @@ Click on the Export list and select the Export to Google Drive option. Note that
 ![OneFilter export to Google Drive](../../../assets\images\OneFilter\OF-Vs-ExportDrive.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Export IDs to CSV
+### Element IDs to CSV
 
-Click on the Export list and select the Export IDs to CSV option.
+Click on the Export list and select the Element IDs to CSV option.
 
 ![OneFilter export IDs to CSV](../../../assets\images\OneFilter\OF-Vs-ExportID.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>

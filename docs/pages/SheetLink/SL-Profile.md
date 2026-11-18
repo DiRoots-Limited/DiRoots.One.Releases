@@ -31,18 +31,22 @@ nav_sections:
 
 The following settings are saved in the profiles.
 
-- Model view selected
 - Categories, parameters, elements, schedules, rooms and spaces selected
+- The Include Linked Files and Export by Type ID checkboxes, on the tabs that have them
+
+The Whole Model, Active View and Current Selection choice and the file name are not saved in a profile.
 
 ## Creating Profiles
 
-SheetLink profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
+SheetLink profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules and share them across the organization.
 
 Steps:
-1. In the window header, click on the save button next to the profiles list.
+1. In the window header, click on the save dropdown next to the profiles list and choose "Save As". If no profile is selected, "Save" opens the same dialog.
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
 3. Choose the location to save it.
 4. Click on the "Save" button to save the profile.
+
+To update the selected profile with your current settings, choose "Save" in the same dropdown.
 
 ![SheetLink Creating profiles](../../../assets\images\SheetLink\SL-SaveProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of SheetLink/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
