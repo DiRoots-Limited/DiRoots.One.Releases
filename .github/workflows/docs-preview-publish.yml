@@ -23,7 +23,7 @@ jobs:
       contents: read
       actions: read
       pull-requests: write
-    uses: DiRoots-Limited/DiRoots.Public.Workflows/.github/workflows/docs-preview-publish.yml@8ba2b9bc6aa6f518e6e6df7b69ee041b21b80f15 # v1
+    uses: DiRoots-Limited/DiRoots.Public.Workflows/.github/workflows/docs-preview-publish.yml@2fa4c708286065cb6a53dab7d9dfdbdad320cb8f # v1.1
     with:
       site-url: https://docs.dirootsone.diroots.com
       app-id: ${{ vars.DOCS_PREVIEW_APP_ID }}
